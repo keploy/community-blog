@@ -4,6 +4,7 @@ seoDescription: "APIs are the unsung heroes of modern software development, that
 datePublished: Tue Oct 10 2023 06:30:09 GMT+0000 (Coordinated Universal Time)
 cuid: clnjy04d6000809mkgoqf1otp
 slug: mastering-api-test-automation-best-practices-and-tools
+canonical: https://keploy.io/blog/posts/mastering-api-test-automation-best-practices-and-tools
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696837460691/07c52435-b67e-4303-9b1f-ee070ca0e6ed.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696838895563/c69d425c-fd14-4279-b433-4e6523be0cc0.png
 tags: postman, apis, automation, best-practices, api-automation
