@@ -5,6 +5,7 @@ seoDescription: "Being a developer, I've always understood the significance of t
 datePublished: Sat Nov 04 2023 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cloenyzup000q09l49aevafcg
 slug: exploring-end-to-end-testing-with-ai
+canonical: https://keploy.io/blog/posts/exploring-end-to-end-testing-with-ai
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699268064251/1017d926-a096-43bc-b6c2-adad629e0de6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1699268101791/c0384b83-b6f9-4bba-8209-3434d52bbfbc.png
 tags: testing, developer-tools, test-automation, end-to-end-testing, ai-tools
