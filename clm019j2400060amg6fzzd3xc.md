@@ -5,6 +5,7 @@ seoDescription: "Code integrity is like the bouncer at the entrance of a high-se
 datePublished: Tue Aug 29 2023 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clm019j2400060amg6fzzd3xc
 slug: code-integrity-explained-building-trust-in-software
+canonical: https://keploy.io/blog/posts/code-integrity-explained-building-trust-in-software
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693538670244/a0797747-bff4-45c1-b254-67b6c1434105.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1693538732068/9111ab9b-0855-4f08-b158-82d46ace0300.png
 tags: software, code, code-review, software-development, testing
