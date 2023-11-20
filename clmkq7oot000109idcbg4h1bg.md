@@ -5,6 +5,7 @@ seoDescription: "So, there you have it, the core differences between test scenar
 datePublished: Fri Sep 15 2023 15:00:09 GMT+0000 (Coordinated Universal Time)
 cuid: clmkq7oot000109idcbg4h1bg
 slug: test-scenarios-vs-test-cases
+canonical: https://keploy.io/blog/posts/understanding-the-difference-between-test-scenarios-and-test-cases
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694759852653/29f6c3f6-d9a8-4144-9e5a-5408a1b89011.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1694761258527/575cb30b-57c5-4a64-a6f2-b356fa6d4249.png
 tags: bdd, testing, test-driven-development, test-automation, testing-tools
