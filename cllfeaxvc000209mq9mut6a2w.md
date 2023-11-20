@@ -5,6 +5,7 @@ seoDescription: "Discover the ins and outs of ChatGPT testing in this developer-
 datePublished: Thu Aug 17 2023 16:48:12 GMT+0000 (Coordinated Universal Time)
 cuid: cllfeaxvc000209mq9mut6a2w
 slug: testing-with-chatgpt-epic-wins-and-fails-api-testing
+canonical: https://keploy.io/blog/posts/testing-with-chatgpt-epic-wins-and-fails
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692288344722/20293e51-a1b8-4a58-bf42-f096d90d7172.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1692290747997/2ec88488-3570-477b-b1d0-a3139d6a3d58.png
 tags: testing, test-automation, testing-tool, generative-ai, chatgpt
