@@ -5,6 +5,7 @@ seoDescription: "Learn the key differences between UAT and E2E Testing. Understa
 datePublished: Mon Oct 23 2023 08:48:18 GMT+0000 (Coordinated Universal Time)
 cuid: clo2nnulv00080amee1gjacr5
 slug: what-is-the-difference-between-uat-and-e2e-testing
+canonical: https://keploy.io/blog/posts/what-is-the-difference-between-uat-and-e2e-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697315058967/ab1933fb-9752-4d9d-afea-1d1a67e945d6.jpeg
 tags: testing, e2e, e2etesting, uat-testing
 
