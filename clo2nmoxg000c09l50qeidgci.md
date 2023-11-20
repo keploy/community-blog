@@ -5,6 +5,7 @@ seoDescription: "Software Development Life Cycle: From coding to testing and dep
 datePublished: Mon Oct 23 2023 08:47:24 GMT+0000 (Coordinated Universal Time)
 cuid: clo2nmoxg000c09l50qeidgci
 slug: software-development-phases
+canonical: https://keploy.io/blog/posts/software-development-phases
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696873215913/35095719-473a-4b73-915e-29c5e26888c8.png
 tags: software-development, testing, keploy, software-development-phases
 
