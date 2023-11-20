@@ -5,6 +5,7 @@ seoDescription: "Learn how to excel in E2E testing by effectively handling edge 
 datePublished: Fri Sep 22 2023 07:49:31 GMT+0000 (Coordinated Universal Time)
 cuid: clmuawuht00050al29f0g658n
 slug: strategies-handling-edge-cases-e2e-tests
+canonical: https://keploy.io/blog/posts/e2e-testing-strategies-handling-edge-cases-while-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695220486623/7abd8ded-9c15-4d21-98d4-0f5160d852e6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1695277739616/3d408d3f-0144-4233-9136-d524806f61cb.png
 tags: e2etesting, software-development-life-cyclesdlc, software-quality-assurance, edge-cases
