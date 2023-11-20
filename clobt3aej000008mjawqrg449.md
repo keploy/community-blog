@@ -5,6 +5,7 @@ seoDescription: "Unlock the power of AI in testing. Learn about predictive analy
 datePublished: Sun Oct 29 2023 18:30:12 GMT+0000 (Coordinated Universal Time)
 cuid: clobt3aej000008mjawqrg449
 slug: ai-powered-testing-in-production-revolutionizing-software-stability
+canonical: https://keploy.io/blog/posts/ai-powered-testing-in-production-revolutionizing-software-stability
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697561428561/26de0e0a-f69f-45b9-9b52-4fd02569089e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1697601997134/7ecf24e0-5acf-479c-9e73-3cd926d39250.png
 tags: software-development, ai-based-testing, testing-in-production
