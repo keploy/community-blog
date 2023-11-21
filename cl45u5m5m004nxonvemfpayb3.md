@@ -4,6 +4,7 @@ seoTitle: "HTTP and HTTPS as a Beginner"
 datePublished: Wed Jun 08 2022 16:59:16 GMT+0000 (Coordinated Universal Time)
 cuid: cl45u5m5m004nxonvemfpayb3
 slug: understanding-http-and-https-as-a-beginner
+canonical: https://keploy.io/blog/community/understanding-http-and-https-as-a-beginner
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654618370657/F6BhWsD91.png
 tags: ssl, http, https, tls, rest-api
 
