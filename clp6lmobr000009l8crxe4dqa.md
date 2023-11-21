@@ -5,6 +5,7 @@ seoDescription: "Unlock the secrets of BRD in this developer's guide! Navigate c
 datePublished: Mon Nov 20 2023 07:42:11 GMT+0000 (Coordinated Universal Time)
 cuid: clp6lmobr000009l8crxe4dqa
 slug: decoding-brd-a-devs-guide-to-functional-and-non-functional-requirements-in-testing
+canonical: https://keploy.io/blog/community/decoding-brd-a-devs-guide-to-functional-and-non-functional-requirements-in-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699960440547/eaa2ba4d-8625-44c8-a33b-e59322eb0058.png
 tags: non-functional-requirements, functional-vs-non-functional-requirements, business-requirement-document, functional-requirement
 
