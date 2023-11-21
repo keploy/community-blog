@@ -4,6 +4,7 @@ seoDescription: "Unit testing is a software testing technique that involves test
 datePublished: Tue Dec 27 2022 11:06:12 GMT+0000 (Coordinated Universal Time)
 cuid: clc64hmn9000508l43jemctuf
 slug: everything-you-need-to-know-about-unit-testing
+canonical: https://keploy.io/blog/community/everything-you-need-to-know-about-unit-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671801219608/009d2065-df00-4521-8900-345ae58de980.png
 tags: apis, api-testing, keploy, api-testing-tools
 
