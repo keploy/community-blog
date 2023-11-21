@@ -5,6 +5,7 @@ seoDescription: "Webhooks allow to notify external services when some event occu
 datePublished: Fri Jun 02 2023 12:09:39 GMT+0000 (Coordinated Universal Time)
 cuid: clieivyv20hd4yanv9iushxy6
 slug: api-vs-webhooks-make-a-github-webhook
+canonical: https://keploy.io/blog/community/apis-vs-webhooks-make-a-github-webhook
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685763358184/91d2da16-087b-4ecb-a726-6c195d78972b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1659261519726/eOc42IeEE.png
 tags: github, apis, webhooks, test-automation, keploy
