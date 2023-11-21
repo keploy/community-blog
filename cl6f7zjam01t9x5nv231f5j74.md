@@ -5,6 +5,7 @@ seoDescription: "Sometimes API Testing becomes so frustrating!"
 datePublished: Thu Aug 04 2022 15:55:47 GMT+0000 (Coordinated Universal Time)
 cuid: cl6f7zjam01t9x5nv231f5j74
 slug: frustrations-of-api-testing
+canonical: https://keploy.io/blog/community/frustrations-of-api-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1657750872493/kDGZvl_Bw.png
 tags: apis, frustration, api-testing, keploy, api-development
 
