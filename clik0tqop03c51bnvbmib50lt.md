@@ -8,6 +8,7 @@ Few interesting incidents about APIs"
 datePublished: Tue Jun 06 2023 08:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: clik0tqop03c51bnvbmib50lt
 slug: fun-facts-about-apis
+canonical: https://keploy.io/blog/community/fun-facts-about-apis
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1659702249297/g73E-X1Mw.png
 tags: api, apis, testing, api-basics, keploy
 
