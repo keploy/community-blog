@@ -5,6 +5,7 @@ seoDescription: "This step-by-step tutorial covers the entire development proces
 datePublished: Wed Jun 14 2023 07:31:06 GMT+0000 (Coordinated Universal Time)
 cuid: clive7yz400060amrdmi32aek
 slug: building-rest-api-with-springboot-mongodb
+canonical: https://keploy.io/blog/community/writing-a-potions-bank-rest-api-with-spring-boot-mongodb
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1686481985457/77997199-c1d9-41de-a66f-c2d813d329d6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1686484928949/1ef30fcf-f4b0-439a-b5b7-4ff5bfb18d95.png
 tags: mongodb, apis, rest-api, springboot, keploy
