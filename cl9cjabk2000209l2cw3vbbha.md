@@ -5,6 +5,7 @@ seoDescription: "Test your front-end using selenium and create mocks using Keplo
 datePublished: Mon Oct 17 2022 08:47:55 GMT+0000 (Coordinated Universal Time)
 cuid: cl9cjabk2000209l2cw3vbbha
 slug: frontend-test-automation-using-selenium
+canonical: https://keploy.io/blog/community/how-to-do-frontend-test-automation-using-selenium
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1663143521824/QMS4c_lHZ.png
 tags: app-development, technology, web-development, apis, testing
 
