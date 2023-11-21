@@ -3,6 +3,7 @@ title: "An Introduction To API Testing"
 datePublished: Tue Dec 27 2022 11:07:41 GMT+0000 (Coordinated Universal Time)
 cuid: clc64jjf5000608l3grud6hfd
 slug: an-introduction-to-api-testing
+canonical: https://keploy.io/blog/community/an-introduction-to-api-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671819202921/aaf89666-ed2c-439f-b737-b8fa663a8a39.png
 tags: apis, testing, keploy
 
