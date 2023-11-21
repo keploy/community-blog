@@ -3,6 +3,7 @@ title: "What is unit testing anyways?"
 datePublished: Tue Dec 27 2022 11:08:41 GMT+0000 (Coordinated Universal Time)
 cuid: clc64ktu5000c08ml5xo1amvk
 slug: what-is-unit-testing-anyways
+canonical: https://keploy.io/blog/community/what-is-unit-testing-anyways
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671825687701/c2660d93-616e-4c0d-9f6c-047dc4ea2855.jpeg
 tags: unit-testing, testing, test-driven-development, software-testing, methodology-and-types-of-software-testing
 
