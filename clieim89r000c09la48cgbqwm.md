@@ -5,6 +5,7 @@ seoDescription: "The term "Shadow Testing" has become necessary for tech compani
 datePublished: Fri Jun 02 2023 12:02:04 GMT+0000 (Coordinated Universal Time)
 cuid: clieim89r000c09la48cgbqwm
 slug: the-game-of-shadow-testing-the-core-of-test-generation
+canonical: https://keploy.io/blog/community/the-game-of-shadow-testing-the-core-of-test-generation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661618056778/-ziR9hnMU.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1661618104798/zNU_N5xhR.png
 tags: databases, apis, api-testing
