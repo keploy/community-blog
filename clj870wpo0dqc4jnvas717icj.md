@@ -5,6 +5,7 @@ seoDescription: "eBPF (extended Berkeley Packet Filter) has emerged as a powerfu
 datePublished: Fri Jun 23 2023 06:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: clj870wpo0dqc4jnvas717icj
 slug: using-ebpf-for-tracing-go-function-arguments-in-production
+canonical: https://keploy.io/blog/posts/tracing-go-function-arguments-in-production
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1687411061690/f6366628-6a77-4e02-8af7-1f42986c69bc.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1687411145843/71b8145c-608c-4b83-aaa5-e6ac2f0634f8.png
 
