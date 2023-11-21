@@ -5,6 +5,7 @@ seoDescription: "Here are some common terminologies used in the context of APIs:
 datePublished: Thu Mar 16 2023 07:22:06 GMT+0000 (Coordinated Universal Time)
 cuid: clfas9qxv000209k4ag41bak8
 slug: terminologies-around-api
+canonical: https://keploy.io/blog/community/terminologies-around-api
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672761784010/f4182a2c-25fb-4634-8986-dd008d2bdc16.png
 tags: apis, api-testing, api-basics, keploy
 
