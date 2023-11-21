@@ -3,6 +3,7 @@ title: "My Keploy API Fellowship Journey"
 datePublished: Mon Aug 29 2022 18:18:00 GMT+0000 (Coordinated Universal Time)
 cuid: cl7f32pv009361cnvcr9oa32x
 slug: my-keploy-api-fellowship-journey
+canonical: https://keploy.io/blog/community/my-keploy-api-fellowship-journey
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1661191126582/mbwcoNQ0I.png
 tags: tdd, testing, test-automation, devrel, keploy
 
