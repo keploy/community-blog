@@ -5,6 +5,7 @@ seoDescription: "As the world is progressing, we are becoming more and more depe
 datePublished: Wed Jul 13 2022 03:16:55 GMT+0000 (Coordinated Universal Time)
 cuid: cl5j16vm602plrfnv2bei6mdy
 slug: history-of-apis
+canonical: https://keploy.io/blog/community/history-of-apis
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1657600571885/WY01Nl_r3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1657606946216/lmIDHqAaA.png
 tags: api, technology, apis, history, api-basics
