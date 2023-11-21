@@ -3,6 +3,7 @@ title: "What is End to End Testing and Why do you need it?"
 datePublished: Tue Dec 27 2022 11:07:19 GMT+0000 (Coordinated Universal Time)
 cuid: clc64j2x6000b08mleffnfv9g
 slug: end-to-end-testing-and-why-do-you-need-it
+canonical: https://keploy.io/blog/community/what-is-end-to-end-testing-and-why-do-you-need-it
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685763690411/bfee8dc5-4652-46c1-b06f-b72554d2c4ef.png
 tags: testing, software-testing, e2e, test-automation, keploy
 
