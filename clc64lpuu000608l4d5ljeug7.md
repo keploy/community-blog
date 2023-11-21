@@ -3,6 +3,7 @@ title: "My Keploy API Fellowship Journey"
 datePublished: Tue Dec 27 2022 11:09:22 GMT+0000 (Coordinated Universal Time)
 cuid: clc64lpuu000608l4d5ljeug7
 slug: my-keploy-fellowship-journey
+canonical: https://keploy.io/blog/community/my-keploy-api-fellowship-journey-2
 tags: tdd, apis, testing, test-automation, keploy
 
 ---
