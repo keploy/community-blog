@@ -5,6 +5,7 @@ seoDescription: "Understand Testing in Production (TiP) and the role of Keploy, 
 datePublished: Thu Nov 16 2023 18:30:12 GMT+0000 (Coordinated Universal Time)
 cuid: clp1j0mj900010al3axe57yi3
 slug: testing-in-production-with-keploy
+canonical: https://keploy.io/blog/community/testing-in-production-with-keploy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699869883001/2516ab7f-d9ae-47fb-b3fe-d8bee45d0cc2.png
 tags: ai, testing, ai-based-testing, ai-tools
 
