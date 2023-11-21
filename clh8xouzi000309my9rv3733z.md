@@ -3,6 +3,7 @@ title: "Simplifying JUnit Test Stubs and Mocking"
 datePublished: Thu May 04 2023 09:37:42 GMT+0000 (Coordinated Universal Time)
 cuid: clh8xouzi000309my9rv3733z
 slug: simplifying-junit-test-stubs-and-mocking
+canonical: https://keploy.io/blog/community/simplifying-junit-test-stubs-and-mocking
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679684905530/c2f2fb2a-11eb-40c3-a5b1-6a7c1fbfdbec.png
 tags: unit-testing, java, mocking, keploy, mockito
 
