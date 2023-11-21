@@ -3,6 +3,7 @@ title: "Types of APIs and API architecture"
 datePublished: Wed Sep 14 2022 10:25:29 GMT+0000 (Coordinated Universal Time)
 cuid: cl81h8obd06qq63nvhpqy9cum
 slug: types-of-apis-and-api-architecture
+canonical: https://keploy.io/blog/community/types-of-apis-and-api-architecture
 tags: apis, keploy, keploy-api-fellowship
 
 ---
