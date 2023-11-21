@@ -5,7 +5,7 @@ seoDescription: "The blog covers the architectures used in building software and
 datePublished: Thu Aug 11 2022 18:16:20 GMT+0000 (Coordinated Universal Time)
 cuid: cl9pyoufh000409mle34w6q8y
 slug: teleport-into-tech-space-through-api-gateways
-canonical: https://medium.com/@sanskritiharmukh/teleport-into-tech-space-through-api-gateways-278eca0c7fe4
+canonical: https://keploy.io/blog/community/teleport-into-tech-space-through-api-gateways
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660157888480/EjoQDWQZH.png
 tags: microservices, apis, api-gateway, osi, monoliths
 
