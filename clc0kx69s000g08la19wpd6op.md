@@ -3,6 +3,7 @@ title: "My Journey of Keploy Fellowship Program"
 datePublished: Fri Dec 23 2022 13:59:34 GMT+0000 (Coordinated Universal Time)
 cuid: clc0kx69s000g08la19wpd6op
 slug: my-journey-of-keploy-fellowship-program
+canonical: https://keploy.io/blog/community/my-journey-of-keploy-fellowship-program
 tags: app-development, technology, web-development, apis, developer
 
 ---
