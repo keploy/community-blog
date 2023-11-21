@@ -5,6 +5,7 @@ seoDescription: "Testing with Mocha and Keploy"
 datePublished: Tue Aug 23 2022 15:52:00 GMT+0000 (Coordinated Universal Time)
 cuid: cl76d7us102yx43nv3sux8myj
 slug: introduction-to-testing-with-mocha-and-keploy
+canonical: https://keploy.io/blog/community/introduction-to-testing-with-mocha-keploy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660837330828/9wbtUwv7fl.png
 tags: unit-testing, javascript, apis, testing, keploy
 
