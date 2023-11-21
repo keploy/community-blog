@@ -5,6 +5,7 @@ seoDescription: "Backend Data Mocking Plugin called Keploy for Selenium Record R
 datePublished: Mon Oct 17 2022 08:49:44 GMT+0000 (Coordinated Universal Time)
 cuid: cl9cjcnef000309l2akplgnot
 slug: how-to-mock-backend-of-selenium-tests-using-keploy
+canonical: https://keploy.io/blog/community/how-to-mock-backend-of-selenium-tests-using-keploy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1663168083303/jkcrikkd2.png
 tags: backend, apis, testing, selenium, frontend-development
 
@@ -14,14 +15,11 @@ When I was learning selenium testing, I encountered an issue. Let me explain the
 
 Search results for the 1st time
 
-
 ![1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663165932474/H23s0cGAM.png align="left")
 
 Search results for the 2nd time
 
-
 ![2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663165973024/tBDDqTDKV.png align="left")
-
 
 I searched for ankit on google.com and I got the following result, then after some time I searched the same keyword on google.com, and this time I was getting different suggestions which were leading to the failure of selenium test cases because selenium compares past versus present responses of that particular position
 
@@ -36,32 +34,36 @@ Now let me show you a tutorial
 Prerequisites
 
 1. [golang](https://go.dev/dl/)
-
+    
 2. [Docker](https://docs.docker.com/get-docker/)
-
+    
 3. [GCC compiler](https://sourceforge.net/projects/tdm-gcc/)
-
+    
 4. [selenium IDE extension](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en)
-
+    
 5. [keploy](https://github.com/keploy/keploy)
+    
 
 Firstly we need to install keploy in our PC
 
-```
+```plaintext
 git clone https://github.com/keploy/keploy.git
 ```
+
 Start your docker
 
 Now come inside this directory and run this project in docker by putting the command mentioned below
 
-```
+```plaintext
 docker-compose -f docker-compose-dev.yaml up
 ```
+
 Now we will install Keploy browser extension from the link present below
 
-```
+```plaintext
 https://github.com/keploy/browser-extension/releases
 ```
+
 after installing the browser extension go inside your extension manager and switch on the developer mode, after that go on the load unpacked button, which appears just after switching to developer mode, and import your extension file from the expected location.
 
 Now your extension is ready to use along with that your keploy server is also running in docker
@@ -117,16 +119,3 @@ step 10 Now because of static database all the selenium test cases will pass.
 ![m.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663167227027/SnAHrzaC-.png align="left")
 
 In this way, keploy solves the drawbacks of selenium and makes frontend testing easier.
-
-
-
-
-
-
-
-
-
-
-
-
-
