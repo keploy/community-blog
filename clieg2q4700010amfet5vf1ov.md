@@ -6,6 +6,7 @@ seoDescription: "As the number of APIs used by businesses continues to grow, so 
 datePublished: Fri Jun 02 2023 10:50:55 GMT+0000 (Coordinated Universal Time)
 cuid: clieg2q4700010amfet5vf1ov
 slug: how-to-secure-your-apis-and-protect-sensitive-data
+canonical: https://keploy.io/blog/community/how-to-secure-your-apis-and-protect-sensitive-data
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672201343349/ce36b140-9e68-4f98-827d-300666655300.png
 
 ---
