@@ -4,6 +4,7 @@ seoTitle: "Know about Record and Replay Testing"
 datePublished: Sun Jun 04 2023 12:13:39 GMT+0000 (Coordinated Universal Time)
 cuid: clihdwtbe048va3nv3x23a89i
 slug: record-and-replay-testing
+canonical: https://keploy.io/blog/community/know-about-record-and-replay-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1659698238559/hBrYjkzzz.png
 tags: apis, testing, e2e, api-testing, automation-testing
 
