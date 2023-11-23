@@ -5,7 +5,7 @@ seoDescription: "Learn the key differences between stubs, mocks, and fakes in so
 datePublished: Fri Aug 04 2023 10:17:37 GMT+0000 (Coordinated Universal Time)
 cuid: cll0pyg5b000k09l40e9b6ni4
 slug: stubs-mocks-fakes-lets-define-the-boundaries
-canonical: https://keploy.io/blog/posts/stubs-mocks-fakes-lets-define-the-boundaries
+canonical: https://keploy.io/blog/community/stubs-mocks-fakes-lets-define-the-boundaries
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690522769373/bc39f114-94c5-47b2-9b2d-d897eccadfb7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690522951950/94829c8e-d278-40eb-b604-f4e598de8079.png
 tags: testing, mocks, test-doubles, stubs, fakes
