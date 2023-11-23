@@ -5,7 +5,7 @@ seoDescription: "Open-source Tool for converting user traffic to Test Cases and 
 datePublished: Mon Oct 16 2023 06:30:16 GMT+0000 (Coordinated Universal Time)
 cuid: clnsindeg000b09l74bs2hvdq
 slug: how-keploy-automates-e2e-testing
-canonical: https://keploy.io/blog/posts/what-problem-keploy-solves
+canonical: https://keploy.io/blog/community/what-problem-keploy-solves
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696758063415/33166570-daf7-4c3d-bc97-4ba1555a01ee.png
 tags: testing, test-automation, testing-library, testing-tool, keploy
 
