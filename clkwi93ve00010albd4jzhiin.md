@@ -3,7 +3,7 @@ title: "E2E Testing Guide: Beyond Unit Tests for Full Coverage"
 datePublished: Mon Jul 31 2023 11:30:57 GMT+0000 (Coordinated Universal Time)
 cuid: clkwi93ve00010albd4jzhiin
 slug: e2e-testing-or-unit-testing-difference
-canonical: https://keploy.io/blog/posts/e2e-testing-guide-beyond-unit-tests-for-full-coverage
+canonical: https://keploy.io/blog/community/e2e-testing-guide-beyond-unit-tests-for-full-coverage
 tags: tdd, bdd, unit-testing, apis, testing
 
 ---
