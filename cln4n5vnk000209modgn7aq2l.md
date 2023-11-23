@@ -5,7 +5,7 @@ seoDescription: "In the ever-evolving world of software development, quality ass
 datePublished: Fri Sep 29 2023 13:30:09 GMT+0000 (Coordinated Universal Time)
 cuid: cln4n5vnk000209modgn7aq2l
 slug: why-end-to-end-testing-is-often-ideal-choice
-canonical: https://keploy.io/blog/posts/why-more-end-to-end-testing-is-often-good-enough-for-less-stress
+canonical: https://keploy.io/blog/community/why-more-end-to-end-testing-is-often-good-enough-for-less-stress
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695974149680/e9344950-75e7-4bda-87f1-6c2d6cbcf92e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1695974245790/09faaa8a-83b5-46ae-bec8-d6773327a3d8.png
 tags: test, testing, mocking, test-automation, ci-cd
