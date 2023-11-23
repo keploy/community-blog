@@ -3,7 +3,7 @@ title: "4 Ways to Accelerate Your Software Testing Life Cycle"
 datePublished: Tue Jul 18 2023 10:08:16 GMT+0000 (Coordinated Universal Time)
 cuid: clk84t2fu002a09mg1vqv170n
 slug: 4-ways-to-accelerate-your-software-testing-life-cycle
-canonical: https://keploy.io/blog/posts/4-ways-to-accelerate-your-software-testing-life-cycle
+canonical: https://keploy.io/blog/community/4-ways-to-accelerate-your-software-testing-life-cycle
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689232486145/fa434c1b-9fe3-4b04-b87d-2931f658ee25.png
 tags: software-development, automation, testing, software-engineering, keploy
 
