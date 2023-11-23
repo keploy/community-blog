@@ -3,6 +3,7 @@ title: "How to Generate Test Cases with Automation Tools"
 datePublished: Tue Nov 21 2023 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clparg779000m09ju1vzbeop6
 slug: how-to-generate-test-cases-with-automation-tools
+canonical: https://keploy.io/blog/community/how-to-generate-test-cases-with-automation-tools
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700716705400/d7c03fcb-0b71-431c-b372-f56b6dc6890b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1700717702418/9bb23459-3e37-4a1e-b791-0c9ccd833dea.png
 tags: postman, tdd, automation, jest, automation-testing, keploy
