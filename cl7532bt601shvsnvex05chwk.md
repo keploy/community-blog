@@ -5,7 +5,7 @@ seoDescription: "Swagger is an Open-Source API documentation framework. It is us
 datePublished: Mon Aug 22 2022 18:20:00 GMT+0000 (Coordinated Universal Time)
 cuid: cl7532bt601shvsnvex05chwk
 slug: swagger-design-and-document-your-apis
-canonical: https://sejaljain.hashnode.dev/swagger-design-and-document-your-apis
+canonical: https://keploy.io/blog/community/swagger-design-and-document-your-apis
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685763913396/dfb854cd-71a6-4957-ad76-f7abbc4a1d86.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1659261302728/_27PZFJlu.png
 tags: documentation, apis, testing, swagger, api-testing
