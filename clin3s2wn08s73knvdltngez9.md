@@ -5,7 +5,7 @@ seoDescription: "Postman is a tool that allows us to build and easily work with 
 datePublished: Thu Jun 08 2023 12:16:39 GMT+0000 (Coordinated Universal Time)
 cuid: clin3s2wn08s73knvdltngez9
 slug: basis-of-postman-and-special-features
-canonical: https://sejaljain.hashnode.dev/postman-basics-and-special-features
+canonical: https://keploy.io/blog/community/postman-features-that-will-help-you-on-your-journey
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1686728427211/efcb6ab4-8102-495e-a13f-39e5205de61a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1659702772202/AAvyqdiju.png
 tags: postman, apis, keploy
