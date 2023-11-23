@@ -5,7 +5,7 @@ seoDescription: "Developer Relations or DevRel's work includes managing communit
 datePublished: Fri Jul 08 2022 15:26:01 GMT+0000 (Coordinated Universal Time)
 cuid: cl5cm18i9008vvinvb5yr2rvq
 slug: devrel-at-keploy-experience
-canonical: https://sejaljain.hashnode.dev/devrel-at-keploy-experience
+canonical: https://keploy.io/blog/community/devrel-at-keploy-experience
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1656761559570/fSX9eA3D-.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1656761533623/kcmawuqQ5.png
 tags: startup, software-engineering, internship, devrel, technical-writing-1
