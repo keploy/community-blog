@@ -5,7 +5,7 @@ seoDescription: "Keploy is a no-code testing platform that generates tests from 
 datePublished: Tue Jun 06 2023 12:09:01 GMT+0000 (Coordinated Universal Time)
 cuid: clik8mkfp002b0al6dklraon4
 slug: automated-testing-tools
-canonical: https://sonichigo.hashnode.dev/api-automation-testing
+canonical: https://keploy.io/blog/community/api-automation-testing-pynt-keploy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660827799072/TWIkxAokB.jpg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1660827943272/zoZziEQgy.jpg
 tags: apis, testing, test-automation, automation-testing, keploy
