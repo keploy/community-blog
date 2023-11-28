@@ -5,6 +5,7 @@ seoDescription: "I want to talk about something that has become near and dear to
 datePublished: Mon Nov 27 2023 09:30:09 GMT+0000 (Coordinated Universal Time)
 cuid: clpgpkhpb000109l03dxj2kzd
 slug: why-i-love-end-to-end-e2e-testing
+canonical: https://keploy.io/blog/community/why-i-love-end-to-end-e2e-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701063312114/c71fcdd4-874c-44dc-b43b-1b9c68daf28e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1701063883574/fff31127-065c-44bc-91b5-08cc0f82104d.png
 tags: gps, testing, banking, automation-testing, keploy, developers-mindset
