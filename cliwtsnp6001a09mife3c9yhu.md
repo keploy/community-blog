@@ -5,6 +5,7 @@ seoDescription: "The data we use directly impacts if our tests cover right featu
 datePublished: Thu Jun 15 2023 07:34:51 GMT+0000 (Coordinated Universal Time)
 cuid: cliwtsnp6001a09mife3c9yhu
 slug: diverse-test-data-boosting-regression-testing-efficiency
+canonical: https://keploy.io/blog/community/diverse-test-data-boosting-regression-testing-efficiency
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1686809817570/4082dc41-a2ed-47cb-bbdf-fd1be56ab039.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1686810501194/b6847511-4d5f-4ad1-a6e2-8f1276f13baf.png
 tags: data-generator, regression-testing, test-data-management, ai-test-generation, regression-test-suite
