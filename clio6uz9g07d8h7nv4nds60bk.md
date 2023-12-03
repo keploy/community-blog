@@ -3,7 +3,7 @@ title: "A Comprehensive Guide to REST API and Various API Architectures"
 datePublished: Fri Jun 09 2023 06:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: clio6uz9g07d8h7nv4nds60bk
 slug: a-guide-to-various-api-architectures
-canonical: https://medium.com/@adityasingh09091325/a-comprehensive-guide-to-rest-api-and-various-api-architectures-f48901d6b54c
+canonical: https://keploy.io/blog/community/a-comprehensive-guide-to-rest-api-and-various-api-architectures
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1686028002059/ff3ab091-423b-4fd5-a026-73a63ff552ff.webp
 tags: apis, rest-api, api-basics, api-architecture
 
