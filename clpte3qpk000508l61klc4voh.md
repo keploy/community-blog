@@ -5,6 +5,7 @@ seoDescription: "A Crucial Aspect of Software Testing"
 datePublished: Wed Dec 06 2023 06:30:12 GMT+0000 (Coordinated Universal Time)
 cuid: clpte3qpk000508l61klc4voh
 slug: understanding-statement-coverage-in-software-testing
+canonical: https://keploy.io/blog/community/understanding-statement-coverage-in-software-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701361937263/31b98267-cd08-411a-8f16-61601cfc5214.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1701361973433/bec6220a-6104-4980-915b-034898c43826.png
 tags: software-development, testing, backend-developments, keploy, statement-testing
