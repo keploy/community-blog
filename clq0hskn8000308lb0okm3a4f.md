@@ -5,6 +5,7 @@ seoDescription: "Explore the effectiveness of End-to-End testing in software dev
 datePublished: Mon Dec 11 2023 05:47:53 GMT+0000 (Coordinated Universal Time)
 cuid: clq0hskn8000308lb0okm3a4f
 slug: exploring-the-effectiveness-of-e2e-testing-in-comparison-with-integration-testing
+canonical: https://keploy.io/blog/community/exploring-the-effectiveness-of-e2e-testing-in-comparison-with-integration-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701771150360/6e2891a6-9339-42f6-8264-08a70eb4ffb9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1701771450807/4fea03cd-5f4a-484c-9401-049262b293df.png
 tags: software-development, integration-testing, software-development-life-cyclesdlc, end-to-end-testing
