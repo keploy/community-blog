@@ -4,6 +4,7 @@ seoTitle: "Decoding HTTP/2 Traffic"
 datePublished: Fri Dec 15 2023 06:30:09 GMT+0000 (Coordinated Universal Time)
 cuid: clq692c3g000509jogzg6afd1
 slug: decoding-http2-traffic-is-hard-but-ebpf-can-help
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702882245270/110ca084-efdd-4a30-8ea1-7d4c6d29277c.png
 tags: http2, python, wireshark, ebpf
 
 ---
