@@ -3,6 +3,7 @@ title: "Creating the Balance Between End-to-End and Unit Testing"
 datePublished: Tue Dec 19 2023 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clqf132ju000a08jz9nxfbau5
 slug: creating-the-balance-between-end-to-end-and-unit-testing
+canonical: https://keploy.io/blog/community/creating-the-balance-between-end-to-end-and-unit-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702978978336/290b9a01-70b1-4d98-a16b-39baa36a76c4.png
 
 ---
