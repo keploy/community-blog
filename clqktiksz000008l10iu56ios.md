@@ -5,6 +5,7 @@ seoDescription: "In the dynamic landscape of software development, ensuring that
 datePublished: Mon Dec 25 2023 11:11:25 GMT+0000 (Coordinated Universal Time)
 cuid: clqktiksz000008l10iu56ios
 slug: functional-testing-unveiling-types-and-real-world-applications
+canonical: https://keploy.io/blog/community/functional-testing-unveiling-types-and-real-world-applications
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703502674464/39fd3fcd-431e-448b-830a-6eab87e038b9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1702978278916/79caf5ab-0817-483f-aac7-1a7e6165df49.png
 tags: tdd, bdd, security, ecommerce, testing, software-testing, functional-testing, cross-browser-testing
