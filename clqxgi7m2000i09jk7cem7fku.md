@@ -5,6 +5,7 @@ seoDescription: "In the realm of web application testing, Cypress stands out wit
 datePublished: Wed Jan 03 2024 07:28:14 GMT+0000 (Coordinated Universal Time)
 cuid: clqxgi7m2000i09jk7cem7fku
 slug: top-5-cypress-alternatives-for-web-testing-and-automation
+canonical: https://keploy.io/blog/community/top-5-cypress-alternatives-for-web-testing-and-automation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704266848543/b149b607-46c9-47a0-86b3-9a69d8ca8b99.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1704266866000/52c93822-6629-4367-81e5-9fe1e2dd5cc8.png
 
