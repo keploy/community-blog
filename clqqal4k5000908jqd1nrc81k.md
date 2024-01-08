@@ -4,6 +4,7 @@ datePublished: Fri Dec 29 2023 07:08:09 GMT+0000 (Coordinated Universal Time)
 cuid: clqqal4k5000908jqd1nrc81k
 slug: what-is-quality-engineering-software
 canonical: https://keploy.io/blog/community/what-is-quality-engineering-software
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704706450364/d7776926-aefc-4742-821b-561b032fabbb.jpeg
 tags: code, developers, engineering, learning, testing, software-engineering, quality-assurance
 
 ---
