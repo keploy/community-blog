@@ -5,6 +5,7 @@ seoDescription: "Managing performance testing doesn't have to be a white-knuckle
 datePublished: Mon Jan 08 2024 09:17:38 GMT+0000 (Coordinated Universal Time)
 cuid: clr4pm63v00000al0cvaq9bad
 slug: performance-testing-guide-to-ensure-your-software-performs-at-its-best
+canonical: https://keploy.io/blog/community/performance-testing-guide-to-ensure-your-software-performs-at-its-best
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704705412816/7ab078f4-862c-4804-b492-9015d43f1ae7.webp
 
 ---
