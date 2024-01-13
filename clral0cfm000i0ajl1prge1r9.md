@@ -5,6 +5,7 @@ seoDescription: "art of meaningful code documentation in test automation. Join u
 datePublished: Fri Jan 12 2024 11:55:18 GMT+0000 (Coordinated Universal Time)
 cuid: clral0cfm000i0ajl1prge1r9
 slug: dignify-your-test-automation-with-concise-code-documentation
+canonical: https://keploy.io/blog/community/dignify-your-test-automation-with-concise-code-documentation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705060257996/d7ba5356-62be-43c4-93d7-45fd8403dba9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705060471405/a265d8ed-76a5-4b53-b1cc-a8a9cd444750.png
 tags: projects, documentation, automation, rust, oss, code-quality, test-automation
