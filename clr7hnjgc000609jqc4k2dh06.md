@@ -4,6 +4,7 @@ seoDescription: "Have a look at the techniques and best practices for effective 
 datePublished: Wed Jan 10 2024 07:58:04 GMT+0000 (Coordinated Universal Time)
 cuid: clr7hnjgc000609jqc4k2dh06
 slug: how-to-do-java-unit-testing-effectively
+canonical: https://keploy.io/blog/community/how-to-do-java-unit-testing-effectively
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704873167651/14139b93-8f37-4ca9-bc5e-857bf4e20028.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1704873468048/6b7f7bde-a393-4969-b0ad-937caa1ac50b.png
 
