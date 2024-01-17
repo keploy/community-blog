@@ -5,6 +5,7 @@ seoDescription: "API has definitely become a main source of building the busines
 datePublished: Sun Jan 14 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clrg094ok000908jtekc9fank
 slug: how-to-choose-your-api-performance-testing-tool-a-guide-for-different-use-cases
+canonical: https://keploy.io/blog/community/how-to-choose-your-api-performance-testing-tool-a-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705388391345/8fcc7521-373e-49f5-b347-7ab7de3fcc8b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705388423268/70e0c041-6186-47ec-a1d6-2c50aa29a5a1.png
 tags: performance, apis, testing-tool
