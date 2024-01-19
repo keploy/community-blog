@@ -1,16 +1,16 @@
 ---
-title: "BDD Testing with Cucumber"
+title: "BDD Testing with Cucumber-js"
 seoTitle: "BDD Testing with Cucumber"
 seoDescription: "Cucumber.js and BDD are not new, still many developers are fairly unfamiliar with them, the two together can be very powerful tools for both business & devs"
 datePublished: Fri Jan 19 2024 09:01:10 GMT+0000 (Coordinated Universal Time)
 cuid: clrkevdd1000808lc3bjc5vfo
-slug: bdd-testing-with-cucumber
+slug: bdd-testing-with-cucumber-js
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705654804499/6a0dca55-e895-4db1-af31-c97edb420cee.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705654828140/1ddf47a6-0ce9-4617-8615-c02b54dc64a8.png
 
 ---
 
-Cucumber.js and BDD are not new, still many developers are fairly unfamiliar with them, the two together can be very powerful tools for both non-tech people and developers.
+Cucumber-js and BDD are not new, still many developers are fairly unfamiliar with them, the two together can be very powerful tools for both non-tech people and developers.
 
 ## What Is BDD?
 
@@ -38,7 +38,7 @@ AND his confirmation email is sent.
 
 ## Introducing Cucumber
 
-Cucumber is **a test framework that supports BDD**. The tests are written in the Gherkin language, which are human-readable and are stored in feature files that have the feature extension. This allows your tests to be a point of communication and collaboration with bussines people and can even serve as documentation that is automatically up-to-date.
+Cucumber-js is **a test framework that supports BDD**. The tests are written in the Gherkin language, which are human-readable and are stored in feature files that have the feature extension. This allows your tests to be a point of communication and collaboration with bussines people and can even serve as documentation that is automatically up-to-date.
 
 A test in the Gherkin language is called a scenario. And scenarios are organized into features.
 
@@ -61,9 +61,9 @@ In the above example, there are many **keywords**, and every keyword has its own
 
 Let’s explain each keyword with respect to the above example.
 
-* **Feature Keyword**: The feature file starts with the keyword Feature**.** Under feature, you can mention the feature name which is to be tested, as seen above.
+* **Feature Keyword**: The feature file starts with the keyword Feature\*\*.\*\* Under feature, you can mention the feature name which is to be tested, as seen above.
     
-* **Scenario** **Keyword**: Each scenario must starts with the keyword Scenario**,** followed by the scenario name. And under each feature file, there can be more than one scenarios.
+* **Scenario** **Keyword**: Each scenario must starts with the keyword Scenario\*\*,\*\* followed by the scenario name. And under each feature file, there can be more than one scenarios.
     
 * **Given Keyword**: Given keyword is used when we have to give some pre-condition in our test case.
     
@@ -78,16 +78,15 @@ Other than these, there are two more keywords,
 
 * **But** **Keyword**: This keyword is used to represent negative assertions in addition to the previous statement.
     
-
 * **Background Keyword**: Steps kept under Background would be run before every test case.
     
 
-Although, Initially Cucumber was created for '**Ruby Language**' as a support for **RSpec** BDD framework for testing, it has evolved to supports a variety of different programming languages such Java, JavaScript, PHP, Net, Python, Perl and etc...
+Although, Initially Cucumber was created for '**Ruby Language**' as a support for **RSpec** BDD framework for testing, Cucumber-js has evolved to supports a variety of different programming languages such Java, JavaScript, PHP, Net, Python, Perl and etc...
 
-### Writing simple BDD test with Cucumber
+### Writing simple BDD test with Cucumber-js
 
-We will create a few tests to see how cucumber works, for this we will first define our scenario and feature before starting to write our code. Let's get started!!  
-  
+We will create a few tests to see how cucumber works, for this we will first define our scenario and feature before starting to write our code. Let's get started!!
+
 First, let's create our work directory and create our `package*.json` file: -
 
 ```bash
@@ -101,7 +100,7 @@ Now, it's time to install our dependencies
 npm i chai @cucumber/cucumber @cucumber/cucumber-expressions cucumber-html-reporter
 ```
 
-Let's move towards writing the tests and setting up folder structures for cucumber, this is how the folder structure should look like: -
+Let's move towards writing the tests and setting up folder structures for cucumber-js, this is how the folder structure should look like: -
 
 ```bash
 ├── Features
@@ -115,7 +114,7 @@ Let's move towards writing the tests and setting up folder structures for cucumb
 ├── node_modules
 ├── package.json
 ├── package-lock.json
-└── .gitignore 
+└── .gitignore
 ```
 
 Create a folder structure similar to above before moving forward. Once we have our folder structure ready, let's start with `steps.js` file: -
@@ -137,7 +136,7 @@ Then("the variable should contain {int}", function(number) {
 });
 ```
 
-In Cucumber.js, “**world**” is an isolated scope for each scenario. That means all the steps, hooks, etc., for a scenario, is a part of a world and this data can be accessed within the world, anytime. Let's define our `world.js` file
+In Cucumber-js, “**world**” is an isolated scope for each scenario. That means all the steps, hooks, etc., for a scenario, is a part of a world and this data can be accessed within the world, anytime. Let's define our `world.js` file
 
 ```javascript
 const { setWorldConstructor } = require("@cucumber/cucumber");
@@ -241,17 +240,17 @@ Now run your tests once again, and you can see that under `reports/` folder ther
 
 ## Conclusion
 
-Cucumber.js focuses mainly on making the collaboration between tech people and business people easy. But it doesn’t eliminate the coding part and still has a lot of code involved. When dealing with **behavior-driven** automation, there are a lot of rules that you have to use as guide, the main thing we have to keep in mind is how to properly use keywords GIVEN, WHEN, and THEN.
+Cucumber-js focuses mainly on making the collaboration between tech people and business people easy. But it doesn’t eliminate the coding part and still has a lot of code involved. When dealing with **behavior-driven** automation, there are a lot of rules that you have to use as guide, the main thing we have to keep in mind is how to properly use keywords GIVEN, WHEN, and THEN.
 
 The testing industry has gone to the next step now with codeless testing integrated with AI and smart logic. Frameworks like [Keploy](https://keploy.io/) allow you to create tests without using a single line of code using record and playback testing. But if you need to still use code for some reason, it also allows you to integrate your code into the test project.
 
 The bottom line is that you have 3 options to choose from for testing:
 
-1. Traditional all-code testing.
+1. Traditional testing.
     
-2. Code testing that’s also easy for business people to understand.
+2. Code testing that’s easy for business people to understand.
     
-3. Codeless AI-powered testing.
+3. Codeless, AI-powered testing.
     
 
 What suits you best depends on your use case. But it’s important to know about all these options to decide what suits you best. So good luck exploring!
