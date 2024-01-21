@@ -1,10 +1,10 @@
 ---
-title: "All about System Integration Testing"
+title: "All about System Integration Testing in software testing"
 seoTitle: "All about System Integration Testing"
 seoDescription: "Well, there's a behind-the-scenes hero called System Integration Testing (SIT) that makes sure all the different parts of a software interract to each other"
 datePublished: Sun Jan 21 2024 18:30:08 GMT+0000 (Coordinated Universal Time)
 cuid: clrnu2rib000008jtfugp1531
-slug: all-about-system-integration-testing
+slug: all-about-system-integration-testing-in-software-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705643377569/2f0ac399-57b9-416b-926c-c9a0c7019b66.png
 
 ---
@@ -35,7 +35,7 @@ SIT includes black box, smoke, and regression testing to identify issues caused 
 
 ## Why SIT?
 
-So, Now we know what is System Integration Testing, But why do we actually need it?Let's explore that!
+So, Now we know what is System Integration Testing in software testing, But why do we actually need it?Let's explore that!
 
 Here are some advantages of using SIT:
 
