@@ -5,6 +5,7 @@ seoDescription: "Cucumber.js and BDD are not new, still many developers are fair
 datePublished: Fri Jan 19 2024 09:01:10 GMT+0000 (Coordinated Universal Time)
 cuid: clrkevdd1000808lc3bjc5vfo
 slug: bdd-testing-with-cucumber-js
+canonical: https://keploy.io/blog/community/bdd-testing-with-cucumber
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705654804499/6a0dca55-e895-4db1-af31-c97edb420cee.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705654828140/1ddf47a6-0ce9-4617-8615-c02b54dc64a8.png
 
