@@ -6,6 +6,7 @@ datePublished: Sat Jan 20 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clroh6asm00040aig2s5vfqqk
 slug: 7-best-open-source-testing-tools-in-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705734857417/405ef048-1bcb-4000-8259-91bee104f411.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705904065568/d47377a6-cf38-4555-98f8-957f3dea6d93.png
 tags: opensource, testing, list
 
 ---
