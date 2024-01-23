@@ -5,6 +5,7 @@ seoDescription: "Well, there's a behind-the-scenes hero called System Integratio
 datePublished: Sun Jan 21 2024 18:30:08 GMT+0000 (Coordinated Universal Time)
 cuid: clrnu2rib000008jtfugp1531
 slug: all-about-system-integration-testing-in-software-testing
+canonical: https://keploy.io/blog/community/all-about-system-integration-testing-in-software-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705643377569/2f0ac399-57b9-416b-926c-c9a0c7019b66.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705904040281/f1bb9f85-6994-4b91-a95e-6084d3cef738.png
 
