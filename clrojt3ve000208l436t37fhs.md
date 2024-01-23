@@ -5,6 +5,7 @@ seoDescription: "Feature flags have become a vital component of DevOps, allowing
 datePublished: Mon Jan 22 2024 06:30:28 GMT+0000 (Coordinated Universal Time)
 cuid: clrojt3ve000208l436t37fhs
 slug: revolutionizing-software-testing-with-feature-flags
+canonical: https://keploy.io/blog/community/revolutionizing-software-testing-with-feature-flags
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705916813181/f92b71b5-77a8-41ec-a497-bce09bf89422.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705900357138/9fadcb36-709c-4b06-84bd-4c310af379b6.png
 tags: devops, feature-flags
