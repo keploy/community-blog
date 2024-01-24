@@ -5,6 +5,7 @@ seoDescription: "In this article, we'll explore what is Branch Coverage, Its imp
 datePublished: Wed Jan 24 2024 10:49:37 GMT+0000 (Coordinated Universal Time)
 cuid: clrrny314000g09kzfx9s3ufr
 slug: understanding-condition-coverage-in-software-testing
+canonical: https://keploy.io/blog/community/understanding-condition-coverage-in-software-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701531789987/a5a6933b-c6c7-48a1-afe8-29301b4d9ad2.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705904009422/b285687c-e736-4074-a0a5-94585a6804b6.png
 
