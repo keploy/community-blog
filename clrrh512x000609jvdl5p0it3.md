@@ -3,6 +3,7 @@ title: "Why do I need a unit testing tool?"
 datePublished: Mon Jan 22 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clrrh512x000609jvdl5p0it3
 slug: why-do-i-need-a-unit-testing-tool
+canonical: https://keploy.io/blog/community/why-do-i-need-a-unit-testing-tool
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706081921450/f314fbd0-dc8e-447a-9900-15d7db2bfe58.png
 
 ---
