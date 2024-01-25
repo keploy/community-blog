@@ -2,7 +2,7 @@
 title: "eBPF, Service Mesh and Sidecar"
 seoTitle: "eBPF, Service Mesh and Sidecar"
 seoDescription: "The operating system is like the boss of your computer, handling security, networking, and keeping an eye on what's happening."
-datePublished: Tue Jan 23 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
+datePublished: Wed Jan 24 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clrsu9tdm00090ajq8nrb2q5d
 slug: ebpf-service-mesh-and-sidecar
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705497247364/68117111-400b-4a29-b3dc-70627ff95c2b.png
