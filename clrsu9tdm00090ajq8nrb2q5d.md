@@ -5,6 +5,7 @@ seoDescription: "The operating system is like the boss of your computer, handlin
 datePublished: Wed Jan 24 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clrsu9tdm00090ajq8nrb2q5d
 slug: ebpf-service-mesh-and-sidecar
+canonical: https://keploy.io/blog/community/ebpf-service-mesh-and-sidecar
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705497247364/68117111-400b-4a29-b3dc-70627ff95c2b.png
 tags: servicemesh, kubernetes-container, ebpf, sidecar
 
