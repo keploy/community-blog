@@ -5,6 +5,7 @@ seoDescription: "In the realm of developement, there are instances when a generi
 datePublished: Thu Jan 25 2024 18:30:37 GMT+0000 (Coordinated Universal Time)
 cuid: clrtjus5f000108jy4cf09up7
 slug: building-custom-yaml-dsl-in-python
+canonical: https://keploy.io/blog/community/ebpf-service-mesh-and-sidecar
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706176448627/aa815cbd-197b-492d-9f1e-9454b52ec817.png
 
 ---
