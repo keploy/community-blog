@@ -2,7 +2,7 @@
 title: "Building Custom YAML-DSL in Python"
 seoTitle: "Building Custom YAML-DSL in Python"
 seoDescription: "In the realm of developement, there are instances when a generic programming language might not fully capture the specificity of a domain."
-datePublished: Thu Jan 25 2024 18:30:37 GMT+0000 (Coordinated Universal Time)
+datePublished: Thu Jan 25 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clrtjus5f000108jy4cf09up7
 slug: building-custom-yaml-dsl-in-python
 canonical: https://keploy.io/blog/community/building-custom-yaml-dsl-in-python
