@@ -1,9 +1,10 @@
 ---
 title: "Demystifying Cron Job Testing"
-seoDescription: " The importance of cron job testing is beyond description. Ensure your automated tasks run flawlessly with proper cron job testing procedures. "
+seoDescription: "The importance of cron job testing is beyond description. Ensure your automated tasks run flawlessly with proper cron job testing procedures."
 datePublished: Fri Feb 02 2024 06:30:34 GMT+0000 (Coordinated Universal Time)
 cuid: cls49nmdv000009jzc19t3ple
 slug: demystifying-cron-job-testing
+canonical: https://keploy.io/blog/community/demystifying-cron-job-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706851467005/cacc13cd-b627-4964-91bb-40caa5923b45.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1706851727886/adbbc135-6126-4278-a388-0b9ae3f45536.png
 tags: testing, cron-job, cronjob, cronjobs
