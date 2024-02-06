@@ -1,10 +1,11 @@
 ---
 title: "5 Unit Testing Tools You Must Know in 2024"
-seoTitle: "5 Unit Testing Tools You Must Know in 2024 "
+seoTitle: "5 Unit Testing Tools You Must Know in 2024"
 seoDescription: "In this article we'll explore 5 Unit Testing Tools you must know in 2024!"
 datePublished: Mon Feb 05 2024 18:30:51 GMT+0000 (Coordinated Universal Time)
 cuid: cls99pgbs000209jx1b462cnh
 slug: 5-unit-testing-tools-you-must-know-in-2024
+canonical: https://keploy.io/blog/community/5-unit-testing-tools-you-must-know-in-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705765904929/ebec75eb-3ff3-46d9-88f9-4b3d90a46136.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705903951165/02f57ed9-d7e1-416d-9902-a2ad3d4eed7c.png
 
