@@ -5,6 +5,7 @@ seoDescription: "In this Article, We'll explore What is Testing in Production, H
 datePublished: Wed Feb 07 2024 10:42:50 GMT+0000 (Coordinated Universal Time)
 cuid: clsbnvas0000909igfu005hog
 slug: understanding-testing-in-production
+canonical: https://keploy.io/blog/community/understanding-testing-in-production
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707027356689/d340059d-340f-40e2-a70f-5babdc84af5e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1707027431634/07c2974b-fef9-4a79-b4cb-06dfd4664e86.png
 tags: testing
