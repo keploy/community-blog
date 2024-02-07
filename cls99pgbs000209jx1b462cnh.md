@@ -42,13 +42,13 @@ Unit testing has many benefits some of them are mentioned below:
 
 ## 5 Unit Testing Tools:
 
-### 1\. **JMockit**:
+### 1\. Keploy
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705763730567/86be98a7-d100-4bb5-aeb1-b2d5053e23d4.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705729834504/a65aeb6d-ee22-4638-92ac-8ae0185371e1.png align="center")
 
-JMockit is an open-source tool for Unit Testing with the collection of tools and API.It is designed to be used with testing frameworks like JUnit or TestNG.
+Keploy is an innovative open-source tool that is transforming the landscape of API testing by converting user traffic into test cases and data stubs. It offers solution to several challenges in software development and testing, such as blind network calls, time-consuming manual test writing, inefficient code paths, dependency chaos, and mystery production issues.
 
-JMockit allows users to mock various elements such as public and private methods, field values, static methods, static blocks, and constructor.
+Keploy simplifies testing for developers by capturing network interactions and generating automated tests. Plus, we accelerate development and enhance team collaboration.
 
 ### 2\. **SimpleTest:**
 
@@ -82,13 +82,13 @@ Mockito is an open-source mocking framework with a simple and clean API that ena
 
 Mockito integrates with Cucumber, Spring, and Jenkins, along with built-in support for managing a mocking life cycle with JUnit.
 
-> ### **Bonus Tool:** Keploy
+> ### **Bonus Tool:** **JMockit**:
 > 
-> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705729834504/a65aeb6d-ee22-4638-92ac-8ae0185371e1.png align="center")
+> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705763730567/86be98a7-d100-4bb5-aeb1-b2d5053e23d4.png align="center")
 > 
-> Keploy is an innovative open-source tool that is transforming the landscape of API testing by converting user traffic into test cases and data stubs. It offers solution to several challenges in software development and testing, such as blind network calls, time-consuming manual test writing, inefficient code paths, dependency chaos, and mystery production issues.
+> JMockit is an open-source tool for Unit Testing with the collection of tools and API.It is designed to be used with testing frameworks like JUnit or TestNG.
 > 
-> Keploy simplifies testing for developers by capturing network interactions and generating automated tests. Plus, we accelerate development and enhance team collaboration.
+> JMockit allows users to mock various elements such as public and private methods, field values, static methods, static blocks, and constructor.
 
 ## Conclusion
 
