@@ -1,9 +1,10 @@
 ---
 title: "Improving Code Quality and Accelerating Development: The Continuous Testing Way"
-seoDescription: "Discover how Continuous Testing in CI/CD can transform your software development process, enhance code quality, and speed up delivery with essential tools "
+seoDescription: "Discover how Continuous Testing in CI/CD can transform your software development process, enhance code quality, and speed up delivery with essential tools"
 datePublished: Wed Feb 07 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clseaqi0w000108jf0vnu0sp6
 slug: improving-code-quality-and-accelerating-development-the-continuous-testing-way
+canonical: https://keploy.io/blog/community/understand-the-role-of-continuous-testing-in-ci-cd
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707112148915/211ae249-40b1-4a54-a452-563812f9e36d.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1707123402801/4600e2f3-d7f7-4923-b7a3-e1b556389188.png
 tags: development, testing, devops, cicd, ci-cd, continuous-testing
