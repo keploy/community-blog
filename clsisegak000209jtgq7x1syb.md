@@ -4,6 +4,7 @@ seoTitle: "Writing test cases for Cron Job Testing"
 datePublished: Mon Feb 12 2024 10:24:06 GMT+0000 (Coordinated Universal Time)
 cuid: clsisegak000209jtgq7x1syb
 slug: writing-test-cases-for-cron-job-testing
+canonical: https://keploy.io/blog/community/writing-test-cases-for-cron-jobs-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707733259954/1f09fe9f-84fa-42f8-8e42-79e1a11aed29.png
 
 ---
