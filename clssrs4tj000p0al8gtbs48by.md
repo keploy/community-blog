@@ -3,6 +3,7 @@ title: "Mock vs Stub vs Fake: Understand the difference"
 datePublished: Tue Feb 13 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clssrs4tj000p0al8gtbs48by
 slug: mock-vs-stub-vs-fake-understand-the-difference
+canonical: https://keploy.io/blog/community/mock-vs-stub-vs-fake-understand-the-difference
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707585234655/2ea8b5cc-0681-437e-b39f-be378de2bd24.png
 
 ---
