@@ -7,16 +7,36 @@ cuid: clrtjus5f000108jy4cf09up7
 slug: building-custom-yaml-dsl-in-python
 canonical: https://keploy.io/blog/community/building-custom-yaml-dsl-in-python
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706176448627/aa815cbd-197b-492d-9f1e-9454b52ec817.png
+tags: python, json, yaml, dsl
 
 ---
 
 In the realm of developement, there are instances when a generic programming language might not fully capture the specificity of a domain or the nuances of a particular problem. This is where **Domain-Specific Languages** or **DSLs** come into play. DSLs are specialized languages designed to address specific problem domains, offering a more expressive and tailored solution.
 
-In this blog post, I will guide you through the process of building a custom DSL in Python, a versatile and widely-used programming language. Before delving into the intricacies of building a custom DSL, it's crucial to grasp the fundamental concepts. A DSL, in essence, is a language tailored to a specific problem domain. In our case, it will be created using Python, a language renowned for its readability and simplicity.
+In this blog post, I will guide you through the process of building a custom DSL in Python, a versatile and widely-used programming language. But before diving into the technalities of building a custom DSL, it is important to learn about the fundamental concepts. A **DSL (Domain-Specific Languages)**, in essence, is a language tailored to a specific problem domain.
 
-## YAML with *DSL* ?
+In our case, it will be created using Python, a language known for its readability and simplicity, to convert `YAML` to `JSON`.
+
+## Why YAML with *DSL* ?
 
 YAML proves to be a suitable choice for both individuals, with technical backgrounds and for their non-technical colleagues, particularly when dealing with simple syntax.
+
+1. **Human-readable format**: YAML is a human-readable data serialization format, making it easy for developers and other stakeholders to read and understand the configuration files.
+    
+2. **Structured data**: YAML provides a structured format for defining data, allowing for clear and consistent configuration files.
+    
+3. **Domain Specific Language (DSL)**: Using a DSL in YAML configuration files can help make the configuration files more expressive and easier to understand.
+    
+4. **Tooling and automation**: YAML files can be easily parsed and manipulated by tools and scripts, making it easy to automate the deployment and management of applications.
+    
+5. **Version control**: YAML files can be easily checked into version control systems, allowing for easy tracking of changes and collaboration among team members.
+    
+
+Overall, using YAML with DSL can help make configuration files more expressive, readable, and maintainable, while also making it easier to automate the deployment and management of applications.
+
+## Creating the YAML for application
+
+Let's move on to designing our YAML input file, that we will use in our application.
 
 ```yaml
 tasks:
@@ -41,11 +61,15 @@ tasks:
         completed: false
 ```
 
-YAML exhibits high readability and appears quite natural, especially when one doesn't focus on distinct brackets and colons. The second version, being more concise, may appear more convenient to certain individuals, as we can see above. You can find the [source code on GitHub](https://github.com/Sonichigo/yaml-dsl/).
+You can find the [source code on GitHub](https://github.com/Sonichigo/yaml-dsl/).
 
 Now, what?
 
-We must take this YAML File and convert it into an JSON, to make it usable in Insight's dashboard based on how long does it take user to complete it's task and substacks for example. Let's create `schema.py` where we will define the yaml schema based on above: -
+Now, we must take this YAML File and convert it into an JSON file, to make it usable in Insight's dashboard based on how long does it take user to complete it's task and substacks for example.
+
+## Creating Schema for YAML File
+
+Let's create `schema.py` where we will define the our YAML schema, as we create earlier: -
 
 ```yaml
 task_list_schema = {
@@ -81,7 +105,8 @@ task_list_schema = {
 }
 ```
 
-Here we can see few fields that are in format of datetime, let's first convert them into string before parsing them.
+Here we can see few fields which are in format of DateTime. We first need to convert them into string before parsing them. You make ask why?  
+Because, if we don't typecaste, the application will throw compliation error reason being fields such as `due_date`, as string in our schema but it is actually in a DateTime format.
 
 ```python
 from schema import task_list_schema
@@ -109,6 +134,8 @@ def parse_dates(obj):
     else:
         return obj
 ```
+
+## Reading and Validating the YAML
 
 With both of functions ready to work along with dates mentioned in the `schema.py`, let's move to loading yaml to the program functionality
 
@@ -157,7 +184,9 @@ tasks['tasks'].append({
 })
 ```
 
-With the changes done, it's time to write our conversion function().
+## Time for converting YAML to JSON
+
+With the changes made and validation of YAML done, it's time to building an efficient parser and interpreter to convert the `YAML` to `JSON`.
 
 ```python
 def convert_yaml_to_json(yaml_string):
@@ -167,9 +196,9 @@ def convert_yaml_to_json(yaml_string):
     return json_data
 ```
 
-The `convert_yaml_to_json` function converts a YAML string to a JSON string, handling date objects during the conversion process. This function can be useful when you need to work with data interchangeably in YAML and JSON formats, ensuring that date representations are consistent between the two formats.
+The `convert_yaml_to_json` function converts a YAML string to a JSON string, handling date objects during the conversion process. This function is useful because we need to work with data interchangeably in YAML and JSON formats, ensuring that date representations are consistent between the two formats.
 
-But we need JSON file, ***right?*** Let's add code to create the folder, and save the json each time the file is run. Modify the above function as : -
+Although we have converted file to JSON, but we still need to store `JSON` file, ***right?*** Let's make change to the above `conversion_function()` to create the folder, and save the json each time the file is run.
 
 ```python
 def convert_yaml_to_json(yaml_string, folder_path):
@@ -199,12 +228,27 @@ Let's add couple of line to see how it will work at the end of `main.py`
 
 ```python
 json_filename = convert_yaml_to_json(yaml_dsl, 'modified_json_tasks')
-
 print("Original YAML DSL:")
 print(yaml_dsl)
 print(f"\nConverted YAML to JSON saved to {json_filename}")
 ```
 
-Now, When you run `main.py` file, we can see a folder `modified_json_task` with `task_1.json`, each time the python file is executed, we can see a new file with file\_number increased signifying the number of time the code has been executed.
+Now, when we run `main.py` , we can see the output on our console resembling down below: -
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1710160569753/4b09bb62-69e1-4734-84d7-8cecb5091975.png align="center")
+
+Also, we can see a folder `modified_json_task` with `task_1.json`, and each time the python file is executed, we can see a new file with `task_${number}.json`, signifying the number of time the code has been executed.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1710160628931/cdac14e7-296a-41a3-9834-42baa52f0ce2.png align="center")
 
 **And, That's it!!! You have successfully created your first YAML-DSL in python! 🎉**
+
+### **Incorporating User Feedback**
+
+As you refine and enhance your DSL, the feedbacks from users within the intended problem domain, would allows you to fine-tune the DSL based on real-world usage and address any pain points or ambiguities that users may encounter.
+
+## Conclusion
+
+Building a custom DSL in Python empowers developers to create expressive and tailored solutions for specific problem domains. By adhering to the principles outlined in this guide—"defining the problem domain", "designing a clean syntax", "building an efficient parser and interpreter" and "incorporating user feedback" —you can craft a powerful and intuitive DSL that seamlessly integrates with the Python ecosystem.
+
+In conclusion, the art of building a DSL is not merely about creating a new language; it's more about providing a more natural and effective means of expression within a specific context.
