@@ -8,6 +8,7 @@ slug: bdd-testing-with-cucumber-js
 canonical: https://keploy.io/blog/community/bdd-testing-with-cucumber
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705654804499/6a0dca55-e895-4db1-af31-c97edb420cee.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705654828140/1ddf47a6-0ce9-4617-8615-c02b54dc64a8.png
+tags: bdd, testing, cucumber, testing-framework, testing-tools
 
 ---
 
@@ -17,7 +18,7 @@ Cucumber-js and BDD are not new, still many developers are fairly unfamiliar wit
 
 BDD is short for Business Driven Development, it's way to close the gap between business people and technical people. Basically, BDD has evolved from TDD, there's a high chance that you might even be doing BDD without knowing it, as sometimes the lines between them aren't clear.
 
-So what's the difference between them, both are **automated tests** *right*? Well, the difference is that we use the language of our end-users, i.e. the business or domain language such as **Given-When-Then**, to capture like a story in an executable format. For example,
+So what's the difference between them, both are **automated tests***right*? Well, the difference is that we use the language of our end-users, i.e. the business or domain language such as **Given-When-Then**, to capture like a story in an executable format. For example,
 
 ```plaintext
 GIVEN User is on Wordpress Registration Page.
@@ -64,7 +65,7 @@ Let’s explain each keyword with respect to the above example.
 
 * **Feature Keyword**: The feature file starts with the keyword Feature\*\*.\*\* Under feature, you can mention the feature name which is to be tested, as seen above.
     
-* **Scenario** **Keyword**: Each scenario must starts with the keyword Scenario\*\*,\*\* followed by the scenario name. And under each feature file, there can be more than one scenarios.
+* **ScenarioKeyword**: Each scenario must starts with the keyword Scenario\*\*,\*\* followed by the scenario name. And under each feature file, there can be more than one scenarios.
     
 * **Given Keyword**: Given keyword is used when we have to give some pre-condition in our test case.
     
@@ -77,7 +78,7 @@ Let’s explain each keyword with respect to the above example.
 
 Other than these, there are two more keywords,
 
-* **But** **Keyword**: This keyword is used to represent negative assertions in addition to the previous statement.
+* **ButKeyword**: This keyword is used to represent negative assertions in addition to the previous statement.
     
 * **Background Keyword**: Steps kept under Background would be run before every test case.
     
@@ -255,3 +256,38 @@ The bottom line is that you have 3 options to choose from for testing:
     
 
 What suits you best depends on your use case. But it’s important to know about all these options to decide what suits you best. So good luck exploring!
+
+## FAQ's
+
+### What is Gherkin ?
+
+Gherkin is a simple, human-readable language used to describe the behavior of software in a structured format. Gherkin files typically contain scenarios written in plain language, outlining how the software should behave under various conditions, making it easier for both technical and non-technical stakeholders to understand and collaborate on software requirements.
+
+### What is BDD testing and how does it differ from other testing methodologies?
+
+BDD (Behavior-Driven Development) testing is an approach where software behavior is described in natural language, focusing on the expected outcomes rather than technical details. It differs from other testing methodologies like TDD (Test-Driven Development) by emphasizing collaboration among developers, testers, and non-technical stakeholders through shared understanding of user requirements expressed as scenarios.
+
+### What are some best practices for writing effective BDD scenarios ?
+
+By following these best practices, teams can create BDD scenarios that effectively communicate user requirements, facilitate collaboration, and improve the overall quality of software products: -
+
+1. **Use Clear and Descriptive Language**
+    
+2. **Keep Scenarios Single and Independent**
+    
+3. **Use Background and Scenario Outline**
+    
+4. **Write Readable Step Definitions**
+    
+5. **Periodically Review and Refactor Scenarios**
+    
+
+### What some tool I can use to create BDD test ?
+
+There are multiple tools that can help you out in creating the BDD tests similar to Cucumber.js such as: -
+
+1. [**SpecFlow**](https://specflow.org/): SpecFlow is a BDD framework for .NET applications, primarily used with C#.
+    
+2. [Behave (Python)](https://behave.readthedocs.io/en/latest/) : It is a Python-based BDD framework that uses Gherkin syntax for writing feature files and step definitions. It integrates well with Python testing libraries like Pytest and provides powerful features for testing Python applications.
+    
+3. [**Karate**](https://www.karatelabs.io/): Karate is an open-source BDD framework for testing web services and APIs. It uses a syntax similar to Gherkin and allows writing feature files to describe API tests. Karate supports both JSON and YAML formats and provides built-in features for HTTP requests, assertions, and data-driven testing.
