@@ -72,6 +72,8 @@ In simple terms, sidecars are like guardians for your pods, making sure everythi
 * Introduces additional points of interaction, and if not properly secured, these communication channels can become targets for attackers.
     
 
+The sidecar models are slower because of buffer-copying and context switching into the user space; simply, any packet from one service to another has to traverse through the TCP/IP and socket stack multiple times. And this part can be eliminated completely by using eBPF.
+
 ### **eBPF based model**
 
 Unlike sidecar method, where each container needs a small companion proxy container running alongside it in the same pod, eBPF operates at the host operating system's kernel level. This means that it runs only once on each host, regardless of the number of containers or pods scheduled to run on that host.
@@ -99,6 +101,35 @@ There's no universal solution for service mesh architecture, and the choice betw
 Using eBPF for L4 (transport layer) traffic management and security addresses lower-level network concerns efficiently. Meanwhile, employing a sidecar proxy for L7 (application layer) traffic management and observability enhances the handling of application-specific logic and monitoring.
 
 This hybrid approach acknowledges the diversity of challenges within a service mesh and tailors the solution accordingly. It's a flexible strategy that recognizes the nuances of different layers in the networking stack and adapts the technology stack to provide optimal solutions for each layer's unique demands.
+
+## FAQ's
+
+### **What is Cilium?**
+
+Cilium is a cloud native technology for networking, observability, and security. It is based on the kernel technology eBPF, originally for better networking performance, and now leverages many additional features for different use cases.
+
+### What are the benefits of using a service mesh in microservices architectures?
+
+Using a service mesh in microservices architectures offers several benefits.
+
+* Firstly, it provides centralized control over communication between services, enabling features like traffic routing, load balancing, and fault tolerance without requiring changes to application code.
+    
+* Secondly, it improves observability by facilitating metrics collection, distributed tracing, and logging, allowing for better insight into service interactions and performance.
+    
+* Thirdly, a service mesh enhances security by enabling encryption, authentication, and access control policies to be applied uniformly across all services.
+    
+* Additionally, it promotes scalability by offloading common networking concerns to a dedicated infrastructure layer, reducing the complexity of individual services.
+    
+
+### What is eBPF and how does it work in modern networking?
+
+In a simpler terms, a eBPF is a kernel technology that lets programs run without needing to add additional modules or modify the kernel source code.
+
+eBPF allows for dynamically processing of network packets within the Linux kernel. Thus, enables developers to run custom programs safely and efficiently within the kernel, as well as providing them with deep visibility and control over network traffic. eBPF programs can be attached to various hooks throughout the kernel, allowing them to intercept and analyze packets at different stages of their journey through the network stack.
+
+### What are risks associated with the eBPF ?
+
+Basically, the eBPF is not a machine code, rather they are bytecode in the kernel. The VM sandboxes them and enforces access controls so only privileged users can run eBPF programs. Therefore all the network interaction that are happening can be either be captured, or malicious code call be injected and shared over the net later. You can also perform static analysis of the eBPF program to ensure that the eBPF programs are not harmful and that no information leaks from the kernel to the user space. 
 
 ***Resources & References: -***
 
