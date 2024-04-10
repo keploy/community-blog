@@ -108,6 +108,10 @@ This hybrid approach acknowledges the diversity of challenges within a service m
 
 Cilium is a cloud native technology for networking, observability, and security. It is based on the kernel technology eBPF, originally for better networking performance, and now leverages many additional features for different use cases.
 
+### Can eBPF be used for observability only?
+
+No, although there are multiple tools which are focused on observability, still tools such as [**Keploy**](https://keploy.io) is using ebpf for intercepting tcp and L7 network protocols to autogenerate Integration Test-Cases and Data-Mocks from actual traffic. Similarily, **Sysdig** uses eBPF to enable high-performance system call tracing, facilitate container-aware troubleshooting, conduct security auditing, and provide rich insights and data from the kernel
+
 ### What are the benefits of using a service mesh in microservices architectures?
 
 Using a service mesh in microservices architectures offers several benefits.
@@ -129,7 +133,7 @@ eBPF allows for dynamically processing of network packets within the Linux kerne
 
 ### What are risks associated with the eBPF ?
 
-Basically, the eBPF is not a machine code, rather they are bytecode in the kernel. The VM sandboxes them and enforces access controls so only privileged users can run eBPF programs. Therefore all the network interaction that are happening can be either be captured, or malicious code call be injected and shared over the net later. You can also perform static analysis of the eBPF program to ensure that the eBPF programs are not harmful and that no information leaks from the kernel to the user space. 
+Basically, the eBPF is not a machine code, rather they are bytecode in the kernel. The VM sandboxes them and enforces access controls so only privileged users can run eBPF programs. Therefore all the network interaction that are happening can be either be captured, or malicious code call be injected and shared over the net later. You can also perform static analysis of the eBPF program to ensure that the eBPF programs are not harmful and that no information leaks from the kernel to the user space.
 
 ***Resources & References: -***
 
