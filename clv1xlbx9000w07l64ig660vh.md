@@ -1,6 +1,6 @@
 ---
-title: "Write Clean and Efficient Unit Tests in Go"
-seoTitle: "Efficient and Maintainable Table driven Unit Tests in Go"
+title: "Why I Switched to Table Driven Testing approach in Go"
+seoTitle: "Table driven Unit Tests in Go"
 seoDescription: "Table driven tests, also known as parameterized tests, have became very popular over the past few years, due to their ability to eliminate repetition."
 datePublished: Sun Apr 14 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clv1xlbx9000w07l64ig660vh
@@ -14,7 +14,7 @@ tags: unit-testing, golang, testing, go-testing, table-driven-testing
 
 *Table driven tests*, also known as parameterized tests, have became very popular over the past few years, due to their ability to eliminate repetition. Table driven tests make it quite a bit easier to re-use the same values for different sets of tests by just moving the table outside of the scope of the test function. Different tests may benefit from the same input, and each test may have completely different configration, concurrency etc...
 
-## What is a Table Driven **Unit Test** ?
+## **The table structure**
 
 Well, think of it as a systematic way of testing your code by providing a set of inputs and expected outputs in a structured table format. Instead of writing individual test cases for each input-output pair, we organize them neatly in a table, making it easier to manage and maintain our tests.
 
@@ -28,11 +28,18 @@ package main
 import (
     "testing"
 )
-
+// We first have the function we may want to test
+// Consider the following function that calculates the addition 
+// of two numbers
 func Add(a, b int) int {
     return a + b
 }
-
+/*
+We want to write tests that ensure our add function 
+returns the correct result, no matter what numbers we provide. 
+For the sake of keeping this blog to the point, 
+I'm just going to include two test cases
+*/
 func TestAdd(t *testing.T) {
     tests := []struct {
         name     string
@@ -76,7 +83,11 @@ Now, you might be wondering, why bother with table-driven tests? Here are a few 
 3. **Maintainability:** Since test cases are organized in a structured format, it's easier to update or modify them when needed.
     
 
-### **Maps and slices, which to choose?**
+## What constitutes a table driven test?
+
+Typically every Table-driven tests case will have a description, input, and expected output values. Let's explore some techniques:
+
+### **Maps and slices**
 
 Usually, test cases contain a name field to uniquely identify and describe the test case, and these are stored in slice.
 
@@ -132,9 +143,9 @@ Here, we use a slice of structs to maintain the order of test cases. Inside the 
 
 By using an ordered slice instead of a map, we ensure that the test cases are executed in the defined order, addressing the concern of non-deterministic behavior introduced by map iteration. This approach provides more reliability and consistency in test execution.
 
-### Logging
+### Error handling & Logging
 
-When a comparison between an actual value and an expected value reveals a mismatch, there are two ways to handle it. Either we log an error message using Errorf or we terminate the test using Fatalf.
+When a comparison between an actual value and an expected value reveals a mismatch, there are two ways to handle it. Either we log an error message using ***Errorf*** or we terminate the test using ***Fatalf***.
 
 In the first scenario, we log the error but allow the test to continue with subsequent checks. The latter option stops the entire test immediately upon encountering a failure. It's important to use these options thoughtfully. Generally, it's recommended to log the failure and continue with the test using Errorf. Only if proceeding with the test wouldn't make sense due to failed preconditions, should Fatalf be used to halt the test immediately.
 
@@ -156,7 +167,7 @@ for i, value := range tt.expected {
 }
 ```
 
-### Helper Structs
+### Structured test cases
 
 To manage complex test cases with many parameters or dependencies, we can use helper structs. These structs store input parameters and expected results separately:
 
@@ -183,6 +194,10 @@ By defining helper structs within the test function, we can keep the test cases 
 
 Additionally, if a function becomes too complex, it's a sign that it may be doing too much. In such cases, it's beneficial to split the function into smaller, more manageable pieces with clearly defined responsibilities. This simplifies both the function itself and its associated test cases.
 
+### Prallel execution of test cases
+
+While all of above tests run very quickly, there is no reason that we shouldn't make use of `t.Parallel`. By adding this to each test, we can run all the tests that specify `t.Parallel` at the same time in parallel, provided they don't share state or dependencies.
+
 ## Conclusion
 
 Table driven tests are a popular model for testing in Go and a clear improvement to traditional testing of one function per case. As it offers a convenient way to test functions with various inputs. Since, the approach of "table" are easy and better to scale, most language testing frameworks have adopted some concept of dataprovider.
@@ -198,3 +213,7 @@ You can mock dependencies as additional fields in test structs, enabling compreh
 ### How can I manage complex test cases efficiently?
 
 Utilize helper struct more, helper structs separate input parameters and expected results, enhancing test case clarity and manageability by structuring data into distinct categories for better organization and readability.
+
+### Can we use Table Driven test in Golang only?
+
+While table driven tests are most popular with Go, TypeScript is also a perfect language for them. Being a strongly-typed superset of JavaScript, TypeScript allows us to explicitly define our input and expected types, an important feature to have when we are writing our tests.
