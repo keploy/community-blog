@@ -5,6 +5,7 @@ seoDescription: "Table driven tests, also known as parameterized tests, have bec
 datePublished: Sun Apr 14 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clv1xlbx9000w07l64ig660vh
 slug: write-clean-and-efficient-unit-tests-in-go
+canonical: https://keploy.io/blog/community/write-clean-and-efficient-unit-tests-in-go
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713244457099/b380b048-f33f-4d21-b63c-83497c0ca9d3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1713244521122/0cbffecd-34ea-4967-aa54-d168e511a017.png
 tags: unit-testing, golang, testing, go-testing, table-driven-testing
