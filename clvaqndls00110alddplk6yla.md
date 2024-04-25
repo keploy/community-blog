@@ -3,6 +3,7 @@ title: "How I simulate a response from a Third Party"
 datePublished: Fri Apr 19 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clvaqndls00110alddplk6yla
 slug: how-i-simulate-a-response-from-a-third-party
+canonical: https://keploy.io/blog/community/how-i-simulate-a-response-from-a-third-party
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713777096878/121f2435-5c58-487a-b9b8-69a33dc2230e.png
 
 ---
