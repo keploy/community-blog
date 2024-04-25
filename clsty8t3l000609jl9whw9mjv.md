@@ -15,7 +15,7 @@ ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1708345031804/be2d3
 
 Imagine you're a miner with a canary in a cage. If the air is toxic, the canary reacts first, giving you a heads-up. Canary testing works similarly for your software. Instead of releasing the whole flock (users) into a potentially toxic or buggy environment, you release just one canary (a small subset of users) to test the waters.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1710236730914/ae59d872-5de9-491d-b482-c74c8b5c2fa1.png align="center")
+![Canary Testing](https://cdn.hashnode.com/res/hashnode/image/upload/v1710236730914/ae59d872-5de9-491d-b482-c74c8b5c2fa1.png align="center")
 
 Once you have a new release ready, you can deploy it to one of the environments. Then, you can direct a small portion of your users (around 5% is recommended) to this canary release. These users will experience the new features, while the other group will not encounter any changes.
 
@@ -35,7 +35,7 @@ To execute the canary test, two approaches are mainly implemented to achieve rel
 
 Start by incorporating feature flags into your code. These nifty toggles allow you to enable or disable certain features at runtime. Perfect for controlling who gets to see your new changes.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1710242766881/84965dcb-a9ec-453b-a473-9ac3d8e20821.png align="center")
+![Canary Testing](https://cdn.hashnode.com/res/hashnode/image/upload/v1710242766881/84965dcb-a9ec-453b-a473-9ac3d8e20821.png align="center")
 
 With the feature flag, you can limit the release to 5% of the users and monitor the key metrics. This approach is handy for business stakeholders who need to test new features before implementing them for everyone. However, while performing a canary test, if any issue is detected during the deployment method, you can easily disable the new features by turning the feature off.
 
@@ -233,15 +233,13 @@ Additionally, effective communication is paramount. Transparent and clear commun
 
 ### **How is canary testing different from A/B testing?**
 
-Canary testing involves deploying changes incrementally to a small subset of users or systems before rolling them out to the entire user base. It focuses on detecting potential issues early by monitoring metrics and user feedback.
+Canary testing involves deploying changes incrementally to a small subset of users or systems before rolling them out to the entire user base.
 
 In contrast, A/B testing compares two or more versions of a feature or webpage to determine which one performs better based on predefined metrics, often involving larger user segments in a randomized manner to assess differences in user behaviour or preferences.
 
 ### **What are some successful examples of canary testing in real-world applications?**
 
 Google employs a sophisticated canary analysis system to gradually roll out changes across its vast infrastructure, allowing for early detection of issues before they affect a significant portion of users. By carefully monitoring key metrics such as latency, error rates, and user engagement, Google can automatically scale back or halt deployments if abnormalities are detected during the canary phase.
-
-This approach enables Google to maintain high availability and reliability while continuously delivering updates and improvements to its services.
 
 ### **How do you set up a canary deployment pipeline?**
 
