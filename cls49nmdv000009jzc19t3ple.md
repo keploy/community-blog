@@ -124,15 +124,6 @@ Testing Cron jobs is not just a matter of good practice; it's a necessity for ma
 
 The types of testing, including functional testing to validate task execution, performance testing for optimal runtime, integration testing to manage dependencies, and dependency testing to handle external factors, collectively contribute to a comprehensive testing strategy.
 
-### **References & Resources: -**
-
-If you want to know more about Cron job testing, here are some resources
-
-1. [**Cron Expression Generator**](https://crontab.guru/)**:** A tool to help you understand and generate Cron expressions tailored to your scheduling needs.
-    
-2. [**Writing a Cron Job**](https://www.shuttle.rs/blog/2024/01/24/writing-cronjobs-rust)**:** How to schedule tasks, send notifications, and parse command line arguments. Compared to traditional shell scripting.
-    
-
 ## FAQ's
 
 ### Why is Cron job testing important?
