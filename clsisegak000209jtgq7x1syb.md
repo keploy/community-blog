@@ -1,6 +1,7 @@
 ---
 title: "Writing test cases for Cron Job Testing"
-seoTitle: "Writing test cases for Cron Job Testing"
+seoTitle: "Secrets of Cron Job Testing Unveiled: Quick Guide"
+seoDescription: "Cron is a time-based job scheduler in Unix-like operating systems. It allows you to schedule tasks (or jobs) to run at specified intervals."
 datePublished: Mon Feb 12 2024 10:24:06 GMT+0000 (Coordinated Universal Time)
 cuid: clsisegak000209jtgq7x1syb
 slug: writing-test-cases-for-cron-job-testing
