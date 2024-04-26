@@ -17,7 +17,7 @@ Your application can be visualized as a collection of modules. Each module trans
 
 But before diving into the technicalities of building a custom DSL, it is important to learn about the fundamental concepts. Before we start with creating a DSL, we need to first define the problem domain, in our case, we need to convert `YAML` to `JSON` to get insights.
 
-Why **YAML** with *DSL* ?
+## Why **YAML** with *DSL* ?
 
 YAML proves to be a suitable choice for individuals, with technical backgrounds and for their non-technical colleagues, as it deals with simple syntax.
 
@@ -34,7 +34,7 @@ YAML proves to be a suitable choice for individuals, with technical backgrounds 
 
 Overall, using YAML with DSL can help make configuration files more expressive, readable, and maintainable, while also making it easier to automate the deployment and management of applications.
 
-Creating the YAML for application
+## Creating the YAML for application
 
 Let's move on to designing our YAML base file that we will use to convert to JSON, with the help of DSL. This `YAML` represents a list of tasks under the key tasks. Each task has attributes such as `title`, `priority`, `completed`, `due_date`, and `tags`. Additionally, some tasks may have subtasks, which are represented as nested lists of tasks with their attributes.
 
@@ -67,7 +67,7 @@ Now, what?
 
 Now, we must take this YAML File and convert it into a JSON file, to make it usable in Insight's dashboard based on how long it takes the user to complete its task and substacks for example.
 
-Creating Schema for YAML File
+## Creating Schema for YAML File
 
 Let's create `schema.py` based on the YAML we defined earlier: -
 
@@ -154,7 +154,7 @@ def load_tasks_from_yaml(yaml_string):
 
 * `parse_dates` converts date strings into date objects.
     
-* `load_tasks_from_yaml` takes a YAML string as input, loads it using yaml.safe\_load to convert it into a Python object, and then passes the loaded data through the parse\_dates function.  
+* `load_tasks_from_yaml` takes a YAML string as input, loads it using yaml.safe\_load to convert it into a Python object, and then passes the loaded data through the parse\_dates function.
     
 
 Now, we need to validate the tasks object against the specified schema (task\_list\_schema), before we convert the YAML to JSON.
@@ -280,28 +280,28 @@ In conclusion, the art of building a DSL is not merely about creating a new lang
 
 ## FAQ's
 
-**What is a Domain Specific Language?**
+### **What is a Domain Specific Language?**
 
 A Domain Specific Language (DSL) is a computer programming language of limited expressiveness focused on a particular domain. Most languages you hear of are General Purpose Languages, which can handle most things you run into during a software project. Each DSL can only handle one specific aspect of a system.
 
-**So you wouldn't write a whole project in a DSL?**
+### **So you wouldn't write a whole project in a DSL?**
 
 No. Most projects will use one general purpose language and several DSLs.
 
-**What's the distinction between internal and external DSLs?**
+### **What's the distinction between internal and external DSLs?**
 
 An **internal DSL** is just a particular idiom of writing code in the host language. So a Ruby internal DSL is Ruby code, just written in particular style which gives a more language-like feel. As such they are often called **Fluent Interfaces** or **Embedded DSLs**.
 
 An **external DSL** is a completely separate language that is parsed into data that the host language can understand.
 
-**Why are people interested in DSLs?**
+### **Why are people interested in DSLs?**
 
-People are interested in DSLs because they enable developers to express solutions in a language closely tailored to a specific problem domain. By providing a more focused syntax, DSLs can significantly improve developer productivity. They abstract away complexity, allowing developers to concentrate on high-level concepts rather than intricate technicalities. DSLs can also serve as standards within industries, promoting consistency and interoperability among different systems and tools.
+<mark>People</mark> are interested in DSLs because they enable developers to express solutions in a language closely tailored to a specific problem domain. By providing a more focused syntax, DSLs can significantly improve developer productivity. They abstract away complexity, allowing developers to concentrate on high-level concepts rather than intricate technicalities.
 
-**When should I consider making a DSL?**
+### **When should I consider making a DSL?**
 
 When you are looking at an aspect of system with rich business rules or work-flow. A well-written DSL should allow customers to understand the rules by which the system works.
 
-**Can we create our own programming language in Python?**
+### **Can we create our own programming language in Python?**
 
-Python provides powerful tools and libraries for language development, making it a popular choice for creating domain-specific languages (DSLs) or even fully-fledged programming languages. Creating a programming language is a significant undertaking requiring knowledge of language design, parsing techniques, and compiler construction principles. However, Python's flexibility and extensive libraries make it a suitable platform for experimenting with language development.
+Creating a programming language is a significant undertaking requiring knowledge of language design, parsing techniques, and compiler construction principles. However, Python's flexibility and extensive libraries make it a suitable platform for experimenting with language development.
