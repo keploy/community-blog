@@ -28,12 +28,11 @@ There are different types of unit testing in general :
     
 3. NUnit
     
-4. Appium 
+4. Appium
     
 5. Mockito
     
 
-###   
 Let's learn more about them
 
 1. **JUnit**
@@ -41,29 +40,29 @@ Let's learn more about them
 
 It is an open-source testing framework for java programmers. Being very compatible with multiple IDE’s and platforms, it is widely used.  Here is some basic annotations to follow through:
 
-1. Before : Executes the required before each test 
+1. Before : Executes the required before each test
     
-2. After : Executes the statements after each test 
+2. After : Executes the statements after each test
     
-3. Test : Declares which public void method to be executed as the test case 
+3. Test : Declares which public void method to be executed as the test case
     
-4. Test(time out = *anything*) : Used to set a time out for the test execution 
+4. Test(time out = *anything*) : Used to set a time out for the test execution
     
 
 **Advantages:**
 
-1. Open source and can be widely accessed with community support 
+1. Open source and can be widely accessed with community support
     
-2. Prefixed annotations to access the test functions 
+2. Prefixed annotations to access the test functions
     
 3. It provides text-based command lines as well as AWT-based and Swing-based graphical test mechanisms
     
 
 **Disadvantages:**
 
-1. JUnits can be a way to crunch away the bugs but can’t be your only way to detect(keep in mind integration and system). 
+1. JUnits can be a way to crunch away the bugs but can’t be your only way to detect(keep in mind integration and system).
     
-2. JUnit 5.0 does not support virtual threads as of now. Since the latest Java version(21) supports Virtual threads, the implementation is not out yet 
+2. JUnit 5.0 does not support virtual threads as of now. Since the latest Java version(21) supports Virtual threads, the implementation is not out yet
     
 
 **2\. TestNG**
@@ -81,7 +80,7 @@ It is an open-source testing framework for java programmers. Being very compatib
     
 2. It offers the flexibility to run your tests through multiple data sets through the TestNG.xml file or via the data-provider concept.
     
-3.  TestNG provides a rich set of annotations that allows you to define the test methods, set up and tear down procedures, and more. This simplifies the testing process and makes the code more readable.
+3. TestNG provides a rich set of annotations that allows you to define the test methods, set up and tear down procedures, and more. This simplifies the testing process and makes the code more readable.
     
 
 **Disadvantages:**
@@ -94,34 +93,33 @@ It is an open-source testing framework for java programmers. Being very compatib
     
     If you use the .net framework then NUnit is the right choice for you.This open source platform was initially ported from JUnit. NUnit uses attributes to configure the way that you can write the [tests.Here](http://tests.Here) are some basics of how NUnit is configured:
     
-    1. **\[Test\]** : Attribute used to define the test methods 
+    1. **\[Test\]** : Attribute used to define the test methods
         
     2. **Assert.AreEqual** : NUnit provides a variety of assertion methods for validating expected outcomes in test methods.
         
     3. **\[Order\]**: control the order of test execution to see if it can run parallelly
         
-    4. **\[Ignore\]: Used to ignore test cases** 
+    4. **\[Ignore\]: Used to ignore test cases**
         
 
 **Advantages:**
 
-1. NUnit has a lot of assertion methods that make it easy to implement the test cases 
+1. NUnit has a lot of assertion methods that make it easy to implement the test cases
     
 2. It supports parallel execution as well,you can enable parallel execution in NUnit by either specifying the --workers option in the console or setting it in the NUnit test runner configuration.
     
 
 **Disadvantages:**
 
-1.  Running a large suite of NUnit tests can consume significant time, impacting the workflow, especially if tests need to be executed frequently during development.
+1. Running a large suite of NUnit tests can consume significant time, impacting the workflow, especially if tests need to be executed frequently during development.
     
 2. The architecture is not as extensible (eg:xUnit) and is perceived as having a less intuitive syntax for certain advanced features.
     
-
-1. **Mockito** 
+3. **Mockito**
     
-    Mockito is a popular open-source Java framework used for creating and managing mock objects in unit testing. It simplifies the process as you can create mocks of components that you specifically want to test to ensure isolation. This would in turn help you to narrow down much better. 
+    Mockito is a popular open-source Java framework used for creating and managing mock objects in unit testing. It simplifies the process as you can create mocks of components that you specifically want to test to ensure isolation. This would in turn help you to narrow down much better.
     
-    1. \[**when and thenReturn**\] : You can define specific behaviors for method calls on mock objects 
+    1. \[**when and thenReturn**\] : You can define specific behaviors for method calls on mock objects
         
     2. \[**verify**\]: check whether specific interactions with mock objects have occurred.
         
@@ -133,8 +131,27 @@ It is an open-source testing framework for java programmers. Being very compatib
 2. It provides annotations such as **@Mock, @InjectMocks, and @Spy** to simplify the creation and injection of mock objects into test classes, in turn reducing boilerplate code.
     
 
-**Disadvantages:** 
+**Disadvantages:**
 
-1. Severe performance degradation occurred during the migration from Mockito version 1.10.19 to 2.28.2, resulting in a test suite execution time increasing from 
+1. Severe performance degradation occurred during the migration from Mockito version 1.10.19 to 2.28.2, resulting in a test suite execution time increasing from
     
-2. Handling complex scenarios, such as mocking static methods or final classes, can be challenging with Mockito. Mostly works well for simple scenarios, but in case of complex ones you would need external libraries to support.
+2. Handling complex scenarios, such as mocking static methods or final classes, can be challenging with Mockito. Mostly works well for simple scenarios, but in case of complex ones you would need external libraries to support.  
+    
+
+## FAQ's
+
+### What is unit testing, and why is it important?
+
+Unit testing is a software testing technique where individual components or units of code are tested in isolation to ensure they function correctly. It's important because it helps identify bugs early in the development process, improves code quality, and facilitates easier maintenance and refactoring.
+
+### What are the benefits of unit testing?
+
+Unit testing helps ensure that each component of the software performs as expected, increases confidence in code changes, aids in identifying and fixing bugs early, promotes better design practices, and enables faster development cycles.
+
+### How do I know if my unit tests are sufficient?
+
+The sufficiency of unit tests can be evaluated based on factors such as code coverage (percentage of code executed by tests), test quality (accuracy and relevance of test cases), and feedback from code reviews and team members. Aim for high code coverage while ensuring that tests are meaningful and provide value.
+
+### How does unit testing fit into the broader software testing process?
+
+While unit testing focuses on testing individual components in isolation, integration testing verifies interactions between components, system testing validates the entire system's functionality, and acceptance testing ensures that the software meets user requirements.
