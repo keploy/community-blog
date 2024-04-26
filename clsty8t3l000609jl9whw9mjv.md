@@ -29,7 +29,7 @@ However, given the nature of software, bugs tend to move into production. As hum
 
 ## Setting Up Your Canary Test
 
-To execute the canary test, two approaches are mainly implemented to achieve reliable outcomes. We'll be using `GoLang` for our examples because, well, Go is awesome. Here are those two approaches:
+For canary testing, two approaches are mainly implemented to achieve reliable outcomes. We'll be using `GoLang` for our examples because, well, Go is awesome. Here are those two approaches:
 
 ### Feature Flags
 
