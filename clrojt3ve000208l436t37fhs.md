@@ -1,7 +1,7 @@
 ---
 title: "Revolutionizing Software Testing with Feature Flags"
-seoTitle: "Software Testing with Feature Flags"
-seoDescription: "Feature flags have become a vital component of DevOps, allowing developers to test and deploy new features without disrupting the user experience. Feature f"
+seoTitle: "A Guide for Software Testing with Feature Flags"
+seoDescription: "Feature flags have become a vital component of DevOps, allowing developers to test and deploy new features without disrupting the user experience."
 datePublished: Mon Jan 22 2024 06:30:28 GMT+0000 (Coordinated Universal Time)
 cuid: clrojt3ve000208l436t37fhs
 slug: revolutionizing-software-testing-with-feature-flags
