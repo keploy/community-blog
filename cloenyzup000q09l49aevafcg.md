@@ -150,25 +150,25 @@ Implement monitoring and reporting systems to keep track of test results and ide
 
 Incorporating AI into our E2E testing practices offers us several benefits such as:
 
-### 1\. Improved Test Coverage
-
-AI-generated scenarios cover a wide range of user interactions and edge cases, improving test coverage.
-
-### 2\. Faster Test Execution
-
-AI-powered tests execute faster than traditional scripts, providing quick feedback on code changes.
-
-### 3\. Reduced Maintenance
-
-AI-generated test scripts require less maintenance as they adapt to application changes.
-
-### 4\. Enhanced Bug Detection
-
-AI accurately identifies and categorizes bugs, speeding up the debugging process.
-
-### 5\. Realistic Test Data
-
-AI generates realistic test data, allowing you to simulate real-world user behaviour effectively.
+1. **Improved Test Coverage**
+    
+    AI-generated scenarios cover a wide range of user interactions and edge cases, improving test coverage.
+    
+2. **Faster Test Execution**  
+    AI-powered tests execute faster than traditional scripts, providing quick feedback on code changes.
+    
+3. **Reduced Maintenance**
+    
+    AI-generated test scripts require less maintenance as they adapt to application changes.
+    
+4. **Enhanced Bug Detection**
+    
+    AI can accurately identify and categorizes bugs, which can speed up the debugging process.
+    
+5. **Realistic Test Data**
+    
+    AI can used to generate realistic test data,which allows you to simulate real-world user behaviour effectively.
+    
 
 ## **AI Tool for End-to-end Testing**
 
@@ -181,3 +181,29 @@ The Mocks and Tests are generated in the form of `yaml`, to help you integrate ð
 Incorporating AI into end-to-end testing can be a game-changer for developers. By automating test data generation, scenario creation, script generation, and test execution, you can improve test coverage, reduce maintenance overhead, and speed up your development workflow.
 
 As the field of AI continues to evolve, it promises to transform the way we approach E2E testing, ultimately leading to more robust and efficient software development processes.
+
+## Frequently Asked Question's
+
+### **What is end-to-end (E2E) testing, and why is it important?**
+
+End-to-end testing is a method in software testing that evaluates the entire application to ensure all components work cohesively. It's important because it replicates real-world user scenarios, helping developers detect integration issues, data flow problems, and ensure a positive user experience.
+
+### **How does AI revolutionize end-to-end testing?**
+
+Artificial Intelligence introduces several benefits to E2E testing. It can generate diverse and realistic test data, identify and generate test scenarios, automatically create test scripts, simulate user interactions efficiently, and help in bug detection and analysis.
+
+### **What are some practical examples of using AI in E2E testing with Golang?**
+
+In Golang, AI can be utilized for test data generation using libraries like Faker, test scenario generation based on user analytics, past test results, and potential use cases, test script generation using frameworks like Ginkgo, and test execution using web automation libraries like Agouti.
+
+### **How can AI-enhanced E2E testing be integrated into the software development process?**
+
+AI-enhanced E2E testing can be integrated by selecting the right AI tools and libraries, incorporating it into the CI/CD pipeline using tools like Jenkins and Golang scripts, and implementing monitoring and reporting systems to track test results in real-time.
+
+### **What are the benefits of incorporating AI into E2E testing?**
+
+Incorporating AI into E2E testing offers benefits such as improved test coverage, faster test execution, reduced maintenance overhead, enhanced bug detection, and realistic test data generation, ultimately leading to more robust and efficient software development processes.
+
+### **Are there specific AI tools for E2E testing?**
+
+Yes, tools like Keploy are specifically designed to enhance E2E testing by generating test cases and realistic data-mocks/stubs through real-time network interaction capture. These tools help in automating test execution in CI pipelines for faster E2E tests and gaining confidence in system functionality.
