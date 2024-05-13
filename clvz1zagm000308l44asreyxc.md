@@ -5,6 +5,7 @@ seoDescription: "with Prisma, interacting with databases becomes more intuitive 
 datePublished: Thu May 09 2024 09:35:40 GMT+0000 (Coordinated Universal Time)
 cuid: clvz1zagm000308l44asreyxc
 slug: build-an-http-server-using-bunjs-and-prisma
+canonical: https://keploy.io/blog/community/build-an-http-server-using-bunjs-and-prisma
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714976550577/9790f1a8-aac7-42a6-8512-8456792444dd.png
 tags: postgresql, prisma, bunjs, prismaorm
 
