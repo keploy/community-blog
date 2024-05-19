@@ -49,14 +49,14 @@ Another area of choice for an API is which architectural style or styles will be
 
 There are various styles of architecture for APIs, as well as varying data formats within these styles, below we’ve listed some of the most common:
 
-* \*\*REST:\*\* REST or (Representational State Transfer) is an architectural style that separates the concerns of the API consumer from the API provider by relying on commands that are built-into the underlying networking protocol. Clients use the included links and forms to perform actions (e.g. read, update, share, approve. etc.).  
+* \*\*REST API:\*\* REST or (Representational State Transfer) is an architectural style that separates the concerns of the API consumer from the API provider by relying on commands that are built-into the underlying networking protocol. Clients use the included links and forms to perform actions (e.g. read, update, share, approve. etc.).  
     HTML is the best known example of this style and there are several other formats just for APIs (HAL, CollectionJSON, Siren, etc.). There are many benefits of REST APIs — including flexibility, and ability to accommodate popular data formats like JSON and XML among others.  
     
-* \*\*RPC:\*\* Remote Procedure Calls — or RPCs — typically require developers to execute specific blocks of code on another system. RPC-style remote invocation of procedures other systems usually requires developers to call those procedures by name. RPC is protocol-agnostic, which means it has the potential to be supported on many protocols, but also loses the benefits of using native protocol capabilities (e.g. caching).
+* \*\*RPC API:\*\* Remote Procedure Calls — or RPCs — typically require developers to execute specific blocks of code on another system. RPC-style remote invocation of procedures other systems usually requires developers to call those procedures by name. RPC is protocol-agnostic, which means it has the potential to be supported on many protocols, but also loses the benefits of using native protocol capabilities (e.g. caching).
     
     RPC architectural patterns can be observed in popular API technologies such as SOAP, GraphQL, and gRPC.  
     
-* **Event-driven/Streaming:** Sometimes referred to as evented, real-time, streaming, asynchronous, or push architectures, event-driven APIs don’t wait for an API consumer to call them before delivering a response. Instead, a response is triggered by the occurrence of an event.  
+* **Event-driven API or Streaming API:** Sometimes referred to as evented, real-time, streaming, asynchronous, or push architectures, event-driven APIs don’t wait for an API consumer to call them before delivering a response. Instead, a response is triggered by the occurrence of an event.  
     These services expose events to which clients can subscribe to receive updates when values on the service change. There are a handful of variations for this style including (among others) reactive, publish-and-subscribe, event notification, and CQRS.
     
 
@@ -100,11 +100,11 @@ In software architecture, an API acts as a mediator between the frontend (user i
 
 ### **What are the common architectural styles for APIs?**
 
-* **REST (Representational State Transfer)**: A flexible style that separates the concerns of API consumers and providers, supporting formats like JSON and XML.
+* **REST API**: A flexible style that separates the concerns of API consumers and providers, supporting formats like JSON and XML.
     
-* **RPC (Remote Procedure Call)**: Requires calling specific procedures on a remote server, which can result in tight coupling between API consumers and providers.
+* **RPC API**: Requires calling specific procedures on a remote server, which can result in tight coupling between API consumers and providers.
     
-* **Event-driven/Streaming**: Delivers responses triggered by events rather than requests, suitable for real-time updates and asynchronous communication.
+* **Event-driven API** : Delivers responses triggered by events rather than requests, suitable for real-time updates and asynchronous communication.
     
 
 ### **How do you choose the right API for a specific project?**
