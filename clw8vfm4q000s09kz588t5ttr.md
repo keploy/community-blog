@@ -5,6 +5,7 @@ seoDescription: "Learn about the Token Bucket algorithm and its implementation f
 datePublished: Thu May 16 2024 06:30:06 GMT+0000 (Coordinated Universal Time)
 cuid: clw8vfm4q000s09kz588t5ttr
 slug: create-api-rate-limiting-with-token-bucket
+canonical: https://keploy.io/blog/community/create-api-rate-limiting-with-token-bucket
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715346407766/c7a35c96-f30e-4ed6-99c7-351253de18cc.jpeg
 tags: api, rate-limiting
 
