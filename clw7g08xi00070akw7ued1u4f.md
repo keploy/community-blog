@@ -5,6 +5,7 @@ seoDescription: "Structured software testing includes unit, integration, and end
 datePublished: Wed May 15 2024 06:30:29 GMT+0000 (Coordinated Universal Time)
 cuid: clw7g08xi00070akw7ued1u4f
 slug: understanding-the-different-levels-of-the-software-testing-pyramid
+canonical: https://keploy.io/blog/community/understanding-the-different-levels-of-the-software-testing-pyramid
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714332886740/00e9bb1b-24c4-47f5-9913-2043afdeff50.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1714334328033/14b7df8b-90fd-4985-9e60-5b465fae85bc.png
 tags: software-development, deployment, apis, testing, software-testing, keploy
