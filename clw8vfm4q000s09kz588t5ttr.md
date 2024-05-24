@@ -174,7 +174,7 @@ The tokens can be refilled in various ways. Two of them are as follows :
     ```
     
 
-### Congratulations ! You have successfully added Rate Limitation to your server
+### Congratulations ! You have successfully added Rate Limitation to your api
 
 The final code looks like this.
 
@@ -236,6 +236,6 @@ The Token Bucket algorithm is used for rate limiting to control the consumption 
 
 Requests consume tokens from the bucket. When the bucket is empty, further requests are either denied or queued until tokens are refilled. Tokens can be refilled at a fixed rate or based on certain conditions.
 
-### What is the purpose of rate limiting in APIs?
+### What is the purpose of API rate limiting?
 
 Rate limiting helps prevent abuse or overload of APIs by restricting the number of requests a client can make within a specified timeframe. It ensures fair usage of resources and protects the server from being overwhelmed.
