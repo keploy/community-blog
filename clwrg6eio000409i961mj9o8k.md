@@ -66,7 +66,7 @@ While both Cypress and Keploy excel in their respective domains, they cater to d
 | **Integration Capabilities** | Limited integration options. | Seamlessly integrates with CI/CD pipelines, various testing frameworks |
 | **Support for Realistic Data Mocks** | Depended on Mocha, Chai, and Sinon for test assertions and mocks. | Generates realistic data mocks for comprehensive testing as built-in capability. |
 | **Language Agnostic Support** | Supports JavaScript for writing test scripts, with built-in support for TypeScript only. | Multiple languages such as C#, Golang, Python, Java etc.. and frameworks are supported |
-| Environment Flexibility | Limited ability to re-record tests in different environments | Able to re-record test suites in different environments for fresh test data |
+| **Environment Flexibility** | Limited ability to re-record tests in different environments | Able to re-record test suites in different environments for fresh test data |
 | **Docker and Native App Support** | Limited support | Supports both Docker and native applications |
 
 On the other hand, Keploy's strength lies in its ability to test case generation based on real user interactions. Which elimantes the need of maintaing and writing maunal scripts for the test and to setup any testing environment. Since, the testcases are generated on the realtime user interactions the test data are also dynamically created making them more reliable than the almost all of the existing libraries and LLM models.
