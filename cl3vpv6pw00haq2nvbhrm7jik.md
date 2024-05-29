@@ -31,7 +31,9 @@ But hey.. Don’t you worry! I have got you covered, and will be explaining,
 4. How do we use these APIs in our daily life?
     
 
-1. ### What does the term API mean?
+So, let's get started!!
+
+1. ## What does the term API mean?
     
 
 By definition, an API or Application Programming Interface is a connection between two computer programs. In simpler terms, API is a middleman that carries the data between the application and the database.
@@ -44,7 +46,7 @@ In technical terms, if we talk about a website, API is software that connects th
 
 Still, there is more to it, let’s understand that in the next part.
 
-2. ### Why do need API in our lives?
+2. ## Why do need API in our lives?
     
 
 An API is needed to connect an application to a database. Here, I used a "database”, which means that APIs can access any database as soon as they have permission to access that database.
@@ -69,7 +71,7 @@ That’s all the processes that happen behind the scenes.
 
 And now you know how API connects an application with their own database as well as other companies’ databases too.
 
-3. ### How an actual API looks like?
+3. ## How an actual API looks like?
     
 
 There is a public API provided by [imgflip](https://imgflip.com/) that anyone can use in their personal project, I would like you to [check it out by yourself](https://api.imgflip.com/get_memes).
@@ -125,7 +127,7 @@ fetch('https://api.imgflip.com/get_memes')
   .then(json => console.log(json))
 ```
 
-4. ### How do we use these APIs in our daily life?
+4. ## How do we use these APIs in our daily life?
     
 
 Trust me, we do use APIs in our daily life!
