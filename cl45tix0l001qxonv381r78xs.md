@@ -12,6 +12,8 @@ tags: api, apis, testing, rest-api, api-basics
 
 ---
 
+## Introduction
+
 In this blog, I'll be talking about the technical side of APIs and I'll be telling you what information an API consists of or what components it has.
 
 Even if you're already working with APIs, you might still be confused about the terms like **headers, endpoints, status codes, and response body**. There are more of these terms. So let's understand them one by one.
@@ -55,9 +57,9 @@ This is the most common part of APIs. **The HTTP Method represents what type of 
 
 There are **7 HTTP Methods** that you need to know:
 
-* **GET** \- It's used to get data from a database. The imgflip endpoint that I've provided earlier is an example of a GET request as it only gets the data and shows it to us, we don't have to provide anything from our side. It's the most used HTTP Method.
+* **GET** - It's used to get data from a database. The imgflip endpoint that I've provided earlier is an example of a GET request as it only gets the data and shows it to us, we don't have to provide anything from our side. It's the most used HTTP Method.
     
-* **POST** \- It's used to add new data to a database. The best example of this could be a Sign-up screen on a website. They ask you for your details if you're a first-time user and your new data gets added to their database through a POST request.
+* **POST** - It's used to add new data to a database. The best example of this could be a Sign-up screen on a website. They ask you for your details if you're a first-time user and your new data gets added to their database through a POST request.
     
 * **PUT** - It's used to update the existing data in a database. An example of this could be you changing your password on a website. You're sending a PUT request to update your data. It's similar to POST request as it could also be used to add new data to the database.
     
@@ -83,11 +85,11 @@ PATCH Request:
 }
 ```
 
-* **DELETE** \- This is surely not difficult to guess by yourself. It just deletes the existing data from the database. Note: Not all data at once.
+* **DELETE** - This is surely not difficult to guess by yourself. It just deletes the existing data from the database. Note: Not all data at once.
     
-* **HEAD** \- Similar to the GET request. It gets the Headers(already explained earlier). For example, if a URL might produce a large download, a HEAD request could read its content-length header to check the file size without actually downloading the file. It's like checking what a GET request will return before actually making a GET request.
+* **HEAD** - Similar to the GET request. It gets the Headers(already explained earlier). For example, if a URL might produce a large download, a HEAD request could read its content-length header to check the file size without actually downloading the file. It's like checking what a GET request will return before actually making a GET request.
     
-* **OPTIONS** \- It's used to check what HTTP Methods an API endpoint supports. It doesn't return any specific data but the HTTP Methods, that is, GET, POST, etc. It's the least used HTTP Method.
+* **OPTIONS** - It's used to check what HTTP Methods an API endpoint supports. It doesn't return any specific data but the HTTP Methods, that is, GET, POST, etc. It's the least used HTTP Method.
     
 
 4. ## Status Codes
