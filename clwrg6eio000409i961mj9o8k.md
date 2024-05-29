@@ -5,6 +5,7 @@ seoDescription: "Discover the ultimate showdown between Cypress and Keploy. Dive
 datePublished: Wed May 29 2024 06:30:40 GMT+0000 (Coordinated Universal Time)
 cuid: clwrg6eio000409i961mj9o8k
 slug: exploring-cypress-and-keploy-streamlining-test-automation
+canonical: https://www.linkedin.com/pulse/exploring-cypress-keploy-streamlining-test-automation-keploy-wpzgc
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716862326436/c88f51d1-7b21-4884-83d1-7dc21a8c255a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1716862409154/9eef3405-6ff7-46b3-8fd3-cd5c67d0a7a0.png
 tags: automated-testing, automation-testing, cypress, keploy, end-to-end-testing, cypress-testing
