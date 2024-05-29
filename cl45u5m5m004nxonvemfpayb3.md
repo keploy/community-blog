@@ -1,6 +1,7 @@
 ---
 title: "Understanding HTTP and HTTPS as a Beginner"
 seoTitle: "HTTP and HTTPS as a Beginner"
+seoDescription: "A beginner's guide to understanding HTTP and HTTPS, their features, methods, and SSL/TLS encryption for secure web communication"
 datePublished: Wed Jun 08 2022 16:59:16 GMT+0000 (Coordinated Universal Time)
 cuid: cl45u5m5m004nxonvemfpayb3
 slug: understanding-http-and-https-as-a-beginner
