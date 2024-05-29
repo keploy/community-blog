@@ -10,6 +10,8 @@ tags: ssl, http, https, tls, rest-api
 
 ---
 
+## Introduction
+
 When I started with web development, I was dreadfully curious about knowing how a website gets delivered from server to web browser. I came to know, that it happens through various network layers. Then I explored HTTP which you generally see before the name of any website in your chrome browser URL bar. So basically HTTP is an application layer protocol that helps web-based applications, communicate with web browsers or we can say that HTTP is a messenger of the web.
 
 ![photo_2022-06-06_23-32-40.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1654618550184/hqZXvTvIx.jpg align="left")
