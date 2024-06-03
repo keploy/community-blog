@@ -1,7 +1,7 @@
 ---
 title: "The Rise of Web Connectivity: A History of APIs and Innovation"
 seoTitle: "History of APIs"
-seoDescription: "As the world is progressing, we are becoming more and more dependent on APIs to make our lives comfortable."
+seoDescription: "A brief history of APIs, their evolution, and their impact on web connectivity and innovation"
 datePublished: Wed Jul 13 2022 03:16:55 GMT+0000 (Coordinated Universal Time)
 cuid: cl5j16vm602plrfnv2bei6mdy
 slug: history-of-apis
@@ -12,15 +12,19 @@ tags: api, technology, apis, history, api-basics
 
 ---
 
----
-
-## **The Origins of APIs: A Brief History**
+## **Introduction**
 
 The term "Application Program Interface" first appeared in a paper called *Data structures and techniques for remote computer graphics* presented at an AFIPS (American Federation of Information Processing Societies) conference in **1968**. It was used to describe the interaction of an application with the rest of the computer system.
+
+![What are APIs?. API, or Application Programming… | by Akshay Kapase | Medium](https://miro.medium.com/v2/resize:fit:1400/1*Pburd4T8oYi-qMvjeURFAw.png align="center")
+
+## **The Origins of APIs**
 
 In **1974**, API was introduced in a paper called *The Relational and Network Approaches: Comparison of the Application Programming Interface*. APIs then became part of the ANSI/SPARC framework. It's an abstract design standard for DBMS (Database Management Systems) proposed in **1975**.
 
 By **1990**, the API was defined simply as a set of services available to a programmer for performing certain tasks. As Computer Networks became common in the 1970s and 1980s, programmers wanted to call libraries located not only on their local computers but on computers located elsewhere.
+
+## APIs in Modern Days
 
 In the **2000s**, E-Commerce and information sharing were new and booming. This was when Salesforce, eBay, and Amazon launched their own APIs to expand their impact by making their information more shareable and accessible for the developers.
 
@@ -30,17 +34,23 @@ In the **2000s**, E-Commerce and information sharing were new and booming. This 
 
 **Amazon**, in **2002**, introduced AWS (Amazon Web Services) which allowed developers to incorporate Amazon's content and features into their own websites. For the first time, e-commerce and data sharing were openly accessible to a wide range of developers.
 
-## **The Rise of REST and Social Media APIs**
+## **The Rise of REST APIs**
 
 During this time, the concept of **REST (Representational State)**, a software architectural style, was introduced. The concept was meant to standardize software architecture across the web and help applications easily communicate with each other.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1717444305554/4a179eec-c54f-4d02-b0f3-3cc4dd6fd271.png align="center")
 
 As time passed, APIs helped more and more people connect with each other. Between 2003 and 2006, four major developments happened that changed the way we use the internet.
 
 In **2003**, **Delicious** introduced a service for storing, sharing, and discovering web bookmarks. In **2004**, **Flickr** launched a place to store, organize, and share digital photos online from where developers could easily embed their photos on web pages and social media. These two quickly became popular choices for the emerging social media movement.
 
+## The Rise of Social Media APIs
+
 In **2006**, **Facebook** launched its API which gave users an unpredictable amount of data from photos and profiles information to friend lists and events. It helped Facebook become the most popular social media platform of that time. **Twitter**, in the same year, introduced its own API as developers were increasingly scraping data from its site. Facebook and Twitter dominated social media, overtaking the population of which APIs were the backbone. At the same time, **Google** launched its Google Maps APIs to share the massive amount of geographical data they had collected.
 
 By this time, the world was shifting towards smartphones, people were engaging more and more with their phones and with the online world. These APIs changed the way how people interacted with the internet.
+
+![Social Media API: Guide on Top APIs for Developers | Phyllo](https://assets-global.website-files.com/6284f7327b63a63510a796c8/649e562dad7bb56445ea6f68_getphyllo%20Feature%20Image%20(6).png align="center")
 
 In **2008**, **Twilio** was formed and it was the first company to make API their entire product. They had introduced an API that could communicate via5 phone to make and receive calls or send texts.
 
@@ -72,18 +82,18 @@ Looking ahead, as we delve into the era of testing APIs and explore their limits
 
 ## Frequently Asked Questions
 
-### **What is the origin of APIs?**
+### What is the origin of APIs?
 
 APIs, short for Application Program Interfaces, first appeared in a paper presented at an AFIPS conference in 1968. Initially, they were described as the interaction of an application with the rest of the computer system. Over time, their role evolved to include facilitating communication between different software components and systems.
 
-### **What is an API, and how does it work?**
+### What is an API, and how does it work?
 
 An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other. It specifies how software components should interact, making it easier for developers to integrate functionality from one application into another. APIs work by exposing a set of endpoints that developers can use to send requests and receive responses, typically in a standardized format like JSON or XML.
 
-### **What challenges have APIs faced in terms of privacy and security?**
+### What challenges have APIs faced in terms of privacy and security?
 
 APIs have encountered privacy and security concerns, especially regarding the misuse of user data by large organizations. One notable example is the Facebook API scandal, where developers exploited the API to collect personal data from users without their consent. This raised awareness about the importance of protecting user privacy and implementing robust security measures in API design and implementation.
 
-### **How do I secure my API to protect sensitive data?**
+### How do I secure my API to protect sensitive data?
 
 Securing an API is crucial to prevent unauthorized access and protect sensitive information. Common security measures include using authentication mechanisms like API keys, OAuth tokens, or JSON Web Tokens (JWT) to verify the identity of clients, implementing encryption (e.g., HTTPS) to secure data in transit.
