@@ -5,6 +5,7 @@ seoDescription: "Discover the convenience of unit testing in Python with best pr
 datePublished: Mon Jun 03 2024 11:34:13 GMT+0000 (Coordinated Universal Time)
 cuid: clwyw81dv000r09mcet780rsg
 slug: unit-testing-in-python
+canonical: https://keploy.io/blog/community/unit-testing-in-python
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715798596549/e2e5bf04-60f9-4e8d-a382-0dc878cf0417.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1715798708304/fd5c68e9-e012-4507-b68b-703e642de665.png
 tags: software-development, python, testing, software-engineering, ci-cd
