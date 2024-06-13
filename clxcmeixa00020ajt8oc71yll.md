@@ -3,6 +3,7 @@ title: "What is API integration? - Guide, Need and Best Practices"
 datePublished: Mon Jun 10 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clxcmeixa00020ajt8oc71yll
 slug: what-is-api-integration-guide-need-and-best-practices
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718248568887/e0d16860-afc7-486f-b674-96e237cb8390.png
 
 ---
 
