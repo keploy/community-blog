@@ -3,6 +3,7 @@ title: "How to write comments in JSON?"
 datePublished: Tue Jun 11 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clxcl4way000308mpess370he
 slug: how-to-write-comments-in-json
+canonical: https://keploy.io/blog/community/4-ways-to-write-comments-in-json
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718248631681/907e3213-43f8-4ca0-a859-8b6cd0ef6c9b.png
 
 ---
