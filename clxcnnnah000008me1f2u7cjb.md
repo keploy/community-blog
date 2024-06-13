@@ -3,6 +3,7 @@ title: "How to compare two JSON files?"
 datePublished: Thu Jun 13 2024 02:43:11 GMT+0000 (Coordinated Universal Time)
 cuid: clxcnnnah000008me1f2u7cjb
 slug: how-to-compare-two-json-files
+canonical: https://keploy.io/blog/community/how-to-compare-two-json-files
 
 ---
 
