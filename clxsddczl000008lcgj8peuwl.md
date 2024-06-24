@@ -4,6 +4,7 @@ seoTitle: "Understanding HTTP Status Codes"
 datePublished: Fri Jun 21 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clxsddczl000008lcgj8peuwl
 slug: understanding-http-status-codes
+canonical: https://keploy.io/blog/community/understanding-http-status-codes
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719196738459/e101144b-498e-4ce7-b1ce-15b607dc9c54.png
 
 ---
