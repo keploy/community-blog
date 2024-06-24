@@ -12,6 +12,25 @@ HTTP status codes are an essential part of web communication. They provide infor
 
 This blog will break down the most common HTTP status codes that one generally encounters, explain their meanings and how to handle them.
 
+## What is HTTP ?
+
+HTTP stands for Hypertext Transfer Protocol. It is the foundation of data communication on the World Wide Web. HTTP is an application layer protocol that specifies how clients (such as web browsers) request resources such as web pages or files from servers, and how servers respond to those requests. It is a : -
+
+1. **Stateless Protocol**: Each request from a client to a server is independent and not related to any previous request, meaning the server does not retain any information about previous requests from the same client.
+    
+2. **Client-Server Model**: HTTP operates in a client-server model, where clients initiate requests to servers which then process those requests and return appropriate responses.
+    
+3. **Text-Based Protocol**: HTTP messages (requests and responses) are human-readable and are typically transmitted over TCP/IP connections on port 80 (or 443 for HTTPS).
+    
+4. **Request Methods**: HTTP defines various request methods such as GET (retrieve a resource), POST (submit data to be processed), PUT (store a resource), DELETE (remove a resource), etc.
+    
+5. **Status Codes**: HTTP responses include status codes that indicate the outcome of a request. For example, 200 OK indicates success, 404 Not Found indicates the requested resource could not be found, etc.
+    
+6. **Versioning**: HTTP has gone through several versions, with HTTP/1.1 being the most widely used until recently, and HTTP/2 and HTTP/3 (also known as QUIC) being more recent improvements aiming at better performance and security.
+    
+
+HTTP forms the basis of the World Wide Web's communication protocols, enabling the retrieval of linked resources from across the internet.
+
 ## 1xx **Informational** Codes
 
 1xx codes are Informational Responses. The 1xx class of HTTP status codes is often overlooked in day-to-day web development, but they play a crucial role in the communication between a client and a server. These codes indicate that the server has received the request and is continuing the process.
