@@ -1,5 +1,5 @@
 ---
-title: "What is an API and my learnings with them"
+title: "What is an API and My learnings with them"
 seoTitle: "How did I get to know about APIs"
 seoDescription: "Learn the basics of APIs with the core understanding of why we need them, what does it actually mean, and how we use them in our daily life."
 datePublished: Wed Jun 01 2022 15:01:29 GMT+0000 (Coordinated Universal Time)
@@ -28,7 +28,9 @@ But hey.. Don’t you worry! I have got you covered, and will be explaining,
     
 3. How an actual API looks like?
     
-4. How do we use these APIs in our daily life?
+4. What is an API key ?
+    
+5. How do we use these APIs in our daily life?
     
 
 So, let's get started!!
@@ -117,6 +119,35 @@ fetch('https://api.imgflip.com/get_memes')
   .then(response => response.json())
   .then(json => console.log(json))
 ```
+
+## What is an API key ?
+
+An API key is a unique identifier used to authenticate and authorize requests to an API (Application Programming Interface). It acts as a secret token that the API provider issues to the client (often a developer) to grant access to specific services or data. When a client application makes a request to the API, it includes the API key in the request headers or parameters. The server then validates this key to ensure the request is from an authorized source before processing it. This mechanism helps control and monitor API usage, preventing unauthorized access and tracking how the API is used.
+
+For example, when accessing a weather service API like OpenWeatherMap, you would first register on their platform to receive an API key. Once you have the key, you can include it in your HTTP request to fetch weather data. Here’s a sample code snippet in Python using the requests library:
+
+```python
+import requests
+
+api_key = "your_api_key_here"
+city = "London"
+url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
+
+response = requests.get(url)
+if response.status_code == 200:
+    weather_data = response.json()
+    print(weather_data)
+else:
+    print("Failed to retrieve data:", response.status_code)
+```
+
+In this example, `api_key` holds the unique API key issued by OpenWeatherMap, and it is included in the URL as a query parameter (`appid`). The server validates the key before returning the requested weather data for London.
+
+### How to get an API Key?
+
+You can get an API key by registration and account creation on the service provider's website. For example, you start by visiting the site of the API provider, such as Google Cloud, OpenWeatherMap, or Twitter, and creating an account if you do not already have one. After successfully logging in, you would need to navigate to the section of the website dedicated to APIs, which might be labeled "API Documentation," "Developers," or "API Console."
+
+Once you are in the API section, you often need to create a new project or application within the provider’s dashboard. After setting up your project, you look for an option to generate a new API key, typically found under sections like "Credentials," "API Keys," or "Access Tokens." By clicking on this option, you may need to provide additional information such as the name of your project or specific permissions for the key. Once generated, the API key will be displayed, it is important to copy and store this key securely as it will be used in your application to authenticate API requests and won't be visible second time so make sure to store it properly.
 
 ## How do we use these APIs in our daily life?
 
