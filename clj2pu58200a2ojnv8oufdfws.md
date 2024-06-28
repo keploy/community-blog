@@ -63,27 +63,25 @@ Let's take a look at the difference between requests made in **REST API vs Graph
 
 ## Advantages and Disadvantages of GraphQL
 
-#### Advantages
+Here's a comparison table highlighting the key differences of GraphQL vs REST, followed by guidelines on when to use each approach.
 
-* A GraphQL schema sets a single source of truth in a GraphQL application. It offers an organization a way to federate its entire API.
-    
-* GraphQL calls are handled in a single round trip. Clients get what they request with no over-etching.
-    
-* Strongly defined data types reduce miscommunication between the client and the server.
-    
-* GraphQL is introspective. A client can request a list of data types available. This is ideal for auto-generating documentation.
-    
 
-#### Disadvantages
+| Feature              | GraphQL                                            | REST                                                |
+|----------------------|-----------------------------------------------------|-----------------------------------------------------|
+| **Data Fetching**    | Allows clients to request specific data fields     | Returns fixed data structure for each endpoint      |
+| **Flexibility**      | High - clients can request exactly what they need  | Low - clients receive pre-defined responses         |
+| **Versioning**       | Typically doesn't require versioning               | Often uses versioning in endpoint URLs (e.g., /v1/) |
+| **Over-fetching**    | Avoided by querying specific fields                | Common due to fixed responses                       |
+| **Under-fetching**   | Avoided by querying specific fields                | Common, may require multiple endpoints to get all data |
+| **Performance**      | Single request can fetch data from multiple resources | Multiple requests for different resources          |
+| **Learning Curve**   | Steeper learning curve                             | Generally easier to learn                           |
+| **Tooling**          | Requires specialized tools (e.g., GraphQL clients) | Widely supported with many existing tools          |
+| **Error Handling**   | Single response with detailed error information    | Separate error responses for each request          |
+| **Caching**          | More complex due to dynamic queries                | Easier with HTTP caching mechanisms (e.g., ETags)  |
+| **Real-time Updates**| Supports subscriptions for real-time data          | Requires additional setup (e.g., WebSockets, SSE)  |
+| **Schema**           | Strongly typed schema defines data and relationships | Loose schema, often documented separately         |
+| **Community**        | Growing, strong support from major companies       | Mature, well-established, and broadly adopted      |
 
-* GraphQL presents a learning curve for developers familiar with REST APIs.
-    
-* GraphQL shifts much of the work of a data query to the server side, which adds complexity for server developers.
-    
-* Depending on how it is implemented, GraphQL might require different API management strategies than REST APIs, particularly when considering rate limits and pricing.
-    
-* Caching is more complex than REST.
-    
 
 ## GraphQL and Open Source
 
@@ -107,3 +105,25 @@ GraphQL is a powerful tool, and there are many reasons you might choose GraphQL 
 **That's it for now!! Hope you got to learn something about GraphQL, how it's different from REST, and what are some pros and cons of using it.**
 
 Follow me on [**Twitter**](https://twitter.com/shivv_twt) and [**LinkedIn**](https://www.linkedin.com/in/shivang-shandilya/).
+
+## Frequently Asked Questions
+
+### What are the main differences between GraphQL vs REST?
+
+GraphQL allows clients to request specific fields, avoiding over-fetching and under-fetching. It typically doesn't require versioning and can fetch data from multiple sources in one request. REST has fixed responses, often uses versioning, and may need multiple requests for related data.
+
+### When should I choose GraphQL over REST?
+
+Choose GraphQL when your application requires complex queries, client-specific data needs, rapid iteration without breaking changes, or real-time updates. It is also beneficial to avoid over-fetching and under-fetching by letting clients fetch only the data they need.
+
+### What are the advantages of REST over GraphQL?
+
+REST is simpler for basic CRUD operations, effectively leverages HTTP caching, and has a mature ecosystem with established best practices. It is stateless, making it easier to scale horizontally, and widely adopted, ensuring broad expertise and support.
+
+### How does error handling differ between GraphQL vs REST?
+
+GraphQL returns a single response with data and detailed error information, allowing partial success. REST uses HTTP status codes with separate error responses for each failed request, providing a more uniform but potentially more fragmented error handling approach.
+
+### Is GraphQL more secure than REST?
+
+GraphQL offers fine-grained data control but requires careful implementation of authorization and rate limiting to prevent abuse. REST relies on well-understood HTTP methods and status codes. Both can be secure if implemented correctly, though GraphQL's flexibility needs more attention to detail.
