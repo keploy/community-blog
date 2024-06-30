@@ -3,6 +3,7 @@ title: "JSON Escape and Unescape"
 datePublished: Sun Jun 30 2024 12:49:06 GMT+0000 (Coordinated Universal Time)
 cuid: cly1jsbyo00000akxdy28hf8p
 slug: json-escape-and-unescape
+canonical: https://keploy.io/blog/community/json-escape-and-unescape
 
 ---
 
