@@ -3,6 +3,7 @@ title: "SSL Problem "Unable to get Local Issuer Certificate""
 datePublished: Thu Jun 27 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cly2iezqv000409md9zqj1umz
 slug: ssl-problem-unable-to-get-local-issuer-certificate
+canonical: https://keploy.io/blog/community/ssl-problem-unable-to-get-local-issuer-certificate
 
 ---
 
