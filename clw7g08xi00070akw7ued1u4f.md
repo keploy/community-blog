@@ -1,7 +1,7 @@
 ---
 title: "Understanding the different levels of the Software Testing Pyramid"
-seoTitle: "Understanding the different levels of the Software Testing Pyramid"
-seoDescription: "Structured software testing includes unit, integration, and end-to-end layers for efficient defect identification and quality maintenance"
+seoTitle: "Software Testing Pyramid Levels Explained"
+seoDescription: "An overview of the Software Testing Pyramid and how it's important in software testing, and about Unit Testing, Integration Testing and E2E Testing"
 datePublished: Wed May 15 2024 06:30:29 GMT+0000 (Coordinated Universal Time)
 cuid: clw7g08xi00070akw7ued1u4f
 slug: understanding-the-different-levels-of-the-software-testing-pyramid
