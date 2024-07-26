@@ -5,6 +5,7 @@ seoDescription: "Learn about TDD and BDD, their differences, and how to implemen
 datePublished: Fri Jul 26 2024 05:07:16 GMT+0000 (Coordinated Universal Time)
 cuid: clz28qkep000q08miax4o1sd8
 slug: understanding-tdd-and-bdd-a-guide-for-developers
+canonical: https://keploy.io/blog/community/understanding-tdd-and-bdd-a-guide-for-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720584167979/992c3301-54d9-4864-8674-10a933b2e6ac.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720584106818/cc1d81d9-04f4-4b6a-9c08-2faeb825eea3.png
 tags: software-development, technology, development, developer, testing
