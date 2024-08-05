@@ -1,7 +1,7 @@
 ---
-title: "BDD Testing with Cucumber-js"
-seoTitle: "BDD Testing with Cucumber"
-seoDescription: "Cucumber.js and BDD are not new, still many developers are fairly unfamiliar with them, the two together can be very powerful tools for both business & devs"
+title: "Master BDD Testing with Cucumber.js: A Comprehensive Guide"
+seoTitle: "Learn BDD Testing with Cucumber.js | Comprehensive Guide 2024"
+seoDescription: "Discover the power of BDD testing with Cucumber.js. Learn how to bridge the gap between business and development with practical examples."
 datePublished: Fri Jan 19 2024 09:01:10 GMT+0000 (Coordinated Universal Time)
 cuid: clrkevdd1000808lc3bjc5vfo
 slug: bdd-testing-with-cucumber-js
@@ -12,9 +12,11 @@ tags: bdd, testing, cucumber, testing-framework, testing-tools
 
 ---
 
-Cucumber-js and BDD are not new, still many developers are fairly unfamiliar with them, the two together can be very powerful tools for both non-tech people and developers.
+While BDD and Cucumber.js have been around for some time, many developers are still unfamiliar with how these tools can streamline development processes and improve software quality.
 
-## What Is BDD?
+This comprehensive guide will help you understand the core concepts of BDD, how to implement it using Cucumber.js, and how this approach can benefit your projects by making automated tests more readable and maintainable.
+
+## Understanding BDD: Business Driven Development Explained
 
 BDD is short for Business Driven Development, it's way to close the gap between business people and technical people. Basically, BDD has evolved from TDD, there's a high chance that you might even be doing BDD without knowing it, as sometimes the lines between them aren't clear.
 
@@ -38,26 +40,13 @@ THEN his account is created.
 AND his confirmation email is sent.
 ```
 
-## Introducing Cucumber
+## What is Cucumber Testing?
 
 Cucumber-js is **a test framework that supports BDD**. The tests are written in the Gherkin language, which are human-readable and are stored in feature files that have the feature extension. This allows your tests to be a point of communication and collaboration with bussines people and can even serve as documentation that is automatically up-to-date.
 
 A test in the Gherkin language is called a scenario. And scenarios are organized into features.
 
-```plaintext
-Feature: Automatic discounts for premium customers
-    Premium customers should automatically get a
-    discount of 25% on purchases over $500.
-
-    Scenario: Purchase over $700
-        Given a premium customer
-        And an order containing
-            | item   | amount | price |
-            | pencil | 100    | 2     |
-            | paper  | 10     | 35    |
-        When the customer checks out
-        Then the total price should be 412.5
-```
+![Cucumber.js BDD Testing Guide.](https://cdn.hashnode.com/res/hashnode/image/upload/v1722828593040/44851fbc-2cf7-47f4-bbe1-0589a12152fd.png align="center")
 
 In the above example, there are many **keywords**, and every keyword has its own meaning and purpose.
 
@@ -85,7 +74,37 @@ Other than these, there are two more keywords,
 
 Although, Initially Cucumber was created for '**Ruby Language**' as a support for **RSpec** BDD framework for testing, Cucumber-js has evolved to supports a variety of different programming languages such Java, JavaScript, PHP, Net, Python, Perl and etc...
 
-### Writing simple BDD test with Cucumber-js
+### Benefits of Cucumber Testing
+
+Cucumber testing offers numerous benefits that enhance the software development process:
+
+* **Improved Collaboration:** Uses plain language to describe test scenarios, fostering better communication between technical and non-technical team members.
+    
+* **Living Documentation:** Serves as up-to-date documentation, simplifying onboarding and maintenance.
+    
+* **Aligns with Business Goals:** Bridges the gap between automated tests and business requirements, ensuring accurate development cycles.
+    
+* **Multi-Language Support:** Compatible with multiple programming languages, making it adaptable to various tech stacks.
+    
+* **Readable Tests:** Uses Gherkin syntax to make tests human-readable, which enhances understanding and collaboration.
+    
+
+### How Cucumber Testing Works ?
+
+Cucumber testing follows a structured approach to ensure that tests are both readable and maintainable. Here’s a step-by-step breakdown of how it works:
+
+* **Write Feature Files:** Feature files contain high-level descriptions of a software feature and include multiple scenarios that illustrate different aspects of the feature. These files use the Gherkin language to make the tests human-readable.
+    
+* **Define Steps:** Steps correspond to the actions described in the feature files. Each step in the Gherkin scenario (Given, When, Then) is implemented in code, typically using a language like JavaScript, Java, or Python.
+    
+* **Create Step Definitions:** Step definitions link the steps in the feature files to the actual code that performs the actions. These definitions translate the plain language steps into executable code.
+    
+* **Run Tests:** Use the Cucumber command-line tool to execute the tests. Cucumber reads the feature files and matches each step to its corresponding step definition, running the associated code.
+    
+* **Generate Reports:** After running the tests, Cucumber can generate detailed reports in various formats (HTML, JSON, etc.), providing insights into which scenarios passed or failed and highlighting any issues that need to be addressed.
+    
+
+## Writing Simple BDD Tests with Cucumber.js
 
 We will create a few tests to see how cucumber works, for this we will first define our scenario and feature before starting to write our code. Let's get started!!
 
@@ -101,6 +120,8 @@ Now, it's time to install our dependencies
 ```plaintext
 npm i chai @cucumber/cucumber @cucumber/cucumber-expressions cucumber-html-reporter
 ```
+
+### Folder Structure for Cucumber.js
 
 Let's move towards writing the tests and setting up folder structures for cucumber-js, this is how the folder structure should look like: -
 
@@ -189,9 +210,9 @@ npx cucumber-js
 
 The output we get would be similar to below:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705649177349/61bc2e8f-0e19-45eb-a0b5-9837ac6ec313.png align="center")
+![Cucumber.js BDD Testing Guide.](https://cdn.hashnode.com/res/hashnode/image/upload/v1705649177349/61bc2e8f-0e19-45eb-a0b5-9837ac6ec313.png align="center")
 
-### Test Report File
+### Generating Test Report
 
 Now to make it more understandable, let's add functionality to create the test-report for each run.
 
@@ -238,7 +259,7 @@ reporter.generate(options);
 
 Now run your tests once again, and you can see that under `reports/` folder there are two files with `cucumber_report.*` name. Open the **HTML** to see your test report html file would look something like below: -
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705653728395/103d6810-2c70-477d-9d53-b0a7ebdc56bd.png align="center")
+![Cucumber.js BDD Testing Guide.](https://cdn.hashnode.com/res/hashnode/image/upload/v1705653728395/103d6810-2c70-477d-9d53-b0a7ebdc56bd.png align="center")
 
 ## Conclusion
 
