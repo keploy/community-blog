@@ -5,6 +5,7 @@ seoDescription: "In the world of software development, quality assurance (QA) is
 datePublished: Mon Aug 05 2024 11:49:28 GMT+0000 (Coordinated Universal Time)
 cuid: clzgxibib00000agz8uf1h3mt
 slug: introduction-to-shift-left-testing
+canonical: https://keploy.io/blog/community/introduction-to-shift-left-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722799584633/e3cef5bc-3e16-4529-98d6-7740d09f1593.png
 tags: testing, shiftlefttesting, shift-left-approach
 
