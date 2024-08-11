@@ -1,5 +1,6 @@
 ---
 title: "Mock vs Stub vs Fake: Understand the difference"
+seoDescription: "Learn the differences between mocks, stubs, and fakes to improve your software testing strategy. Discover how to use these test doubles effectively to enhance code quality, speed up testing, and ensure reliable results."
 datePublished: Tue Feb 13 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clssrs4tj000p0al8gtbs48by
 slug: mock-vs-stub-vs-fake-understand-the-difference
