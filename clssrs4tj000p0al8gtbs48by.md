@@ -76,6 +76,190 @@ By understanding the distinctions between Mock vs Stub vs Fake & leveraging them
 | **Example Frameworks** | Mockito, EasyMock | JUnit | FakeItEasy, In-memory databases |
 | **Suitability** | Best for verifying interactions and side effects. | Best for returning specific data needed for a test. | Best for scenarios where full behavior is needed but can be simplified. |
 
+## Real-Life Use Cases and Code Samples
+
+### Use Case: E-commerce Application
+
+Imagine you're working on an e-commerce application with the following functionalities:
+
+- **User Registration:** Sends a welcome email when a user registers.
+- **Order Processing:** Interacts with a payment gateway and updates inventory.
+
+We’ll use Mocks, Stubs, and Fakes to test these functionalities.
+
+### 1. Mocks
+
+
+**Scenario:** You want to ensure that an email is sent when a user registers, and you need to verify that the email service is called with the correct parameters.
+
+**Code Sample:**
+
+```java
+// EmailService.java - Interface for email service
+public interface EmailService {
+    void sendEmail(String recipient, String subject, String body);
+}
+
+// UserService.java - Service that uses EmailService
+public class UserService {
+    private EmailService emailService;
+
+    public UserService(EmailService emailService) {
+        this.emailService = emailService;
+    }
+
+    public void registerUser(String email) {
+        // User registration logic
+        emailService.sendEmail(email, "Welcome!", "Thank you for registering.");
+    }
+}
+
+// UserServiceTest.java - Test class using Mockito for mocking
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+
+public class UserServiceTest {
+    @Test
+    public void testRegisterUserSendsEmail() {
+        // Create a mock of EmailService
+        EmailService mockEmailService = Mockito.mock(EmailService.class);
+        UserService userService = new UserService(mockEmailService);
+
+        // Call the method under test
+        userService.registerUser("user@example.com");
+
+        // Verify that sendEmail was called with correct arguments
+        Mockito.verify(mockEmailService).sendEmail("user@example.com", "Welcome!", "Thank you for registering.");
+    }
+}
+```
+**Explanation:** In this example, we use Mockito to create a mock of EmailService. We verify that the sendEmail method is called with the correct arguments when the registerUser method is invoked.
+
+
+### 2. Stubs
+
+**Scenario:** During development, you need to test the order processing logic but the payment gateway is not yet integrated. You use a stub to simulate the payment gateway’s behavior.
+
+**Code Sample:**
+
+```java
+// PaymentGateway.java - Interface for payment gateway
+public interface PaymentGateway {
+    boolean processPayment(double amount);
+}
+
+// OrderService.java - Service that uses PaymentGateway
+public class OrderService {
+    private PaymentGateway paymentGateway;
+
+    public OrderService(PaymentGateway paymentGateway) {
+        this.paymentGateway = paymentGateway;
+    }
+
+    public boolean placeOrder(double amount) {
+        return paymentGateway.processPayment(amount);
+    }
+}
+
+// OrderServiceTest.java - Test class using a stub
+import org.junit.jupiter.api.Test;
+
+public class OrderServiceTest {
+    @Test
+    public void testPlaceOrderWithStub() {
+        // Create a stub for PaymentGateway
+        PaymentGateway stubPaymentGateway = new PaymentGateway() {
+            @Override
+            public boolean processPayment(double amount) {
+                // Return a fixed response
+                return amount > 0;
+            }
+        };
+        OrderService orderService = new OrderService(stubPaymentGateway);
+
+        // Test with a positive amount
+        boolean result = orderService.placeOrder(100.0);
+        assert result; // Should be true
+
+        // Test with a zero or negative amount
+        result = orderService.placeOrder(0.0);
+        assert !result; // Should be false
+    }
+}
+```
+**Explanation:** In this example, we create a stub of PaymentGateway that always returns true for positive amounts and false otherwise. This allows us to test the OrderService logic without relying on a real payment gateway.
+
+
+### 3. Fakes
+
+**Scenario:** You want to test the application’s integration with an in-memory database rather than a real database for faster and simpler tests.
+
+**Code Sample:**
+
+```java
+// Database.java - Interface for database operations
+public interface Database {
+    void saveUser(String username, String password);
+    String getUser(String username);
+}
+
+// InMemoryDatabase.java - Fake implementation of Database
+import java.util.HashMap;
+import java.util.Map;
+
+public class InMemoryDatabase implements Database {
+    private Map<String, String> data = new HashMap<>();
+
+    @Override
+    public void saveUser(String username, String password) {
+        data.put(username, password);
+    }
+
+    @Override
+    public String getUser(String username) {
+        return data.get(username);
+    }
+}
+
+// UserService.java - Service that uses Database
+public class UserService {
+    private Database database;
+
+    public UserService(Database database) {
+        this.database = database;
+    }
+
+    public void registerUser(String username, String password) {
+        database.saveUser(username, password);
+    }
+
+    public String getUserPassword(String username) {
+        return database.getUser(username);
+    }
+}
+
+// UserServiceTest.java - Test class using InMemoryDatabase
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class UserServiceTest {
+    @Test
+    public void testUserRegistrationWithFake() {
+        // Create a fake in-memory database
+        Database fakeDatabase = new InMemoryDatabase();
+        UserService userService = new UserService(fakeDatabase);
+
+        // Register a user
+        userService.registerUser("user1", "password123");
+
+        // Retrieve and verify user information
+        String password = userService.getUserPassword("user1");
+        assertEquals("password123", password);
+    }
+}
+```
+**Explanation:** In this example, InMemoryDatabase is a fake implementation of the Database interface. It mimics a real database’s behavior but stores data in memory, which makes testing faster and more straightforward.
+
 ## **How Does Keploy help with Mocks, Stubs and Fake?**
 
 Keploy, is an popular testing tool which makes testing easier by automatically creating mocks, stubs, and fakes. Keploy generates mocks from real interactions, so you don’t have to create them manually. Stubs are simpler—they return predefined responses and are useful for testing specific parts of your application without needing the actual service. Keploy helps you set up these stubs quickly, making your testing process faster and more efficient. Fakes are like mocks but mimic the behavior of real components more closely, allowing you to test different scenarios without needing the real components.
@@ -116,5 +300,7 @@ Stubs simulate the behavior of the actual service by returning predefined respon
 ### How does Keploy help with creating mocks?
 
 Keploy automatically generates mock data based on recorded interactions, eliminating the need for manual mock creation and simplifying the testing process. Since the keploy provides dynamic and realistic mock data, it helps to create accurate and reliable test scenarios that closely mimic real-world conditions.
+
+
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707304021607/2bf942ef-b3a2-4db2-8699-4573c661cac1.png align="center")
