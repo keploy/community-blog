@@ -1,6 +1,7 @@
 ---
 title: "How to Do Java Unit Testing Effectively"
-seoDescription: "Have a look at the techniques and best practices for effective Java unit testing in our guide.And write effective tests and improve the code quality of Java"
+seoTitle: "Effective Java Unit Testing: Best Practices & Tips"
+seoDescription: "Unlock the secrets to effective Java unit testing with our comprehensive guide. Dive into best practices and explore popular testing frameworks."
 datePublished: Wed Jan 10 2024 07:58:04 GMT+0000 (Coordinated Universal Time)
 cuid: clr7hnjgc000609jqc4k2dh06
 slug: how-to-do-java-unit-testing-effectively
