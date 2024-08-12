@@ -1,7 +1,7 @@
 ---
-title: "Build an HTTP server using BunJs and Prisma"
-seoTitle: "API server using BunJs and Prisma"
-seoDescription: "with Prisma, interacting with databases becomes more intuitive and less erro"
+title: "Building a Scalable Web Server with BunJs and Prisma"
+seoTitle: "Building a Scalable Web Server with BunJs and Prisma"
+seoDescription: "Learn how to create a scalable, efficient web server using BunJs and Prisma. This guide covers server setup, database, JWT to help you build web apps."
 datePublished: Thu May 09 2024 09:35:40 GMT+0000 (Coordinated Universal Time)
 cuid: clvz1zagm000308l44asreyxc
 slug: build-an-http-server-using-bunjs-and-prisma
@@ -11,7 +11,311 @@ tags: postgresql, prisma, bunjs, prismaorm
 
 ---
 
-In this guide, we'll be leveraging two powerful tools: BunJs and Prisma. Together, they provide a robust foundation for constructing modern, scalable, and efficient web servers. But before we dive into the technical details, let's take a moment to understand what BunJs and Prisma bring to the table.***Why use BunJs?***
+In this guide, we'll be leveraging two powerful tools: **BunJs** and **Prisma**. Together, they provide a robust foundation for constructing modern, scalable, and efficient web servers. Let's explore how **BunJs** enhances server creation and how **Prisma** simplifies database management.
+
+### Why Use BunJs?
+
+**BunJs** is a lightweight, fast, and highly customizable HTTP framework built specifically for Node.js. It simplifies the process of creating web servers by offering optimized performance and a developer-friendly environment. On the other hand, **Prisma** makes database interactions more intuitive and less error-prone, thanks to features like auto-completion, type safety, and schema modeling.
+
+## Setting Up Our Project
+
+First, let's install the **BunJs** toolkit with the following command:
+
+```bash
+npm install -g bun
+```
+
+Next, create our project directory:
+
+```bash
+├── controller/
+│   ├── comments.controller.ts
+│   ├── post.controller.ts
+│   └── user.controller.ts
+├── prisma/
+│   └── schema.prisma
+├── services/
+│   ├── auth.service.ts
+│   ├── comment.service.ts
+│   ├── post.service.ts
+│   └── user.service.ts
+├── docker-compose.yml
+├── index.ts
+├── package*.json
+└── tsconfig.json
+```
+
+In the `controllers` folder, we'll define our routes and functions in the `services` folder. The `schema.prisma` file will contain our model definitions and configurations to run **Prisma ORM**. **Prisma** supports various SQL-based databases, and for this guide, we'll use PostgreSQL with Docker.
+
+## Building the Services
+
+First, install all the necessary packages and dependencies:
+
+```bash
+bun add -d prisma @types/jsonwebtoken bun-types
+bun add pg jsonwebtoken elysia dotenv axios @prisma/client @elysia/cookie
+```
+
+After installing **Prisma**, create the `schema.prisma` file to define our schema models:
+
+```bash
+bunx init prisma
+```
+
+`bunx` is similar to `npx` or `pnpx`, allowing you to execute packages listed in your project's dependencies or devDependencies. It simplifies dependency management by enabling direct execution without global installation.
+
+Create a user schema inside `prisma/schema.prisma`:
+
+```bash
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  name      String?
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+```
+
+Next, define [`auth.services`](http://auth.services)`.ts` for user authentication using JWT tokens:
+
+```typescript
+//auth.service.ts
+import jwt from "jsonwebtoken";
+
+export const verifyToken = (token: string) => {
+  let payload: any;
+
+  // Verify the JWT token
+  jwt.verify(token, process.env.JWT_SECRET as string, (error, decoded) => {
+    if (error) {
+      throw new Error("Invalid token");
+    }
+
+    payload = decoded;
+  });
+
+  return payload;
+};
+
+export const signUserToken = (data: { id: number; email: string }) => {
+  // Sign the JWT token
+  const token = jwt.sign(
+    {
+      id: data.id,
+      email: data.email,
+    },
+    process.env.JWT_SECRET as string,
+    { expiresIn: "1d" }
+  );
+
+  return token;
+};
+```
+
+With our authentication mechanism ready, create `user.service.ts` to manage user operations:
+
+```typescript
+//user.service.ts
+import { prisma } from "../index";
+import { signUserToken } from "./auth.service";
+
+export const createNewUser = async (data: {
+  name: string;
+  email: string;
+  password: string;
+}) => {
+  try {
+    const { name, email, password } = data;
+
+    // Hash the password using the BunJs package and bcrypt algorithm
+    const hashedPassword = await Bun.password.hash(password, {
+      algorithm: "bcrypt",
+    });
+
+    // Create the user
+    const user = await prisma.user.create({
+      data: {
+        name,
+        email,
+        password: hashedPassword,
+      },
+    });
+
+    return user;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const login = async (data: { email: string; password: string }) => {
+  try {
+    const { email, password } = data;
+
+    // Find the user
+    const user = await prisma.user.findUnique({
+      where: {
+        email,
+      },
+    });
+
+    if (!user) {
+      throw new Error("User not found");
+    }
+
+    // Verify the password
+    const valid = await Bun.password.verify(password, user.password);
+
+    if (!valid) {
+      throw new Error("Invalid credentials");
+    }
+
+    // Sign the JWT token
+    const token = signUserToken({
+      id: user.id,
+      email: user.email,
+    });
+
+    return {
+      message: "User logged in successfully",
+      token,
+    };
+  } catch (error) {
+    throw error;
+  }
+};
+```
+
+The `createNewUser` function utilizes **BunJs** for password hashing and **Prisma** for database interaction, ensuring secure and efficient user creation. The `login` function handles user authentication by verifying credentials and issuing a JWT token.
+
+Next, define our routes in `controller/user.controller.ts`:
+
+```typescript
+//user.controller.ts
+import Elysia from "elysia";
+import { createNewUser, login } from "../services/user.service";
+
+// Initialize the app
+const app = new Elysia();
+
+app.post("/signup", async (context) => {
+  try {
+    const userData: any = context.body;
+
+    const newUser = await createNewUser({
+      name: userData.name,
+      email: userData.email,
+      password: userData.password,
+    });
+
+    return {
+      user: newUser,
+    };
+  } catch (error: any) {
+    return {
+      error: error.message,
+    };
+  }
+});
+
+app.post("/login", async (context) => {
+  try {
+    const userData: any = context.body;
+
+    const loggedInUser = await login({
+      email: userData.email,
+      password: userData.password,
+    });
+
+    return loggedInUser;
+  } catch (error: any) {
+    return {
+      error: error.message,
+    };
+  }
+});
+
+export { app };
+```
+
+The `/signup` and `/login` routes use **BunJs** and **Prisma** to manage user registration and authentication seamlessly.
+
+Finally, set up `index.ts` and `docker-compose.yml` to run the application:
+
+```yaml
+# docker-compose.yml
+version: '3.9'
+services:
+    postgres:
+        image: postgres:latest
+        restart: always
+        environment:
+          - POSTGRES_DB=postgres
+          - POSTGRES_USER=postgres
+          - POSTGRES_PASSWORD=password
+        ports:
+          - '5432:5432'
+        volumes:
+          - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+```
+
+```typescript
+//index.ts
+import Elysia from "elysia";
+import { PrismaClient } from "@prisma/client";
+import { app } from "./controllers/user.controller";
+
+// Create instances of prisma and Elysia
+const prisma = new PrismaClient();
+
+// Listen for traffic
+app.listen(4040, () => {
+  console.log("🦊 Elysia is running at localhost:4040");
+});
+
+export { app, prisma };
+```
+
+Start the server using **BunJs**:
+
+```bash
+bun run dev
+```
+
+```bash
+🦊 Elysia is running at localhost:4040
+```
+
+## Conclusion
+
+This guide demonstrates how **BunJs** simplifies server creation and how **Prisma** streamlines database interactions. We built a simple **BunJs** server with authentication using JWT tokens, implementing user signup and login routes with **Prisma** ORM. In the next part, we'll explore testing our application using bun-test, Cucumber, and Keploy.
+
+## FAQ's
+
+### Why Use JWT Tokens for Authentication?
+
+JWT tokens provide a secure, stateless way to authenticate users in web applications. They can be easily shared across services and contain custom claims, allowing developers to add additional information to the token payload.
+
+### What Is Bunx, and How Does It Differ from Other Package Execution Tools?
+
+Bunx is a package execution tool like npx or pnpx. It simplifies dependency management by running packages directly from the project's context without requiring manual installation.
+
+### What Testing Tools Will Be Covered in the Next Part of the Blog?
+
+We'll explore testing methodologies using Keploy, bun-test, and CucumberJs in the next part of the blog, comparing their strengths and use cases.
+
+### Can I Contribute to BunJs and Prisma?
+
+Yes, both **BunJs** and **Prisma** are open-source projects. You can contribute by submitting bug reports, feature requests, or code contributions through their GitHub repositories. Follow their contribution guidelines for more details.
 
 BunJs is a really lightweight, fast, and highly customizable HTTP framework for Node.js. It helps in simplifying the process of creating web servers. On the other hand, with Prisma, interacting with databases becomes more intuitive and less error-prone, thanks to its powerful features like auto-completion and type checking.
 
@@ -20,7 +324,7 @@ BunJs is a really lightweight, fast, and highly customizable HTTP framework for 
 First let's install Bun toolkit, with following command: -
 
 ```bash
-npm install -g bun 
+npm install -g bun
 ```
 
 Now let's create our project directory: -
@@ -329,16 +633,15 @@ Lets start the server
 
 ```javascript
 bun run dev
-```
 
-```javascript
+...
 🦊 Elysia is running at localhost:4040
 ```
 
 ## Conclusion
 
-We got to learn how BunJs simplifies server creation, while Prisma streamlines database interactions. In this blog, we got to learn how to create simple BunJs server with authentication in place using JWT tokens, we created user signup and login routes using Elysia.  
-  
+We got to learn how BunJs simplifies server creation, while Prisma streamlines database interactions. In this blog, we got to learn how to create simple BunJs server with authentication in place using JWT tokens, we created user signup and login routes using Elysia.
+
 In next part of this blog, we will test our application using bun-test, cucumber and keploy and learn which is better to use.
 
 ## FAQ's
