@@ -455,7 +455,7 @@ These generators can use templates and reflection to create test cases based on 
 
 In JUnit, you can test for exceptions in a few different ways:
 
-**1\. Using** `assertThrows()` (JUnit 5 and above):
+### **1\. Using** `assertThrows()` (JUnit 5 and above):
 
 This is the preferred and most readable way to test for exceptions in modern JUnit versions. The `assertThrows()` method takes the expected exception type and a lambda expression that should throw the exception. It returns the thrown exception, which you can use for further assertions.
 
@@ -472,7 +472,7 @@ void testDivisionByZero() {
 }
 ```
 
-2. **Using** `@Test(expected = ...)` (JUnit 4 and above):
+2. ### **Using** `@Test(expected = ...)` (JUnit 4 and above):
     
 
 This is a simpler approach, but it only verifies that the expected exception was thrown. It doesn't allow you to assert the exception message or other details.
@@ -486,7 +486,7 @@ public void testDivisionByZero() {
 }
 ```
 
-3. **Using try-catch (JUnit 4 and above):**
+3. ### **Using try-catch (JUnit 4 and above):**
     
 
 This method is useful when you need to perform additional assertions based on the exception's details.
