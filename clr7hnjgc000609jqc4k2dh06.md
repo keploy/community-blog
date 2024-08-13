@@ -61,94 +61,6 @@ You should care about unit testing because it helps you in several important way
 
 ![](https://lh7-us.googleusercontent.com/HZKwbDv-0WrNSb0OlzseotoFpvM_e2ZRRFgi5V7j12AMBtqvK2vMXsUZfJeSgd-1bz51fNTBrAbDQCB5-kjFzsIHL7Nu1Qo76QrHGWA9PjGe6r1Dyx124DdyBTzVoJTH6AtGmikgT9jyM4PUE7iE56s align="left")
 
-Unit testing is a powerful method for ensuring your code works as expected. However, there are some important do's and don'ts to keep in mind to make the most out of it:
-
-### **Do's of Unit Testing**
-
-* #### **Write Tests Earlier**
-    
-
-Start writing unit tests as you develop your code, ideally even before writing the code itself. This practice is known as [Test-Driven Development (TDD)](https://keploy.io/docs/1.0.0/concepts/reference/glossary/agile-unit-testing/).
-
-* #### **Test All Code Paths**
-    
-
-Ensure that the unit tests cover all possible code paths in the function or method being tested. This includes testing different input values, edge cases, and error conditions.
-
-* #### **Keep Tests Isolated**
-    
-
-Each unit test should focus on testing a single piece of functionality in isolation. Reduce dependencies on external systems, databases, or services in unit tests.
-
-* #### **Use Detailed Test Names**
-    
-
-Name your test cases clearly and descriptively. A well-executed test can serve as documentation and make it easier to understand the test's purpose.
-
-* #### **Test for Both Positive and Negative Cases**
-    
-
-Write tests that make sure your code acts right when it gets the correct inputs (positive cases) and also when it gets invalid or unexpected inputs (negative cases).
-
-* #### **Automate Testing**
-    
-
-Java unit testing tools like JUnit and Mockito, Pytest for Python, and Mocha for JavaScript are commonly used [testing frameworks](https://www.researchgate.net/publication/359268930_Customized_Software_Testing_Framework_for_Web_Applications) that automate test execution.
-
-Additionally, continuous integration (CI) tools like Jenkins, Travis CI, and CircleCI can be integrated with these frameworks to automatically run tests during the development process, ensuring code integrity and quality.
-
-* #### **Run Tests Frequently**
-    
-
-Run the unit tests frequently — better if it’s after changing or updating any code. This finds issues earlier in the development process.
-
-### **Don'ts of Unit Testing**
-
-* #### **Don't Skip Unit Testing**
-    
-
-Avoid the temptation to skip unit testing, thinking that you can test everything later. Delaying testing can lead to a higher number of defects and debugging challenges.
-
-* #### **Never Write Overly Complex Tests**
-    
-
-Keep the unit tests simple and focused. Don’t write tests that are as complex as the code being tested, as this can make it difficult to diagnose failures.
-
-* #### **Don't Depend on External Resources**
-    
-
-Unit tests shouldn’t rely on external resources like databases, network services, or files. These dependencies can introduce variability and make tests less reliable.
-
-* #### **Never Ignore Code Coverage**
-    
-
-Go for good code coverage, but don't blindly chase 100% coverage. Focus on testing the most critical and error-prone parts of your code.
-
-* #### **Don't Ignore Edge Cases**
-    
-
-Neglecting edge cases and boundary conditions in your tests can lead to unexpected issues in production. Test both common and uncommon scenarios.
-
-* #### **Don't Ignore Test Output**
-    
-
-Pay attention to the output of your tests. When a test fails, analyse the failure and fix it promptly.
-
-* #### **Never Write Unreadable Tests**
-    
-
-Write tests that are easy to read and understand. Avoid complex or cryptic test code that makes it difficult for you or others to grasp the intent.
-
-* #### **Don't Test Private Methods**
-    
-
-Unit tests should focus on the public API of a class or module. Don't test private methods directly; test them through the public methods that use them.
-
-* #### **Don't Overlook Error Handling**
-    
-
-Make sure your unit tests see how your code deals with mistakes and exceptions. Test the error scenarios to confirm your code responds smoothly under those conditions.
-
 ## **What are The Key Steps to Perform While Testing?**
 
 ![](https://lh7-us.googleusercontent.com/eSAgn3rnATWoGT98BQ2A6FvsCkEWUrDaK-Emq7oUuw3dSpZtJ9e_xS4lrFv-tFlFXXDQX63QBw346kRff_-P-t9ApRH-nLwiZPFJwVxvwSCQ2PkOIguTq39X_f-YFawJo92-b-kJpK0lmtBdL7LZCs0 align="left")
@@ -178,6 +90,93 @@ Regression testing comes in once defects are fixed. It's to check that these fix
 ### **Test Closure**
 
 This phase involves evaluating whether the testing goals and objectives have been met. A test summary report is prepared, which includes test results, test coverage, and other relevant metrics. The testing team assesses whether the software is ready for release.
+
+## **How to Install JUnit Testing Framework**
+
+To install the JUnit testing framework, add the JUnit dependency to your 'pom.xml' file for Maven or 'build.gradle' for Gradle. Configure your build tool to recognize JUnit, enabling test execution. Refresh the project to seamlessly download and integrate JUnit for effective testing in your project.
+
+Here is a detailed guide to install the [JUnit testing framework](https://keploy.io/docs/server/sdk-installation/java/#installation):
+
+### **Step 1: Set Up a Java Development Environment**
+
+Before using JUnit, you must have a [Java Development Kit (JDK)](https://docs.oracle.com/javacard/3.0.5/guide/install-and-setup-development-kit.htm#JCUGC119) installed on your system.
+
+To install the Java Development Kit (JDK):
+
+* **Download JDK:** You can download and install the JDK from the official Oracle website or use an open-source alternative like [OpenJDK](https://openjdk.org/install/).
+    
+* **Run Installer:** Execute the downloaded file and follow the installation prompts. Choose the installation path if required.
+    
+* **Set Environment Variables:** After installation, set the 'JAVA\_HOME' environment variable to the JDK installation path, and update the 'Path' variable to include the JDK 'bin' folder.
+    
+* **Verify Installation:** Open a command prompt or terminal and type java -version to confirm the installation.
+    
+
+### **Step 2: Create a Java Project**
+
+To use JUnit, you should have a Java project where you want to write and run your tests. You can create a new Java project in your preferred Integrated Development Environment (IDE) like Eclipse, IntelliJ IDEA, or Visual Studio Code.
+
+Alternatively, if you prefer, you can also set up a Java project using command line commands.
+
+### **Step 3: Download JUnit Jar Files**
+
+JUnit provides a set of JAR files that you need to include in your Java project to use its features. You can download the JUnit JAR files from the official [JUnit website](https://junit.org/junit5/).
+
+For JUnit 4, you can download the JAR files from the following links:
+
+* junit.jar: [Download](https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar)
+    
+* hamcrest-core.jar: [Download](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar)
+    
+
+For JUnit 5, you can download the JAR files from the following links:
+
+* junit-platform-console-standalone.jar (for running tests from the command line): [Download](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.8.2/junit-platform-console-standalone-1.8.2.jar).
+    
+* junit-jupiter-engine.jar (for JUnit 5): [Download](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar)
+    
+
+### **Step 4: Add JUnit JAR Files to Your Project**
+
+Once you've downloaded the JUnit JAR files, add them to your Java project's build path. In most IDEs, you can do this by right-clicking on your project, selecting "Build Path" or "Libraries," and then adding the JAR files.
+
+### **Step 5: Write and Run JUnit Tests**
+
+Now that you have JUnit set up in your project, you can start writing your tests. Create test classes with methods annotated with JUnit test annotations (e.g., ‘**@Test**’).
+
+You can then run your tests using your IDE's test runner or from the command line using the JUnit console runner.
+
+##### **Example Test Class (JUnit 4):**
+
+```java
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class MyTestClass {
+@Test
+ public void testAddition() {
+ int result = 2 + 3;
+ assertEquals(5, result);
+ }
+}
+```
+
+##### **Example Test Class (JUnit 5):**
+
+```java
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+public class MyTestClass {
+ @Test
+ public void testAddition() {
+ int result = 2 + 3;
+ assertEquals(5, result);
+ }
+}
+```
+
+Once you've written your tests, you can run them to check the behaviour of your code.
+
+That's it! You've installed JUnit and can now use it to write and run tests for your Java applications.
 
 ## **How to Write the Unit Test**
 
@@ -271,93 +270,6 @@ Consider integrating the unit tests into your continuous integration (CI) pipeli
 ### **9\. Maintain and Update Tests**
 
 As your codebase evolves, keep the unit tests up to date. Whenever you add new features or modify existing ones, update the corresponding tests to reflect the changes.
-
-## **How to Install JUnit Testing Framework**
-
-To install the JUnit testing framework, add the JUnit dependency to your 'pom.xml' file for Maven or 'build.gradle' for Gradle. Configure your build tool to recognize JUnit, enabling test execution. Refresh the project to seamlessly download and integrate JUnit for effective testing in your project.
-
-Here is a detailed guide to install the [JUnit testing framework](https://keploy.io/docs/server/sdk-installation/java/#installation):
-
-### **Step 1: Set Up a Java Development Environment**
-
-Before using JUnit, you must have a [Java Development Kit (JDK)](https://docs.oracle.com/javacard/3.0.5/guide/install-and-setup-development-kit.htm#JCUGC119) installed on your system.
-
-To install the Java Development Kit (JDK):
-
-* **Download JDK:** You can download and install the JDK from the official Oracle website or use an open-source alternative like [OpenJDK](https://openjdk.org/install/).
-    
-* **Run Installer:** Execute the downloaded file and follow the installation prompts. Choose the installation path if required.
-    
-* **Set Environment Variables:** After installation, set the 'JAVA\_HOME' environment variable to the JDK installation path, and update the 'Path' variable to include the JDK 'bin' folder.
-    
-* **Verify Installation:** Open a command prompt or terminal and type java -version to confirm the installation.
-    
-
-### **Step 2: Create a Java Project**
-
-To use JUnit, you should have a Java project where you want to write and run your tests. You can create a new Java project in your preferred Integrated Development Environment (IDE) like Eclipse, IntelliJ IDEA, or Visual Studio Code.
-
-Alternatively, if you prefer, you can also set up a Java project using command line commands.
-
-### **Step 3: Download JUnit Jar Files**
-
-JUnit provides a set of JAR files that you need to include in your Java project to use its features. You can download the JUnit JAR files from the official [JUnit website](https://junit.org/junit5/).
-
-For JUnit 4, you can download the JAR files from the following links:
-
-* junit.jar: [Download](https://repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar)
-    
-* hamcrest-core.jar: [Download](https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar)
-    
-
-For JUnit 5, you can download the JAR files from the following links:
-
-* junit-platform-console-standalone.jar (for running tests from the command line): [Download](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.8.2/junit-platform-console-standalone-1.8.2.jar).
-    
-* junit-jupiter-engine.jar (for JUnit 5): [Download](https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar)
-    
-
-### **Step 4: Add JUnit JAR Files to Your Project**
-
-Once you've downloaded the JUnit JAR files, add them to your Java project's build path. In most IDEs, you can do this by right-clicking on your project, selecting "Build Path" or "Libraries," and then adding the JAR files.
-
-### **Step 5: Write and Run JUnit Tests**
-
-Now that you have JUnit set up in your project, you can start writing your tests. Create test classes with methods annotated with JUnit test annotations (e.g., ‘**@Test**’).
-
-You can then run your tests using your IDE's test runner or from the command line using the JUnit console runner.
-
-##### **Example Test Class (JUnit 4):**
-
-```java
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-public class MyTestClass {
-@Test
- public void testAddition() {
- int result = 2 + 3;
- assertEquals(5, result);
- }
-}
-```
-
-##### **Example Test Class (JUnit 5):**
-
-```java
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-public class MyTestClass {
- @Test
- public void testAddition() {
- int result = 2 + 3;
- assertEquals(5, result);
- }
-}
-```
-
-Once you've written your tests, you can run them to check the behaviour of your code.
-
-That's it! You've installed JUnit and can now use it to write and run tests for your Java applications.
 
 ## **How to Write Unit Tests with JUnit 5**
 
@@ -538,61 +450,6 @@ Some code generation tools, such as Lombok, can help simplify the creation of ge
 If your project has specific testing requirements, you can develop custom code generators to create test cases automatically.
 
 These generators can use templates and reflection to create test cases based on your classes' structure and annotations. Tools like Apache Velocity can help generate code from templates.
-
-## Testing for exceptions
-
-In JUnit, you can test for exceptions in a few different ways:
-
-**1\. Using** `assertThrows()` (JUnit 5 and above):
-
-This is the preferred and most readable way to test for exceptions in modern JUnit versions. The `assertThrows()` method takes the expected exception type and a lambda expression that should throw the exception. It returns the thrown exception, which you can use for further assertions.
-
-```java
-import static org.junit.jupiter.api.Assertions.assertThrows;
-
-@Test
-void testDivisionByZero() {
-    Exception exception = assertThrows(ArithmeticException.class, () -> {
-        int result = 10 / 0;
-    });
-
-    assertEquals("/ by zero", exception.getMessage());
-}
-```
-
-2. **Using** `@Test(expected = ...)` (JUnit 4 and above):
-    
-    This is a simpler approach, but it only verifies that the expected exception was thrown. It doesn't allow you to assert the exception message or other details.
-    
-
-```java
-import org.junit.Test;
-
-@Test(expected = ArithmeticException.class)
-public void testDivisionByZero() {
-    int result = 10 / 0;
-}
-```
-
-3. **Using try-catch (JUnit 4 and above):**
-    
-    It is useful only when you need to perform additional assertions based on the exception's details.
-    
-    ```java
-    import org.junit.Test;
-    import static org.junit.Assert.fail;
-    
-    @Test
-    public void testDivisionByZero() {
-        try {
-            int result = 10 / 0;
-            fail("Expected an ArithmeticException to be thrown");
-        } catch (ArithmeticException e) {
-            assertEquals("/ by zero", e.getMessage());
-        }
-    }
-    ```
-    
 
 ## **How to Create Mocks and Stubs for Testing**
 
