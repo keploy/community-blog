@@ -1,7 +1,7 @@
 ---
 title: "All about System Integration Testing in software testing"
 seoTitle: "Unlock the Secrets Behind System Integration Testing"
-seoDescription: "Discover how System Integration Testing (SIT) ensures seamless software operation by verifying component interactions. Learn about SIT importance, benefit."
+seoDescription: "Explore the importance of Shift Left Testing in System Integration Testing (SIT) to ensure smooth component interactions and early defect detection."
 datePublished: Sun Jan 21 2024 18:30:08 GMT+0000 (Coordinated Universal Time)
 cuid: clrnu2rib000008jtfugp1531
 slug: all-about-system-integration-testing-in-software-testing
