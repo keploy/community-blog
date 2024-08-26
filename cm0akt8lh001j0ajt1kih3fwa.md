@@ -5,6 +5,7 @@ seoDescription: "Learn the fundamentals of smoke testing and why it's crucial fo
 datePublished: Mon Aug 26 2024 05:47:08 GMT+0000 (Coordinated Universal Time)
 cuid: cm0akt8lh001j0ajt1kih3fwa
 slug: developers-guide-to-smoke-testing-ensuring-basic-functionality
+canonical: https://keploy.io/blog/community/a-guide-to-test-cases-in-software-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723443990663/67fc849e-ae10-4ca7-ad26-d6c2096f08c2.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723444089645/7aae8db8-07a0-41ec-bc2f-289c2c4a173d.png
 tags: developer, testing, api-testing, test-automation, testing-tool, smoke-testing
