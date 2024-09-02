@@ -1,7 +1,7 @@
 ---
-title: "APIs vs Webhooks: Make a GitHub Webhook"
-seoTitle: "What is a Webhook?, Make a Github Webhook"
-seoDescription: "Webhooks allow to notify external services when some event occurs. When the specified event occurs, Webhooks help send POST requests to all the URLs..."
+title: "Mastering GitHub Webhooks: Automate Notifications & Stay Informed"
+seoTitle: "Mastering GitHub Webhooks: Automate Notifications & Stay Informed"
+seoDescription: "Webhooks allow to notify external services when some event occurs. When the specified event occurs, Webhooks help send POST requests to all the URLs."
 datePublished: Fri Jun 02 2023 12:09:39 GMT+0000 (Coordinated Universal Time)
 cuid: clieivyv20hd4yanv9iushxy6
 slug: api-vs-webhooks-make-a-github-webhook
@@ -12,7 +12,7 @@ tags: github, apis, webhooks, test-automation, keploy
 
 ---
 
-> We all like shopping, right? Let me tell you of this one time I really wanted to get myself thigh high black boots and when I checked on Amazon, the boots weren't available in stock. But I was really desperate so I would check Amazon twice or thrice everyday, to the point that it became annoying and it looked like the boots were neither going to be back in stock nor in my cupboard anytime soon. I wanted a way for Amazon to message me as soon as those boots were available.
+We all like shopping, right? Let me tell you of this one time I really wanted to get myself thigh high black boots and when I checked on Amazon, the boots weren't available in stock. But I was really desperate so I would check Amazon twice or thrice everyday, to the point that it became annoying and it looked like the boots were neither going to be back in stock nor in my cupboard anytime soon. I wanted a way for Amazon to message me as soon as those boots were available.
 
 ## What are Webhooks?
 
@@ -26,7 +26,7 @@ Now that we know the difference between the two let's dive right into making a w
 
 ![Github repo](https://cdn-images-1.medium.com/max/1200/1*PuGPE1OMPkDcMwf_GoH5LQ.png align="left")
 
-Voila! I now have my own copy. 
+Voila! I now have my own copy.
 
 ![Forked repo](https://cdn-images-1.medium.com/max/1200/1*u4W5YqSLSQ3PcWsVFTwUKQ.png align="left")
 
@@ -34,7 +34,9 @@ After clicking on the **Settings** tab, we can see a **Webhooks** option on the 
 
 ![Text](https://cdn-images-1.medium.com/max/1200/1*MzkWxCAEZR0wt3TQhHHzmA.png align="left")
 
-What should our event that triggers a notification on some external service be? We're all familiar with the Github stars, right? Let's keep that as our event, so I want a notification anytime someone stars this repo of mine.  We can use a mocking tool to capture a webhook. Beeceptor is one such tool which helps us to build a mock API URL in seconds. So now let's head to [**Beeceptor**](https://beeceptor.com/). Now for our mock subdomain name you can type in anything you want, I'm going to type my name "Sejal" and then click on **Create endpoint**.
+What should our event that triggers a notification on some external service be? We're all familiar with the Github stars, right? Let's keep that as our event, so I want a notification anytime someone stars this repo of mine. 
+
+We can use a mocking tool to capture a webhook. **Beeceptor** is one such tool which helps us to build a mock API URL in seconds. So now let's head to [**Beeceptor**](https://beeceptor.com/). Now for our mock subdomain name you can type in anything you want, I'm going to type my name "Sejal" and then click on **Create endpoint**.
 
 ![Text](https://cdn-images-1.medium.com/max/1200/1*bCuM8mYpv5vRJRmO7c-FFg.png align="left")
 
@@ -74,7 +76,7 @@ Click on **Integrations** and then **Create webhook**. Change name of the webhoo
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*f1-HhOX0rCCZCSb2rNyNcw.png align="left")
 
-  We create a **new webhook** in Github. Now **copy** the webhook URL. And **paste** it in the **Payload URL** in our new webhook on Github. At the end also add **"/github"** since it's important for discord for webhook configurations. Change the **content type** to JSON. Let's just try **"Send me everything"** option this time. Click on **"Add webhook"**.
+We create a **new webhook** in Github. Now **copy** the webhook URL. And **paste** it in the **Payload URL** in our new webhook on Github. At the end also add **"/github"** since it's important for discord for webhook configurations. Change the **content type** to JSON. Let's just try **"Send me everything"** option this time. Click on **"Add webhook"**.
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*3GqoJuaAesi5Qdh34sZhbQ.png align="left")
 
@@ -82,7 +84,45 @@ Now the moment has come. Please **Unstar and Star** your repo. Did you hear a be
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*WPU5FVYrv5THFWPsNDNsmQ.jpeg align="left")
 
-***Congratulations***, we just connected two completely different services to send us a notification every time our repo is starred by somebody. I would like to acknowledge that apart from the various websites, PDFs and YouTube videos, [FreeCodeCamp](https://www.youtube.com/watch?v=41NOoEz3Tzc) helped immensely in increasing my understanding. In case of any doubts/clarifications, please feel free to comment below or reach out to me on my [LinkedIn](https://www.linkedin.com/in/sejal-jain17/).
+***Congratulations***, we just connected two completely different services to send us a notification every time our repo is starred by somebody. I would like to acknowledge that apart from the various websites, PDFs and YouTube videos, [FreeCodeCamp](https://www.youtube.com/watch?v=41NOoEz3Tzc) helped immensely in increasing my understanding.
+
+## Enhancing Webhook Security with Secret Tokens
+
+When setting up webhooks, it's crucial to consider security. One effective way to secure your webhooks is by using secret tokens. A secret token is a string that you generate and include in the webhook configuration. This token is sent along with each POST request in the `X-Hub-Signature` header, which GitHub calculates using the HMAC hex digest of the payload.
+
+Here's how you can secure your webhook with a secret token:
+
+1. **Generate a Secret Token**: When creating a webhook, GitHub allows you to specify a secret. This secret will be used to generate the HMAC hash of the payload.
+    
+2. **Validate the Signature**: In your webhook handler, you should validate the `X-Hub-Signature` header. Compare the HMAC hash of the payload (using your secret) with the signature provided in the header. If they match, the request is authentic. This ensures that the payload has not been tampered with and that it indeed comes from GitHub.
+    
+3. **Implementing in Your Code**: Make sure to implement this check in your webhook handler to prevent unauthorized or malicious requests from being processed.
+    
+
+## Troubleshooting Common Webhook Issues
+
+While setting up and using webhooks, you might encounter a few common issues. Here’s how to troubleshoot them:
+
+1. **Failed Deliveries**:
+    
+    * **Check the Payload URL**: Ensure the URL is correct and accessible. If your server is down or the URL is incorrect, the delivery will fail.
+        
+    * **Inspect the Response**: GitHub provides details about webhook deliveries. If a delivery fails, check the **Recent Deliveries** section to see the HTTP response code and error message.
+        
+    * **Network Issues**: Ensure there are no firewall or network issues preventing the webhook from reaching your server.
+        
+2. **Incorrect Configurations**:
+    
+    * **Event Selection**: Double-check that you've selected the correct events to trigger your webhook. For example, if you want notifications for stars, ensure only the **Stars** event is checked.
+        
+    * **Content Type**: Make sure the content type (e.g., JSON) matches what your server expects. Mismatched content types can lead to parsing errors.
+        
+3. **Signature Verification Failures**:
+    
+    * **Secret Token Mismatch**: If you're using a secret token, ensure the token in your webhook configuration matches what your server uses to verify the signature.
+        
+    * **Incorrect Signature Header**: Verify that your code correctly extracts and processes the `X-Hub-Signature` header.
+        
 
 ## Conclusion
 
