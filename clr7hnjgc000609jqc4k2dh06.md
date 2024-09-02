@@ -8,6 +8,7 @@ slug: how-to-do-java-unit-testing-effectively
 canonical: https://keploy.io/blog/community/how-to-do-java-unit-testing-effectively
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704873167651/14139b93-8f37-4ca9-bc5e-857bf4e20028.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1704873468048/6b7f7bde-a393-4969-b0ad-937caa1ac50b.png
+tags: unit-testing, unit-tests, java-testing-framework
 
 ---
 
