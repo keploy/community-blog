@@ -5,6 +5,7 @@ seoDescription: "Acceptance testing ensures a software system meets requirements
 datePublished: Fri Sep 06 2024 05:39:43 GMT+0000 (Coordinated Universal Time)
 cuid: cm0qae2ff000509mmb5m179to
 slug: what-is-acceptance-testing
+canonical: https://keploy.io/blog/community/what-is-acceptance-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725275168096/056c55e5-6405-43a0-add5-cda4d221b0a4.jpeg
 
 ---
