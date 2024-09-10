@@ -117,7 +117,7 @@ Functional testing should be performed at several key stages throughout the soft
 
 Functional testing is a cornerstone in the software testing process, assuring the reliability and performance of applications. By understanding its types and exploring practical instances, we gain insights into its crucial role in delivering software that not only meets but exceeds user expectations. We can navigate through diverse scenarios, and ensure the seamless functionality of the software solutions we oversee, contributing to the success of each project.
 
-## **FAQ’s for Functional Testing**
+## **FAQ’s**
 
 ### **1\. What is the primary goal of Functional Testing?**
 
