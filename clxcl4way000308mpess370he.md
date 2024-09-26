@@ -1,5 +1,7 @@
 ---
-title: "How to write comments in JSON?"
+title: "Learn to add comments to JSON"
+seoTitle: "Learn to add comments to JSON"
+seoDescription: "Learn practical methods to include comments in JSON files while ensuring they remain valid, using keys, libraries, external docs, or embedded strings."
 datePublished: Tue Jun 11 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clxcl4way000308mpess370he
 slug: how-to-write-comments-in-json
