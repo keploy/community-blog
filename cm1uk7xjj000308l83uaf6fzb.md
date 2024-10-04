@@ -1,8 +1,7 @@
 ---
 title: "What is Contract testing: A knowledge guide"
 seoTitle: "Understanding Contract Testing: An Informative Guide"
-seoDescription: "Discover contract testing and learn what it is, when to use it, see an example, and explore essential tools for effective API integration.
-"
+seoDescription: "Discover contract testing and learn what it is, when to use it, see an example, and explore essential tools for effective API integration."
 datePublished: Fri Oct 04 2024 10:05:40 GMT+0000 (Coordinated Universal Time)
 cuid: cm1uk7xjj000308l83uaf6fzb
 slug: what-is-contract-testing-a-knowledge-guide
