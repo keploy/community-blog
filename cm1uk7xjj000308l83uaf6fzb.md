@@ -77,6 +77,17 @@ Contract testing can be categorized into several types, primarily focusing on th
 * **Use Case**: Ideal for teams looking to implement consumer-driven contract testing in various environments.
     
 
+### **Keploy**
+
+* ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728036488641/1fb31a63-2c7f-4056-a975-e70e5c49ac52.png align="center")
+    
+    **Overview:** Keploy is an innovative testing tool that simplifies contract testing and API validation through automated test generation.
+    
+* **Features:** It allows users to create tests effortlessly by recording API interactions and generating test cases that can be reused, ensuring that both consumer and provider adhere to their contracts.
+    
+* **Use Case:** Ideal for teams seeking to enhance their API testing efficiency and reliability, enabling faster development cycles without sacrificing quality.
+    
+
 ### **Spring Cloud Contract**:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727642481159/b66a5ee7-defe-45c6-bd67-3973cd346d6a.png align="center")
