@@ -5,6 +5,7 @@ seoDescription: "Discover how to effectively implement load testing, overcome co
 datePublished: Fri Oct 04 2024 10:38:44 GMT+0000 (Coordinated Universal Time)
 cuid: cm1ulegcb00300ale6byv410b
 slug: all-about-load-testing-a-detailed-guide
+canonical: https://keploy.io/blog/community/all-about-load-testing-a-detailed-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727947174614/6e681a1c-28b7-4778-8edb-09d02807796b.png
 tags: load-testing
 
