@@ -6,7 +6,7 @@ datePublished: Tue Oct 15 2024 05:00:56 GMT+0000 (Coordinated Universal Time)
 cuid: cm29z6f1g000a09lf74xtggjf
 slug: essential-free-api-testing-tools-every-developer-should-know
 canonical: https://keploy.io/blog/community/essential-free-api-testing-tools-every-developer-should-know
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727066211693/aa0ad9b2-e0cd-4d81-8d1f-6a008fcec750.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728973170494/64a7de00-27ae-4a84-bd70-143380930b22.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1727066286953/ac9de482-fcc2-464e-84c9-e45bcf7fa19c.jpeg
 tags: api-testing, api-testing-tools, free-api-testing-tools, rest-api-testing, api-testing-software, automated-api-testing
 
