@@ -1,10 +1,13 @@
 ---
 title: "A guide to various types of APIs and API architecture"
+seoTitle: "API Types and Architecture Guide"
+seoDescription: "Explore API types and architectures to improve data exchange, streamline operations, and drive innovation across systems"
 datePublished: Wed Sep 14 2022 10:25:29 GMT+0000 (Coordinated Universal Time)
 cuid: cl81h8obd06qq63nvhpqy9cum
 slug: types-of-apis-and-api-architecture
 canonical: https://keploy.io/blog/community/types-of-apis-and-api-architecture
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729064253519/83934197-5366-48c1-854b-f8f11f64b1e7.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1729064264065/00bc46f7-7dd3-49bc-8e95-f1f48b8cf467.png
 tags: apis, keploy, keploy-api-fellowship
 
 ---
