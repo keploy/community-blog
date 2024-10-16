@@ -4,6 +4,7 @@ datePublished: Wed Sep 14 2022 10:25:29 GMT+0000 (Coordinated Universal Time)
 cuid: cl81h8obd06qq63nvhpqy9cum
 slug: types-of-apis-and-api-architecture
 canonical: https://keploy.io/blog/community/types-of-apis-and-api-architecture
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729064253519/83934197-5366-48c1-854b-f8f11f64b1e7.png
 tags: apis, keploy, keploy-api-fellowship
 
 ---
