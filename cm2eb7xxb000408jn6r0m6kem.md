@@ -5,6 +5,7 @@ seoDescription: "Discover contract testing and learn what it is, when to use it,
 datePublished: Fri Oct 18 2024 05:49:07 GMT+0000 (Coordinated Universal Time)
 cuid: cm2eb7xxb000408jn6r0m6kem
 slug: what-is-contract-testing-a-knowledge-guide
+canonical: https://keploy.io/blog/community/what-is-contract-testing-a-knowledge-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728036630563/60289fd1-b077-46c2-bd4a-c3823ab9a4c1.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728036660622/78731b4b-6917-4b79-a881-445d18d5113e.png
 tags: testing, api-testing, contract-testing
