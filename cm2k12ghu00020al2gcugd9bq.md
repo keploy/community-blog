@@ -5,6 +5,7 @@ seoDescription: "Explore our comprehensive guide on benchmark testing in softwar
 datePublished: Tue Oct 22 2024 05:51:32 GMT+0000 (Coordinated Universal Time)
 cuid: cm2k12ghu00020al2gcugd9bq
 slug: benchmark-testing-in-software-the-key-to-optimizing-performance
+canonical: https://keploy.io/blog/community/benchmark-testing-in-software-the-key-to-optimizing-performance
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724085132745/728f5b08-f17a-46d1-906d-33f8a11a0806.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724134672384/06249d2f-851b-455a-8fde-00c250f98517.png
 tags: software-development, performance, benchmark, software-testing
@@ -166,9 +167,7 @@ It involves several key components, each of which plays a crucial role in evalua
 
 ## Real-Life Use Case: Benchmark Testing for an E-commerce Platform
 
-**Scenario:** A large e-commerce platform is preparing for the annual Black Friday sale, expecting a significant increase in traffic. The company wants to ensure that its website and backend systems can handle the expected load without crashing or slowing down, which could result in lost sales and a poor customer experience.
-
-![Imagine a orange background with ecommerce website on  webscreen.](https://th.bing.com/th/id/OIG2.VjXl3Ki_xkb3GujW03u0?w=1024&h=1024&rs=1&pid=ImgDetMain align="left")
+**Scenario:** A large e-commerce platform is preparing for the annual Black Friday sale, expecting a significant increase in traffic. The company wants to ensure that their website and backend systems can handle the expected load without crashing or slowing down, which could result in lost sales and a poor customer experience.
 
 ### **Objectives:**
 
