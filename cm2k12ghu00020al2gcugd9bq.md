@@ -166,7 +166,9 @@ It involves several key components, each of which plays a crucial role in evalua
 
 ## Real-Life Use Case: Benchmark Testing for an E-commerce Platform
 
-**Scenario:** A large e-commerce platform is preparing for the annual Black Friday sale, expecting a significant increase in traffic. The company wants to ensure that their website and backend systems can handle the expected load without crashing or slowing down, which could result in lost sales and a poor customer experience.
+**Scenario:** A large e-commerce platform is preparing for the annual Black Friday sale, expecting a significant increase in traffic. The company wants to ensure that its website and backend systems can handle the expected load without crashing or slowing down, which could result in lost sales and a poor customer experience.
+
+![Imagine a orange background with ecommerce website on  webscreen.](https://th.bing.com/th/id/OIG2.VjXl3Ki_xkb3GujW03u0?w=1024&h=1024&rs=1&pid=ImgDetMain align="left")
 
 ### **Objectives:**
 
