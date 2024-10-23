@@ -14,17 +14,9 @@ tags: software-development, python, testing, software-engineering, ci-cd
 
 ## Introduction
 
-As software developers, we all write lots and lots of lines of code while building an application. But to ensure that each and every components work perfectly in the software, we really need to do some unit testing. This ensures proper functionality and reliable performance of our product. These testing of individual components is known as Unit Testing.
-
-For the dynamic nature and the ease of writing tests alongside the code, Python can be a viable option for unit testing of our software. So, let's dive into the nitty-gritty of writing unit tests and explore the best practices and techniques to ensure our code's reliability and maintainability.  
+As software developers, we have to write a lot of unit tests for our software. And for the dynamic nature and the ease of writing tests alongside the code, Python can be a viable option for unit testing of our software. So, let's dive into the nitty-gritty of writing unit tests and explore the best practices and techniques to ensure our code's reliability and maintainability.
 
 ![Let's go! - Pierce County Executive](https://blog.piercecountywa.gov/executive/files/2021/01/Lets-go.jpeg align="center")
-
-## Why software needs to be unit tested?
-
-Often it's found that during the early development phase, unit tests serve as a safety net by helping us catching bugs and regressions. By verifying the behavior of individual units, one can always able to identify and fix issues before they propagate throughout the codebase.
-
-Also, well-written unit tests act as documentation for the code, providing examples of its expected behavior. When making changes or refactoring code, we can easily rely on the existing tests to ensure that modifications don't inadvertently break functionality.
 
 ## How to use Python for unit testing?
 
@@ -191,7 +183,7 @@ python3 -m coverage combine
 python3 -m coverage report
 ```
 
-## Best practices for writing test cases
+## Best practices for writing test cases in Python
 
 The practices mentioned below are not exclusive to Python, but works for all kinds of unit test cases. But as we are discussing about unit test case writing here, so it's important to mention it here:
 
@@ -208,7 +200,7 @@ The practices mentioned below are not exclusive to Python, but works for all kin
     We should avoid dependencies between test cases by isolating the units under test. And for that, we can use techniques such as mocking or dependency injection to replace external dependencies with test doubles.
     
 
-## Common pitfalls to avoid while writing test cases
+## Common pitfalls to avoid while writing Python test cases
 
 Now that we know about the best practices of writing unit test cases, let's focus on some common mistakes that we must avoid while writing the test cases. These includes:
 
@@ -223,7 +215,9 @@ Now that we know about the best practices of writing unit test cases, let's focu
 
 ## Conclusion
 
-Writing unit tests is a fundamental aspect of software development, which ensures the code reliability and maintainability. And by following best practices and leveraging advanced techniques, and also embracing tools like **Keploy**, developers can create robust test suites that validate their code's behavior under different conditions. And well, that's a wrap for now!! Hope you folks have enriched yourself today with lots of known or unknown concepts. I wish you a great day ahead and till then keep learning and keep exploring!!
+Writing unit tests is a fundamental aspect of software development, which ensures the code reliability and maintainability. And by following best practices and leveraging advanced techniques, and also embracing tools like **Keploy**, developers can create robust test suites that validate their code's behavior under different conditions. And, I hope after going through this blog, you will be using Python a lot more to write your test cases!
+
+So well, it's a wrap for now!! Hope you folks have enriched yourself today with lots of known or unknown concepts. I wish you a great day ahead and till then keep learning and keep exploring!!
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1715810624477/4f7bf965-9f83-4208-91e4-f09c2e78a977.png align="center")
 
