@@ -5,6 +5,7 @@ seoDescription: "Learn Node.js backend testing with Mocha and Chai. Improve appl
 datePublished: Thu Oct 24 2024 06:08:43 GMT+0000 (Coordinated Universal Time)
 cuid: cm2mwk8x6000509l3gpavf1y7
 slug: mastering-nodejs-backend-testing-with-mocha-and-chai
+canonical: https://keploy.io/blog/community/mastering-node-js-backend-testing-with-mocha-and-chai
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729233336412/ac79cead-46a4-4f97-9b1f-037116f59376.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1729240196454/1a77aa06-3153-4e1b-b23a-1cde4d3fa963.png
 tags: mocha, nodejs, backend, testing
