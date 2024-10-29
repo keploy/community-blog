@@ -61,35 +61,146 @@ The more complex the software applications get, the more the benefits of automat
 
 1. **Define Testing Objectives :**
     
-    Identify which parts of your application will benefit from automation (e.g., repetitive tests, regression tests).
+    Identify which parts of your application will benefit from automation (e.g., repetitive tests, regression tests).  
+    **Example**:
     
+    * **Application**: An e-commerce website.
+        
+    * **Objectives**:
+        
+        * Automate regression tests for the login functionality, ensuring that every release does not break existing login features.
+            
+        * Automate tests for the checkout process to confirm that users can successfully complete purchases.
+            
 2. **Choose the Right Automation Tool** :
     
-    Select a tool based on your application’s technology stack, project requirements, and budget. Common tools include:
+    Select a tool based on your application’s technology stack, project requirements, and budget. Common tools include:  
+    **Example**:
     
+    * **Scenario**: The application is a web-based e-commerce platform.
+        
+    * **Tool Selection**: Choose Selenium WebDriver for browser automation because:
+        
+        * It supports multiple programming languages (Java, Python, C#, etc.).
+            
+        * It works with different browsers (Chrome, Firefox, Safari).
+            
+        * It's open-source, making it budget-friendly.
+            
 3. **Design Test Cases :**
     
-    Create detailed test cases that outline what needs to be tested, including input data and expected results.
+    Create detailed test cases that outline what needs to be tested, including input data and expected results.  
+    **Example**:
     
-4. **Set Up the Automation Environment :**
+    * **Test Case for Login**:
+        
+        * **Test Case ID**: TC001
+            
+        * **Description**: Verify user can log in with valid credentials.
+            
+        * **Preconditions**: User must have an existing account.
+            
+        * **Input Data**:
+            
+            * Username: [`user@example.com`](mailto:user@example.com)
+                
+            * Password: `securepassword`
+                
+        * **Expected Result**: User should be redirected to the dashboard with a welcome message.
+            
+4. **Set Up the Automation Environment :**  
+    **Here is a sample HTML for you to execute locally to see the results**
     
-    Install and configure the chosen automation tools.
+    ```xml
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Page</title>
+    </head>
+    <body>
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <button type="submit" id="login-button">Login</button>
+        </form>
+        <p id="welcome-message" style="display:none;">Welcome!</p>
+        <script>
+            document.getElementById('login-form').onsubmit = function(event) {
+                event.preventDefault();
+                document.getElementById('welcome-message').style.display = 'block';
+            };
+        </script>
+    </body>
+    </html>
+    ```
     
 5. **Develop Test Scripts :**
     
-    Write automation scripts using the chosen tool’s scripting language.
+    ```python
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    import time
+    import os
+    
+    # Path to the HTML file (replace 'path/to' with the actual path to the file)
+    file_path = os.path.abspath("login_page.html")
+    url = f"file://{file_path}"
+    
+    # Set up WebDriver
+    driver = webdriver.Chrome()  # Or use `webdriver.Firefox()` if you have it set up
+    driver.get(url)
+    
+    try:
+        # Locate form fields and login button
+        email_field = driver.find_element(By.ID, "email")
+        password_field = driver.find_element(By.ID, "password")
+        login_button = driver.find_element(By.ID, "login-button")
+    
+        # Fill in the form
+        email_field.send_keys("user@example.com")
+        password_field.send_keys("securepassword")
+        login_button.click()
+    
+        # Wait briefly to let the page update
+        time.sleep(1)  # Short wait
+    
+        # Verify welcome message appears
+        welcome_message = driver.find_element(By.ID, "welcome-message")
+        assert welcome_message.is_displayed()
+    
+        print("Login successful!")
+    
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    
+    finally:
+        driver.quit()
+    ```
     
 6. **Execute Tests :**
     
-    Run your automated tests on various environments to ensure they work as expected.
+    ```python
+    python sel.py
+    ```
     
 7. **Review and Analyze Results :**
     
-    Check test execution results and logs to identify any issues or failures.
+    Check test execution results and logs to identify any issues or failures.  
+    **Example**:
     
+    * **Log Analysis**: After executing the tests, review the output logs or reports generated by the automation tool.
+        
+    * **Example Result**:
+        
+        * **Test Case TC001**: Login Successful
+            
 8. **Maintain and Update Tests :**
     
-    Regularly update your test scripts to reflect changes in the application.
+    Regularly update your test scripts to reflect changes in the application.  
     
 
 ## Questions to keep in mind while looking for a tool :
@@ -124,6 +235,8 @@ The more complex the software applications get, the more the benefits of automat
 
 ### **1\. Keploy**
 
+![keploy](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188643446/31816ec9-7341-4cf8-8447-b9edf1cfe491.png align="center")
+
 Keploy is an open-source test automation tool designed to streamline the testing of APIs. It allows users to generate test cases automatically by recording interactions during runtime.
 
 Keploy also supports generating mock data and has a replay feature that can simulate real-world scenarios, making it ideal for regression testing and ensuring API stability across versions.
@@ -143,6 +256,8 @@ Docs to get started : [https://keploy.io/docs/server/installation/](https://kepl
 
 ### **2\. Katalon**
 
+![katalon](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188763954/6f6df024-3c45-4dbc-ac7c-6d81f3694570.png align="center")
+
 Katalon is a comprehensive test automation tool that supports web, API, mobile, and desktop testing. It has robust reporting features and support for continuous integration.
 
 Katalon is well-suited for teams looking to accelerate their testing cycles.
@@ -161,6 +276,8 @@ Website: [https://www.katalon.com/](https://www.katalon.com/)
 Docs to get started: [https://docs.katalon.com/](https://docs.katalon.com/)
 
 ### **3\. Selenium**
+
+![selenium](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188791050/bbc0de40-06ea-446b-a6e5-86f213157be1.png align="center")
 
 Selenium is a well-established test automation tool and has the ability to automate web browsers across different platforms. It offers scripting-only modes, providing testers and developers the flexibility to write complex test cases using various programming languages.
 
@@ -185,6 +302,8 @@ Selenium is a well-established test automation tool and has the ability to auto
 
 ### **4\. Appium**
 
+![appium](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188837361/0e76e785-e964-40d3-9af1-4754c4492d20.png align="center")
+
 Appium is an open-source tool that enables the automation of mobile applications. It supports a wide range of programming languages, making it a flexible choice for developers. Appium is particularly useful for teams needing to test mobile apps across different devices and operating systems.
 
 * **Cross-Platform Mobile Testing**: Supports automation of native, hybrid, and mobile web applications across iOS and Android.
@@ -199,6 +318,8 @@ Appium is an open-source tool that enables the automation of mobile applications
 **Docs to get started**: http://appium.io/docs/en/about-appium/intro/
 
 ### **5\. TestComplete**
+
+![testcomplete](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188873785/615aeb80-0a61-4e7b-911e-4ba97ffe1a78.png align="center")
 
 TestComplete is a commercial test automation tool that supports web, mobile, and desktop applications. It offers both low-code and scripting options, allowing testers of varying skill levels to use the tool effectively.
 
@@ -215,6 +336,8 @@ TestComplete is a commercial test automation tool that supports web, mobile, and
 
 ### **6\. Cypress**
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188916907/9f492f0c-e2c4-4f06-a48b-2d2180a64719.png align="center")
+
 Cypress is a modern test automation tool built specifically for web applications. It offers fast, reliable testing with real-time reloading, making it a favorite among front-end developers.
 
 * **End-to-End Testing**: Focuses on end-to-end testing of web applications.
@@ -229,6 +352,8 @@ Cypress is a modern test automation tool built specifically for web applications
 **Docs to get started**: https://docs.cypress.io/guides/overview/why-cypress
 
 ### **7\. Siege**
+
+![siege](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188969599/eaad4f43-81dc-4d48-aa78-837b7fe125c2.png align="center")
 
 Siege is a command-line tool designed for benchmarking and stress testing web servers. It is useful for performance testing and ensuring that web applications can handle high traffic. Siege is lightweight and easy to use,which makes it a good addition to a test automation toolkit.
 
