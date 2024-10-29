@@ -1,5 +1,7 @@
 ---
 title: "What Is Quality Engineering Software?"
+seoTitle: "Quality Engineering Software: Practices & Benefits Explained"
+seoDescription: "Learn how Quality Engineering Software enhances development by detecting bugs early, enabling faster releases, and ensuring stable, high-performing apps."
 datePublished: Fri Dec 29 2023 07:08:09 GMT+0000 (Coordinated Universal Time)
 cuid: clqqal4k5000908jqd1nrc81k
 slug: what-is-quality-engineering-software
