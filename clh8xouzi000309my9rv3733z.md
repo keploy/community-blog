@@ -1,5 +1,7 @@
 ---
 title: "Simplifying JUnit Test Stubs and Mocking"
+seoTitle: "Mastering JUnit: Simplifying Test Stubs and Mocking for Effective Unit"
+seoDescription: "Explore mocking in testing! Learn how mocks and frameworks like Mockito and Keploy simplify unit tests by creating test doubles."
 datePublished: Thu May 04 2023 09:37:42 GMT+0000 (Coordinated Universal Time)
 cuid: clh8xouzi000309my9rv3733z
 slug: simplifying-junit-test-stubs-and-mocking
