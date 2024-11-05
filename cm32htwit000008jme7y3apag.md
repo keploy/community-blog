@@ -5,6 +5,7 @@ seoDescription: "Learn how to efficiently delete local and remote branches in Gi
 datePublished: Mon Nov 04 2024 04:00:38 GMT+0000 (Coordinated Universal Time)
 cuid: cm32htwit000008jme7y3apag
 slug: how-to-delete-local-and-remote-branches-in-git-a-complete-guide
+canonical: https://keploy.io/blog/community/how-to-delete-local-and-remote-branches-in-git-a-complete-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728887728866/b5089871-5788-43a0-bbb5-a53216f915be.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728887774586/c9e302bc-0b55-4c6e-b5b4-740021d6cebf.png
 tags: github, git, git-branch, git-branching
