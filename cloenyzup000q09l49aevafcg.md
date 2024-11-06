@@ -6,8 +6,8 @@ datePublished: Sat Nov 04 2023 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cloenyzup000q09l49aevafcg
 slug: exploring-end-to-end-testing-with-ai
 canonical: https://keploy.io/blog/community/exploring-end-to-end-testing-with-ai
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730582842183/dd4ffa60-5a13-455f-963c-902ca16a88c4.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1730582948300/3088cc8d-ea29-43d0-9906-7a36a5fbf765.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730879518395/5918ca19-87f2-4e30-90d0-a042e38c75e3.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1730879528209/20bd8ff4-5b1a-4b88-aab0-278cccf30e22.png
 tags: ai, software-development, testing, developer-tools, test-automation, end-to-end-testing
 
 ---
