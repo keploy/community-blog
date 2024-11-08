@@ -1,11 +1,11 @@
 ---
 title: "Comprehensive Guide to Running Tests with Cypress"
-seoTitle: "Run and Automate Tests in Cypress: Full Guide
-"
+seoTitle: "Run and Automate Tests in Cypress: Full Guide"
 seoDescription: "Learn how to run specific tests in Cypress, explore E2E testing benefits. It is a comprehensive guide to see how Cypress compares with Keploy"
 datePublished: Fri Nov 08 2024 06:29:14 GMT+0000 (Coordinated Universal Time)
 cuid: cm38cwfdr000i09jl2v74ajm0
 slug: comprehensive-guide-to-running-tests-with-cypress
+canonical: https://keploy.io/blog/community/comprehensive-guide-to-running-tests-with-cypress
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730238183513/6cadde39-be4d-4ebd-9a1d-39a9604a3844.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1730238193370/1e400ca5-31e4-4f23-92bb-a1ec97f28bb3.png
 tags: cypress, cypress-automation, cypress-testing
