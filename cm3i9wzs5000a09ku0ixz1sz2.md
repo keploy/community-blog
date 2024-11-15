@@ -5,6 +5,7 @@ seoDescription: "Explore how AI improves code documentation, improving efficienc
 datePublished: Fri Nov 15 2024 05:03:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm3i9wzs5000a09ku0ixz1sz2
 slug: the-impact-of-ai-on-code-commenting-and-software-documentation
+canonical: https://keploy.io/blog/community/the-impact-of-ai-on-code-commenting-and-software-documentation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731068285683/a282929f-ffcf-4c32-b0f1-7676830222ef.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1731068327429/c6dd2712-3592-49d5-a93c-6f36f5e4b888.png
 tags: ai, software-development, documentation, software-engineering
@@ -34,7 +35,6 @@ Before diving into how **AI-powered code commenting** assists in documentation, 
 
 1. **Automated Comment Generation**: Tools like GitHub Copilot and Amazon CodeWhisperer analyze your code and automatically generate descriptive comments. For instance, when writing a function that calculates the factorial of a number, the **AI-powered code comments** might suggest:
     
-      
     **Example**: Writing a function that calculates the factorial of a number might automatically generate comments like:
     
     ```python
@@ -81,7 +81,7 @@ The role of AI in code documentation is evolving rapidly and the future advancem
 
 ## Can AI be Used to Automate Software Testing?
 
-Just as **AI tools for developers** can enhance documentation, they can also streamline testing. **Keploy**, for instance, offers **automated testing** solutions that generate test cases and mocks for unit, integration as well as e2e testing. It’s straightforward to use and integrates seamlessly with IDEs like VS Code, allowing you to improve testing efficiency while maintaining code quality.
+Just as **AI tools for developers** can enhance documentation, they can also streamline testing. **Keploy**, for instance, offers **automated testing** solutions that generate test cases and mocks for unit, integration as well as e2e testing. It’s straightforward to use and integrates seamlessly with IDEs like VS Code, allowing you to improve testing efficiency while maintaining [code quality.](https://keploy.io/blog/community/the-impact-of-ai-on-code-commenting-and-software-documentation)
 
 ![What is Keploy?](https://keploy.io/docs/img/keploy-logo-dark.svg align="left")
 
