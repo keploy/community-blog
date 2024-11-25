@@ -5,6 +5,7 @@ seoDescription: "Learn about exploratory testing, its techniques, benefits, and 
 datePublished: Mon Nov 25 2024 05:45:03 GMT+0000 (Coordinated Universal Time)
 cuid: cm3wlt30y001v09mtbatq9jgx
 slug: how-exploratory-testing-can-improve-software-quality
+canonical: https://keploy.io/blog/community/how-exploratory-testing-can-improve-software-quality
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732513488040/78e8f11b-4be2-4e1b-ae0b-1dceabf0ccfa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1732513495805/a2bb5daa-77d9-487b-8767-5589648a9902.png
 
