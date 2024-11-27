@@ -3,6 +3,7 @@ title: "How to Use Assertions in Python Selenium for Testing"
 datePublished: Wed Nov 27 2024 06:06:51 GMT+0000 (Coordinated Universal Time)
 cuid: cm3zhgtju001509jm9lig6565
 slug: how-to-use-assertions-in-python-selenium-for-testing
+canonical: https://keploy.io/blog/community/how-to-use-assertions-in-python-selenium-for-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732687573651/b418b0e0-3950-44d6-8e14-a900c82ac458.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1732687595840/ebbf6bf9-fbf2-43f3-9676-f6c879a1723b.png
 
