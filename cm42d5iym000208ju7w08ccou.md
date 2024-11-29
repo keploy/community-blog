@@ -5,6 +5,7 @@ seoDescription: "AI transforms software development by improving code generation
 datePublished: Fri Nov 29 2024 06:29:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm42d5iym000208ju7w08ccou
 slug: ai-code
+canonical: https://keploy.io/blog/community/ai-code
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732175826169/e11ad023-a36a-45ef-a28c-7c3bd78d8582.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1732176007588/9a18ff3e-34a0-4654-a313-f14416bb7a03.png
 tags: ai, software-development, coding
