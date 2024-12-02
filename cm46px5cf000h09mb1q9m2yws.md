@@ -1,7 +1,7 @@
 ---
 title: "Everything You Need to Know About API Testing"
 seoTitle: "Everything You Need to Know About API Testing"
-seoDescription: "Learn about API testing's importance, types, best practices, and tools like Postman for reliable performance"
+seoDescription: "Discover API testing essentials: importance, best practices, and tools like Postman, Keploy for functionality, and performance endpoint testing"
 datePublished: Mon Dec 02 2024 07:37:53 GMT+0000 (Coordinated Universal Time)
 cuid: cm46px5cf000h09mb1q9m2yws
 slug: everything-you-need-to-know-about-api-testing
