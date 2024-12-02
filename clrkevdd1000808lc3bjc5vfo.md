@@ -18,7 +18,7 @@ This comprehensive guide will help you understand the core concepts of BDD, how 
 
 ## Understanding BDD: Business Driven Development Explained
 
-BDD is short for Business Driven Development, it's way to close the gap between business people and technical people. Basically, BDD has evolved from TDD, there's a high chance that you might even be doing BDD without knowing it, as sometimes the lines between them aren't clear.
+BDD is short for [Business Driven Development](https://keploy.io/docs/concepts/reference/glossary/behaviour-driven-development/), it's way to close the gap between business people and technical people. Basically, BDD has evolved from TDD, there's a high chance that you might even be doing BDD without knowing it, as sometimes the lines between them aren't clear.
 
 So what's the difference between them, both are **automated tests***right*? Well, the difference is that we use the language of our end-users, i.e. the business or domain language such as **Given-When-Then**, to capture like a story in an executable format. For example,
 
@@ -42,7 +42,7 @@ AND his confirmation email is sent.
 
 ## What is Cucumber Testing?
 
-Cucumber-js is **a test framework that supports BDD**. The tests are written in the Gherkin language, which are human-readable and are stored in feature files that have the feature extension. This allows your tests to be a point of communication and collaboration with bussines people and can even serve as documentation that is automatically up-to-date.
+Cucumber-js is **a** [**test framework**](https://keploy.io/docs/concepts/reference/glossary/cucumber-testing/) **that supports BDD**. The tests are written in the Gherkin language, which are human-readable and are stored in feature files that have the feature extension. This allows your tests to be a point of communication and collaboration with bussines people and can even serve as documentation that is automatically up-to-date.
 
 A test in the Gherkin language is called a scenario. And scenarios are organized into features.
 
@@ -261,6 +261,14 @@ Now run your tests once again, and you can see that under `reports/` folder ther
 
 ![Cucumber.js BDD Testing Guide.](https://cdn.hashnode.com/res/hashnode/image/upload/v1705653728395/103d6810-2c70-477d-9d53-b0a7ebdc56bd.png align="center")
 
+## Benefits of BDD
+
+| **BDD Benefits** | **Description** |
+| --- | --- |
+| Collaboration | Aligns developers and non-technical stakeholders using natural language tests. |
+| Documentation | Test cases double as up-to-date, living documentation. |
+| Multi-Language Support | Works with Java, JavaScript, Python, and more. |
+
 ## Conclusion
 
 Cucumber-js focuses mainly on making the collaboration between tech people and business people easy. But it doesn’t eliminate the coding part and still has a lot of code involved. When dealing with **behavior-driven** automation, there are a lot of rules that you have to use as guide, the main thing we have to keep in mind is how to properly use keywords GIVEN, WHEN, and THEN.
@@ -286,7 +294,7 @@ Gherkin is a simple, human-readable language used to describe the behavior of so
 
 ### What is BDD testing and how does it differ from other testing methodologies?
 
-BDD (Behavior-Driven Development) testing is an approach where software behavior is described in natural language, focusing on the expected outcomes rather than technical details. It differs from other testing methodologies like TDD (Test-Driven Development) by emphasizing collaboration among developers, testers, and non-technical stakeholders through shared understanding of user requirements expressed as scenarios.
+BDD testing is an approach where software behavior is described in natural language, focusing on the expected outcomes rather than technical details. It differs from other testing methodologies like TDD by emphasizing collaboration among developers, testers, and non-technical stakeholders through shared understanding of user requirements expressed as scenarios.
 
 ### What are some best practices for writing effective BDD scenarios ?
 
@@ -309,6 +317,6 @@ There are multiple tools that can help you out in creating the BDD tests similar
 
 1. [**SpecFlow**](https://specflow.org/): SpecFlow is a BDD framework for .NET applications, primarily used with C#.
     
-2. [Behave (Python)](https://behave.readthedocs.io/en/latest/) : It is a Python-based BDD framework that uses Gherkin syntax for writing feature files and step definitions. It integrates well with Python testing libraries like Pytest and provides powerful features for testing Python applications.
+2. [Behave (Python)](https://behave.readthedocs.io/en/latest/) : It is a Python-based BDD framework that uses Gherkin syntax for writing feature files and step definitions.
     
-3. [**Karate**](https://www.karatelabs.io/): Karate is an open-source BDD framework for testing web services and APIs. It uses a syntax similar to Gherkin and allows writing feature files to describe API tests. Karate supports both JSON and YAML formats and provides built-in features for HTTP requests, assertions, and data-driven testing.
+3. [**Karate**](https://www.karatelabs.io/): Karate is an open-source BDD framework for testing web services and APIs. It uses a syntax similar to Gherkin and allows writing feature files to describe API tests.
