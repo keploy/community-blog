@@ -5,6 +5,7 @@ seoDescription: "Discover API testing essentials: importance, best practices, an
 datePublished: Mon Dec 02 2024 07:37:53 GMT+0000 (Coordinated Universal Time)
 cuid: cm46px5cf000h09mb1q9m2yws
 slug: everything-you-need-to-know-about-api-testing
+canonical: https://keploy.io/blog/community/everything-you-need-to-know-about-api-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716271727212/df7ee951-2274-4f8a-994d-60b74d661d46.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1716272434977/fdbf0ff0-6f33-4f97-8bc4-a78334496db0.png
 tags: apis, testing, api-testing, api-endpoint-testing
