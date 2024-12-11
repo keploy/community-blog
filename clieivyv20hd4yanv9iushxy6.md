@@ -1,6 +1,6 @@
 ---
-title: "Mastering GitHub Webhooks: Automate Notifications & Stay Informed"
-seoTitle: "Mastering GitHub Webhooks: Automate Notifications & Stay Informed"
+title: "Automate GitHub Notifications with Webhooks"
+seoTitle: "Automate GitHub Notifications with Webhooks"
 seoDescription: "Webhooks allow to notify external services when some event occurs. When the specified event occurs, Webhooks help send POST requests to all the URLs."
 datePublished: Fri Jun 02 2023 12:09:39 GMT+0000 (Coordinated Universal Time)
 cuid: clieivyv20hd4yanv9iushxy6
@@ -12,17 +12,22 @@ tags: github, apis, webhooks, test-automation, keploy
 
 ---
 
-We all like shopping, right? Let me tell you of this one time I really wanted to get myself thigh high black boots and when I checked on Amazon, the boots weren't available in stock. But I was really desperate so I would check Amazon twice or thrice everyday, to the point that it became annoying and it looked like the boots were neither going to be back in stock nor in my cupboard anytime soon. I wanted a way for Amazon to message me as soon as those boots were available.
+Let me tell you about the time I desperately wanted thigh-high black boots. I checked Amazon daily, sometimes two or three times, only to find they were out of stock. It became frustrating and time-consuming, and I thought: *Wouldn't it be great if Amazon could notify me the moment those boots were back in stock?*
 
 ## What are Webhooks?
 
-I got to know that apart from APIs, there are something called as Webhooks. **Webhooks** allow to notify external services when some event occurs. When the specified event occurs, Webhooks help send POST requests to all the URLs given by the user. I wish I had known this earlier and could use this for Amazon to notify me. Definitely, it would've been better to receive a POST request of the boots are available, rather than continuously opening Amazon and checking if they're available or not..
+This brings us to the concept of **webhooks**. Unlike APIs, webhooks allow external services to notify you when a specific event occurs. For example, if Amazon had a webhook, it could send a notification to your application the moment those boots became available. Webhooks achieve this by sending POST requests to a URL you specify, enabling real-time updates without the need for constant manual checks.
 
 ## How webhooks are different from API's?
 
-Webhooks are a kind of **reverse API**, it calls you instead of you calling it. You obtain data from an API by "polling" which is the method by which your application periodically sends requests to an API server to check for updated data. On the other hand, a webhook enables the provider to push data to your application as soon as an event takes place. While webhooks allow the server to deliver you info as soon as something happens, APIs must frequently get data from a server.
+Think of webhooks as a kind of *reverse API*. Instead of your application repeatedly requesting (or "polling") data from a server, webhooks push updates to you as events occur. This fundamental difference makes webhooks ideal for real-time notifications, while APIs are better suited for scenarios requiring on-demand data retrieval.
 
-Now that we know the difference between the two let's dive right into making a webhook for ourselves. First up, we're going to open this [**Github link**](https://github.com/twiliodeved/webhooks-course) and **fork** it, so that we could make our own changes.
+## Setting Up a Webhook for GitHub Stars
+
+Now that we know the difference between the two let's dive right into making a webhook for ourselves.
+
+1. **Fork a GitHub Repository:** Start by [forking a repository](https://github.com/TwilioDevEd/webhooks-course). This will create a personal copy you can modify.
+    
 
 ![Github repo](https://cdn-images-1.medium.com/max/1200/1*PuGPE1OMPkDcMwf_GoH5LQ.png align="left")
 
@@ -30,13 +35,14 @@ Voila! I now have my own copy.
 
 ![Forked repo](https://cdn-images-1.medium.com/max/1200/1*u4W5YqSLSQ3PcWsVFTwUKQ.png align="left")
 
-After clicking on the **Settings** tab, we can see a **Webhooks** option on the left. "Webhooks allow external services to be notified when certain events happen", that makes a lot of sense now that we know what webhooks are all about. Now let's add a webhook for our repo, click on the **"Add webhook"** button.
+2. **Access Webhooks:** Go to the repository's settings and select "Webhooks" from the sidebar. "*Webhooks allow external services to be notified when certain events happen*", that makes a lot of sense now that we know what webhooks are all about. Now let's add a webhook for our repo, click on the **"Add webhook"** button.
+    
 
 ![Text](https://cdn-images-1.medium.com/max/1200/1*MzkWxCAEZR0wt3TQhHHzmA.png align="left")
 
-What should our event that triggers a notification on some external service be? We're all familiar with the Github stars, right? Let's keep that as our event, so I want a notification anytime someone stars this repo of mine. 
-
-We can use a mocking tool to capture a webhook. **Beeceptor** is one such tool which helps us to build a mock API URL in seconds. So now let's head to [**Beeceptor**](https://beeceptor.com/). Now for our mock subdomain name you can type in anything you want, I'm going to type my name "Sejal" and then click on **Create endpoint**.
+3. **Specify the Event:** Choose the "Stars" event as the trigger.  
+    We can use a mocking tool to capture a webhook. **Beeceptor** is one such tool which helps us to build a mock API URL in seconds. So now let's head to [**Beeceptor**](https://beeceptor.com/). Now for our mock subdomain name you can type in anything you want, I'm going to type my name "Sejal" and then click on **Create endpoint**.
+    
 
 ![Text](https://cdn-images-1.medium.com/max/1200/1*bCuM8mYpv5vRJRmO7c-FFg.png align="left")
 
@@ -54,9 +60,7 @@ We can scroll down and change the **content type** to JSON. We can also choose t
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*eRD2Aa-CD7ey5D-U53AJmA.png align="left")
 
-Now, if we go ahead and star our repo and head back to Beeceptor, we can see that there was a post to stars.
-
-![x](https://cdn-images-1.medium.com/max/1200/1*i1Y8G8RMGfDOggrO0F4XPg.png align="left")
+Now, Let’s star our repo and head back to Beeceptor, we can see that there was a post to stars.
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*npFnZApYD6Znr-PZT28x-g.png align="left")
 
@@ -68,19 +72,29 @@ We can actually see this information in a better formatted way in Github itself,
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*fzmj3Seae9sAk7CqmDC9Kw.png align="left")
 
-Now we have a firing webhook and it get's fired when our repo is starred. But let's say this repo is a group project and we want all the people involved in our project to know whenever the repo get's starred. We have a discord server where the people working on the project chat and coordinate for further development of the project. Let's create a new server on discord right now, just to mock the situation. Log into your discord and create a new server, I've named the server "Project Hook". Click on the settings button beside general.
+Now we have a firing webhook and it get's fired when our repo is starred.
+
+## Integrating Webhooks with Discord
+
+Suppose you're working on a group project and want to notify your team on Discord whenever your repository gets starred. Here's how you can set it up:
+
+1. **Create a Discord Server:** Log in to Discord and create a server (e.g., "Project Hook").
+    
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*JMTS4bGtfDr-Kqj3zGLUew.jpeg align="left")
 
-Click on **Integrations** and then **Create webhook**. Change name of the webhook to **"Github Notifier"** and **save changes**. We've built a webhook handler. This is different from what we did with Github earlier. Github made a request to the handler. But this actually handles the request. Both are called webhooks.
+2. **Set Up a Discord Webhook:** Navigate to the server settings, go to "Integrations," and create a new webhook. Name it (e.g., "GitHub Notifier") and copy the webhook URL.
+    
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*f1-HhOX0rCCZCSb2rNyNcw.png align="left")
 
-We create a **new webhook** in Github. Now **copy** the webhook URL. And **paste** it in the **Payload URL** in our new webhook on Github. At the end also add **"/github"** since it's important for discord for webhook configurations. Change the **content type** to JSON. Let's just try **"Send me everything"** option this time. Click on **"Add webhook"**.
+3. **Configure GitHub:** Paste the Discord webhook URL into your GitHub webhook settings and add `/github` at the end. Select "Send me everything" for event types.
+    
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*3GqoJuaAesi5Qdh34sZhbQ.png align="left")
 
-Now the moment has come. Please **Unstar and Star** your repo. Did you hear a beep sound? Look at your discord notification. Go to your discord server and you can see\*\* "A new star was added"\*\* message in the general channel.
+4. **Test the Integration:** Star your repository and check Discord for a notification in the general channel.
+    
 
 ![x](https://cdn-images-1.medium.com/max/1200/1*WPU5FVYrv5THFWPsNDNsmQ.jpeg align="left")
 
@@ -88,15 +102,13 @@ Now the moment has come. Please **Unstar and Star** your repo. Did you hear a be
 
 ## Enhancing Webhook Security with Secret Tokens
 
-When setting up webhooks, it's crucial to consider security. One effective way to secure your webhooks is by using secret tokens. A secret token is a string that you generate and include in the webhook configuration. This token is sent along with each POST request in the `X-Hub-Signature` header, which GitHub calculates using the HMAC hex digest of the payload.
+Security is crucial when dealing with webhooks. Here's how you can secure your webhooks:
 
-Here's how you can secure your webhook with a secret token:
-
-1. **Generate a Secret Token**: When creating a webhook, GitHub allows you to specify a secret. This secret will be used to generate the HMAC hash of the payload.
+1. **Generate a Secret Token:** Specify a secret token in your webhook settings on GitHub.
     
-2. **Validate the Signature**: In your webhook handler, you should validate the `X-Hub-Signature` header. Compare the HMAC hash of the payload (using your secret) with the signature provided in the header. If they match, the request is authentic. This ensures that the payload has not been tampered with and that it indeed comes from GitHub.
+2. **Validate the Signature:** In your webhook handler, validate the `X-Hub-Signature` header by comparing the HMAC hash of the payload (using your secret) with the provided signature.
     
-3. **Implementing in Your Code**: Make sure to implement this check in your webhook handler to prevent unauthorized or malicious requests from being processed.
+3. **Implement Verification:** Ensure this validation step is implemented in your webhook handler to protect against tampered or unauthorized requests.
     
 
 ## Troubleshooting Common Webhook Issues
@@ -126,9 +138,7 @@ While setting up and using webhooks, you might encounter a few common issues. He
 
 ## Conclusion
 
-GitHub Webhooks offer a powerful way to stay informed about activity on your repositories without constantly checking for updates manually. By setting up webhooks, you can receive notifications in real-time whenever specific events, like stars or pushes, occur. Whether you're a developer tracking changes to your codebase or a project manager keeping your team in the loop, GitHub webhooks streamline the process and make collaboration more efficient.
-
-So, why not take advantage of this handy feature and let webhooks do the monitoring for you? With just a few simple steps, you can stay connected and informed, allowing you to focus on what matters most.
+GitHub webhooks are a powerful tool for automating notifications and real-time updates. By using webhooks, you can stay informed about repository activity without manually checking for updates. Whether you're tracking stars or integrating with services like Discord, webhooks streamline workflows and enhance collaboration.
 
 ## Frequently Asked Questions
 
