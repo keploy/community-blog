@@ -5,6 +5,7 @@ seoDescription: "Though various operating systems feature different commands, th
 datePublished: Thu Dec 12 2024 06:30:59 GMT+0000 (Coordinated Universal Time)
 cuid: cm4kxxn1t000009mh5tzo14vk
 slug: mastering-the-redo-shortcut-key-a-guide-for-efficient-workflows
+canonical: https://keploy.io/blog/community/mastering-the-redo-shortcut-key-a-guide-for-efficient-workflows
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733984313845/52b2400d-4d0c-4321-b167-9850e4e39e94.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1733989034257/7125a719-3a68-4808-bb7d-4f1c453fe888.webp
 tags: machine-learning, windows, shortcuts, redo, ctrly
