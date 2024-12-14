@@ -5,6 +5,7 @@ seoDescription: "Discover the innovative features of Cursor by Anysphere, the AI
 datePublished: Fri Dec 13 2024 11:18:16 GMT+0000 (Coordinated Universal Time)
 cuid: cm4mnmxge000309l4fm50bzs4
 slug: exploring-cursor-the-ai-code-editor-revolutionizing-development-productivity
+canonical: https://keploy.io/blog/community/exploring-cursor-the-ai-code-editor-revolutionizing-development-productivity
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734088473395/28c44284-5ceb-43ff-a3ee-adb6be3e039a.png
 tags: technology, cursor, anyshphere
 
