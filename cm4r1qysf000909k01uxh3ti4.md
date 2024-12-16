@@ -5,6 +5,7 @@ seoDescription: "The API Waterfall is a sequentially and methodically defined ap
 datePublished: Mon Dec 16 2024 13:04:23 GMT+0000 (Coordinated Universal Time)
 cuid: cm4r1qysf000909k01uxh3ti4
 slug: waterfall-api-a-comprehensive-guide
+canonical: https://keploy.io/blog/community/waterfall-api-a-comprehensive-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734354137287/8fe110e4-28ac-4c40-9aa5-353d9babecf1.png
 tags: api, technology, apis, waterfall
 
