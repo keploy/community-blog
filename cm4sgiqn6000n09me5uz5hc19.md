@@ -5,6 +5,7 @@ seoDescription: "Discover GPT-4 pricing, key features, and comparisons with GPT-
 datePublished: Tue Dec 17 2024 12:45:40 GMT+0000 (Coordinated Universal Time)
 cuid: cm4sgiqn6000n09me5uz5hc19
 slug: gpt-4-cost-everything-you-need-to-know-before-getting-started
+canonical: https://keploy.io/blog/community/gpt-4-cost-everything-you-need-to-know-before-getting-started
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734439330616/e90d4b44-cfc9-4903-b343-c50957ed6147.png
 tags: ai, tools, gpt-3, gpt3, pricing, gpt
 
