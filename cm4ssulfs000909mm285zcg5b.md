@@ -5,6 +5,7 @@ seoDescription: "Discover the differences between unit testing and integration t
 datePublished: Tue Dec 17 2024 18:30:49 GMT+0000 (Coordinated Universal Time)
 cuid: cm4ssulfs000909mm285zcg5b
 slug: unit-testing-vs-integration-testing-a-comprehensive-guide
+canonical: https://keploy.io/blog/community/unit-testing-vs-integration-testing-a-comprehensive-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734045371547/ec3537d1-0738-43e6-ac12-dcd7abf644da.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1734045538467/03f6eba2-71ea-48f2-b637-17b36ba88763.png
 tags: software-development, testing, software-engineering
