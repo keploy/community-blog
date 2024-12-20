@@ -5,6 +5,7 @@ seoDescription: "Enhance your VS Code experience in 2025 with these top five ess
 datePublished: Thu Dec 19 2024 10:00:37 GMT+0000 (Coordinated Universal Time)
 cuid: cm4v5i6ef000309kycnk6fkk5
 slug: top-5-must-use-vs-code-extensions-for-developers-in-2025
+canonical: https://keploy.io/blog/community/top-5-must-use-vs-code-extensions-for-developers-in-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734378535968/7d722327-6695-413f-8bc2-09c9de6fe711.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1734378713443/61405d11-f37e-41ae-924e-4532111676a8.png
 tags: software-development, vscode-extensions
