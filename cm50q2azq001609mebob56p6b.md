@@ -5,6 +5,7 @@ seoDescription: "Learn stress testing to identify system limits, use tools, and 
 datePublished: Mon Dec 23 2024 07:34:59 GMT+0000 (Coordinated Universal Time)
 cuid: cm50q2azq001609mebob56p6b
 slug: mastering-stress-testing-breaking-systems-to-build-better-ones
+canonical: https://keploy.io/blog/community/mastering-stress-testing-breaking-systems-to-build-better-ones
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734938273191/d980adb7-37f2-4c81-95d2-9acb3b3eb258.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1734939276041/f25df5f5-f022-486d-beae-219fe46b7033.png
 tags: testing, qa, jmeter, k6, sdet, stress-testing
