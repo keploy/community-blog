@@ -282,6 +282,14 @@ Cons :
 * **Limited Built-In Reporting**: While it offers real-time metrics, the reporting features are somewhat basic compared to other tools, which may necessitate external reporting solutions for detailed analysis.
     
 
+## How Keploy Complements Performance Testing
+
+While performance testing ensures that an application can handle different loads and perform efficiently, **Keploy** takes it a step further by focusing on API regression testing. Keploy helps developers ensure that their APIs remain consistent and function as expected after updates or changes.
+
+By recording real-world API traffic and replaying it, Keploy enables developers to catch potential issues that could arise from new code or feature implementations. This proactive testing helps in identifying regressions before they make their way into production, ensuring seamless integration and reliable performance.
+
+Using Keploy alongside performance testing tools like **k6** ensures that both the performance and stability of your APIs are thoroughly tested, providing developers with the confidence to deploy changes without introducing new issues.
+
 ## Conclusion
 
 Performance testing is an essential aspect of software development, ensuring that applications perform reliably and efficiently under various conditions.
