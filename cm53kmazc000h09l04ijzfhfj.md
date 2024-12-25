@@ -5,6 +5,7 @@ seoDescription: "Learn to build a continuous UI-testing pipeline using BrowserSt
 datePublished: Wed Dec 25 2024 07:25:53 GMT+0000 (Coordinated Universal Time)
 cuid: cm53kmazc000h09l04ijzfhfj
 slug: continuous-ui-testing-pipeline-browserstack-with-github-actions
+canonical: https://keploy.io/blog/community/continuous-ui-testing-pipeline-browserstack-with-github-actions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734907311516/c73e43f8-ac5a-41f7-922f-8f39bace90fe.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1734907329762/149defd4-fac1-4fca-9e6b-75b29ee9eaa1.png
 tags: user-interface, user-experience, github, deployment, ux, testing, ui-design, ui-testing, automated-testing, pipeline, automation-testing, github-actions, github-actions-1, ux-research, brwoserstack
