@@ -5,6 +5,7 @@ seoDescription: "Learn volume testing to ensure systems handle large data effici
 datePublished: Thu Dec 26 2024 08:02:22 GMT+0000 (Coordinated Universal Time)
 cuid: cm551d2vc001t09jicb5qe0dk
 slug: volume-testing-a-comprehensive-guide
+canonical: https://keploy.io/blog/community/volume-testing-a-comprehensive-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735195346507/bdbb18e6-cbc3-4b06-94ea-583b48b678ab.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1735200129576/a2c77936-c998-4ccf-8853-ff4810f3ad42.png
 
