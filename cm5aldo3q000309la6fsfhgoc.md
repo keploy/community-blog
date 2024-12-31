@@ -5,6 +5,7 @@ seoDescription: "Learn about access control testing: principles, methodologies, 
 datePublished: Mon Dec 30 2024 05:21:33 GMT+0000 (Coordinated Universal Time)
 cuid: cm5aldo3q000309la6fsfhgoc
 slug: access-control-testing
+canonical: https://keploy.io/blog/community/access-control-testing-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735292659848/acb16e68-ec02-4bc8-b79b-d24fbf98d6ff.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1735292817876/ef6c7688-9cf4-4565-9f12-06aa8728281d.png
 tags: software-development, testing
