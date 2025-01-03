@@ -5,6 +5,7 @@ seoDescription: "Explore Selenium alternatives for Node.js: Playwright, Puppetee
 datePublished: Thu Jan 02 2025 06:00:31 GMT+0000 (Coordinated Universal Time)
 cuid: cm5ex3cfi000209juc1po5dlz
 slug: top-selenium-alternatives-for-your-node-js-application
+canonical: https://keploy.io/blog/community/top-selenium-alternatives-for-your-node-js-application
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735797516792/b232fdcd-ddda-4c7a-b579-0860e9d4f99c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1735797528193/9e41bc57-cf11-4d3d-b139-5fa06b1a2298.png
 tags: testing, cypress, playwright, selenium-alternative, playwrigth-alternative
