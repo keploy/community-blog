@@ -1,5 +1,7 @@
 ---
 title: "How to Resolve the "Cannot Use Import Statement Outside a Module" Error"
+seoTitle: "How to Resolve the "Cannot Use Import Statement Outside a Module" Erro"
+seoDescription: "The "Cannot use import statement outside a module" error can be quite confusing, especially for those working with JavaScript or Node.js."
 datePublished: Mon Jan 06 2025 10:18:30 GMT+0000 (Coordinated Universal Time)
 cuid: cm5kw2iu8000r08la5rar8rqb
 slug: how-to-resolve-the-cannot-use-import-statement-outside-a-module-error
