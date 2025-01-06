@@ -5,6 +5,7 @@ seoDescription: "Explore the use of MITM proxies for tracing secure data in TLS 
 datePublished: Mon Jan 06 2025 07:10:02 GMT+0000 (Coordinated Universal Time)
 cuid: cm5kpc54y001209k30lzl1jpl
 slug: tracing-tls-data-with-ethical-and-secure-practices
+canonical: https://keploy.io/blog/community/tracing-tls-data-with-ethical-and-secure-practices
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736147329193/ce250ebe-bf74-4d99-bcda-82f1ae5f43cf.png
 
 ---
