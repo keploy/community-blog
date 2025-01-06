@@ -5,6 +5,7 @@ seoDescription: "The "Cannot use import statement outside a module" error can be
 datePublished: Mon Jan 06 2025 10:18:30 GMT+0000 (Coordinated Universal Time)
 cuid: cm5kw2iu8000r08la5rar8rqb
 slug: how-to-resolve-the-cannot-use-import-statement-outside-a-module-error
+canonical: https://keploy.hashnode.dev/how-to-resolve-the-cannot-use-import-statement-outside-a-module-error
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736152182383/4146b36b-0712-4e83-a02e-4712cb3657e5.png
 tags: js, modules, commonjs
 
