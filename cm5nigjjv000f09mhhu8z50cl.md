@@ -5,6 +5,7 @@ seoDescription: "A comprehensive guide comparing black box and white box testing
 datePublished: Wed Jan 08 2025 06:20:48 GMT+0000 (Coordinated Universal Time)
 cuid: cm5nigjjv000f09mhhu8z50cl
 slug: black-box-testing-and-white-box-testing-a-complete-guide
+canonical: https://keploy.io/blog/community/black-box-testing-and-white-box-testing-a-complete-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736316841330/8b265b34-331e-4926-aaa9-3a7eb0a004bc.png
 
 ---
