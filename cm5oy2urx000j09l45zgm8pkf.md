@@ -5,6 +5,7 @@ seoDescription: "Explore chaos testing, its principles, process, tools, and bene
 datePublished: Thu Jan 09 2025 06:25:50 GMT+0000 (Coordinated Universal Time)
 cuid: cm5oy2urx000j09l45zgm8pkf
 slug: chaos-testing-explained-a-comprehensive-guide
+canonical: https://keploy.io/blog/community/chaos-testing-explained-a-comprehensive-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736023223973/61e208ae-2899-45d2-8e46-377d6323f1fa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1736023227503/d85da9ea-28ac-4873-9f18-dc2b54450881.png
 tags: software-development, testing
