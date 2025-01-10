@@ -5,6 +5,7 @@ seoDescription: "Discover how eBPF revolutionizes TLS tracing, minimizing perfor
 datePublished: Fri Jan 10 2025 06:51:41 GMT+0000 (Coordinated Universal Time)
 cuid: cm5qefyhs000u08mka38pht77
 slug: ebpf-for-tls-traffic-tracing-secure-efficient-observability
+canonical: https://keploy.io/blog/community/ebpf-for-tls-traffic-tracing-secure-efficient-observability
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736491832410/7f51aefa-cd7e-4305-aa96-81f7ca9b8eda.jpeg
 
 ---
