@@ -15,7 +15,7 @@ However, traditional methods like **TLS proxying** and **packet capturing** ofte
 
 This is where **eBPF (Extended Berkeley Packet Filter)** steps in. eBPF is a revolutionary technology that enables **seamless TLS traffic tracing** directly within the Linux kernel, minimizing performance impact and enhancing security. This article explores how eBPF works, its implementation, and its benefits for developers and DevOps teams.
 
-### **Challenges with Traditional TLS Traffic Tracing**
+## **Challenges with Traditional TLS Traffic Tracing**
 
 [Tracing TLS traffic](https://keploy.io/blog/community/decoding-http2-traffic-is-hard-but-ebpf-can-help) has always been an integral part of observability systems. Traditionally, these systems have relied on techniques such as:
 
@@ -35,7 +35,7 @@ Unfortunately, these methods come with **major drawbacks** that prevent any one 
 2. **Security Risks**: TLS proxies often require creating and maintaining fake certificates or adding custom certificate authorities to the client’s system. This can lead to serious security vulnerabilities.
     
 
-### **The eBPF Advantage**
+## **The eBPF Advantage**
 
 eBPF addresses these challenges by offering a **state-of-the-art method** for TLS traffic tracing. Here’s why it stands out:
 
