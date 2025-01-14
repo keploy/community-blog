@@ -5,6 +5,7 @@ seoDescription: "Learn the importance of behavioral unit tests, explore their ty
 datePublished: Tue Jan 14 2025 03:23:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm5vwri8b000508l87rsa2ln3
 slug: understanding-different-types-of-behavioral-unit-tests
+canonical: https://keploy.io/blog/community/understanding-different-types-of-behavioral-unit-tests
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736824865634/184ba786-cd2b-449c-94b1-428721f0b00f.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1736824956067/932f7689-c220-463a-8240-08219c1b1f14.jpeg
 
