@@ -18,7 +18,7 @@ When we discuss software testing, we hear commonly about two things: - *"test sc
 
 Let's start with test scenarios. We can think of them as the architects of our testing plan, it provides a broad overview of what needs to be tested. It helps us answer questions like "What do we want to test?" and "Why are we testing it?"
 
-### **Why we need to create Test Scenarios?**
+### **Why do we need to create Test Scenarios?**
 
 Here's why test scenarios are important:
 
@@ -44,7 +44,7 @@ Both *test scenarios"* and *"test cases",* aim to make testing easier, enhance c
 * **Prioritize based on customer needs**: If you have many scenarios, prioritize them according to what's most important to the customer.
     
 
-## **What are the Test Cases?**
+## **What are Test Cases?**
 
 Now, let's zoom in a bit and talk about test cases. If test scenarios are the architects, test cases are the detailed instructions for carrying out a specific test. Test cases break down the broader scenarios into specific actions and results you can check.
 
@@ -67,22 +67,8 @@ Creating test cases involves carefully thinking about how to test the software, 
     
 * **Consider the end-user perspective:** Consider the end-user when drafting test cases. Understand their preferences, needs, and priorities, and design test steps accordingly to assess how well the software meets their requirements.
     
-* **Follow naming conventions:** Use an established naming convention for test cases to maintain traceability per the requirements.
+    AI-powered test and mock/stubs generation tools like [Keploy](https://keploy.io) allow you to perform automation testing for web and mobile apps. It also offers integration with a wide range of testing frameworks, like [Junit](https://junit.org/junit5/), [Go Test](https://go.dev/doc/tutorial/add-a-test), [Jest](https://jestjs.io/), and [PyTest](https://docs.pytest.org/en/7.4.x/), to execute test cases effectively.
     
-* **State assumptions and preconditions:** Clearly outline all assumptions and preconditions for each specific test to provide context and ensure accurate testing.
-    
-* **Cover each step of the user path:** Mention every step involved in the user’s interaction with the feature being tested, guiding the tester through the entire process.
-    
-* **Aim for reusability:** Where possible, design test cases to be reusable by minimizing dependencies and conflicts that could make them interdependent rather than independent.
-    
-* **Prioritize test cases:** Rank test cases based on their priority, prioritizing critical features and scenarios and ensuring they are tested first.
-    
-* **Define expected results:** Clearly describe the expected outcomes of the test and how the software should appear after a particular feature has been triggered (post-conditions).
-    
-* **Run test cases across various environments:** Always execute your test cases in real browsers, devices, and platforms. Therefore, ensuring your software applications work seamlessly in various real environments.
-    
-
-AI-powered test and mock/stubs generation tools like [Keploy](https://keploy.io) allow you to perform automation testing for web and mobile apps. It also offers integration with a wide range of testing frameworks, like [Junit](https://junit.org/junit5/), [Go Test](https://go.dev/doc/tutorial/add-a-test), [Jest](https://jestjs.io/) and [PyTest](https://docs.pytest.org/en/7.4.x/), to execute test cases effectively.
 
 ## **The Relationship Between Test Scenarios and Test Cases**
 
@@ -92,17 +78,17 @@ Think of test scenarios as the overall plan and test cases as the specific actio
 
 To make it clearer, imagine you're testing a social media platform. Your test scenario might be "A user creates a new post," giving you the general idea. Then, you create several test cases within this scenario, each focusing on a specific part, like "A user uploads an image," "A user adds text content," or "A user tags friends." These test cases together cover the complete scenario.
 
-### **When to Use Test Scenarios and Test Cases**
+## **Choosing between using Test Scenarios and Test Cases**
 
 Now, let's talk about when to use each of these testing components.
 
 ***Test Scenarios:*** You'll typically define test scenarios early in the testing process when you're planning your testing strategy. They help you set the direction and priorities for your testing efforts. Use them when you need an overview of what you're testing and why.
 
-***Test Cases*:** Test cases come into play when you're doing the testing. You've already set your test scenarios, and now you need specific instructions for testers to follow. Use test cases when you want to check specific functions and need clear steps and expected outcomes.
+***Test Cases:*** Test cases come into play when you're doing the testing. You've already set your test scenarios, and now you need specific instructions for testers to follow. Use test cases when you want to check specific functions and need clear steps and expected outcomes.
 
 ![Test Cases vs Test Scenario](https://www.educba.com/academy/wp-content/uploads/2019/12/Test-Cases-vs-Test-Scenarios.jpg align="left")
 
-### Differences at a Glance
+## Difference between Test Scenarios and Test Cases
 
 Below is a quick comparison table highlighting the key differences between test scenarios and test cases to give you a clearer understanding of their roles in software testing:
 
@@ -114,12 +100,11 @@ Below is a quick comparison table highlighting the key differences between test 
 | **Purpose** | Guides overall testing strategy | Validates specific functionality or behavior |
 | **User Perspective** | Centered on how users will interact with the software | Step-by-step actions for testers to follow |
 | **Scope** | Covers general areas of functionality | Breaks down specific aspects of a scenario |
-| **Example** | "User logs into the application" | 1\. "Enter username"  
-2\. "Enter password" |
+| **Example** | "User logs into the application" | 1\. "Enter username" |
 | **Dependencies** | Independent from each other | May depend on specific preconditions |
 | **Expected Outcome** | General expected behavior (e.g., "successful login") | Specific expected results (e.g., "redirect to homepage") |
 | **Creation Timing** | Early in the testing process | During the testing phase |
-| **Reusability** | More abstract and reusable across multiple tests | More specific, potentially tied to individual tests |
+| **Reusability** | More abstract and reusable across multiple tests | More specifically, potentially tied to individual tests |
 | **Maintenance** | Less frequently updated | Regularly updated with changes in functionality |
 
 ### **A Real-Life Example**
@@ -153,9 +138,9 @@ Each test case breaks down the specific actions, input data, and expected outcom
 
 ## **Conclusion**
 
-So there you have it, the core differences between test scenarios and test cases. They are the crucial components of software testing methodology and quality assurance.
-
-Test scenarios give you the big picture, outlining what needs to be tested and why. Whereas, Test cases, on the other hand, are the detailed instructions for testing a specific part of the scenario. Both are essential parts of a solid testing plan. Using them together ensures comprehensive testing helps you find the bugs before your users do and ensures the quality and performance of the software application.
+Test scenarios give you the big picture, outlining what needs to be tested and why. Whereas, Test cases, on the other hand, are the detailed instructions for testing a specific part of the scenario.  
+  
+Both are essential parts of a solid testing plan. Using them together ensures comprehensive testing helps you find the bugs before your users do and ensures the quality and performance of the software application.
 
 ## **Frequently Asked Questions**
 
