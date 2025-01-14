@@ -169,7 +169,7 @@ Behavioral unit tests focus on how a specific piece of code behaves. Unlike stru
 
 ## How Keploy Can Enhance Behavioral Testing
 
-Keploy is a powerful tool that streamlines and automates API testing, making it an excellent tool for enhancing **behavioral unit tests**. Whether you're working on **happy path tests**, **error handling**, or **state transition tests**, Keploy provides the tools to simplify and accelerate your testing process.
+Keploy is a powerful tool that streamlines and automates API testing, making it an excellent tool for enhancing **behavioral tests**. Whether you're working on **happy path tests**, **error handling**, or **state transition tests**, Keploy provides the tools to simplify and accelerate your testing process.
 
 ### 1\. **Mocking External Dependencies**
 
