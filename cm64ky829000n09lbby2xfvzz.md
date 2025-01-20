@@ -5,6 +5,7 @@ seoDescription: "Explore the differences and origins of YAML and YML, focusing o
 datePublished: Mon Jan 20 2025 05:02:37 GMT+0000 (Coordinated Universal Time)
 cuid: cm64ky829000n09lbby2xfvzz
 slug: yaml-vs-yml-developers-guide-to-syntax-and-ease-of-use
+canonical: https://keploy.io/blog/community/yaml-vs-yml-developers-guide-to-syntax-and-ease-of-use
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736520601528/b9923616-60b8-416e-bc80-d22435c72a60.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1736520580501/ab2ea523-e9b2-412f-8095-6dbc4890f787.png
 tags: community, syntax, developer, languages, extension, yaml, difference, developer-tools, infrastructure-as-code, yml, developer-blogging, formatting, xml-to-yaml, yaml-jsondevops, yaml-zero-to-hero
