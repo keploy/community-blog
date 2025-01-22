@@ -5,6 +5,7 @@ seoDescription: "Learn everything about mocks in software testing with this comp
 datePublished: Tue Jan 21 2025 18:30:43 GMT+0000 (Coordinated Universal Time)
 cuid: cm66t9a2y00090ajm7fvyb86h
 slug: mastering-mocking-a-complete-guide-to-mocks-and-other-test-doubles
+canonical: https://keploy.io/blog/community/mastering-mocking-a-complete-guide-to-mocks-and-other-test-doubles
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736506307868/43281294-5fc4-40b1-8a3f-889764ffc523.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1736507379343/df82a4cd-5682-4e9c-aec1-aa8f74d6ae8e.png
 tags: unit-testing, mocking, testcases, stubs
