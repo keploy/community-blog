@@ -5,6 +5,7 @@ seoDescription: "Learn how to clone a GitHub repository using HTTPS with this ea
 datePublished: Mon Jan 27 2025 07:11:44 GMT+0000 (Coordinated Universal Time)
 cuid: cm6epn86k002709jucchy2ywf
 slug: how-to-clone-a-project-from-github-using-https-a-complete-guide
+canonical: https://keploy.io/blog/community/how-to-clone-a-project-from-github-using-https-a-complete-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737960622928/9e310aca-fe3e-4b3b-9bcb-15ef67e6daf0.png
 tags: http, github, git, clone
 
