@@ -5,6 +5,7 @@ seoDescription: "Learn how to distinguish between good and bad unit tests to imp
 datePublished: Mon Jan 27 2025 10:07:42 GMT+0000 (Coordinated Universal Time)
 cuid: cm6evxisi000m08la46w6gyqt
 slug: good-vs-bad-unit-tests-tips-for-making-the-best-decision
+canonical: https://keploy.io/blog/community/good-vs-bad-unit-tests-tips-for-making-the-best-decision
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737972416852/92828094-c655-4dd4-b369-a1b3a78bc14c.jpeg
 
 ---
