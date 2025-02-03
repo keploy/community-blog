@@ -5,6 +5,7 @@ seoDescription: "Looking for the top AI code extensions for VS Code? We review t
 datePublished: Mon Feb 03 2025 06:34:09 GMT+0000 (Coordinated Universal Time)
 cuid: cm6oodugl000o09jmd2jq0teg
 slug: top-5-ai-powered-vs-code-extensions-for-coding-testing-in-2025
+canonical: https://keploy.io/blog/community/top-5-ai-powered-vs-code-extensions-for-coding-testing-in-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738564441994/ccea63b7-d622-462d-a97c-bc87cca160f9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1738564438118/d523ac5c-be79-4d6a-bc4a-d4a4aa70b434.png
 
