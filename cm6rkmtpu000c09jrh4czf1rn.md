@@ -5,6 +5,7 @@ seoDescription: "Use prompt engineering with AI tools like Keploy to generate Py
 datePublished: Wed Feb 05 2025 07:12:28 GMT+0000 (Coordinated Universal Time)
 cuid: cm6rkmtpu000c09jrh4czf1rn
 slug: prompt-engineering-for-python-code-generation-with-keploy
+canonical: https://keploy.io/blog/community/prompt-engineering-for-python-code-generation-with-keploy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738739257248/69e2064f-3c0d-4860-a937-814100648443.png
 
 ---
