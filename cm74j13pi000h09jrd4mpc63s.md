@@ -5,6 +5,7 @@ seoDescription: "Discover the top 5 low-code test automation frameworks for 2025
 datePublished: Fri Feb 14 2025 08:48:35 GMT+0000 (Coordinated Universal Time)
 cuid: cm74j13pi000h09jrd4mpc63s
 slug: top-5-low-code-test-automation-frameworks-in-2025
+canonical: https://keploy.io/blog/community/top-5-low-code-test-automation-frameworks-in-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739522580416/460dc67c-173f-456a-b33f-ce33a3443c55.png
 
 ---
