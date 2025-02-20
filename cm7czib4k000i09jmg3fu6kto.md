@@ -5,6 +5,7 @@ seoDescription: "Explore the best open-source AI agents for automation, testing,
 datePublished: Thu Feb 20 2025 06:52:01 GMT+0000 (Coordinated Universal Time)
 cuid: cm7czib4k000i09jmg3fu6kto
 slug: top-open-source-ai-agents
+canonical: https://keploy.io/blog/community/top-open-source-ai-agents
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739598453169/e011a5c1-e49b-4904-977a-c19ef7f7f209.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1739763358263/4be55420-6bf8-42aa-90b4-2f1416f5ab7f.png
 tags: ai, artificial-intelligence, unit-testing, opensource, testing, ai-tools, gpt, ai-agents, testgpt
