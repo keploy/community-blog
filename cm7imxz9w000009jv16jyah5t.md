@@ -5,6 +5,7 @@ seoDescription: "Discover AI-driven testing best practices to enhance automation
 datePublished: Mon Feb 24 2025 05:46:54 GMT+0000 (Coordinated Universal Time)
 cuid: cm7imxz9w000009jv16jyah5t
 slug: how-to-achieve-scalable-automation-with-ai-driven-testing
+canonical: https://keploy.io/blog/community/how-to-achieve-scalable-automation-with-ai-driven-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737630545950/f6e05804-50b4-4524-bf91-07c6040b86b0.png
 tags: artificial-intelligence, testing, software-testing, automated-testing, ai-testing-tools
 
