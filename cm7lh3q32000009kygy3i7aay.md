@@ -5,6 +5,7 @@ seoDescription: "Learn how to set up automated testing on Bitbucket for a Golang
 datePublished: Wed Feb 26 2025 05:26:43 GMT+0000 (Coordinated Universal Time)
 cuid: cm7lh3q32000009kygy3i7aay
 slug: automate-testing-on-bitbucket-for-golang-crud-app-with-docker
+canonical: https://keploy.io/blog/community/automate-testing-on-bitbucket-for-golang-crud-app-with-docker
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740547568469/7e3da485-6c7e-4960-92a8-9236f4a964a1.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1740547593697/7901c77f-7455-4df8-a775-82cf035c309b.png
 
