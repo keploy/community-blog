@@ -5,6 +5,7 @@ seoDescription: "AI-enhanced CLI tools boost productivity, automate workflows, a
 datePublished: Thu Mar 06 2025 10:09:51 GMT+0000 (Coordinated Universal Time)
 cuid: cm7x6qnpd000209jpd0af5uo9
 slug: ai-and-cli-tools-a-new-era-of-developer-productivity-and-testing
+canonical: https://keploy.io/blog/community/ai-and-cli-tools-a-new-era-of-developer-productivity-and-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738054402212/b7b87cee-74f2-4084-bc31-17f19096bbe5.png
 tags: ai, artificial-intelligence, software-development, command-line, cli, testing, software-engineering, qa, automation-testing
 
