@@ -5,6 +5,7 @@ development process from setting up your testing environment to running an"
 datePublished: Thu Mar 06 2025 18:30:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm7xomdgp000n09leghtn4ovq
 slug: how-to-run-tests-in-visual-studio-code-a-complete-guide
+canonical: https://keploy.io/blog/community/how-to-run-tests-in-visual-studio-code-a-complete-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741257266851/64d5add9-cd18-499e-ad2d-dc190541fd2f.png
 
 ---
