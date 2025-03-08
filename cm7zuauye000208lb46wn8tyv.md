@@ -5,6 +5,7 @@ seoDescription: "Learn how to test your React app efficiently with Jest, React T
 datePublished: Sat Mar 08 2025 06:44:57 GMT+0000 (Coordinated Universal Time)
 cuid: cm7zuauye000208lb46wn8tyv
 slug: react-testing-on-vs-code
+canonical: https://keploy.io/blog/community/react-testing-on-vs-code
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740425499972/a237bf6d-8d98-44ab-bfb7-5ab9a1ec5a45.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1740425853965/b0e52459-3180-44fa-a44c-2bdeeb9aad48.png
 tags: tools, react-js, reactjs, testing, jest, vs-code, vercel, testing-library, keploy, ai-tools, vs-code-extensions
