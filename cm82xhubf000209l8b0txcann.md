@@ -1,10 +1,12 @@
 ---
 title: "Is Your Copilot AI Slow? Here’s What You Can Do"
 seoTitle: "Is Your Copilot AI Slow? Try These Fixes to Speed It Up"
-seoDescription: " Is your Copilot AI slow? Find out why it's lagging and learn efficient solutions to speed it up for a better experience."
+seoDescription: "Is your Copilot AI slow? Find out why it's lagging and learn efficient solutions to speed it up for a better experience."
 datePublished: Mon Mar 10 2025 10:37:40 GMT+0000 (Coordinated Universal Time)
 cuid: cm82xhubf000209l8b0txcann
 slug: is-your-copilot-ai-slow-heres-what-you-can-do
+canonical: https://keploy.io/blog/community/is-your-copilot-ai-slow-heres-what-you-can-do
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741603107067/082bed20-002f-4bcd-acbf-4ca00c6ff53b.jpeg
 tags: ai, server, internet, copilot
 
 ---
