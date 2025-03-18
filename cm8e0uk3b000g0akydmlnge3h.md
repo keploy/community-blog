@@ -5,6 +5,7 @@ seoDescription: "Discover why User Acceptance Testing (UAT) is crucial for devel
 datePublished: Tue Mar 18 2025 04:57:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm8e0uk3b000g0akydmlnge3h
 slug: why-developers-should-care-about-uat-building-user-loved-software
+canonical: https://keploy.io/blog/community/why-developers-should-care-about-uat
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742139875384/2b164e1a-8088-4b9a-bcec-ffcfa5afbcb8.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1742139895196/48842e82-2511-4bbb-b6f0-3e6aa47f9a0b.webp
 tags: uat
