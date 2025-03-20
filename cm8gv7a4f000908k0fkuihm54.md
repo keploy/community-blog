@@ -5,6 +5,7 @@ seoDescription: "Discover the top AI-powered test automation tools, including Ke
 datePublished: Thu Mar 20 2025 04:42:15 GMT+0000 (Coordinated Universal Time)
 cuid: cm8gv7a4f000908k0fkuihm54
 slug: ai-powered-test-automation
+canonical: https://keploy.io/blog/community/ai-powered-test-automation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742388640706/fab501a4-4f63-41a2-8ce1-694579536190.png
 tags: ai, artificial-intelligence, tools, apis, testing, api-testing, testing-library, testing-tool, keploy, testing-tools, ai-tools
 
