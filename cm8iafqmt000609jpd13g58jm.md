@@ -5,6 +5,7 @@ seoDescription: "Explore how AI is transforming software testing frameworks, boo
 datePublished: Fri Mar 21 2025 04:36:30 GMT+0000 (Coordinated Universal Time)
 cuid: cm8iafqmt000609jpd13g58jm
 slug: the-evolution-of-testing-frameworks-how-ai-is-revolutionizing-software-quality-assurance
+canonical: https://keploy.io/blog/community/ai-revolutionizes-software-qa-testing-frameworks
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738001023658/cbc92f3b-5b02-4d02-9188-4608143ddeaa.png
 tags: ai, artificial-intelligence, testing, automated-testing, qa-testing, testing-library, testing-framework
 
