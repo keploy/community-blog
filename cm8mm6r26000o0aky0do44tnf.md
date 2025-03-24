@@ -5,6 +5,7 @@ seoDescription: "Assertions in software testing confirm anticipated results, gua
 datePublished: Mon Mar 24 2025 05:16:31 GMT+0000 (Coordinated Universal Time)
 cuid: cm8mm6r26000o0aky0do44tnf
 slug: boost-your-software-quality-with-assertion-testing-techniques
+canonical: https://keploy.io/blog/community/assertion-testing-techniques
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742792624772/ef566320-8403-4c72-bb54-12ed15e2b9ac.jpeg
 tags: software-testing, assertion
 
