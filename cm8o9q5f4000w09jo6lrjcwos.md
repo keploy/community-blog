@@ -5,6 +5,7 @@ seoDescription: "Improve code quality by using static analysis tools for fewer b
 datePublished: Tue Mar 25 2025 09:03:13 GMT+0000 (Coordinated Universal Time)
 cuid: cm8o9q5f4000w09jo6lrjcwos
 slug: how-static-code-analysis-improves-code-quality-and-security
+canonical: https://keploy.io/blog/community/code-quality-with-automated-tools
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742888784945/3b1a4369-308f-44e8-a26a-e0fdaf70ca87.jpeg
 
 ---
