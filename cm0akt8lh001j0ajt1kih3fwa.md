@@ -1,28 +1,28 @@
 ---
-title: "Developer’s guide to Smoke testing : Ensuring basic functionality"
-seoTitle: "Developer’s guide to Smoke testing : Ensuring basic functionality"
-seoDescription: "Learn the fundamentals of smoke testing and why it's crucial for your development process. This guide covers what smoke testing is, how to implement it effe"
+title: "Smoke testing : Ensuring basic functionality"
+seoTitle: "Smoke testing : Developer Guide for smike testing"
+seoDescription: "Learn the fundamentals of smoke testing and why is smoke testing important for development process. This blog covers the best practices for smoke testing."
 datePublished: Mon Aug 26 2024 05:47:08 GMT+0000 (Coordinated Universal Time)
 cuid: cm0akt8lh001j0ajt1kih3fwa
 slug: developers-guide-to-smoke-testing-ensuring-basic-functionality
-canonical: https://keploy.io/blog/community/developers-guide-to-smoke-testing-ensuring-basic-functionality
+canonical: https://keploy.io/blog/community/smoke-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723443990663/67fc849e-ae10-4ca7-ad26-d6c2096f08c2.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723444089645/7aae8db8-07a0-41ec-bc2f-289c2c4a173d.png
-tags: developer, testing, api-testing, test-automation, testing-tool, smoke-testing
+tags: code, developers, apis, developer, testing, coding, developer-tools, api-testing, test-automation, coding-tips, testing-tool, best-practices-for-developers, smoke-testing
 
 ---
 
 **Imagine running a Python project without a requirements.txt file. Just as you rely on these checks to ensure everything runs fine, smoke tests are performed to confirm that your code is ready for the next phase.**
 
-Let's dive into the world of smoke testing now!
+In this blog we will dive deeper into the world of smoke testing.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723442418512/73403b60-5504-4ff5-9a8c-f8c9871be40e.png align="center")
+![Smoke testing meme](https://cdn.hashnode.com/res/hashnode/image/upload/v1723442418512/73403b60-5504-4ff5-9a8c-f8c9871be40e.png align="center")
 
 ## **What is Smoke Testing**
 
 Smoke testing, often referred to as a "sanity check" in software development, is a preliminary testing process that ensures the core functionalities of a new build or update are working correctly.
 
-![Functional Testing image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNCXwLJ98m_6rKfl-gycSgYrcxqzfNLTJ_6quCcLGbqlef1_eVgsJ_KImxO5Jbxi44TAGXa1EZGEslZSgDASdFiwjwbXyvl3S_aVDAtX-x-3YH4lQVr9q1KuOE8fM2sKW6IqzKzOHK1vtLy5vCG-uNDgC6?key=d59HrjaIAdNmaLdo6SDmnQ align="left")
+![Functional Testing](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNCXwLJ98m_6rKfl-gycSgYrcxqzfNLTJ_6quCcLGbqlef1_eVgsJ_KImxO5Jbxi44TAGXa1EZGEslZSgDASdFiwjwbXyvl3S_aVDAtX-x-3YH4lQVr9q1KuOE8fM2sKW6IqzKzOHK1vtLy5vCG-uNDgC6?key=d59HrjaIAdNmaLdo6SDmnQ align="left")
 
 Smoke tests assess whether the essential functionalities of an application or system are operating correctly. For instance:
 
@@ -42,7 +42,7 @@ Smoke tests assess whether the essential functionalities of an application or sy
 * **Saving Time and Resources:** By catching major defects early, smoke testing helps avoid wasting time on a flawed build.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcehMGFyB3d91XJ7-z9LbPLZBlEozy1pt3GW7sgTe3UKYEeWuY1785eQYhn2pvof4wPvmIk5D3O4SOAI1yPQ8z3g2xm9CvmVN1i3NIHEZBDBXdKhsiP1x_AVrBmZFmIDnSnbnqBZhCiTk46uflbMXt8qO30?key=d59HrjaIAdNmaLdo6SDmnQ align="left")
+![Functions of smoke testing](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcehMGFyB3d91XJ7-z9LbPLZBlEozy1pt3GW7sgTe3UKYEeWuY1785eQYhn2pvof4wPvmIk5D3O4SOAI1yPQ8z3g2xm9CvmVN1i3NIHEZBDBXdKhsiP1x_AVrBmZFmIDnSnbnqBZhCiTk46uflbMXt8qO30?key=d59HrjaIAdNmaLdo6SDmnQ align="left")
 
 ## **Why Do We Need Smoke Testing?**
 
@@ -91,7 +91,7 @@ Before releasing a new build for extensive testing or for use by beta testers, y
     * **No Crashes:** The app must not crash during these basic operations. A stable build is essential before moving on to more detailed testing.
         
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723442820067/b80d2655-5894-4fe5-a71d-58ef22bf923e.png align="left")
+![Module Flow](https://cdn.hashnode.com/res/hashnode/image/upload/v1723442820067/b80d2655-5894-4fe5-a71d-58ef22bf923e.png align="left")
 
 ## **Types of Smoke Testing**
 
