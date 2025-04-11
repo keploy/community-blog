@@ -5,6 +5,7 @@ seoDescription: "Learn how to extract TLS keys using uprobes on OpenSSL for SSL 
 datePublished: Fri Apr 11 2025 05:20:09 GMT+0000 (Coordinated Universal Time)
 cuid: cm9cc8rjl001c09l4gbfiggsl
 slug: key-extraction-by-uprobe-attachment-on-openssl-for-ssl-inspection
+canonical: https://keploy.io/blog/community/key-extraction-by-uprobe-attachment-on-openssl-for-ssl-inspection
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744348623734/a7904bb5-5634-48ca-b94f-887371b59591.png
 tags: ssl, tls, ssl-certificate, protocols
 
