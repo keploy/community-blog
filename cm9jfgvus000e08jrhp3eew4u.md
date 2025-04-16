@@ -5,6 +5,7 @@ seoDescription: "Compare VS Code vs Cursor in 2025. Discover which code editor s
 datePublished: Wed Apr 16 2025 04:24:50 GMT+0000 (Coordinated Universal Time)
 cuid: cm9jfgvus000e08jrhp3eew4u
 slug: vscode-vs-cursor-which-one-should-you-use-in-2025
+canonical: https://keploy.io/blog/community/vscode-vs-cursor
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744114869664/53b6fcea-cf4e-40ef-ae63-9668a1c84aa9.jpeg
 tags: coding, vs-code, vscode-cjevho8kk00bo1ss2lmqqjr51, cursor, keploy
 
