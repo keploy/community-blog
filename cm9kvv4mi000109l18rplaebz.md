@@ -5,6 +5,7 @@ seoDescription: "Explore how Java Native Interface (JNI) bridges Java with C/C++
 datePublished: Thu Apr 17 2025 04:51:35 GMT+0000 (Coordinated Universal Time)
 cuid: cm9kvv4mi000109l18rplaebz
 slug: inside-the-java-native-interface-jni
+canonical: https://keploy.io/blog/community/java-native-interface
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744786815311/d2dcef26-c78e-4652-84ca-7f6bf9757c96.jpeg
 tags: jvm, java, javascript, javascript-framework, javascript-library, javascript-modules, jvm-architecture
 
