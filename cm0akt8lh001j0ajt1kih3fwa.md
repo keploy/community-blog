@@ -4,8 +4,8 @@ seoTitle: "Smoke testing : Developer Guide for smoke testing"
 seoDescription: "Learn everything about smoke testing in software development  what it is, how it works, its advantages, disadvantages, types, examples, and how it differs"
 datePublished: Mon Aug 26 2024 05:47:08 GMT+0000 (Coordinated Universal Time)
 cuid: cm0akt8lh001j0ajt1kih3fwa
-slug: smoke-testing-guide
-canonical: https://keploy.io/blog/community/smoke-testing
+slug: developers-guide-to-smoke-testing-ensuring-basic-functionality
+canonical: https://keploy.io/blog/community/developers-guide-to-smoke-testing-ensuring-basic-functionality
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723443990663/67fc849e-ae10-4ca7-ad26-d6c2096f08c2.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723444089645/7aae8db8-07a0-41ec-bc2f-289c2c4a173d.png
 tags: code, developers, apis, developer, testing, coding, developer-tools, qa-testing, api-testing, test-automation, coding-tips, testing-tool, keploy, best-practices-for-developers, smoke-testing
@@ -44,7 +44,7 @@ Smoke tests assess whether the essential functionalities of an application or sy
 * **Saving Time and Resources:** By catching major defects early, smoke testing helps avoid wasting time on a flawed build.
     
 
-![Functions of smoke testing](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcehMGFyB3d91XJ7-z9LbPLZBlEozy1pt3GW7sgTe3UKYEeWuY1785eQYhn2pvof4wPvmIk5D3O4SOAI1yPQ8z3g2xm9CvmVN1i3NIHEZBDBXdKhsiP1x_AVrBmZFmIDnSnbnqBZhCiTk46uflbMXt8qO30?key=d59HrjaIAdNmaLdo6SDmnQ align="left")
+![Smoke testing process](https://cdn.hashnode.com/res/hashnode/image/upload/v1744955275322/b9876fd1-2807-46d8-8d9d-bc1a45327ac5.png align="center")
 
 ## **Why Do We Need Smoke Testing?**
 
@@ -88,6 +88,8 @@ The purpose of performing smoke tests isn’t to validate every functionality, b
     
 
 ## When and Who Performs Smoke Testing?
+
+![When is smoke testing performed](https://cdn.hashnode.com/res/hashnode/image/upload/v1744955527553/fe18a4f8-356a-4f18-83de-51db24e92dc5.png align="center")
 
 Let’s break down the timeline and roles associated with **smoke testing**:
 
