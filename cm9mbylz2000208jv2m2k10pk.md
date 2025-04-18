@@ -5,6 +5,7 @@ seoDescription: "Explore open source AI coding tools for improved productivity, 
 datePublished: Fri Apr 18 2025 05:09:57 GMT+0000 (Coordinated Universal Time)
 cuid: cm9mbylz2000208jv2m2k10pk
 slug: best-opensource-coding-ai
+canonical: https://keploy.io/blog/community/best-opensource-coding-ai
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744142570101/02dcb826-183d-4f2e-92ff-e26d0c8a6b78.png
 tags: opensource, aicoding, ai-coding-assistant, deepseek-ai, qwen25, coding-ai
 
