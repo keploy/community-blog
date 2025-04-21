@@ -5,6 +5,7 @@ seoDescription: "Explore Rapid Application Development (RAD) for faster software
 datePublished: Mon Apr 21 2025 04:26:07 GMT+0000 (Coordinated Universal Time)
 cuid: cm9qkpsw7000009l8464selxr
 slug: what-is-rapid-application-development-rad
+canonical: https://keploy.io/blog/community/what-is-rapid-application-development
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744224353456/ae206505-be31-43e9-bb57-422b889c6360.png
 tags: software-development, software-engineering, agile-methodology, software-development-methodologies, rapid-application-development, sdlc-methodlogies
 
