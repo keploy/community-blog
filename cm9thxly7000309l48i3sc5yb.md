@@ -5,6 +5,7 @@ seoDescription: "Learn how to get the current directory in Python using os.getcw
 datePublished: Wed Apr 23 2025 05:31:31 GMT+0000 (Coordinated Universal Time)
 cuid: cm9thxly7000309l48i3sc5yb
 slug: python-get-current-directory
+canonical: https://keploy.io/blog/community/python-get-current-directory
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745386256593/72179950-a42e-4ea8-88d8-a627fd403065.jpeg
 tags: python, path-module, os-module, get-current-directory, python-osgetcwd
 
