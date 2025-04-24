@@ -5,6 +5,7 @@ seoDescription: "Learn the differences between var, let, and const in JavaScript
 datePublished: Thu Apr 24 2025 03:51:53 GMT+0000 (Coordinated Universal Time)
 cuid: cm9uttbu6000x08l760wzcazk
 slug: javascript-var-vs-let-vs-const
+canonical: https://keploy.io/blog/community/javascript-var-vs-let-vs-const
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745466703990/0a9a7898-0652-460b-9587-c90097f09d17.jpeg
 tags: var-let-const, let-and-const, var-let-const-in-javascript
 
