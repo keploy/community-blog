@@ -1,10 +1,11 @@
 ---
 title: "Executing EBPF in Github Actions"
-seoTitle: " Running eBPF in GitHub Actions for Network Tracing"
+seoTitle: "Running eBPF in GitHub Actions for Network Tracing"
 seoDescription: "Learn how to execute eBPF in GitHub Actions for network monitoring, testing, and seamless CI/CD integration without full root access."
 datePublished: Fri Apr 25 2025 03:53:32 GMT+0000 (Coordinated Universal Time)
 cuid: cm9w9bb1v000n08ibatbl9oa5
 slug: executing-ebpf-in-github-actions
+canonical: https://keploy.io/blog/community/executing-ebpf-in-github-actions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744876722605/68d86cd7-61ef-4061-bec7-5dfe0e61c662.jpeg
 tags: github, gitlab, github-actions-1, ebpf
 
