@@ -5,6 +5,7 @@ seoDescription: "Looking for free AI tools to enhance your Cypress testing? Disc
 datePublished: Tue Apr 29 2025 04:00:02 GMT+0000 (Coordinated Universal Time)
 cuid: cma1zb2g6000u09k1bdg9fpgc
 slug: supercharge-your-testing-5-free-cypress-ai-tools-that-actually-work
+canonical: https://keploy.io/blog/community/supercharge-your-testing-5-free-cypress-ai-tools-that-actually-work
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744800613027/9b1ffa00-1b46-4e0b-8741-5f4cd76f6b20.png
 tags: cypress, assistant, aicypresstools
 
