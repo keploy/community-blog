@@ -5,6 +5,7 @@ seoDescription: "Learn how Claude 3.5 Sonnet delivers clean, testable code ideal
 datePublished: Fri May 02 2025 04:40:22 GMT+0000 (Coordinated Universal Time)
 cuid: cma6b2hla000309l9b3ptbu3f
 slug: best-claude-3-5-style-for-code
+canonical: https://keploy.io/blog/community/best-claude-3-5-style-for-code
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746085811061/adc3e85a-3fcd-4fa7-8420-9648d4023a16.png
 tags: clean-code, developer-tools, ai-coding-assistant, claude-35-sonnet, best-claude-35-style-for-code, claude-vs-chatgpt
 
