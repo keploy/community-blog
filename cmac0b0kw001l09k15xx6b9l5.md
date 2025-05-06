@@ -6,6 +6,7 @@ datePublished: Tue May 06 2025 04:25:41 GMT+0000 (Coordinated Universal Time)
 cuid: cmac0b0kw001l09k15xx6b9l5
 slug: what-is-unit-testing
 canonical: https://keploy.io/blog/community/what-is-unit-testing
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746507223876/25fbb176-3445-47c1-b291-29a5d74c70f1.png
 tags: unit-testing, software-development, developer, testing, software-engineering, test-automation
 
 ---
