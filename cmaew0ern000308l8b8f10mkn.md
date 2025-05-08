@@ -5,6 +5,7 @@ seoDescription: "Learn to run Python tests with Pytest, covering installation, w
 datePublished: Thu May 08 2025 04:48:46 GMT+0000 (Coordinated Universal Time)
 cuid: cmaew0ern000308l8b8f10mkn
 slug: how-to-run-pytest-program
+canonical: https://keploy.io/blog/community/how-to-run-pytest-program
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746679494893/95d1f8f0-db13-4aea-bd57-e50cbff2c821.webp
 tags: python, pytest, python-testing, python-application-testing
 
