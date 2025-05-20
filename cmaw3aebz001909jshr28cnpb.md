@@ -5,6 +5,7 @@ seoDescription: "Learn to leverage MCP and A2A for seamless AI tool integration 
 datePublished: Tue May 20 2025 05:44:35 GMT+0000 (Coordinated Universal Time)
 cuid: cmaw3aebz001909jshr28cnpb
 slug: mastering-mcp-to-a2a-everything-a-developer-needs-to-know
+canonical: https://keploy.io/blog/community/mastering-mcp-to-a2a
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746961501152/ea2ef9fc-609f-4602-a87e-1f2094cf143d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746961284236/96423b53-5150-49bc-aa60-e054db9239f9.png
 tags: protocols, ai-agent, mcp-server, mcp-client, a2a
