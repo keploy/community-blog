@@ -5,6 +5,7 @@ seoDescription: "Learn how to detect AI-generated code, why it matters, and expl
 datePublished: Wed May 21 2025 04:42:12 GMT+0000 (Coordinated Universal Time)
 cuid: cmaxgi11i000e09l4flk2681x
 slug: why-you-need-an-ai-code-checker
+canonical: https://keploy.io/blog/community/ai-code-checker
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747802490231/12fc2f3a-6d7d-4ad4-962c-f2c05dc91a2e.jpeg
 tags: source-code, keploy, ai-tools, code-checker, ai-code-checker
 
