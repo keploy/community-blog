@@ -5,6 +5,7 @@ seoDescription: "Learn how to run React code in Visual Studio Code and online. F
 datePublished: Fri May 23 2025 04:30:30 GMT+0000 (Coordinated Universal Time)
 cuid: cmb0ayp6s001208l80yvj2i4w
 slug: running-react-code-in-visual-studio-code-and-online
+canonical: https://keploy.io/blog/community/running-react-code-in-visual-studio-code-and-online
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747724563502/24e567ea-68e1-4b42-bf36-f2623468967c.png
 tags: reactjs, coding, vs-code, replit
 
