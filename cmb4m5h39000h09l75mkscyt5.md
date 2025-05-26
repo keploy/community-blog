@@ -5,6 +5,7 @@ seoDescription: "Learn to build a REST API in Python using Flask or FastAPI. Ste
 datePublished: Mon May 26 2025 04:54:47 GMT+0000 (Coordinated Universal Time)
 cuid: cmb4m5h39000h09l75mkscyt5
 slug: introduction-to-rest-api-in-python
+canonical: https://keploy.io/blog/community/introduction-to-rest-api-in-python
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747894915959/f662e14c-bf2c-44c4-abec-9b49d475b843.png
 tags: framework, python, apis, restful, rest-api
 
