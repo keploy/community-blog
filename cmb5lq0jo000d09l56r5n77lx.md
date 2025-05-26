@@ -5,6 +5,7 @@ seoDescription: "Accelerate software delivery and improve quality with Agile Tes
 datePublished: Mon May 26 2025 21:30:32 GMT+0000 (Coordinated Universal Time)
 cuid: cmb5lq0jo000d09l56r5n77lx
 slug: agile-testing-best-practices
+canonical: https://keploy.io/blog/community/what-is-agile-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747724862880/beb1c89d-b952-4ad4-814f-fe7c5d7e3936.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747820768365/cfc788d9-0fd5-49fd-a8bf-46ffa9e1ac29.png
 tags: testing, agile, agile-methodology, keploy, agiletesting
