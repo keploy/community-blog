@@ -5,6 +5,7 @@ seoDescription: "Learn what a bearer token is, how it works, and whether it can 
 datePublished: Wed May 28 2025 06:59:48 GMT+0000 (Coordinated Universal Time)
 cuid: cmb7lhygw000v09l74vo8bimz
 slug: what-is-a-bearer-token-a-complete-guide-for-developers
+canonical: https://keploy.io/blog/community/what-is-a-bearer-token-a-complete-guide-for-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747306723203/cd3cf376-44b4-4d30-8489-9e1f746284d9.jpeg
 tags: authentication, practice, token, limitations, bearer-token
 
