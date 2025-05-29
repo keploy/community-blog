@@ -345,7 +345,7 @@ Keploy automatically generates API tests by capturing real application traffic. 
 
 ### 3\. Cypress– Fast Frontend Testing
 
-[![Homepage of the Cypress with the slogan "Test. Automate. Accelerate." Describes using Cypress for testing web applications with buttons for installation and plan comparison. Below is a sample browser window with a message about automating tests.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188916907/9f492f0c-e2c4-4f06-a48b-2d2180a64719.png align="left")](https://www.cypress.io/)
+![Homepage of the Cypress with the slogan "Test. Automate. Accelerate." Describes using Cypress for testing web applications with buttons for installation and plan comparison. Below is a sample browser window with a message about automating tests.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188916907/9f492f0c-e2c4-4f06-a48b-2d2180a64719.png align="left")
 
 Cypress is built specifically for modern web applications with lightning-fast test execution. It runs directly in the browser and provides excellent debugging capabilities with real-time reloads and interactive testing.
 
@@ -368,7 +368,7 @@ Cypress is built specifically for modern web applications with lightning-fast te
 
 ### 4\. Playwright– Cross-Browser Automation
 
-[![Banner promoting Playwright, a tool for reliable end-to-end testing of modern web apps, with browser icons for Chrome, Edge, Firefox, and Safari.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748071286290/df368de7-5d8b-426f-88e8-f0a997b26a72.png align="center")](https://playwright.dev/)
+![Banner promoting Playwright, a tool for reliable end-to-end testing of modern web apps, with browser icons for Chrome, Edge, Firefox, and Safari.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748071286290/df368de7-5d8b-426f-88e8-f0a997b26a72.png align="center")
 
 Microsoft's cross-browser automation framework that works reliably across Chrome, Firefox, Safari, and Edge. It provides fast, reliable automation with modern web standards support and an excellent developer experience.
 
@@ -391,7 +391,7 @@ Microsoft's cross-browser automation framework that works reliably across Chrome
 
 ### 5\. TestComplete– GUI Automation
 
-[![Homepage of the SmartBear TestComplete website featuring a banner with text "Easier Tests. Faster Releases. Better Quality." There's a demo button, and a mockup of a checkout form with a loading bar showing test automation in progress. Logos of companies like FedEx, Barnes & Noble, and Mattel appear at the bottom.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188873785/615aeb80-0a61-4e7b-911e-4ba97ffe1a78.png align="left")](https://smartbear.com/product/testcomplete/)
+![Homepage of the SmartBear TestComplete website featuring a banner with text "Easier Tests. Faster Releases. Better Quality." There's a demo button, and a mockup of a checkout form with a loading bar showing test automation in progress. Logos of companies like FedEx, Barnes & Noble, and Mattel appear at the bottom.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188873785/615aeb80-0a61-4e7b-911e-4ba97ffe1a78.png align="left")
 
 TestComplete is a comprehensive GUI testing tool that can test desktop, web, and mobile applications. It uses advanced object recognition and supports both script-based and scriptless testing approaches.
 
@@ -414,7 +414,7 @@ TestComplete is a comprehensive GUI testing tool that can test desktop, web, and
 
 ### 6\. Appium – Mobile Testing
 
-[![ Appium documentation homepage. The page contains a banner announcing "AppiumConf 2025 is partnering with SeleniumConf" with event details. The Appium logo and description of its functionality are shown. Logos for partners BrowserStack and SauceLabs are displayed. The page features navigation options for sections like Introduction, Quickstart, and Ecosystem.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188837361/0e76e785-e964-40d3-9af1-4754c4492d20.png align="left")](https://appium.io/)
+![ Appium documentation homepage. The page contains a banner announcing "AppiumConf 2025 is partnering with SeleniumConf" with event details. The Appium logo and description of its functionality are shown. Logos for partners BrowserStack and SauceLabs are displayed. The page features navigation options for sections like Introduction, Quickstart, and Ecosystem.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188837361/0e76e785-e964-40d3-9af1-4754c4492d20.png align="left")
 
 Appium is the industry standard for mobile app test automation, supporting both iOS and Android platforms. It allows testing of native, hybrid, and mobile web applications using the same API across platforms.
 
@@ -437,7 +437,7 @@ Appium is the industry standard for mobile app test automation, supporting both 
 
 ### 7\. Postman – API Testing
 
-[![Homepage of an API platform offering tools for designing, building, and scaling APIs, with a sign-up form and download options for Windows, MacOS, and Linux. Colorful 3D API letters are displayed on the right.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748071755555/12b1c08e-fe7a-4f61-9003-0c3f2147c5db.png align="center")](https://www.postman.com/)
+![Homepage of an API platform offering tools for designing, building, and scaling APIs, with a sign-up form and download options for Windows, MacOS, and Linux. Colorful 3D API letters are displayed on the right.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748071755555/12b1c08e-fe7a-4f61-9003-0c3f2147c5db.png align="center")
 
 Postman simplifies API testing with an intuitive interface for creating, organizing, and running API tests. It supports both manual and automated testing with powerful scripting capabilities.
 
@@ -460,7 +460,7 @@ Postman simplifies API testing with an intuitive interface for creating, organiz
 
 ### 8\. Katalon Studio – All-in-One Automation Tool
 
-[![Homepage of Katalon featuring a banner that reads, "Create and run your tests faster at any scale." Includes buttons to view a demo and download the studio. A diagram highlights features like mobile and web testing, no-code and AI-powered options. A badge indicates Katalon is a G2 leader for 2024.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188763954/6f6df024-3c45-4dbc-ac7c-6d81f3694570.png align="left")](https://katalon.com/)
+![Homepage of Katalon featuring a banner that reads, "Create and run your tests faster at any scale." Includes buttons to view a demo and download the studio. A diagram highlights features like mobile and web testing, no-code and AI-powered options. A badge indicates Katalon is a G2 leader for 2024.](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188763954/6f6df024-3c45-4dbc-ac7c-6d81f3694570.png align="left")
 
 Katalon Studio provides a comprehensive testing solution that combines web, mobile, API, and desktop testing in a single platform. It offers both codeless and script-based testing approaches.
 
@@ -483,7 +483,7 @@ Katalon Studio provides a comprehensive testing solution that combines web, mobi
 
 ### 9\. JUnit/TestNG – Java-Based Unit Testing
 
-[![Website for JUnit 5, a testing framework for Java and the JVM, featuring navigation buttons for the User Guide, Javadoc, and support. There's a statement supporting Ukraine, with a donation link, and details of the latest release updates.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748071994097/a68f8098-67f0-4d18-8416-6eeccb9bf0c6.png align="center")](https://junit.org/)
+![Website for JUnit 5, a testing framework for Java and the JVM, featuring navigation buttons for the User Guide, Javadoc, and support. There's a statement supporting Ukraine, with a donation link, and details of the latest release updates.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748071994097/a68f8098-67f0-4d18-8416-6eeccb9bf0c6.png align="center")
 
 JUnit and TestNG are the most popular Java testing frameworks for unit testing. They provide annotations, assertions, and test runners specifically designed for Java applications with excellent IDE integration.
 
@@ -506,7 +506,7 @@ JUnit and TestNG are the most popular Java testing frameworks for unit testing. 
 
 ### 10\. Robot Framework – Keyword-Driven Testing
 
-[![Website for Robot Framework, featuring navigation links for "Get Started," "Resources," "Community," and "Development." The text "Robot Framework" is prominent in the center with a turquoise background.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748072118991/ccdc0e59-9d79-41da-849a-4414640a14b1.png align="center")](https://robotframework.org/)
+![Website for Robot Framework, featuring navigation links for "Get Started," "Resources," "Community," and "Development." The text "Robot Framework" is prominent in the center with a turquoise background.](https://cdn.hashnode.com/res/hashnode/image/upload/v1748072118991/ccdc0e59-9d79-41da-849a-4414640a14b1.png align="center")
 
 Robot Framework uses a keyword-driven approach that makes test cases readable and maintainable. It supports both technical and non-technical team members with its natural language syntax.
 
