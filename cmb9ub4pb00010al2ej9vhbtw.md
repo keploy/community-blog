@@ -211,7 +211,7 @@ You know that sinking feeling when you submit a PR and realize you forgot to wri
 
 Getting started with the Keploy PR agent is straightforward:
 
-1. Visit the Keploy GitHub Marketplace
+1. Visit the Keploy GitHub Marketplace, Use this link: [https://github.com/marketplace/keploy](https://github.com/marketplace/keploy)
     
 2. Click "Install" to add the app to your GitHub account.
     
@@ -237,6 +237,8 @@ Once installed, the agent automatically activates for all new pull requests in y
 ### **2\. Keploy VS Code Extension: AI-Powered Unit Test Generation**
 
 The Keploy VS Code extension brings the power of AI directly into your development environment, making unit test generation as simple as a few clicks.
+
+Link to Installation: [https://marketplace.visualstudio.com/items?itemName=Keploy.keployio](https://marketplace.visualstudio.com/items?itemName=Keploy.keployio)
 
 **Key Features:**
 
@@ -280,6 +282,8 @@ It captures real API calls, database queries, and all the interactions between y
 The best part? You don't need to spend hours setting up test environments or creating fake data. Keploy just watches your app do its thing and builds tests from that.
 
 For more details, visit Keploy's official website or check out their GitHub repository.
+
+Use think link: [https://keploy.io/docs/](https://keploy.io/docs/)
 
 ### 3\. API Testing
 
