@@ -5,6 +5,7 @@ seoDescription: "Master TypeScript interface with our comprehensive guide. Learn
 datePublished: Mon Jun 02 2025 05:46:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmbeo2qw2001m09jm0x3f5izo
 slug: typescript-interface-complete-guide-for-modern-developers
+canonical: https://keploy.io/blog/community/typescript-interface-complete-guide-for-modern-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748797952756/b87d4c75-ec96-46ae-b198-439bdb6971f2.png
 tags: typescript, interface, aliases, typescript-generics, type-aliases, typescript-tutorial, typescript-interface-vs-type-differences
 
