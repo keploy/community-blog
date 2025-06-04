@@ -5,6 +5,7 @@ seoDescription: "Critical differences between smoke testing and regression testi
 datePublished: Wed Jun 04 2025 04:02:24 GMT+0000 (Coordinated Universal Time)
 cuid: cmbhf8s40000f09l5g8ie80ut
 slug: smoke-testing-vs-regression-testing
+canonical: https://keploy.io/blog/community/smoke-testing-vs-regression-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748949061508/f379e0d5-f7ba-4c01-b8b8-038fb5fe0e53.png
 tags: software-development, testing, software-engineering, software-testing, test-automation, regression-testing, smoke-testing, qa-automation
 
