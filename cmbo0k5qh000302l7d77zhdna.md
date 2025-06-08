@@ -362,7 +362,7 @@ deploy_app:
 * Runs the app through Keploy to **record tests**.
     
 
-### **3\. Record Keploy Tests Locally for a Flask App**
+### **2\. Record Keploy Tests Locally for a Flask App**
 
 To generate `.keploy/tests` for your Flask app, use the `keploy record` command by specifying your Python server script.
 
@@ -390,7 +390,7 @@ Check out how Keploy records test cases from Python APIs in this [Python-Flask t
 4. **Keploy will capture these requests** and store them as test cases inside the `.keploy/tests` folder for replay or regression testing.
     
 
-### 4\. Push to GitLab
+### 3\. Push to GitLab
 
 Commit and push your `.gitlab-ci.yml` source code. GitLab will then:
 
