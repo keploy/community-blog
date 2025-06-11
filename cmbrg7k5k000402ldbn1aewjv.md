@@ -1,10 +1,11 @@
 ---
 title: "What is Code Refactoring?"
-seoTitle: "Code Refactoring: Best Practices to Improve Code Quality "
-seoDescription: "Learn how code refactoring enhances readability, reduces technical debt, and improves performance without changing functionality. "
+seoTitle: "Code Refactoring: Best Practices to Improve Code Quality"
+seoDescription: "Learn how code refactoring enhances readability, reduces technical debt, and improves performance without changing functionality."
 datePublished: Wed Jun 11 2025 04:27:09 GMT+0000 (Coordinated Universal Time)
 cuid: cmbrg7k5k000402ldbn1aewjv
 slug: what-is-code-refactoring
+canonical: https://keploy.io/blog/community/what-is-code-refactoring
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747943103631/078ab51e-1d95-49c2-8b82-43044809f1ba.png
 tags: refactoring, debugging, coding-tips, code-refactoring
 
