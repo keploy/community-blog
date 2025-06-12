@@ -5,6 +5,7 @@ seoDescription: "Learn how to obtain your ChatGPT API key and integrate it into 
 datePublished: Thu Jun 12 2025 09:23:52 GMT+0000 (Coordinated Universal Time)
 cuid: cmbt68zt2000402lb2r3ufrzh
 slug: how-to-get-your-chatgpt-api-key
+canonical: https://keploy.io/blog/community/how-to-get-your-chatgpt-api-key
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748203925433/9caba3ae-94fb-4c84-80ea-b7746da0483c.png
 tags: gpt-3, openai, generative-ai, chatgpt, chatgptapi, gpt-4, openai-api, gpt-4o
 
