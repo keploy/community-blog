@@ -5,6 +5,7 @@ seoDescription: "A quick guide to Selenium IDE for beginners—learn setup, key 
 datePublished: Sun Jun 15 2025 18:56:18 GMT+0000 (Coordinated Universal Time)
 cuid: cmby10pjg000002ldc4f9gksa
 slug: getting-started-with-selenium-ide
+canonical: https://keploy.io/blog/community/getting-started-with-selenium-ide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748076133237/722da912-3bc6-46db-ab02-bf2d2e4334b2.png
 tags: ides, selenium, keploy, selenium-ide
 
