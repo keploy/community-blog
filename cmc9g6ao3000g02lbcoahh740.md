@@ -5,6 +5,7 @@ seoDescription: "Learn the essentials of alpha testing, its process, benefits, a
 datePublished: Mon Jun 23 2025 18:46:01 GMT+0000 (Coordinated Universal Time)
 cuid: cmc9g6ao3000g02lbcoahh740
 slug: what-is-alpha-testing
+canonical: https://keploy.io/blog/community/what-is-alpha-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749214349691/157ea78a-2bdf-4e84-b5e9-24f525312114.jpeg
 tags: testing, software-testing, integration-testing, qa-testing, beta-testing, keploy, alpha-testing
 
