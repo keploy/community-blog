@@ -11,7 +11,9 @@ tags: github, gitlab, github-actions-1, ebpf
 
 ---
 
-At Keploy, we wanted our tool to be part of the Github pipeline so that developers could be guaranteed that modifications made in pull requests could be safely merged and deployed. The only problem we had was ~ is it possible.
+# Introduction
+
+At [Keploy](http://www.keploy.io), we wanted our tool to be part of the GitHub pipeline so that developers could be guaranteed that modifications made in pull requests could be safely merged and deployed. The only problem we had was ~ is it possible.
 
 The reason for this question is because Keploy uses eBPF to track network calls, which requires sudo capabilities. So the question becomes, will GitHub grant users sudo rights for a program they construct and execute on their systems?
 
@@ -25,7 +27,7 @@ A typical merge cycle is simple: you create a PR, certain workflows are run, and
 
 ## How are the workflows run?
 
-A workflow is a customizable automated process that does one or more jobs. Workflows are defined by a YAML file that is checked into your repository and will run when prompted by an event in your repository, manually, or on a set schedule.
+A workflow is a customizable automated process that does one or more jobs. Workflows are defined by a [YAML file](https://keploy.io/blog/community/yaml-vs-yml-developers-guide-to-syntax-and-ease-of-use) that is checked into your repository and will run when prompted by an event in your repository, manually, or on a set schedule.
 
 ```plaintext
 |.github
@@ -37,7 +39,7 @@ So, in a normal merging cycle, these runners are used to check that the test of 
 
 ---
 
-## What is eBPF and why do we use it?
+## What is eBPF, and why do we use it?
 
 The extended Berkeley Packet Filter (eBPF) enables the programmable, safe, and efficient tracing and monitoring of kernel and user-space processes. So, by monitoring system calls, we'll be able to see incoming and outgoing calls to the program without having to interact with the application code.
 
@@ -47,7 +49,7 @@ We intend to run this process whenever a pull request is sent to the main branch
 
 ## Running eBPF in runner
 
-A sample workflow to run Keploy in github action would look like something below.
+A sample workflow to run Keploy in GitHub Action would look like something below.
 
 ```yaml
 name: Golang On Linux
@@ -121,7 +123,7 @@ Additionally, if you're deploying in OpenWRT environments, you might be curious 
 
 ## The results of running eBPF:
 
-Github and Gitlab both give us sudo privileges for runners (letting us attach hooks on kprobes). Bitbucket, on the other hand, does not.
+GitHub and GitLab both give us sudo privileges for runners (letting us attach hooks on kprobes). Bitbucket, on the other hand, does not.
 
 These configurations helped us learn we need custom runners for ARM64 architecture. Below is a snippet that demonstrates HTTP requests being captured multiple times by Keploy.
 
@@ -131,16 +133,16 @@ There are a few learnings from this venture:
 
 * GitHub runner does give us root-like privilege by allowing us to attach hooks to kprobes.
     
-* GitHub runners are 2-core, 7 GB RAM, 14 GB SSD disk space beasts, perfect for running eBPF-based tools.
+* GitHub runners are 2-core, 7 GB RAM, 14 GB SSD disk space beasts, perfect for running [eBPF-based tools.](https://keploy.io/blog/community/ebpf-for-tls-traffic-tracing-secure-efficient-observability)
     
 * **GitHub integration** is possible even with root-level operations like network monitoring using eBPF.
     
 
 > For more insights into developer tools, tech communities, and tips, check out [10 Developer Communities to Be a Part of in 2025](https://keploy.io/blog/community/10-developer-communities-to-be-a-part-of-in-2025) on our blog.
 
-### Explore more eBPF and integration use cases on [www.keploy.io](https://www.keploy.io/).  
-  
-FAQ’S
+### Explore more eBPF and integration use cases on [www.keploy.io](https://www.keploy.io/).
+
+## FAQs
 
 **1\. Can eBPF run inside GitHub Actions without full root access?**  
 Yes, eBPF can run in GitHub Actions because it attaches to kernel hooks like kprobes.  
@@ -158,7 +160,7 @@ All this happens without modifying the application code.
 To enable eBPF in OpenWRT, you need to recompile the kernel with BPF options.  
 Enable flags like `CONFIG_BPF` and `CONFIG_BPF_SYSCALL` in kernel config.  
 Also include bpftool and required headers for runtime utilities.  
-Then flash the firmware and verify with `bpftool` commands.
+Then flash the firmware and verify with `bpftool`commands.
 
 **4\. Why does Keploy use eBPF in its GitHub workflow?**  
 Keploy uses eBPF to monitor network calls without touching the app code.  
