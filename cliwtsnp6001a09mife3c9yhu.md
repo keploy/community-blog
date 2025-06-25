@@ -73,6 +73,8 @@ My test data must account for more than the typical use cases. Edge and boundary
 
 Generating test data that reflects the diversity of production data has been key to writing an effective regression test suite. Accounting for edge and boundary cases is important. This helps make my code robust and able to handle all possible scenarios, even unlikely ones.
 
+To take it a step further, I’ve started using tools like [**Keploy**](http://www.keploy.io) to automatically generate test cases from real API calls and responses, which ensures even better test coverage. It saves time and reduces human error in identifying unusual but important patterns. With Keploy, I can capture actual production behavior and use it to continuously validate app stability — even as the code evolves.
+
 Creating good test data takes time. This pays off by giving me confidence that my code will work correctly when it is used in production.
 
 ### Maintaining Data Integrity and Consistency Across Testing Cycles
@@ -113,7 +115,7 @@ When I'm writing test cases, I always double-check that my test data:
 
 I use tools such as Keploy to manage my test cases. These tools generate test data, stubs and mocks automatically.
 
-![let's test in production](https://cdn.hashnode.com/res/hashnode/image/upload/v1686810303944/e5509ae3-3798-40e7-91d3-7ab4fdc81094.png align="center")
+![Keploy's testing workflow](https://cdn.hashnode.com/res/hashnode/image/upload/v1750848428380/c87cc416-1450-4ab0-b171-74d2cd54a608.png align="center")
 
 Keploy's AI runs various potential API request schemas with the application. It records the test cases and data mocks. Keploy then optimises for the best N test cases that give maximum test coverage eliminating others. This helps ensure my test cases and data to be diverse, consistent, and independent.
 
@@ -148,3 +150,29 @@ In summary, having a diverse and comprehensive test data set is critical for eff
 Investing in a good test data solution can save time and reduce errors. This provides confidence that your software is ready for use. Testing data is essential for a successful testing strategy. It may not be the most exciting part of development, but it is fundamental.
 
 If you've made it this far in the article, you obviously care about building high-quality, bug-free software. Do your regression testing—and your users—a favor and don't skip on the test data.
+
+## Faq’s
+
+**1\. Why is diverse test data important in regression testing?**  
+Diverse test data ensures all possible use cases, including edge and boundary conditions, are covered.  
+It helps in identifying hidden bugs that may not appear with limited datasets.  
+This improves the stability and reliability of the application.  
+It’s essential for testing real-world scenarios effectively.
+
+**2\. How does diverse data improve test coverage?**  
+Using a wide range of inputs reveals gaps in logic and missing validations.  
+It uncovers how the system behaves under different conditions.  
+This leads to a more thorough and meaningful test suite.  
+As a result, your code becomes more resilient to future changes.
+
+**3\. What tools can help generate diverse test data?**  
+Tools like Keploy, Postman, and Faker help automate data diversity.  
+Keploy, for example, captures real API behavior to generate reliable test cases.  
+These tools reduce manual effort and enhance test accuracy.  
+They also ensure that your data reflects real production usage.
+
+**4\. Can diverse test data reduce regression testing time?**  
+Yes, it reduces the number of re-runs by catching bugs early.  
+Well-structured, diverse test cases require fewer manual updates.  
+Optimized test data leads to faster, more efficient testing cycles.  
+This saves both time and resources in the long run.
