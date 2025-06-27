@@ -29,7 +29,7 @@ Alpha testing is carried out internally by stakeholders such as developers, test
 
 ## Who is Responsible for Alpha Testing?
 
-Alpha testing is mostly done by internal members of an organization, wherein different roles conjointly share responsibilities.
+**Alpha testing** is mostly done by internal members of an organization, wherein different roles conjointly share responsibilities.
 
 * Among them, the **Quality Assurance (QA) team** plays a significant role. This includes creating test cases, running test scenarios, and logging bugs and discrepancies from what was expected. Using real-world scenarios , they find out where the application might break down that might not be obvious in ideal conditions, ensuring the software performs reliably in both expected and edge cases.
     
