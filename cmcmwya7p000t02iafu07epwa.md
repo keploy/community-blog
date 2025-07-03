@@ -5,6 +5,7 @@ seoDescription: "Master component testing to ensure correct functionality, reduc
 datePublished: Thu Jul 03 2025 04:56:41 GMT+0000 (Coordinated Universal Time)
 cuid: cmcmwya7p000t02iafu07epwa
 slug: what-is-component-testing
+canonical: https://keploy.io/blog/community/what-is-component-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749979031373/4013e7fd-b634-448a-8c70-38760f7d7189.png
 tags: keploy, component-testing, black-box-testing, gray-box-testing, white-box-testing, keploy-automated-testing, unit-testing-vs-component-testing, module-testing, program-testing
 
