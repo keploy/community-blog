@@ -5,6 +5,7 @@ seoDescription: "Regression testing involves rerunning predefined test cases to 
 datePublished: Mon Jul 07 2025 04:36:01 GMT+0000 (Coordinated Universal Time)
 cuid: cmcslz4c5000g02ju7lfd4hw3
 slug: regression-testing-an-introductory-guide
+canonical: https://keploy.io/blog/community/regression-testing-an-introductory-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751442194743/4954e776-a05c-4d52-8a53-c6ba15932160.webp
 tags: automation-testing, regression-testing, keploy, corrective-regression-testing
 
