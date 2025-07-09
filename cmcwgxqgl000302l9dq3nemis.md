@@ -5,6 +5,7 @@ seoDescription: "Learn what a testing suite in software testing is, its types, b
 datePublished: Wed Jul 09 2025 21:26:03 GMT+0000 (Coordinated Universal Time)
 cuid: cmcwgxqgl000302l9dq3nemis
 slug: how-to-use-a-testing-suite-in-software-testing
+canonical: https://keploy.io/blog/community/how-to-use-a-testing-suite-in-software-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750151514540/057a97b1-7593-4aaf-97b5-fa74d8399a3c.png
 tags: unit-testing, software-testing, qa-tools, test-automation-tools, testing-best-practices, testing-suite
 
