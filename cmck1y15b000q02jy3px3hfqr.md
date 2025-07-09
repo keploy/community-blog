@@ -157,7 +157,7 @@ If you’re looking for a vertical unit testing agent that:
 * Uses your API key to test within workflows
     
 
-…then meet **Keploy-gen!** It leverages LLMs to:
+…then meet **Keploy-gen!** It leverages [LLMs](https://keploy.io/blog/community/llm-txt-generator) to:
 
 1. Understand code semantics
     
