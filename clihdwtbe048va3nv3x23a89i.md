@@ -81,7 +81,7 @@ says Hector Diaz de Leon, a test automation expert and development engineer. We 
 
 That was all the ups and downs of Record and Replay Testing summed up in one article!
 
-Don‘t forget to give me a follow as I’ll publish more such blogs related to API
+Don‘t forget to give me a follow as I’ll publish more such blogs related to [API](https://keploy.io/blog/community/mastering-api-test-automation-best-practices-and-tools)
 
 — by Nishant Mishra
 
