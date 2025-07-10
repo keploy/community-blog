@@ -20,17 +20,19 @@ In this blog, I’ll be talking about what Record and Replay testing is and why 
 
 ## What is Record and Replay Testing?
 
-Record and replay testing is an automated testing method. The tool records the user's actions, then it replays them.
+Record and replay testing is an [automated testing](https://keploy.io/blog/community/guide-to-automated-testing-tools-in-2025) method. The tool records the user's actions, then it replays them.
+
+![what is record and replay](https://cdn.hashnode.com/res/hashnode/image/upload/v1752131765679/f36307e2-f252-4400-9a53-44ee62bc7746.png align="center")
 
 These tools let the tester hit record and manually go through the real-user actions of a pre-scripted test case. When the tester is done, the tool will have created a script that can automatically run those same actions.
 
-Record and Replay is a lightweight solution for test automation. Record and Replay is a lightweight solution for test automation. The value is particularly important for teams who are in the process of shifting from mostly manual testing to incorporating some automation. This helps to accelerate testing and enables its integration at an earlier stage in the software development process.
+Record and Replay is a lightweight solution for [test automation](https://keploy.io/blog/community/exploring-cypress-and-keploy-streamlining-test-automation). Record and Replay is a lightweight solution for test automation. The value is particularly important for teams who are in the process of shifting from mostly manual testing to incorporating some automation. This helps to accelerate testing and enables its integration at an earlier stage in the software development process.
 
 Few ways Record and Replay are good for:
 
 * Individuals with little or no programming knowledge
     
-* Filling in the gaps of Selenium tests and transitioning from mostly manual testing
+* Filling in the gaps of [Selenium tests](https://keploy.io/blog/community/top-selenium-alternatives-for-your-node-js-application) and transitioning from mostly manual testing
     
 * Lightweight automation for smaller tests
     
@@ -43,7 +45,7 @@ Few ways Record and Replay are good for:
 
 The issue is that application code, especially UI code, can change frequently. In that situation, record and replay tests break often, negating any time savings over just going with manual testing.
 
-If your developers don't frequently make changes, relying solely on the record and replay method for test automation can lead to a buildup of fragile scripts. These scripts contain redundant lines of code, images, and objects that are repeated every time they are executed. This duplication not only adds unnecessary code but also makes it more difficult to identify and fix issues in failing scripts. As a result, the process of debugging becomes more challenging.
+If your developers don't frequently make changes, relying solely on the record and replay method for test automation can lead to a buildup of fragile scripts. These scripts contain redundant lines of code, images, and objects that are repeated every time they are executed. This duplication not only adds unnecessary code but also makes it more difficult to identify and fix issues in failing scripts. As a result, the [process of debugging](https://keploy.io/blog/community/testing-vs-debugging-prioritize-efficiently) becomes more challenging.
 
 To explain further, when using the record and replay method, the tool not only captures the actions you perform during testing but also collects additional information that may not be directly related to the test steps. This can create confusion when trying to differentiate between the actual code that represents the test steps and the extra data collected by the tool.
 
@@ -53,7 +55,7 @@ Furthermore, the inclusion of redundant elements in the scripts adds unnecessary
 
 Overall, relying solely on the record and replay method without regularly updating and optimizing the test scripts can lead to a buildup of delicate and redundant code. This not only makes the debugging process more challenging but also hampers the overall maintainability and efficiency of the test automation framework.
 
-Some more issues with record and replay testing:
+## Some more issues with record and replay testing:
 
 ### 1\. Very high maintenance cost
 
@@ -77,10 +79,44 @@ These tools by and large don’t integrate well with your SDLC process. They typ
 
 says Hector Diaz de Leon, a test automation expert and development engineer. We can say that it’s not something you should be using for tests you expect to last for the long haul.
 
----
-
 That was all the ups and downs of Record and Replay Testing summed up in one article!
 
-Don‘t forget to give me a follow as I’ll publish more such blogs related to API😁
+Don‘t forget to give me a follow as I’ll publish more such blogs related to API
 
-— by [Nishant Mishra](https://twitter.com/curlyParadox)
+— by Nishant Mishra
+
+## Conclusion
+
+Understanding the components of APIs is essential for building efficient and secure software applications. From endpoints and HTTP methods to authentication and data formats, each part plays a vital role in enabling smooth communication between systems. By mastering these elements, developers can create more robust integrations, streamline data exchange, and deliver better digital experiences. Whether you're consuming APIs or building your own, a solid grasp of their inner workings sets the foundation for success in modern development.
+
+## FAQs
+
+**1\. What are the main components of an API?**  
+An API typically consists of **endpoints, methods, request/response formats, and authentication**.  
+Endpoints are specific URLs that handle API requests.  
+Methods (like GET, POST) define what action is performed.  
+Authentication ensures only authorized users can access the data.
+
+**2\. What is an API endpoint?**  
+An endpoint is a **specific URL path** where an API can access resources.  
+Each endpoint performs a certain function, like fetching or updating data.  
+For example, `/users` might return a list of users.  
+It acts as a bridge between client and server functions.
+
+**3\. What do HTTP methods mean in APIs?**  
+HTTP methods define **the type of action** you want the API to perform.  
+Common ones include GET (retrieve), POST (create), PUT (update), DELETE (remove).  
+Each method has specific rules and behaviors.  
+They're crucial for RESTful API communication.
+
+**4\. How does API authentication work?**  
+Authentication ensures **secure access** to an API's resources.  
+Common methods include API keys, OAuth tokens, or JWTs.  
+Clients must include valid credentials with requests.  
+Without it, unauthorized access is blocked for safety.
+
+**5\. What are request and response formats in APIs?**  
+APIs use structured data formats like **JSON or XML**.  
+A **request** is sent to the server with necessary data.  
+The server processes it and sends back a **response**.  
+Both must follow a standard format to ensure compatibility.
