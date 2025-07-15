@@ -167,6 +167,27 @@ This is the question I got a lot of times while learning, and the answer depends
 
 So, my suggestion will be like you can start with the API documentation, then create SDK specific guides that reference the main API does. This can give you the best of both worlds without even duplicating effort for each.
 
+## How Keploy Helps You Test APIs
+
+While we've covered documentation tools, there's another crucial aspect that bridges the gap between documentation and testing - and that's where [Keploy](https://keploy.io/) comes in. Testing your APIs is just as important as documenting them, and Keploy is revolutionising how we approach API testing.
+
+![keploy](https://cdn.hashnode.com/res/hashnode/image/upload/v1752561578565/cc2cec6e-3fbb-4955-8aa8-9a632940bda2.png align="center")
+
+### What Makes Keploy Special?
+
+Keploy is an AI-powered tool that generates test cases and mocks/stubs for unit, integration, and API testing, helping developers achieve 90% test coverage in minutes. What sets it apart from traditional testing tools is its ability to automatically generate tests based on data from your running app. It simply attaches to your app, reads the data being passed through, and generates tests with real data.
+
+### Key Features That Make API Testing Effortless
+
+* **Automatic Test Generation:** Creates test cases by analysing real-world traffic data, reducing the need for manual scripting. This means you don't have to spend hours writing test scenarios manually.
+    
+* **Real Traffic Conversion:** Keploy converts API traffic into deterministic test cases, which means your tests are based on actual user behaviour rather than hypothetical scenarios.
+    
+* **Built-in Mocks and Stubs:** Keploy not only records API calls, but also records database calls and replays them during testing, making it easy to use, powerful, and extensible.
+    
+* **Multi-language Support:** Keploy: AI Testing Assistant for Developers helps with unit, integration, and API testing in Python, JavaScript, TypeScript, Java, PHP, Go, and more.
+    
+
 ## Why API Documentation Matters More Than Ever
 
 As we all know, API economy is booming and the competition is on fire. Great documentation can be the difference between developers choosing your API or going with your competitor.
