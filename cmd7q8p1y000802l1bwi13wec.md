@@ -5,6 +5,7 @@ seoDescription: "Discover what a flaky test is, why it disrupts CI/CD pipelines,
 datePublished: Thu Jul 17 2025 18:31:59 GMT+0000 (Coordinated Universal Time)
 cuid: cmd7q8p1y000802l1bwi13wec
 slug: what-is-a-flaky-test
+canonical: https://keploy.io/blog/community/what-is-a-flaky-test
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751367525321/a7925005-e7e6-4dba-ae7b-f297fd4360a5.png
 tags: devops, software-testing, automated-testing, test-automation, keploy, flaky-tests, test-readability
 
