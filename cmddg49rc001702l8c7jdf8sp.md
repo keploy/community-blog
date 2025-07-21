@@ -5,6 +5,7 @@ seoDescription: "Learn how the Spiral Methodology helps manage risks and enables
 datePublished: Mon Jul 21 2025 18:35:13 GMT+0000 (Coordinated Universal Time)
 cuid: cmddg49rc001702l8c7jdf8sp
 slug: what-is-spiral-model-in-software-engineering
+canonical: https://keploy.io/blog/community/what-is-spiral-model-in-software-engineering
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751854882672/924d5871-7099-47d2-be0a-faacb874269e.jpeg
 tags: software-development-life-cyclesdlc, spiral-model, project-evaluation, risk-mitigation-strategies
 
