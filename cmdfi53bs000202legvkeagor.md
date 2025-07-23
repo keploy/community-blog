@@ -5,6 +5,7 @@ seoDescription: "Learn app latency testing: impact, methods, common mistakes, an
 datePublished: Wed Jul 23 2025 05:07:23 GMT+0000 (Coordinated Universal Time)
 cuid: cmdfi53bs000202legvkeagor
 slug: what-is-latency-testing
+canonical: https://keploy.io/blog/community/what-is-latency-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752560587254/15c75140-bd0c-4047-ae69-82236d377759.png
 tags: development, testing, latency, keploy
 
