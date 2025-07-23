@@ -5,6 +5,7 @@ seoDescription: "Python bytestrings: creation, encoding, decoding, NumPy and Pan
 datePublished: Wed Jul 23 2025 17:36:39 GMT+0000 (Coordinated Universal Time)
 cuid: cmdg8wnb5000g02la9pyg6t79
 slug: what-is-a-python-bytestring
+canonical: https://keploy.io/blog/community/what-is-a-python-bytestring
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752045596963/806670cf-2ac5-4d4a-9314-dba62730ecbc.png
 tags: python, strings, python-strings, python-bytestrings
 
