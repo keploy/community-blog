@@ -263,6 +263,10 @@ Unit testing is essential for building reliable and maintainable software. Howev
 
 Focus on writing small, isolated tests that cover important cases and provide quick, actionable feedback. And remember, a unit test should never feel like a chore - it should enhance your workflow, not slow you down! So, next time you write a unit test, ask yourself: **Is this test truly good way to write?**
 
+## Related Resource
+
+If you're interested in going deeper into how different types of unit tests behave — including deterministic, non-deterministic, and flaky tests — check out our [comprehensive guide on behavioral unit test types](https://keploy.io/blog/community/understanding-different-types-of-behavioral-unit-tests)
+
 ## FAQ
 
 ### **Why are unit tests so important?**
