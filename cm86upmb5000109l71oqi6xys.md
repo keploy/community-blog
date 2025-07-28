@@ -29,53 +29,95 @@ Unit testing is a **type of software testing** where individual units or compone
 4. **Faster Debugging** – Pinpoint the root cause of failures easily.
     
 
-## Best Practices for Effective Unit Testing
+## 8 Best Practices for Effective Unit Testing
 
-### 1\. Follow the AAA Pattern (Arrange-Act-Assert)
+Unit Testing Best Practices (Updated for 2025)
 
-A well-structured test follows the **AAA pattern**:
+Ability to apply unit testing correctly makes your codebase more robust, maintainable, and scalable. Listed below is an aggregate of the top things the best dev teams do:
 
-* **Arrange**: Set up test data and dependencies.
+1. **Go with the AAA Pattern (Arrange - Act - Assert)**
     
-* **Act**: Execute the unit under test.
+    The **AAA approach** will allow you to write tests that are highly readable and consistent:
     
-* **Assert**: Verify the expected outcome.
+    * **Arrange:** Prepare test data, mocks, and dependencies.
+        
+    * **Act:** Invoke the function / method that is being tested.
+        
+    * **Assert:** Assert that the result is what you expected. Using this approach will help with keeping the tests easier to read and allow a more efficient debugging method.
+        
+2. **Write tests so they are isolated and deterministic**
+    
+    Make sure the unit tests are fast and repeatable while also being independent of outside services like a network, database, or filesystem. You can accomplish that by using a mocking framework (Mockito, Sinon.js, test doubles) to stub and mock dependencies.
+    
+3. **Target meaningful Code Coverage**
+    
+    You want to target at least 80% [code coverage](https://keploy.io/blog/community/understanding-code-coverage-in-software-testing) but do not trade good tests for bad tests just to reach this coverage. You should be testing:
+    
+    * Critical business logic;
+        
+    * Error handling paths;
+        
+    * Edge cases validation;
+        
+    
+    You should be patting yourself on the back if you hit your coverage target - just keep in mind: 100% coverage does not mean 100% confidence.
+    
+4. **Test Happy Paths, Edge Cases & Failure Scenarios**
+    
+    A valuable test suite will consider the possible ways your application may behave with:
+    
+    * Valid/expected input paths (happy paths)
+        
+    * Invalid/unexpected input paths (edge cases)
+        
+    
+    Any of the possible failure modes (timeouts, nulls, corrupted data) You want to be confident that your application will behave as expected, to the best of its ability, as it encounters real-world conditions.
+    
+5. **Include Automated Testing in Your CI/CD Process**
+    
+    Connect your unit tests to Continuous Integration tools like **GitHub Actions, GitLab CI or Jenkins** so they run on every pull request and/or commit. Finding regressions early on, and designing to incorporate quality ensures that you build a culture with quality-first development.
+    
+6. **Be Aware of Your Test Code**
+    
+    Cleanliness for Maintenance If you plan on maintaining your tests over the long term, consider the following:
     
 
-This ensures clarity and maintainability in your test cases.
-
-### 2\. Keep Tests Independent & Isolated
-
-Unit tests should not depend on external systems (e.g., databases, APIs). Instead, use **mocking** and **stubbing** to simulate dependencies.
-
-### 3\. Aim for High Code Coverage, But Don't Obsess
-
-While **80%+ code coverage** is great, coverage alone doesn’t guarantee quality. Focus on testing **critical logic** rather than just hitting numbers.
-
-### 4\. Test Both Happy & Edge Cases
-
-It’s easy to test expected scenarios (happy paths), but don’t forget edge cases—unexpected inputs, large datasets, and failure scenarios.
-
-### 5\. Run Tests Automatically & Frequently
-
-Integrate unit tests into **CI/CD pipelines** so they run automatically with every commit, catching issues early.
-
-### 6\. Write Readable and Maintainable Tests
-
-* Use meaningful test names.
+* Use descriptive test names (e.g., `shouldThrowErrorOnInvalidInput`)
     
-* Avoid hardcoded values where possible.
+* Avoid hardcoded test data – leverage factories or fixtures with broad test data generation
     
-* Structure tests clearly using comments.
+* Group related test cases together and consider adding comments
     
 
-### 7\. Prioritize Testing Core Business Logic
+7. **Focus Your Testing on the Core Business Logic**
+    
+    Invest your test effort on things that matter the most, validation rules, data calculating etc and business specific behaviors. There is generally no point in focusing on unit tests surrounding a user interface or auto generated code.
+    
+8. **Don't Test Private Methods - Test Behavior**
+    
+    In a similar vein, like avoiding hardcoded data, you want to avoid having your tests married to the internal methods of components. Focus on testing the public behavior of the components. This will make your tests even more resilient to code refactors, and better align with the user experience/outcome.
+    
 
-Not all code needs unit testing—focus on the most important parts, such as business rules, data transformations, and error handling.
+Integrate unit tests with **CI tools like GitHub Actions, GitLab CI, or Jenkins** so they run on every pull request or commit. This catches regressions early and promotes a culture of quality-first development.
 
-### 8\. Avoid Testing Implementation Details
+### 6\. Write Clean, Maintainable Test Code
 
-Instead of testing private methods, test the overall behavior of public interfaces. This ensures tests remain stable even if implementations change.
+Follow these tips for long-term test maintainability:
+
+* Use **descriptive test names** (e.g., `shouldThrowErrorOnInvalidInput`)
+    
+* Avoid hardcoded test data, use factories or fixtures
+    
+* Group related tests and add comments for clarity
+    
+
+### 7\. Prioritize Core Business Logic in Testing
+
+Focus your efforts where it matters most, like validation rules, data calculations, and domain-specific behavior. UI or auto-generated code may not require deep unit tests.
+
+### 8\. Don’t Test Private Methods,Test Behavior
+
+Instead of tightly coupling tests to internal methods, test the public behavior of components. This makes your tests more **resilient to code refactors** and better aligned with user outcomes.
 
 ## Top 3 Unit Testing Tools
 
