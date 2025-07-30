@@ -1,7 +1,7 @@
 ---
 title: "How to get your ChatGPT API key"
-seoTitle: "How to Get Your ChatGPT API Key: Step-by-Step Guide"
-seoDescription: "Learn how to obtain your ChatGPT API key and integrate it into your applications with this step-by-step guide."
+seoTitle: "Generate Your ChatGPT API Key Fast"
+seoDescription: "Quick guide to generating and managing your ChatGPT API key via OpenAI dashboard. Start integrating GPT into your project today."
 datePublished: Thu Jun 12 2025 09:23:52 GMT+0000 (Coordinated Universal Time)
 cuid: cmbt68zt2000402lb2r3ufrzh
 slug: how-to-get-your-chatgpt-api-key
@@ -154,14 +154,14 @@ Keep it ethical and useful
 
 ## Want to automate testing using AI?
 
-If you're looking for a vertical unit testing agent that:
+If you're looking for a vertica<mark>l</mark> [<mark> unit testing </mark>](https://keploy.io/blog/community/what-is-unit-testing) agent that:
 
 * Runs on your infra **OR**
     
 * Uses your API key to test within workflows
     
 
-...then meet **Keploy-gen!** It leverages LLMs to:
+...then meet **Keploy-gen!** It leverages [<mark> LLMs</mark>](https://keploy.io/blog/community/llm-txt-generator) to:
 
 1. Understand code semantics
     
