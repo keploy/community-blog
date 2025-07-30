@@ -88,7 +88,7 @@ The two main types of White box testing are: Unit Testing, Integration Testing.
 2. **Integration Testing:**
     
 
-[Integration testing](https://keploy.io/blog/community/all-about-system-integration-testing-in-software-testing) is a process of testing how different components or modules of a system work together to ensure they interact correctly. Integration Testing  is also the most expensive testing method.
+[<mark>Integration testing </mark>](https://keploy.io/blog/community/all-about-system-integration-testing-in-software-testing) <mark>i</mark>s a process of testing how different components or modules of a system work together to ensure they interact correctly. Integration Testing  is also the most expensive testing method.
 
 ## **Advantages of White Box Testing**
 
