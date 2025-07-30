@@ -14,7 +14,7 @@ tags: https, backend, status-code
 
 HTTP status codes play a crucial role in web communication, providing vital information about the outcome of requests made to servers. From resolving issues to optimizing performance, mastering these codes can significantly enhance your debugging skills and streamline web development.
 
-This guide will break down the most common HTTP status codes, explaining what they mean and how to handle them effectively.
+This guide will break down the most common [<mark>HTTP status codes</mark>](https://keploy.io/blog/community/decoding-http2-traffic-is-hard-but-ebpf-can-help)<mark>, </mark> explaining what they mean and how to handle them effectively.
 
 ## What is HTTP?
 
@@ -35,7 +35,7 @@ HTTP’s primary features include:
 6. **Versioning:** From HTTP/1.1 to HTTP/3 (also known as QUIC), HTTP has evolved to improve speed and security.
     
 
-These characteristics make HTTP essential for the seamless retrieval of data across the internet.
+These characteristics make http code essential for the seamless retrieval of data across the internet.
 
 ## The Breakdown of HTTP Status Codes
 
@@ -90,6 +90,8 @@ Client Error Responses are identified by 4xx status codes. These codes indicate 
     
 * **429 Too Many Requests:** The client has made too many requests in a short time, triggering rate limiting.
     
+* **<mark>443 status code.</mark>**
+    
 
 ### 5xx Server Error Code
 
@@ -116,7 +118,7 @@ Understanding these status codes is vital for both frontend and backend develope
     
 2. **User-Friendly Messages**
     
-    When handling client-side errors (4xx codes), display user-friendly messages. For instance, replace "404 Not Found" with a custom message like “The page you’re looking for doesn’t exist.”
+    When handling client-side errors (4xx codes), display user-friendly messages. For instance, replace "404 Not Found" with a custom message like “The page you’re looking for doesn’t exist.” <mark>These are all http error code.</mark>
     
 3. **Retry Logic**
     
@@ -133,7 +135,16 @@ Understanding these status codes is vital for both frontend and backend develope
 
 ## Conclusion
 
-HTTP status codes are a crucial part of web development, providing insights into what happens behind the scenes when a client makes a request to a server. By understanding and effectively handling these codes, you can build more robust, user-friendly, and efficient web applications. Whether you're debugging an issue or optimizing performance, these status codes are your first line of insight into the health and behavior of your web services.
+HTTP status codes are a crucial part of web development, providing insights into what happens behind the scenes when a client makes a request to a server. By understanding and effectively handling these codes, you can build more robust, user-friendly, and efficient web applications. Whether you're [<mark>debugging an issue</mark>](https://keploy.io/blog/community/testing-vs-debugging-prioritize-efficiently) or optimizing performance, these status codes are your first line of insight into the health and behavior of your web services.
+
+## <mark>Further Reading</mark>
+
+* [<mark>https://keploy.io/blog/community/decoding-http2-traffic-is-hard-but-ebpf-can-help</mark>](https://keploy.io/blog/community/decoding-http2-traffic-is-hard-but-ebpf-can-help)
+    
+* [<mark>https://keploy.io/blog/community/what-is-a-flaky-test</mark>](https://keploy.io/blog/community/what-is-a-flaky-test)
+    
+* [<mark>https://keploy.io/blog/community/integration-testing-a-comprehensive-guide</mark>](https://keploy.io/blog/community/integration-testing-a-comprehensive-guide)
+    
 
 ## Frequently Asked Questions
 
