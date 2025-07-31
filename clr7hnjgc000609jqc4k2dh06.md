@@ -14,11 +14,11 @@ tags: unit-testing, unit-tests, java-testing-framework
 
 Java unit testing is a process used by developers to test individual components of a Java application. It helps ensure that each piece of code, or unit, functions correctly on its own.
 
-By isolating each unit and testing it independently, developers can identify and fix issues early, improving the overall quality of the application.
+By isolating each [<mark>unit testing</mark>](https://keploy.io/blog/community/everything-you-need-to-know-about-unit-testing) it independently, developers can identify and fix issues early, improving the overall quality of the application.
 
 So, are you looking for the answer to the main question, how to execute Java unit testing?
 
-> **Well, to execute Java unit testing, you have to typically use a testing framework like JUnit. First, write test cases that define the expected behaviour for a unit. Then, run these tests using the framework, which automatically checks if the unit's actual behaviour matches the expectations.**
+> **Well, to execute Java unit testing, you have to typically use a testing framework like JUnit. First, write** [**<mark>test cases</mark>**](https://keploy.io/blog/community/a-guide-to-test-cases-in-software-testing) **<mark> that</mark> define the expected behaviour for a unit. Then, run these tests using the framework, which automatically checks if the unit's actual behaviour matches the expectations.**
 
 In this guide, you will find all the steps needed to conduct Java unit testing effectively, presented in an easy-to-understand manner without technical jargon.
 
@@ -34,7 +34,7 @@ Here's how it works:
 
 **Isolation:** You focus on testing one unit of code at a time, ignoring the rest. This way, you know whether something goes wrong, it's likely within that specific unit.
 
-**Automation:** You write small test cases that check whether your unit works as expected. Automating tests can save you time and effort.
+**Automation:** You write small test cases that check whether your unit works as expected. [Automating tests](https://keploy.io/blog/community/exploring-cypress-and-keploy-streamlining-test-automation) can save you time and effort.
 
 **Fast Feedback:** Unit tests are quick to run, so you get instant feedback on whether your code is working or not.
 
@@ -84,9 +84,9 @@ This phase is when the real testing happens. You run the test cases and check th
 
 When you find problems or defects while testing, put them into a [defect tracking system](https://ijirt.org/master/publishedpaper/IJIRT145814_PAPER.pdf) and report them. These issues are then sorted by importance, assigned, and monitored to make sure the development team resolves them.
 
-### **Regression Testing**
+### [**<mark>Regression Testing</mark>**](https://keploy.io/blog/community/regression-testing-an-introductory-guide)
 
-Regression testing comes in once defects are fixed. It's to check that these fixes don't create new issues or affect already-existing codes that were already working. This type of testing helps keep the software stable.
+<mark>Regression testing co</mark>mes in once defects are fixed. It's to check that these fixes don't create new issues or affect already-existing codes that were already working. This type of testing helps keep the software stable.
 
 ### **Test Closure**
 
@@ -579,7 +579,7 @@ Mockito.verify(dataServiceMock).fetchData();
 ```
 
 **Inject Stubs or Mocks**  
-In your test code, replace the actual dependencies with the stubs or mocks. This can be done using constructor injection, setter injection, or any appropriate dependency injection mechanism.
+In your test code, replace the actual dependencies with the [<mark>stubs or mocks</mark>](https://keploy.io/blog/community/stubs-mocks-fakes-lets-define-the-boundaries)<mark>. </mark> This can be done using constructor injection, setter injection, or any appropriate dependency injection mechanism.
 
 Ensure that your code under test uses the stubs or mocks instead of the real dependencies during testing.
 
@@ -613,7 +613,7 @@ Edge Cases and Boundaries: Test not just typical scenarios but also edge cases, 
 
 Isolation with Mocks: Isolate unit tests from external dependencies using mocks or stubs to ensure determinism and speed.
 
-## **Keploy: The Best Java Testing Integration**
+## [**<mark>Keploy</mark>**](http://www.keploy.io)**<mark>:</mark> The Best Java Testing Integration**
 
 ![](https://lh7-us.googleusercontent.com/FdFt-vNJAwtpe30pIefuPM1d0xgceLYOHJ4mwj3gW6IZg261pSvqYPJE5hGUkFXWW1A5udkh1c02bx5iwyAYC9mbJuVT_QPlisXMk4ZLrOEpfFVa3Mim8GVmBTm2E6JReqzZrerd7svOJ34aaIX1R54 align="left")
 
@@ -662,7 +662,7 @@ By following the principles and techniques outlined, you'll be able to write and
 
 So, apply what you've learned here to your Java projects to have the benefits of thorough and effective unit testing.
 
-## **Frequently Asked Question**
+## **Frequently Asked Questions**
 
 ### **How to make the most out of Java unit tests?**
 
@@ -675,3 +675,11 @@ A basic unit test in Java is written using JUnit or TestNG, where you define a t
 ### **Can unit tests check for exceptions in Java?**
 
 In Java, unit tests are capable of checking for exceptions. Using testing frameworks like JUnit, you can write assertions that verify whether a method throws the expected exception under specific conditions.
+
+### **What are common mistakes to avoid in Java unit testing?**  
+
+Common mistakes include writing overly complex tests, not isolating dependencies, ignoring edge cases, and failing to update tests when the codebase changes. Avoiding these ensures reliable and maintainable test suites.
+
+### **How do mocking frameworks help in Java unit testing?**  
+
+Mocking frameworks like Mockito or EasyMock help simulate dependencies in unit tests, allowing you to isolate the behavior of the class under test and verify interactions without relying on actual implementations.
