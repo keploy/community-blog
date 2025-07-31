@@ -168,8 +168,6 @@ It involves several key components, each of which plays a crucial role in evalua
 
 **Scenario:** A large e-commerce platform is preparing for the annual Black Friday sale, expecting a significant increase in traffic. The company wants to ensure that its website and backend systems can handle the expected load without crashing or slowing down, which could result in lost sales and a poor customer experience.
 
-![Imagine a orange background with ecommerce website on  webscreen.](https://th.bing.com/th/id/OIG2.VjXl3Ki_xkb3GujW03u0?w=1024&h=1024&rs=1&pid=ImgDetMain align="left")
-
 ### **Objectives:**
 
 1. **Performance Verification:** Ensure the website can handle up to 10 times the usual traffic during peak sale hours.
@@ -212,10 +210,10 @@ It involves several key components, each of which plays a crucial role in evalua
 | **Tool** | **Description** | **Strengths** | **Limitations** | **Use Case** |
 | --- | --- | --- | --- | --- |
 | [Keploy](http://keploy.io) | An open-source testing platform focused on API testing and mocking, providing tools for automatic test generation and performance benchmarks. | API-centric testing. Auto-generates test cases. Built-in support for mocking. | Primarily focused on APIs. Still maturing compared to other tools. | Best for API performance testing and mock generation in microservices and cloud-native environments. |
-| [Gatling](https://gatling.io/) | An open-source load testing tool designed for web applications, known for high performance and handling large-scale tests. | High performance. Handles large-scale tests well. Code-based scenarios in Scala. | Requires knowledge of Scala for complex scripting. Limited protocol support. | Best for web application performance testing, especially for teams familiar with Scala. |
-| [Apache JMeter](https://jmeter.apache.org/) | A widely-used open-source tool for load and performance testing. Supports various protocols and can simulate heavy loads. | Open-source and free. Extensive protocol support. Strong community support. | GUI can be resource-intensive. Steeper learning curve for complex scenarios. | Ideal for comprehensive performance testing across different protocols and environments. |
-| [LoadRunner](https://www.opentext.com/en-gb/products/loadrunner-professional) | A comprehensive performance testing tool from Micro Focus supporting a wide range of applications and protocols. | Enterprise-level support. Simulates thousands of users. Detailed analytics. | Expensive licensing. Requires more resources to set up and maintain. | Suitable for large enterprises needing detailed performance analytics and testing at scale. |
-| [Siege](https://github.com/JoeDog/siege) | A command-line utility for benchmarking web servers, designed to stress test by placing a server under load. | Lightweight and easy to use. Command-line interface. Quick setup. | Limited to HTTP/HTTPS. Basic reporting and analytics. | Useful for quick and simple web server benchmarking and stress testing. |
+| Gatling | An open-source load testing tool designed for web applications, known for high performance and handling large-scale tests. | High performance. Handles large-scale tests well. Code-based scenarios in Scala. | Requires knowledge of Scala for complex scripting. Limited protocol support. | Best for web application performance testing, especially for teams familiar with Scala. |
+| Apache JMeter | A widely-used open-source tool for load and performance testing. Supports various protocols and can simulate heavy loads. | Open-source and free. Extensive protocol support. Strong community support. | GUI can be resource-intensive. Steeper learning curve for complex scenarios. | Ideal for comprehensive performance testing across different protocols and environments. |
+| LoadRunner | A comprehensive performance testing tool from Micro Focus supporting a wide range of applications and protocols. | Enterprise-level support. Simulates thousands of users. Detailed analytics. | Expensive licensing. Requires more resources to set up and maintain. | Suitable for large enterprises needing detailed performance analytics and testing at scale. |
+| Siege | A command-line utility for benchmarking web servers, designed to stress test by placing a server under load. | Lightweight and easy to use. Command-line interface. Quick setup. | Limited to HTTP/HTTPS. Basic reporting and analytics. | Useful for quick and simple web server benchmarking and stress testing. |
 
 ## Conclusion
 
