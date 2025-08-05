@@ -5,6 +5,7 @@ seoDescription: "Explore vibe coding with AI tools like Keploy to boost producti
 datePublished: Tue Aug 05 2025 17:24:42 GMT+0000 (Coordinated Universal Time)
 cuid: cmdyt7d2v000702l28hovecjb
 slug: vibe-coding-guide
+canonical: https://keploy.io/blog/community/vibe-coding-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754396864855/27875f16-869c-4236-b5c5-4f515b369715.png
 tags: automated-testing, keploy, developer-productivity, vibe-coding, ai-assisted-development, chatgpt-for-coding
 
