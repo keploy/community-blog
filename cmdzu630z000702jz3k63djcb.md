@@ -1,10 +1,11 @@
 ---
 title: "How API Monitoring Works Behind the Scenes?"
-seoTitle: " Inside API Monitoring: How It Protects Performance & Uptime"
+seoTitle: "Inside API Monitoring: How It Protects Performance & Uptime"
 seoDescription: "Understand how API monitoring works behind the scenes to ensure uptime, performance, and API health, before issues impact your users."
 datePublished: Wed Aug 06 2025 10:39:28 GMT+0000 (Coordinated Universal Time)
 cuid: cmdzu630z000702jz3k63djcb
 slug: how-api-monitoring-works-behind-the-scenes
+canonical: https://keploy.io/blog/community/how-api-monitoring-works-behind-the-scenes
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754054638140/e9360401-e165-4b23-84ec-25ce9e1f3a85.jpeg
 tags: api, api-basics, apimonitoring
 
