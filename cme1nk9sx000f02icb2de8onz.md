@@ -5,6 +5,7 @@ seoDescription: "Understand how AI test generators automate API testing, improve
 datePublished: Thu Aug 07 2025 17:10:05 GMT+0000 (Coordinated Universal Time)
 cuid: cme1nk9sx000f02icb2de8onz
 slug: ai-test-generator
+canonical: https://keploy.io/blog/community/ai-test-generator
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754463267483/a95764da-72f8-4686-99b1-8cb24b4a7191.png
 tags: apis, ai-test-generation, test-generator
 
