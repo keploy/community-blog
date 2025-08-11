@@ -1,10 +1,11 @@
 ---
 title: "5 Best Open Source API Testing Tools in 2025"
 seoTitle: "Top 5 Open Source API Testing Tools to Use in 2025"
-seoDescription: " Explore the 5 best open source API testing tools in 2025 for functional, automated, and performance testing. Choose the right tool for fast API validation"
+seoDescription: "Explore the 5 best open source API testing tools in 2025 for functional, automated, and performance testing. Choose the right tool for fast API validation"
 datePublished: Tue Aug 05 2025 18:23:38 GMT+0000 (Coordinated Universal Time)
 cuid: cmdyvb55m000102lb2bna5k4b
 slug: 5-best-open-source-api-testing-tools-in-2025
+canonical: https://keploy.io/blog/community/5-best-open-source-api-testing-tools-in-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754380886240/d587c47c-b935-44bd-b96b-cfe9de2f465d.png
 tags: tools, opensource, api-testing-tools
 
