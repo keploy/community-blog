@@ -5,6 +5,7 @@ seoDescription: "Learn what Data Driven Testing is, how it works, and why it mat
 datePublished: Tue Aug 12 2025 04:57:04 GMT+0000 (Coordinated Universal Time)
 cuid: cme82kv6f000102kvfc58ct1x
 slug: data-driven-testing-a-comprehensive-guide
+canonical: https://keploy.io/blog/community/data-driven-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753895454155/6f197f32-1a1f-443a-a96f-8ffd507e44db.png
 tags: testing, data-driven, regression-testing, keploy, file-formats, data-driven-testing
 
