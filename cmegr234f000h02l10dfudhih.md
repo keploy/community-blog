@@ -1,12 +1,11 @@
 ---
 title: "What is Negative Testing?"
-seoTitle: "Negative Testing in Software Testing: A Beginner's Guide
-
-"
+seoTitle: "Negative Testing in Software Testing: A Beginner's Guide"
 seoDescription: "Learn the basics of negative testing in software testing. This beginner-friendly guide explains why it's important and how to do it effectively."
 datePublished: Mon Aug 18 2025 06:44:28 GMT+0000 (Coordinated Universal Time)
 cuid: cmegr234f000h02l10dfudhih
 slug: what-is-negative-testing
+canonical: https://keploy.io/blog/community/what-is-negative-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752246838195/490240d6-8599-455d-97a7-3124b539b12a.png
 tags: software-testing, beginners-guide, keploy, negative-testing, negative-testing-in-software-testing
 
