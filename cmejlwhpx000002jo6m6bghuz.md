@@ -5,7 +5,7 @@ seoDescription: "Discover the top AI testing tools in 2025, from free and open s
 datePublished: Wed Aug 20 2025 06:43:28 GMT+0000 (Coordinated Universal Time)
 cuid: cmejlwhpx000002jo6m6bghuz
 slug: ai-testing-tools
-canonical: https://keploy.io/blog/community//ai-testing-tools
+canonical: https://keploy.io/blog/community/ai-testing-tools
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755607398833/2de30481-8309-498b-ae69-ae1321afe28b.png
 tags: ai-in-software-testing, ai-testing-tools, ai-based-testing-tools, ai-powered-test-automation-tools, ai-testing-tools-open-source
 
