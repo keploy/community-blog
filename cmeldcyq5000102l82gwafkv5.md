@@ -416,8 +416,8 @@ The most common effectiveness metrics we see are all percentage-based, including
 
 ### **What** **is the difference between** API contract testing **and** functional API testing?
 
-[**API contract testing**](https://keploy.io/blog/community//what-is-api-contract-testing) is done to ensure that an API is complying with a contract or schema; it is not focused on business logic or end-to-end scenarios, but rather on the structure and compliance of the API or interface. Functional testing is focused on business logic and end-to-end scenarios. Which areas of security are most important to consider in API testing?
+[**API contract testing**](https://keploy.io/blog/community//what-is-api-contract-testing) is done to ensure that an API is complying with a contract or schema; it is not focused on business logic or end-to-end scenarios, but rather on the structure and compliance of the API or interface. Functional testing is focused on business logic and end-to-end scenarios.
 
 ### How can organizations measure ROI from API testing investments?
 
-When measuring ROI, organizations typically look at the number of production incidents avoided, reduced time spent troubleshooting/debugging, faster development cycles, and overall application reliability. What are the considerations for testing third-party APIs?
+When measuring ROI, organizations typically look at the number of production incidents avoided, reduced time spent troubleshooting/debugging, faster development cycles, and overall application reliability.
