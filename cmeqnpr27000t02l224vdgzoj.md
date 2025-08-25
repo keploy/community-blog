@@ -5,6 +5,7 @@ seoDescription: "Master Python debugging in VSCode with breakpoints, step execut
 datePublished: Mon Aug 25 2025 05:08:36 GMT+0000 (Coordinated Universal Time)
 cuid: cmeqnpr27000t02l224vdgzoj
 slug: vscode-python-debugger-guide
+canonical: https://keploy.io/blog/community/vscode-python-debugger-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750844021089/c5260793-ae2f-4182-b0ee-21c55ea86533.png
 tags: vscode, python-development, python-debugging, vscode-python-debugger, python-dev-tools, debugging-tools-for-python
 
