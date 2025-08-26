@@ -12,8 +12,8 @@ tags: software-development, testing, test-automation
 
 ---
 
-*"Did you know? Teams using test automation deploy code 15x faster and reduce bugs by 80%. In today’s fast-paced DevOps world, manual testing just won’t cut it. But with so many tools out there, how do you choose the right one?"*  
-  
+*"Did you know? Teams using test automation deploy code 15x faster and reduce bugs by 80%. In today’s fast-paced DevOps world, manual testing just won’t cut it. But with so many tools out there, how do you choose the right one?"*
+
 Modern software testing now relies heavily on test automation, which helps teams produce reliable, error-free software more quickly and confidently.
 
 ***This makes selecting the appropriate instrument for automated testing very important !!***
@@ -144,30 +144,30 @@ Select a tool based on your application’s technology stack, project requiremen
 **Here is a sample HTML for you to execute locally to see the results**
 
 1. ```xml
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Login Page</title>
-    </head>
-    <body>
-        <h2>Login</h2>
-        <form id="login-form">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email"><br><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password"><br><br>
-            <button type="submit" id="login-button">Login</button>
-        </form>
-        <p id="welcome-message" style="display:none;">Welcome!</p>
-        <script>
-            document.getElementById('login-form').onsubmit = function(event) {
-                event.preventDefault();
-                document.getElementById('welcome-message').style.display = 'block';
-            };
-        </script>
-    </body>
-    </html>
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <title>Login Page</title>
+     </head>
+     <body>
+         <h2>Login</h2>
+         <form id="login-form">
+             <label for="email">Email:</label>
+             <input type="text" id="email" name="email"><br><br>
+             <label for="password">Password:</label>
+             <input type="password" id="password" name="password"><br><br>
+             <button type="submit" id="login-button">Login</button>
+         </form>
+         <p id="welcome-message" style="display:none;">Welcome!</p>
+         <script>
+             document.getElementById('login-form').onsubmit = function(event) {
+                 event.preventDefault();
+                 document.getElementById('welcome-message').style.display = 'block';
+             };
+         </script>
+     </body>
+     </html>
     ```
     
 2. **Develop Test Scripts :**
@@ -219,7 +219,6 @@ Select a tool based on your application’s technology stack, project requiremen
     python sel.py
     ```
     
-    ###   
     **Review and Analyze Results :**
     
     Check test execution results and logs to identify any issues or failures.  
@@ -252,7 +251,7 @@ Select a tool based on your application’s technology stack, project requiremen
 6. Who’s going to use the tool for testing? Devs or [QA teams](https://youteam.io/blog/guide-to-hiring-a-qa-engineer/)?
     
 
-![Quadrant perspective](https://cdn.hashnode.com/res/hashnode/image/upload/v1724093246517/921b9a86-d6ee-4609-91e2-c3f1a27fe9f7.png align="center")
+![Quadrant perspective of test automation tools](https://cdn.hashnode.com/res/hashnode/image/upload/v1724093246517/921b9a86-d6ee-4609-91e2-c3f1a27fe9f7.png align="center")
 
 ## Tools to keep in mind for Automation testing :
 
@@ -269,7 +268,7 @@ Select a tool based on your application’s technology stack, project requiremen
 
 ### **1\. Keploy**
 
-![keploy](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188643446/31816ec9-7341-4cf8-8447-b9edf1cfe491.png align="center")
+![keploy as one of the top test automation tools](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188643446/31816ec9-7341-4cf8-8447-b9edf1cfe491.png align="center")
 
 Keploy is an open-source test automation tool designed to streamline the testing of APIs. It allows users to generate test cases automatically by recording interactions during runtime.
 
@@ -294,7 +293,7 @@ Docs to get started : [https://keploy.io/docs/server/installation/](https://kepl
 
 ### **2\. Katalon**
 
-![katalon](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188763954/6f6df024-3c45-4dbc-ac7c-6d81f3694570.png align="center")
+![katalon as a test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188763954/6f6df024-3c45-4dbc-ac7c-6d81f3694570.png align="center")
 
 Katalon is a comprehensive test automation tool that supports web, API, mobile, and desktop testing. It has robust reporting features and support for continuous integration.
 
@@ -315,7 +314,7 @@ Docs to get started: [https://docs.katalon.com/](https://docs.katalon.com/)
 
 ### **3\. Selenium**
 
-![selenium](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188791050/bbc0de40-06ea-446b-a6e5-86f213157be1.png align="center")
+![selenium as a test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188791050/bbc0de40-06ea-446b-a6e5-86f213157be1.png align="center")
 
 Selenium is a well-established test automation tool and has the ability to automate web browsers across different platforms. It offers scripting-only modes, providing testers and developers the flexibility to write complex test cases using various programming languages.
 
@@ -340,7 +339,7 @@ Selenium is a well-established test automation tool and has the ability to auto
 
 ### **4\. Appium**
 
-![appium](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188837361/0e76e785-e964-40d3-9af1-4754c4492d20.png align="center")
+![appium- open-source test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188837361/0e76e785-e964-40d3-9af1-4754c4492d20.png align="center")
 
 Appium is an open-source tool that enables the automation of mobile applications. It supports a wide range of programming languages, making it a flexible choice for developers. Appium is particularly useful for teams needing to test mobile apps across different devices and operating systems.
 
@@ -357,7 +356,7 @@ Appium is an open-source tool that enables the automation of mobile applications
 
 ### **5\. TestComplete**
 
-![testcomplete](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188873785/615aeb80-0a61-4e7b-911e-4ba97ffe1a78.png align="center")
+![testcomplete - commercial test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188873785/615aeb80-0a61-4e7b-911e-4ba97ffe1a78.png align="center")
 
 TestComplete is a commercial test automation tool that supports web, mobile, and desktop applications. It offers both low-code and scripting options, allowing testers of varying skill levels to use the tool effectively.
 
@@ -374,7 +373,7 @@ TestComplete is a commercial test automation tool that supports web, mobile, and
 
 ### **6\. Cypress**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188916907/9f492f0c-e2c4-4f06-a48b-2d2180a64719.png align="center")
+![Cypress- a modern test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188916907/9f492f0c-e2c4-4f06-a48b-2d2180a64719.png align="center")
 
 Cypress is a modern test automation tool built specifically for web applications. It offers fast, reliable testing with real-time reloading, making it a favorite among front-end developers.
 
@@ -391,7 +390,7 @@ Cypress is a modern test automation tool built specifically for web applications
 
 ### **7\. Siege**
 
-![siege](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188969599/eaad4f43-81dc-4d48-aa78-837b7fe125c2.png align="center")
+![siege - a command-line test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188969599/eaad4f43-81dc-4d48-aa78-837b7fe125c2.png align="center")
 
 Siege is a command-line tool designed for benchmarking and stress testing web servers. It is useful for performance testing and ensuring that web applications can handle high traffic. Siege is lightweight and easy to use,which makes it a good addition to a test automation toolkit.
 
