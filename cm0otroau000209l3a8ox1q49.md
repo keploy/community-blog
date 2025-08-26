@@ -144,30 +144,30 @@ Select a tool based on your application’s technology stack, project requiremen
 **Here is a sample HTML for you to execute locally to see the results**
 
 1. ```xml
-     <!DOCTYPE html>
-     <html lang="en">
-     <head>
-         <meta charset="UTF-8">
-         <title>Login Page</title>
-     </head>
-     <body>
-         <h2>Login</h2>
-         <form id="login-form">
-             <label for="email">Email:</label>
-             <input type="text" id="email" name="email"><br><br>
-             <label for="password">Password:</label>
-             <input type="password" id="password" name="password"><br><br>
-             <button type="submit" id="login-button">Login</button>
-         </form>
-         <p id="welcome-message" style="display:none;">Welcome!</p>
-         <script>
-             document.getElementById('login-form').onsubmit = function(event) {
-                 event.preventDefault();
-                 document.getElementById('welcome-message').style.display = 'block';
-             };
-         </script>
-     </body>
-     </html>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <title>Login Page</title>
+      </head>
+      <body>
+          <h2>Login</h2>
+          <form id="login-form">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email"><br><br>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password"><br><br>
+              <button type="submit" id="login-button">Login</button>
+          </form>
+          <p id="welcome-message" style="display:none;">Welcome!</p>
+          <script>
+              document.getElementById('login-form').onsubmit = function(event) {
+                  event.preventDefault();
+                  document.getElementById('welcome-message').style.display = 'block';
+              };
+          </script>
+      </body>
+      </html>
     ```
     
 2. **Develop Test Scripts :**
@@ -278,7 +278,7 @@ Key Features :
 
 * **Regression Testing**: Supports automatic regression tests by replaying recorded interactions.
     
-* **API Testing**: Automates the generation of API test cases by recording interactions.
+* **API Testing**: Automates the generation of [API test cases](https://keploy.io/blog/community/mastering-api-test-automation-best-practices-and-tools) by recording interactions.
     
 * **Mock Data Generation**: Automatically generates mock data for testing.
     
