@@ -1,7 +1,7 @@
 ---
 title: "Common Challenges in API Testing"
-seoTitle: "API Testing: Common Challenges Explained"
-seoDescription: "Common API testing challenges: debugging, poor documentation, incorrect responses, performance issues, security concerns, and costly mocking"
+seoTitle: "Frustrations of API Testing: Common Challenges Explained"
+seoDescription: "Discover the frustrations of API testing and learn about the common challenges developers face, with practical insights to overcome them effectively."
 datePublished: Thu Aug 04 2022 15:55:47 GMT+0000 (Coordinated Universal Time)
 cuid: cl6f7zjam01t9x5nv231f5j74
 slug: frustrations-of-api-testing
