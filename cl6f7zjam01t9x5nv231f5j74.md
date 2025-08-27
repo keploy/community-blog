@@ -11,13 +11,7 @@ tags: apis, frustration, api-testing, keploy, api-development
 
 ---
 
-## Introduction
-
-Sometimes [API Testing](https://keploy.io/blog/community/an-introduction-to-api-testing) can be challenging and frustrating. Every person who's doing API Testing has to go through it eventually. And there is no other way other than to go through the phase and find a solution.
-
-As a tester, I have experienced some of these frustrating moments in API Testing, and to know more on these I've compiled some of the biggest frustrations of API Testing from across the developer portals and communities.
-
-In this article. I will brief about the biggest API Testing issues that testers face by sharing the stories and comments of developers.
+Sometimes [API Testing](https://keploy.io/blog/community/an-introduction-to-api-testing) can be challenging and frustrating. Every person who's doing API Testing has to go through it eventually. And there is no other way other than to go through the phase and find a solution. As a tester, I have experienced some of these frustrating moments in API Testing, and to know more on these I've compiled some of the biggest frustrations of API Testing from across the developer portals and communities. In this article. I will brief about the biggest frustrations of API Testing that testers face by sharing the stories and comments of developers.
 
 ![1_aRIDTkMCa1Fx9dDKMCpHlw.jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1657750892827/UkHVNw7lv.jpeg align="center")
 
