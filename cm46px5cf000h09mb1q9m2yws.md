@@ -65,20 +65,20 @@ API testing is essential because
 
 Let’s walk through testing a sample API endpoint using Postman.
 
-#### **1\. Set Up Postman:**
+### **1\. Set Up Postman:**
 
 Download and install [Postman](https://www.postman.com/). Open Postman and create a **new** request.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1715843009655/049773b4-e095-4aca-9b1e-95ccd02b6912.png align="center")
 
-#### **2\. Define the Endpoint:**
+### **2\. Define the Endpoint:**
 
 For example, we will use a free public API that provides user data.
 
 * **Endpoint:**[`https://jsonplaceholder.typicode.com/users`](https://jsonplaceholder.typicode.com/users)
     
 
-#### **3\. Create a New Request**
+### **3\. Create a New Request**
 
 * Open Postman, and click on `New` -&gt; `Request`.
     
@@ -93,11 +93,11 @@ Picture for reference:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1716268755355/ea25656d-fddb-4f80-8516-d871485b1afe.png align="center")
 
-#### **4\. Send the Request**
+### **4\. Send the Request**
 
 Click on the `Send`button. Postman will send a request to the API and display the response.
 
-#### **5\. Review the Response**
+### **5\. Review the Response**
 
 Check the response status code, body, headers, and other details.
 
@@ -106,7 +106,7 @@ Check the response status code, body, headers, and other details.
 * **Response Body**: Display a list of users in JSON format.
     
 
-#### **6\. Add Tests**
+### **6\. Add Tests**
 
 Postman allows you to write tests to automate the validation process. Click on the `Tests`tab and add the following code:
 
@@ -122,7 +122,7 @@ In my example, I'm using the "status code: code is 200" code of Postman.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1716269195071/ba3f5b91-0541-4c19-93c8-ba36ea47392f.png align="center")
 
-#### **7\. Run the Tests**
+### **7\. Run the Tests**
 
 Click on Send, and at the bottom of your screen, click on the "**Test Results**" option to see your test results.
 
@@ -169,7 +169,7 @@ Corresponding output of test case:
 
 [Keploy](https://keploy.io/) is an open-source, no-code [API testing](https://keploy.io/blog/community/fun-facts-about-apis) platform that automates the creation of test cases directly from your application. It allows developers to build API test suites with minimal manual effort.
 
-#### **Key Features:**
+### **Key Features:**
 
 * [**Test Automation**](https://keploy.io/blog/community/top-7-test-automation-tools-boost-your-software-testing-efficiency): Automatically generate test cases from real user interactions.
     
@@ -198,14 +198,14 @@ Postman offers an intuitive interface, extensive testing features, and ease of u
 
 Yes, Keploy can complement your existing test suite by generating additional tests automatically, making it easier to ensure complete test coverage.
 
-### **What are the types of API tests typically performed?**  
+### **What are the types of API tests typically performed?**
 
 Common types include functional testing, load testing, and security testing.  
 Functional tests validate if the API works as expected for given inputs.  
 Load tests check performance under high usage.  
 Security tests verify authentication, authorization, and data protection.
 
-### **How do you validate API responses during testing?**  
+### **How do you validate API responses during testing?**
 
 API responses are validated by checking status codes, headers, and data formats.  
 Assertions are made for expected values in JSON or XML responses.  
