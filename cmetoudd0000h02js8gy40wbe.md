@@ -5,6 +5,7 @@ seoDescription: "Discover top visual scripting tools like Blueprints, Unity Visu
 datePublished: Wed Aug 27 2025 08:03:29 GMT+0000 (Coordinated Universal Time)
 cuid: cmetoudd0000h02js8gy40wbe
 slug: visual-scripting-guide
+canonical: https://keploy.io/blog/community/visual-scripting-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753187761379/d6d66525-132e-48ce-98a4-a3120b1ac53a.png
 tags: game-development, no-code-development, visual-scripting, no-code-programming, ai-integration-in-development
 
