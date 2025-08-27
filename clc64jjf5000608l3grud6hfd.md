@@ -1,7 +1,7 @@
 ---
 title: "API Testing : A Begginer's Guide to API Testing"
-seoTitle: "API Testing Guide: Tools, Best Practices & Automation"
-seoDescription: "Learn API testing with our 2025 guide! Explore top tools (Postman, Swagger, Keploy), best practices, automation strategies & how to secure APIs efficiently."
+seoTitle: "API Testing 101: An Overview of What API Testing Is"
+seoDescription: "API Testing 101: Explore the fundamentals of API testing, understand its importance & how it ensures reliable, high-performing software."
 datePublished: Tue Dec 27 2022 11:07:41 GMT+0000 (Coordinated Universal Time)
 cuid: clc64jjf5000608l3grud6hfd
 slug: an-introduction-to-api-testing
