@@ -1,7 +1,7 @@
 ---
 title: "AI powered test automation: Exploring AI-Powered Test Automation Tools"
-seoTitle: "AI Test Automation Tools: Best AI test automation tools"
-seoDescription: "Discover the top AI-powered test automation tools, including Keploy, Applitools, and more. Learn how AI enhances software testing with self-healing capabili"
+seoTitle: "Best AI-powered Test Automation Tools in 2025 | Keploy"
+seoDescription: "Discover top AI-powered test automation tools like Keploy and Applitools. Learn how AI improves accuracy, speed, and coverage in testing."
 datePublished: Thu Mar 20 2025 04:42:15 GMT+0000 (Coordinated Universal Time)
 cuid: cm8gv7a4f000908k0fkuihm54
 slug: ai-powered-test-automation
