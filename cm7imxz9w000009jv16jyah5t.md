@@ -1,7 +1,7 @@
 ---
 title: "How to Achieve Scalable Automation with AI-Driven Testing"
-seoTitle: "How to Achieve Scalable Automation with AI-Driven Testing"
-seoDescription: "Discover AI-driven testing best practices to enhance automation, improve scalability, and boost software reliability with cutting-edge AI tools like Keploy"
+seoTitle: "Achieve Scalable Automation with AI-driven Testing"
+seoDescription: "Learn how AI-driven testing streamlines automation, boosts scalability, and supports reliable QA across complex applications."
 datePublished: Mon Feb 24 2025 05:46:54 GMT+0000 (Coordinated Universal Time)
 cuid: cm7imxz9w000009jv16jyah5t
 slug: how-to-achieve-scalable-automation-with-ai-driven-testing
