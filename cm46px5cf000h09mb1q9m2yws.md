@@ -18,7 +18,7 @@ In the realm of software development, Application Programming Interfaces (APIs) 
 
 Contrary to the UI testing, it also works with the logic layer of the application and makes sure that various software systems interact properly. It aids bug detection early, accelerates the development process, and enables continuous integration. The entire book discusses the vital areas of knowledge that you should master and use successfully to test APIs.
 
-As APIs become increasingly integral to modern applications, ensuring their reliability and functionality is paramount. One crucial aspect of this is testing API endpoints thoroughly. In this guide, we'll delve into API endpoint testing, exploring its importance, best practices, and tools to streamline the process.
+As APIs become increasingly integral to modern applications, ensuring their reliability and functionality is paramount. One crucial aspect of this is testing API endpoints thoroughly. In this guide, we'll delve into API endpoint testing, exploring its importance, [best practices](https://keploy.io/blog/community/mastering-api-test-automation-best-practices-and-tools), and tools to streamline the process.
 
 ## Why Test API Endpoints?
 
