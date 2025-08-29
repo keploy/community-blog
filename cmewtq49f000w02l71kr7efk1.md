@@ -5,6 +5,7 @@ seoDescription: "Learn how spike testing helps apps handle sudden traffic surges
 datePublished: Fri Aug 29 2025 12:43:27 GMT+0000 (Coordinated Universal Time)
 cuid: cmewtq49f000w02l71kr7efk1
 slug: spike-testing
+canonical: https://keploy.io/blog/community/spike-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755591952695/ce969302-1dcb-49b6-ac64-9a54d44e87a9.jpeg
 tags: spike, spike-testing, spike-testing-tool, best-practices-for-spike-testing
 
