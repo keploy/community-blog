@@ -4,9 +4,9 @@ seoTitle: "OpenAPI vs Swagger: Key Differences Explained"
 seoDescription: "Compare OpenAPI and Swagger Schema in RESTful API development, highlighting their features, tools, and recent updates"
 datePublished: Sun Aug 31 2025 04:29:55 GMT+0000 (Coordinated Universal Time)
 cuid: cmez6z4n2000402iba9jiclfp
-slug: openapi-vs-swagger-schema-whats-the-difference
+slug: openapi-vs-swagger
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751257411506/070742bd-569f-411f-a633-872d41ad0784.png
-tags: apis
+tags: api, apis, swagger, openapi
 
 ---
 
