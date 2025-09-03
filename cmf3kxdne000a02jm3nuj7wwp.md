@@ -5,6 +5,7 @@ seoDescription: "Resilience testing ensures app reliability; explore methods and
 datePublished: Wed Sep 03 2025 06:11:33 GMT+0000 (Coordinated Universal Time)
 cuid: cmf3kxdne000a02jm3nuj7wwp
 slug: why-apps-crash-and-how-resilience-testing-can-help
+canonical: https://keploy.io/blog/community/why-apps-crash-and-how-resilience-testing-can-help
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753870117840/c7b7a219-c374-4f0f-96ec-879e845eacad.png
 tags: development, testing, resilience, keploy
 
