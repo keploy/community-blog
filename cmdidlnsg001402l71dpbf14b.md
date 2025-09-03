@@ -39,9 +39,9 @@ By focusing on the interactions and collective behavior of combined units, integ
 
 ### **Clarifying the Scope of Integration Testing**
 
-Integration testing bridges the gap between **unit testing** and **system testing**. While **unit testing** focuses on testing individual components or units of a system in isolation, integration testing ensures that multiple units or components work together as intended. It is performed after unit testing and before system testing, verifying that different parts of the system interact correctly.
+Integration testing bridges the gap between unit testing and system testing. While unit testing focuses on testing individual components or units of a system in isolation, integration testing ensures that multiple units or components work together as intended. It is performed after unit testing and before system testing, verifying that different parts of the system interact correctly.
 
-**System testing**, on the other hand, validates the entire system as a whole, checking for overall functionality, performance, and security. Integration testing fills the gap by focusing specifically on how components interact, ensuring smooth data flow and communication between integrated modules.
+System testing, on the other hand, validates the entire system as a whole, checking for overall functionality, performance, and security. Integration testing fills the gap by focusing specifically on how components interact, ensuring smooth data flow and communication between integrated modules.
 
 **Key Differences**:
 
@@ -326,7 +326,7 @@ Microservices architectures are typically applications that separate functionali
 * Proper service discovery and registration in dynamic environments (e.g., Consul or Eureka).
     
 
-**Example**: A test could validate whether the **order service** is actually calling the **payment service** and receiving the expected response.
+**Example**: A test could validate whether the order service is actually calling the payment service and receiving the expected response.
 
 #### **Client–Server Systems**
 
