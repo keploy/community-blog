@@ -14,7 +14,7 @@ tags: software-development, deployment, testing, coding
 
 Code Coverage is a very important part of the Software Development life cycle. It helps to ensure that tests are covering the most critical parts of our application, and is an important measure to determine the reliability of the code!
 
-In this article, we'll explore what is Code Coverage, Its importance, How it works, and many more! So without delaying further, let's get started!
+In this article, we'll explore what is Code Coverage in software testing, Its importance, How it works, and many more! So without delaying further, let's get started!
 
 ## What is Code Coverage & How Does It Improve Software Quality?
 
