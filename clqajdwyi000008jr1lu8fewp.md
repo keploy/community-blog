@@ -22,7 +22,7 @@ In this article, we'll explore what is Code Coverage in software testing, Its im
 
 Code coverage measures the percentage of code that is tested. It's a very useful metric to test the quality of the test suite and is one of the [major forms of White Box Testing.](https://keploy.io/blog/community/black-box-testing-and-white-box-testing-a-complete-guide)
 
-A program with high test coverage is more likely to have fewer bugs compared to a program with low test coverage
+A program with high software test coverage is more likely to have fewer bugs compared to a program with low test coverage
 
 > *The Formula of Code Coverage:*
 > 
@@ -30,7 +30,7 @@ A program with high test coverage is more likely to have fewer bugs compared to 
 
 ## Why Code Coverage is Essential for Software Testing?
 
-Ok, now that you’ve understood what code coverage is, let’s know why should we care about Code Coverage? What will we get from it?
+Ok, now that you’ve understood what is code coverage in testing, let’s know why should we care about Code Coverage? What will we get from it?
 
 In this section, we will explore the importance of Code Coverage:
 
@@ -40,7 +40,7 @@ In this section, we will explore the importance of Code Coverage:
     
 * By detecting the unused it helps to improve the maintainability.
     
-* It seamlessly integrates with CI/CD pipelines, automating coverage measurement throughout the development lifecycle.
+* It seamlessly integrates with CI/CD pipelines, automating coverage test measurement throughout the development lifecycle.
     
 * It works with a variety of programming languages and platforms like C#, Java, JavaScript, and more. This allows the testing of heterogeneous systems
     
