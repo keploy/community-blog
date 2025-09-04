@@ -28,7 +28,7 @@ API stands for **Application Programming Interface**, which is a set of rules, e
 3. **Response:** The API sends back a structured response to the client.
     
 
-![How API Works](https://cdn.hashnode.com/res/hashnode/image/upload/v1755152559836/92e31d95-8065-4d76-bc56-457a27daabe6.png align="center")
+![How API Works](https://cdn.hashnode.com/res/hashnode/image/upload/v1756975361862/eda749a8-4bda-4e59-b695-137fd4de8341.webp align="center")
 
 ## Types of APIs
 
