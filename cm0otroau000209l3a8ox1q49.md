@@ -144,30 +144,30 @@ Select a tool based on your application’s technology stack, project requiremen
 **Here is a sample HTML for you to execute locally to see the results**
 
 1. ```xml
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-          <meta charset="UTF-8">
-          <title>Login Page</title>
-      </head>
-      <body>
-          <h2>Login</h2>
-          <form id="login-form">
-              <label for="email">Email:</label>
-              <input type="text" id="email" name="email"><br><br>
-              <label for="password">Password:</label>
-              <input type="password" id="password" name="password"><br><br>
-              <button type="submit" id="login-button">Login</button>
-          </form>
-          <p id="welcome-message" style="display:none;">Welcome!</p>
-          <script>
-              document.getElementById('login-form').onsubmit = function(event) {
-                  event.preventDefault();
-                  document.getElementById('welcome-message').style.display = 'block';
-              };
-          </script>
-      </body>
-      </html>
+       <!DOCTYPE html>
+       <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <title>Login Page</title>
+       </head>
+       <body>
+           <h2>Login</h2>
+           <form id="login-form">
+               <label for="email">Email:</label>
+               <input type="text" id="email" name="email"><br><br>
+               <label for="password">Password:</label>
+               <input type="password" id="password" name="password"><br><br>
+               <button type="submit" id="login-button">Login</button>
+           </form>
+           <p id="welcome-message" style="display:none;">Welcome!</p>
+           <script>
+               document.getElementById('login-form').onsubmit = function(event) {
+                   event.preventDefault();
+                   document.getElementById('welcome-message').style.display = 'block';
+               };
+           </script>
+       </body>
+       </html>
     ```
     
 2. **Develop Test Scripts :**
@@ -255,7 +255,7 @@ Select a tool based on your application’s technology stack, project requiremen
 
 ## Tools to keep in mind for Automation testing :
 
-| Feature | [Keploy](http://keploy.io) | [Katalon](https://katalon.com/) | [Selersunt](https://www.traceone.com/) | [Appium](https://appium.io/docs/en/latest/) | [TestComplete](https://smartbear.com/product/testcomplete/) | [Cypress](https://www.cypress.io/) |
+| Feature | [Keploy](http://keploy.io) | Katalon | Selersunt | Appium | TestComplete | Cypress |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Application Under Test** | Web/API | Web/API/Mobile/Desktop | Web | Mobile (Android/iOS) | Web/Mobile/Desktop | Web |
 | **Supported Platform(s)** | Windows/macOS/Linux | Windows/macOS/Linux | Windows/macOS/Linux/Solaris | Windows/macOS | Windows | Windows/macOS/Linux |
@@ -308,10 +308,6 @@ Key Features :
 * **Built-in Reporting**: Provides detailed reports and analytics for test results.
     
 
-Website: [https://www.katalon.com/](https://www.katalon.com/)
-
-Docs to get started: [https://docs.katalon.com/](https://docs.katalon.com/)
-
 ### **3\. Selenium**
 
 ![selenium as a test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188791050/bbc0de40-06ea-446b-a6e5-86f213157be1.png align="center")
@@ -333,10 +329,6 @@ Selenium is a well-established test automation tool and has the ability to auto
 * **Parallel Test Execution:** Supports running tests in parallel across different environments.
     
 
-**Website:** [https://www.selenium.dev/](https://www.selenium.dev/)
-
-**Docs to get started:** https://www.selenium.dev/documentation/en/
-
 ### **4\. Appium**
 
 ![appium- open-source test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188837361/0e76e785-e964-40d3-9af1-4754c4492d20.png align="center")
@@ -349,10 +341,6 @@ Appium is an open-source tool that enables the automation of mobile applications
     
 * **Device and Emulator Support**: Allows testing on real devices and emulators.
     
-
-**Website**: [http://appium.io/](http://appium.io/)
-
-**Docs to get started**: http://appium.io/docs/en/about-appium/intro/
 
 ### **5\. TestComplete**
 
@@ -367,10 +355,6 @@ TestComplete is a commercial test automation tool that supports web, mobile, and
 * **AI-Powered Object Recognition**: Uses AI-powered object recognition for stable and reliable tests.
     
 
-**Website**: https://smartbear.com/product/testcomplete/overview/
-
-**Docs to get started**: https://support.smartbear.com/testcomplete/docs/
-
 ### **6\. Cypress**
 
 ![Cypress- a modern test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188916907/9f492f0c-e2c4-4f06-a48b-2d2180a64719.png align="center")
@@ -384,10 +368,6 @@ Cypress is a modern test automation tool built specifically for web applications
 * **Automatic Waiting**: Automatically waits for elements to appear, reducing the need for manual waits and sleeps.
     
 
-**Website**: [https://www.cypress.io/](https://www.cypress.io/)
-
-**Docs to get started**: https://docs.cypress.io/guides/overview/why-cypress
-
 ### **7\. Siege**
 
 ![siege - a command-line test automation tool](https://cdn.hashnode.com/res/hashnode/image/upload/v1730188969599/eaad4f43-81dc-4d48-aa78-837b7fe125c2.png align="center")
@@ -400,10 +380,6 @@ Siege is a command-line tool designed for benchmarking and stress testing web se
     
 * **Multi-User Simulation**: Can simulate multiple users concurrently to test server load capacity.
     
-
-**Website**: https://www.joedog.org/siege-home/
-
-**Docs to get started**: https://www.joedog.org/siege-manual/
 
 ## **Conclusion**
 
