@@ -1,7 +1,7 @@
 ---
 title: "Shift-Left Testing: A Comprehensive Guide to Enhancing Software"
-seoTitle: "Shift-Left Testing: A Comprehensive Guide to Enhancing Software"
-seoDescription: "Shift-left testing improves software quality through early defect detection, automated testing, and enhanced collaboration in development"
+seoTitle: "Shift-Left Testing Explained: Boost Quality & Efficiency Early in Dev"
+seoDescription: "Discover how shift-left testing improves software quality and efficiency by testing early in the development process."
 datePublished: Mon Aug 05 2024 11:49:28 GMT+0000 (Coordinated Universal Time)
 cuid: clzgxibib00000agz8uf1h3mt
 slug: introduction-to-shift-left-testing
