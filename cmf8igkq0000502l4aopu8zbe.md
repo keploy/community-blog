@@ -5,6 +5,7 @@ seoDescription: "Learn everything about low code automation: benefits, use cases
 datePublished: Sat Sep 06 2025 17:01:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmf8igkq0000502l4aopu8zbe
 slug: complete-guide-to-low-code-automation
+canonical: https://keploy.io/blog/community/complete-guide-to-low-code-automation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757080870025/6b7c97ff-94f3-46dc-b953-ca7be454e687.png
 tags: test-driven-development, low-code, low-code-development, open-source-tools, low-code-no-code
 
