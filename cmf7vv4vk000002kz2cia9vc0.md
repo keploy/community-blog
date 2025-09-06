@@ -1,10 +1,11 @@
 ---
 title: "Regression Analysis: The Key to Smarter, Data-Driven Decisions"
 seoTitle: "Regression Analysis Explained: How to Make Accurate Predictions"
-seoDescription: "Learn what regression analysis is, why it matters, and how to make accurate models. Discover essential steps, assumptions, and tools like Keploy "
+seoDescription: "Learn what regression analysis is, why it matters, and how to make accurate models. Discover essential steps, assumptions, and tools like Keploy"
 datePublished: Sat Sep 06 2025 06:28:49 GMT+0000 (Coordinated Universal Time)
 cuid: cmf7vv4vk000002kz2cia9vc0
-slug: whar-is-regression-analysis
+slug: what-is-regression-analysis
+canonical: https://keploy.io/blog/community/what-is-regression-analysis
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753345617111/8911e668-572b-404e-a746-87d7a66d19f8.png
 tags: linear-regression, regression, logistic-regression, regression-analysis, multivariate-linear-regression
 
