@@ -5,6 +5,7 @@ seoDescription: "Learn database testing for data accuracy, security, and reliabl
 datePublished: Mon Sep 15 2025 07:53:42 GMT+0000 (Coordinated Universal Time)
 cuid: cmfktuyzk000f02lgdw7bdcai
 slug: introduction-to-database-testing
+canonical: https://keploy.io/blog/community/introduction-to-database-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755591665182/e09b25da-ebe2-40bd-b412-0b8cd17a40ba.png
 tags: databases, testing, database-testing
 
