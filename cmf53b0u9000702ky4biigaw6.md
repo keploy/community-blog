@@ -15,9 +15,11 @@ In today's digital world, it is essential to be able to deliver high-quality sof
 
 ## What is Test Automation in Software Testing?
 
-Test automation uses software tools to execute tests automatically with a limited amount of manual effort, allowing for a saving of time and lessening human errors. Test automation is an effective way to increase productivity, develop a more consistent testing cadence and provide developers the opportunity to detect problems much earlier within the development process. Test automation promotes faster delivery, more test coverage and, as a result, both higher-quality software products and happy stakeholders.
+Test automation uses software tools to execute tests automatically with a limited amount of manual effort, allowing for a saving of time and lessening human errors. Therefore, test automation is an effective way to increase productivity, develop a more consistent testing cadence and provide developers the opportunity to detect problems much earlier within the development process.
 
-Ultimately, test automation promotes greater effectiveness with the right tools and processes, and with the right number of skilled testers, more organizations will be offering test automation as a service to help save compliance costs and utilize suppliers' knowledge and experience. Regular script maintenance is part of your commitment to script-based test automation as applications continue to be enhanced and becomes necessary.
+Automation testing also promotes faster delivery, more test coverage and, as a result, both higher-quality software products and happy stakeholders.
+
+Ultimately, test automation promotes greater effectiveness with the right tools and processes, and with the right number of skilled testers, more organizations will be offering test automation as a service to help save compliance costs and utilize suppliers’ knowledge and experience. Regular script maintenance is part of your commitment to script-based test automation as applications continue to be enhanced and becomes necessary.
 
 ## Why is Test Automation Important?
 
@@ -111,7 +113,7 @@ You need to select repetitive, stable, and critical test cases – the ideal can
 
 ### **Step 2: Choose Automation Tools**
 
-You should choose a few automation tools like Selenium, Appium, or Cypress to use, based on whether they are testing web, mobile, or API applications.
+You should choose a few automation tools like Selenium, Appium, or Cypress to use, based on whether they are [testing API applications](https://keploy.io/blog/community/mastering-api-test-automation-best-practices-and-tools), web or mobile.
 
 ### **Step 3: Write Test Scripts**
 
