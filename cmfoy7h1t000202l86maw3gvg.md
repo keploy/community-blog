@@ -5,6 +5,7 @@ seoDescription: "Master Mockito Spy to elegantly handle real object testing, ble
 datePublished: Thu Sep 18 2025 05:06:29 GMT+0000 (Coordinated Universal Time)
 cuid: cmfoy7h1t000202l86maw3gvg
 slug: mockito-spy-your-complete-guide-to-testing-with-real-objects
+canonical: https://keploy.io/blog/community/mockito-spy-your-complete-guide-to-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756781068776/602fc0e7-715e-4618-9c3a-f6a684537e1e.png
 tags: testing, mocking, test-automation, automation-testing, mockito
 
