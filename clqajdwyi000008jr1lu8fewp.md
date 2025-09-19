@@ -73,21 +73,6 @@ Several levels of code coverage can be measured to determine how thoroughly your
 5. **Modified condition/decision coverage (MC/DC)** - This is the strongest form of coverage and requires that each condition independently affects a decision outcome. To achieve MC/DC coverage, tests must vary one condition at a time while holding others constant.
     
 
-## Code Coverage Metrics
-
-Some important metrics that code coverage tools generate include:
-
-* **Line Coverage** – Percentage of executed lines.
-    
-* **Branch Coverage** – Decision-making points tested.
-    
-* **Function Coverage** – Functions/methods executed.
-    
-* **Path Coverage** – Different control flow paths covered.
-    
-* **Loop Coverage** – Ensures loops are tested for 0, 1, and many iterations.
-    
-
 ## 7 Best Code Coverage Tools You Must Try in 2025
 
 There are several tools available in the market to measure the Code Coverage of any Software. Some are given below:
