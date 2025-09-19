@@ -169,7 +169,6 @@ Open `pom.xml` and add this inside `<build>`:
 ### **3\. Example Java Class**
 
 ```java
-// src/main/java/com/example/Calculator.java
 package com.example;
 
 public class Calculator {
@@ -196,7 +195,6 @@ public class Calculator {
 ### 4\. Example JUnit Test
 
 ```java
-// src/test/java/com/example/CalculatorTest.java
 package com.example;
 
 import org.junit.jupiter.api.Test;
