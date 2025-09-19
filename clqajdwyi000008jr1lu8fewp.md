@@ -245,6 +245,15 @@ There’s no one-size-fits-all answer, but industry best practices suggest:
 * The goal should not be just “high coverage” but meaningful coverage that tests critical business logic.
     
 
+## What are the Software Test Coverage Metrics?
+
+* **Requirements Coverage** – Tests mapped to software requirements.
+    
+* **Risk Coverage** – Ensures high-risk areas are tested.
+    
+* **Business Process Coverage** – Ensures end-to-end workflows are tested.
+    
+
 ## What is the difference between Code Coverage vs Test Coverage?
 
 Many developers confuse **code coverage** with **test coverage**, but they are not the same.
@@ -257,17 +266,6 @@ Many developers confuse **code coverage** with **test coverage**, but they are n
 | **Tooling** | Uses tools like coverage.py, JaCoCo, Istanbul, etc. | Uses requirement traceability, test case management, and functional test plans. |
 | **Goal** | Ensure tests actually run through the code paths. | Ensure the software meets user needs and requirements. |
 | **Limitation** | High code coverage ≠ high quality if requirements aren’t tested. | May achieve high coverage of requirements but still miss untested code paths. |
-
-## What are the Software Test Coverage Metrics?
-
-* **Requirements Coverage** – Tests mapped to software requirements.
-    
-* **Risk Coverage** – Ensures high-risk areas are tested.
-    
-* **Business Process Coverage** – Ensures end-to-end workflows are tested.
-    
-
-**In short:** Code Coverage focuses on how much code is tested, while Test Coverage focuses on how much functionality is tested.
 
 ## Conclusion
 
