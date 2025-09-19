@@ -6,7 +6,7 @@ datePublished: Mon Dec 18 2023 06:30:10 GMT+0000 (Coordinated Universal Time)
 cuid: clqajdwyi000008jr1lu8fewp
 slug: understanding-code-coverage-in-software-testing
 canonical: https://keploy.io/blog/community/understanding-code-coverage-in-software-testing
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758271846730/a6260ec3-1df7-4c2b-95e0-3b9311300010.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758277947910/73238fac-74f3-4abe-8b77-fe119c46dce1.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1732471032972/7f4b8fbd-7fd5-4fd8-9a8b-dc34c4b5323b.png
 tags: software-development, deployment, testing, coding
 
