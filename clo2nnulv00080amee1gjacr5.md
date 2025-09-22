@@ -21,7 +21,7 @@ When building software, it’s not enough to just make sure the code runs withou
 
 * **E2E testing** ensures that every part of your application, from frontend to backend, works together in a real-world flow.
     
-* **UAT**, on the other hand, is all about validating that the final product meets **business requirements** and is ready for release.
+* **UAT**, on the other hand, is all about validating that the final product meets business requirements and is ready for release.
     
 
 Both are crucial, but they serve slightly different purposes. Understanding these differences can help you build more reliable and user-friendly software
