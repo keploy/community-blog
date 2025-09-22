@@ -11,7 +11,7 @@ tags: testing, e2e, e2etesting, uat-testing
 
 ---
 
-Honestly, testing can be risky, and there are so many types, and it is easy to mix them up. Among them User Acceptance Testing(UAT) and End-to-End Testing (E2E) often sound like they do the same thing, but actually they do not! One checks if your app works as a whole, the other checks if it works the way user actually needs it to. So, let\`s break it down in the simpler way!
+Honestly, testing can be risky, and there are so many types, and it is easy to mix them up. Among them [User Acceptance Testing(UAT)](https://keploy.io/blog/community/why-developers-should-care-about-uat) and [End-to-End Testing (E2E)](https://keploy.io/blog/community/end-to-end-testing-guide) often sound like they do the same thing, but actually they do not! One checks if your app works as a whole, the other checks if it works the way user actually needs it to. So, let\`s break it down in the simpler way!
 
 %[https://media.giphy.com/media/diCgB37eyFJzT8hbi7/giphy.gif] 
 
