@@ -393,7 +393,7 @@ Built for Modern Architectures Keploy is built for cloud-native, or microservice
 
 With the combination of AI automation, intelligent test data management, and modern integration, Keploy stands as a next-generation platform that best looks to address the limits of traditional test management value.
 
-## Further Reading & Internal Links
+## Further Reading
 
 ##### Dive deeper into the concepts discussed in this article with these resources from the Keploy blog. Explore how AI-powered testing, seamless integrations, and modern testing strategies can transform your development lifecycle.
 
