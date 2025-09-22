@@ -1,7 +1,7 @@
 ---
 title: "Best Open Source Test Management Tools & Their Features"
-seoTitle: "8 Best Test Management Tools & Their Key Features Compared"
-seoDescription: "Explore the best test management tools for modern QA. Compare features like test case tracking, integrations & reporting to find the right fit for your team"
+seoTitle: "Best Open Source Test Management Tools & Their Key Features"
+seoDescription: "Explore the best open source test management tools. Compare features like test case tracking, integrations & more to find the right fit."
 datePublished: Mon Sep 22 2025 05:19:08 GMT+0000 (Coordinated Universal Time)
 cuid: cmfuof5dk000502k0bve34nr3
 slug: best-open-source-test-management-tools
