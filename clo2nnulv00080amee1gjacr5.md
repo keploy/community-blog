@@ -17,7 +17,7 @@ Honestly, testing can be risky, and there are so many types, and it is easy to m
 
 ## Introduction
 
-When building software, it’s not enough to just make sure the code runs without errors — we need to confirm that it works for the people who will use it. That’s where UAT and E2E testing come in.
+When building software, it’s not enough to just make sure the code runs without errors, we need to confirm that it works for the people who will use it. That’s where UAT and E2E testing come in.
 
 * **E2E testing** ensures that every part of your application, from frontend to backend, works together in a real-world flow.
     
