@@ -108,15 +108,15 @@ Java has an assert keyword which can be enabled or disabled at runtime. Failure 
 
 public class AssertionTest {
 
-    public static void main(String\[\] args) {
+public static void main(String\[\] args) {
 
-        int value = -1;
+int value = -1;
 
-        assert value &gt;= 0 : "Value should be non-negative";
+assert value &gt;= 0 : "Value should be non-negative";
 
-        System.out.println("Value: " + value);
+System.out.println("Value: " + value);
 
-    }
+}
 
 }
 
@@ -133,13 +133,13 @@ Assertions are commonly used in Java unit tests with frameworks like JUnit.
 
 int main() {
 
-    int age = -5;
+int age = -5;
 
-    assert(age &gt;= 0 && "Age cannot be negative");
+assert(age &gt;= 0 && "Age cannot be negative");
 
-    std::cout &lt;&lt; "Age: " &lt;&lt; age &lt;&lt; std::endl;
+std::cout &lt;&lt; "Age: " &lt;&lt; age &lt;&lt; std::endl;
 
-    return 0;
+return 0;
 
 }
 
@@ -162,7 +162,7 @@ Assertions are an essential part of software testing frameworks. Whether unit te
 
 ### **Unit Testing using Assertion Testing**
 
-Unit testing frameworks make extensive use of assertions to ensure individual functions or modules function properly.
+[**Unit testing frameworks**](https://keploy.io/blog/community/what-is-unit-testing) make extensive use of assertions to ensure individual functions or modules function properly.
 
 Example: Python's unittest framework
 
@@ -170,21 +170,21 @@ import unittest
 
 class TestMathOperations(unittest.TestCase):
 
-    def test\_addition(self):
+def test\_addition(self):
 
-        self.assertEqual(2 + 3, 5)
+self.assertEqual(2 + 3, 5)
 
-    def test\_division(self):
+def test\_division(self):
 
-        self.assertRaises(ZeroDivisionError, lambda: 10 / 0)
+self.assertRaises(ZeroDivisionError, lambda: 10 / 0)
 
 if **name** == "\_\_main\_\_":
 
-    unittest.main()
+unittest.main()
 
 ### **Automated UI Testing with Assertions**
 
-#### Automated UI testing frameworks like Selenium use assertions to validate webpage elements.
+#### Automated UI testing [frameworks like Selenium](https://keploy.io/blog/community/how-to-use-assertions-in-python-selenium-for-testing) use assertions to validate webpage elements.
 
 from selenium import webdriver
 
