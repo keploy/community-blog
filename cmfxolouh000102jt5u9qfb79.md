@@ -5,6 +5,7 @@ seoDescription: "Learn User Acceptance Testing (UAT) - importance, process, type
 datePublished: Wed Sep 24 2025 07:47:31 GMT+0000 (Coordinated Universal Time)
 cuid: cmfxolouh000102jt5u9qfb79
 slug: what-is-user-acceptance-testing
+canonical: https://keploy.io/blog/community/what-is-user-acceptance-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756366199858/4311a174-a5d3-4c4e-9b01-0f44024b78e7.jpeg
 tags: testing, keploy, user-acceptance-testing, uat-testing
 
