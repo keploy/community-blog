@@ -42,20 +42,7 @@ While creating this comprehensive testing tools list of the top open source soft
 
 This strategy allows our software testing tools list to be with tools that, not only work today, but are also set to address the software testing issues in tomorrow's requirement. Now, let us proceed and describe the tools and features individually:
 
-1. ### Keploy : AI-Based API Test Generation & Mocking
-    
-
-![Keploy Logo](https://cdn.hashnode.com/res/hashnode/image/upload/v1755111796171/c18f55d0-921e-48fc-9512-bc08a8e73e33.png align="center")
-
-Keploy is an AI-based tool for easy API testing through auto-generated test cases and script less API mocking. It applies machine learning for [**automatic test case generation**](https://keploy.io/blog/community/test-case-generation-for-faster-api-testing) mimicking real-user traffic and API call tracing, so a feature to possess in the age of AI-based test tools.
-
-**Key Features:** Automatic test case generation, API mocking, CI/CD integration, low CLI.
-
-**Usage:** Enables faster API test cycles without any loss of solidity in complex microservice-based systems.
-
-**Why Futuristic:** Applies AI in an attempt to reduce test maintenance effort and catch regressions early.
-
-2. ### Playwright: High-Speed Cross-Browser Automation Framework for Next-Generation Apps
+1. ### Playwright: High-Speed Cross-Browser Automation Framework for Next-Generation Apps
     
 
 ![Playright Logo](https://cdn.hashnode.com/res/hashnode/image/upload/v1755111829283/981357bc-10b1-409c-b66d-6e588ec56dec.jpeg align="center")
@@ -67,6 +54,19 @@ Microsoft Playwright is a high-speed and high-reliability end-to-end testing fra
 **Usage:** High-stability web application testing in multiple browsers.
 
 **Why Futuristic:** Catching up with the support for functionality like mobile emulation testing and native app.
+
+2. ### Keploy : AI-Based API Test Generation & Mocking
+    
+
+![Keploy Logo](https://cdn.hashnode.com/res/hashnode/image/upload/v1755111796171/c18f55d0-921e-48fc-9512-bc08a8e73e33.png align="center")
+
+Keploy is an AI-based tool for easy API testing through auto-generated test cases and script less API mocking. It applies machine learning for [**automatic test case generation**](https://keploy.io/blog/community/test-case-generation-for-faster-api-testing) mimicking real-user traffic and API call tracing, so a feature to possess in the age of AI-based test tools.
+
+**Key Features:** Automatic test case generation, API mocking, CI/CD integration, low CLI.
+
+**Usage:** Enables faster API test cycles without any loss of solidity in complex microservice-based systems.
+
+**Why Futuristic:** Applies AI in an attempt to reduce test maintenance effort and catch regressions early.
 
 3. ### Cypress: Fast Frontend Testing with Retries Included
     
