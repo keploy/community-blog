@@ -12,7 +12,7 @@ tags: protocols, ai-agent, mcp-server, mcp-client, a2a
 
 ---
 
-We have all seen the frenzy of Devin AI—teams racing to spin up models, orchestrate data flows, and automate every possible touchpoint. But beyond the hype, two architectural patterns quietly power next-generation pipelines: **Model Context Protocol (MCP)** and **Agent-to-Agent (A2A)**.
+We have all seen the frenzy of Devin AI teams racing to spin up models, orchestrate data flows, and automate every possible touchpoint. But beyond the hype, two architectural patterns quietly power next-generation pipelines: **Model Context Protocol (MCP)** and **Agent-to-Agent (A2A)**.
 
 Below is the roadmap for our deep dive into MCP (Model Context Protocol) and A2A (Agent-to-Agent):
 
@@ -22,28 +22,30 @@ Below is the roadmap for our deep dive into MCP (Model Context Protocol) and A2A
     
 * **Key Differences Between MCP & A2A:** While MCP focuses on connecting LLMs to external tools, A2A enables peer-to-peer agent orchestration; we’ll compare their communication patterns, security models, and use cases
     
-* **Hands-On Walkthrough: Connecting to a Google Maps MCP Server Using Smithery:** Step-by-step with the `mcp-google-map` server—installing via `npx @smithery/cli`Inspecting available Google Maps tools, defining a `mapRequest` schema, publishing events, and consuming responses.
+* **Hands-On Walkthrough: Connecting to a Google Maps MCP Server Using Smithery:** Step-by-step with the `mcp-google-map` server installing via `npx @smithery/cli`Inspecting available Google Maps tools, defining a `mapRequest` schema, publishing events, and consuming responses.
     
 
 ## Why did MCP even come into the picture?
 
-If you’ve ever tried building an app from scratch—no starter kits, no boilerplate—you know it’s a rare beast these days, with countless templates and low-code tools doing the heavy lifting for you. Even for a simple feature that involves only a handful of actions, you end up defining dozens of functions, wiring up API calls, and wrestling with sprawling context just to keep everything in sync. When an LLM is responsible for scaffolding that code, you run into even more headaches: prompt length limits, out-of-date API knowledge, and unpredictable behavior.
+If you’ve ever tried building an app from scratch no starter kits, no boilerplate you know it’s a rare beast these days, with countless templates and low-code tools doing the heavy lifting for you. Even for a simple feature that involves only a handful of actions, you end up defining dozens of functions, wiring up API calls, and wrestling with sprawling context just to keep everything in sync. When an LLM is responsible for scaffolding that code, you run into even more headaches: prompt length limits, out-of-date API knowledge, and unpredictable behavior.
 
-LLMs have been in the mainstream long enough that it’s time to agree on a clear, uniform architecture. Enter MCP: Instead of juggling thousands of variable names across multiple data structures, you define a single protocol for events and context. No more patching together mismatched structs—just a consistent, scalable way to connect your model to the tools and services you need.
+LLMs have been in the mainstream long enough that it’s time to agree on a clear, uniform architecture. Enter MCP: Instead of juggling thousands of variable names across multiple data structures, you define a single protocol for events and context. No more patching together mismatched structs just a consistent, scalable way to connect your model to the tools and services you need.
 
-### **Outdated Context**
+1. ### **Outdated Context**
+    
 
 * **Stale API Definitions**  
-    Over time, APIs evolve—endpoints change, parameters get deprecated, and response schemas shift. Without a centralized contract, your app’s code can keep calling methods that no longer exist or behave differently.
+    Over time, APIs evolve endpoints change, parameters get deprecated, and response schemas shift. Without a centralized contract, your app’s code can keep calling methods that no longer exist or behave differently.
     
 * **Fragmented Knowledge Sources**  
     When different modules or team members maintain their own partial docs or code snippets, it’s easy for some parts of the system to reference legacy behavior while others assume the latest version.
     
 * **Hard-to-Track Dependencies**  
-    Without a single source of truth, you’ll spend hours hunting down which version of an API a given function was written against—worse if multiple microservices rely on slightly different variants.
+    Without a single source of truth, you’ll spend hours hunting down which version of an API a given function was written against worse if multiple microservices rely on slightly different variants.
     
 
-### **Context Limit by LLMs**
+2. ### **Context Limit by LLMs**
+    
 
 * **Token Budget Constraints**  
     Large language models typically cap out around 8k–32k tokens. If your prompt needs to load dozens of function signatures, data models, and example payloads, you risk hitting that limit—and getting incomplete or truncated responses.
@@ -55,7 +57,8 @@ LLMs have been in the mainstream long enough that it’s time to agree on a clea
     Pushing near the token ceiling may slow inference and increase latency. Every extra line of JSON schema or API spec you include in the prompt reduces headroom for meaningful instructions or real-time data.
     
 
-### **Too Many APIs—What Is Relevant?**
+3. ### **Too Many APIs—What Is Relevant?**
+    
 
 * **Discovery Overhead**  
     Modern systems expose dozens of endpoints (CRUD, batch jobs, analytics, webhooks, etc.). Manually curating which ones the LLM should know about becomes a maintenance burden.
@@ -71,7 +74,8 @@ LLMs have been in the mainstream long enough that it’s time to agree on a clea
 
 ## What problems does MCP solve?
 
-### **Clients = Your Frontend/SDKs**
+1. ### **Clients = Your Frontend/SDKs**
+    
 
 Examples: Cursor app, Windsurf CLI, Claude Desktop
 
@@ -84,7 +88,8 @@ Responsibilities:
 * When the model returns a tool name + params, invoke `mcp.callTool(toolName, params)` and surface the JSON response back to your app
     
 
-### **Servers = Protocol Adapters/Proxies**
+2. ### **Servers = Protocol Adapters/Proxies**
+    
 
 * Expose a **JSON-RPC** API (`listTools`, `callTool`) that any client can consume
     
@@ -93,7 +98,8 @@ Responsibilities:
 * Translate between the MCP RPC calls and the provider’s native REST/gRPC endpoints, handling auth tokens, retries, and error mappings
     
 
-### **Service Providers = Your Existing APIs**
+3. ### **Service Providers = Your Existing APIs**
+    
 
 * Slack, GitHub, Notion, custom microservices, etc.
     
@@ -103,8 +109,6 @@ Responsibilities:
     
 
 ![credits:builder.io](https://cdn.hashnode.com/res/hashnode/image/upload/v1746959630620/2005bbb5-be5f-44c3-a7e0-f99eec0a40eb.png align="center")
-
-credits: builder.io
 
 ## What is A2A?
 
@@ -119,7 +123,7 @@ Core Components
 * **Messaging**: Uses JSON-RPC or HTTP transport with optional streaming (e.g., Server-Sent Events) to exchange requests and responses
     
 
-## A2A vs MCP
+## What is the difference between A2A and MCP
 
 **MCP (Model Context Protocol):**  
 Lets a single AI model talk to external tools in a consistent way. It handles:
@@ -155,76 +159,75 @@ Lets multiple AI “agents” talk directly to each other, peer-to-peer. It hand
 
 ## Simple setup of MCP with **Google Maps MCP Server Using Smithery**
 
-### Prerequisites
+**Prerequisites**
 
-* **Node.js & npm**: Ensure you have Node.js ≥14 and npm installed.
+1. **Node.js & npm**: Ensure you have Node.js ≥14 and npm installed.
     
-* **Google Maps API Key**: Obtain a valid key from Google Cloud Console with Geocoding and Places APIs enabled.  
-      
-    Visit the Smithery registry entry for Google Maps:  
-    [https://smithery.ai/server/@smithery-ai/google-maps](https://smithery.ai/server/@smithery-ai/google-maps)  
+2. **Google Maps API Key**: Obtain a valid key from Google Cloud Console with Geocoding and Places APIs enabled.
     
-    Auto-Configure in Claude Desktop
+
+Visit the Smithery registry entry for Google Maps:  
+https://smithery.ai/server/@smithery-ai/google-maps
+
+**Auto-Configure in Claude Desktop**
+
+1. In Claude Desktop, go to **Settings → MCP Servers**
     
-    1. In Claude Desktop, go to **Settings → MCP Servers**
+2. Click **Add Server** and select **Remote**
+    
+3. Enter the Server ID:
+    
+    ```bash
+    @smithery-ai/google-maps
+    ```
+    
+    Claude will auto-populate the RPC endpoint and tool list for you
+    
+4. From your terminal, run:
+    
+    ```bash
+    npx -y @smithery/cli@latest install @smithery-ai/google-maps \
+      --client claude \
+      --profile YOUR_GOOGLE_MAPS_API_KEY
+    ```
+    
+    * `--client claude` tells Smithery to configure the server for Claude Desktop.
         
-    2. Click **Add Server** and select **Remote**
+    * `--profile` injects your `GOOGLE_MAPS_API_KEY` into the local config
         
-    3. Enter the Server ID:
+5. Once the CLI install completes, you’ll see an interactive prompt like this in your terminal:
+    
+    ```bash
+    ℹ To finish setup, update Claude Desktop with your server details.  
+      • Server ID: @smithery-ai/google-maps  
+      • RPC URL: https://…/rpc  
+    Installing remote server. Please ensure you trust the server author, especially when sharing sensitive data.
+    For information on Smithery's data policy, please visit: https://smithery.ai/docs/data-policy
+    @smithery-ai/google-maps successfully installed for claude
+    ? Would you like to restart the claude app to apply changes?
+    ```
+    
+    * Claude Desktop will launch (or bring its Settings window to the front) and pre-fill the **Server ID**, **RPC URL**, and your **API key**.
         
-        ```bash
-        @smithery-ai/google-maps
-        ```
+    * **Review & Save**: Confirm the values match, then click **Save** in the MCP Servers pane.
         
-        Claude will auto-populate the RPC endpoint and tool list for you
-        
-    4. From your terminal, run:
-        
-        ```bash
-        npx -y @smithery/cli@latest install @smithery-ai/google-maps \
-          --client claude \
-          --profile YOUR_GOOGLE_MAPS_API_KEY
-        ```
-        
-        * `--client claude` tells Smithery to configure the server for Claude Desktop.
-            
-        * `--profile` injects your `GOOGLE_MAPS_API_KEY` into the local config
-            
-        
-    5. Once the CLI install completes, you’ll see an interactive prompt like this in your terminal:
-        
-        ```bash
-        ℹ To finish setup, update Claude Desktop with your server details.  
-          • Server ID: @smithery-ai/google-maps  
-          • RPC URL: https://…/rpc  
-        Installing remote server. Please ensure you trust the server author, especially when sharing sensitive data.
-        For information on Smithery's data policy, please visit: https://smithery.ai/docs/data-policy
-        @smithery-ai/google-maps successfully installed for claude
-        ? Would you like to restart the claude app to apply changes?
-        ```
-        
-        * Claude Desktop will launch (or bring its Settings window to the front) and pre-fill the **Server ID**, **RPC URL**, and your **API key**.
-            
-        * **Review & Save**: Confirm the values match, then click **Save** in the MCP Servers pane.
-            
-        * **Verify**: You should now see Google Maps listed under your MCP servers, with all its methods available for use.
-            
-        
-        ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746960586644/14be24e5-4aec-4691-b2c4-8e06d5698d61.png align="center")
-        
-        After the prompt, you should see the server executingthe mcp functions
+    * **Verify**: You should now see Google Maps listed under your MCP servers, with all its methods available for use.
         
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746960678948/2376a74c-c358-4626-9f80-0992d404942a.png align="center")
+    ![Claude code searching](https://cdn.hashnode.com/res/hashnode/image/upload/v1758716299762/2c934228-9764-443f-909c-1456012ae747.png align="center")
     
-    When you run it, the output will appear in a standardized format containing all the required data.
+    After the prompt, you should see the server executing the mcp functions
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746961035841/23c1a4ff-6c06-46f8-a764-fe49efbf1520.png align="center")
-    
-    ## Conclusion
-    
-    By integrating MCP (Model Context Protocol) into your development workflow, you create a consistent, JSON-RPC–based interface that lets any LLM or client discover and call tools without manual prompt engineering or brittle glue code. Combined with A2A (Agent-to-Agent), you gain not only vertical power—models invoking external services seamlessly—but also horizontal agility—agents coordinating complex, multi-step workflows among themselves.
-    
+
+![Claude Executing the MCP](https://cdn.hashnode.com/res/hashnode/image/upload/v1758715995593/5e4c9e4c-f52c-43af-9ec7-1e648cb807ab.png align="center")
+
+When you run it, the output will appear in a standardized format containing all the required data.
+
+![MCP output](https://cdn.hashnode.com/res/hashnode/image/upload/v1746961035841/23c1a4ff-6c06-46f8-a764-fe49efbf1520.png align="center")
+
+## Conclusion
+
+By integrating MCP (Model Context Protocol) into your development workflow, you create a consistent, JSON-RPC–based interface that lets any LLM or client discover and call tools without manual prompt engineering or brittle glue code. Combined with A2A (Agent-to-Agent), you gain not only vertical power models invoking external services seamlessly but also horizontal agility agents coordinating complex, multi-step workflows among themselves.
 
 ## FAQ
 
