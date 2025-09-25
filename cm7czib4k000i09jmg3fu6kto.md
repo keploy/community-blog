@@ -50,11 +50,97 @@ AI agents are autonomous systems capable of perceiving their surroundings, proce
 5. **Innovation** – Open collaboration accelerates advancements in AI technology. Developers worldwide collaborate on cutting-edge AI projects, improving efficiency and making AI more accessible.
     
 
+## **How to use open source AI agents?**
+
+Whenever a new technology enters into the spotlights, most business leaders want to know one thing: how is it actually being used in the real world? Open source AI agents are no different. By looking at the real use cases, it becomes easier to see how they can fit into your projects or application.
+
+![How to use open source AI agents?](https://cdn.hashnode.com/res/hashnode/image/upload/v1758787314154/7f5a97c6-d070-4264-b7e0-35772fbe946e.png align="center")
+
+Here is how can we use the open source AI agents:
+
+**1\. Big Data AI Search**
+
+One of the more popular uses is to create research-based agents, such as a GPT Researcher, that can sift through vast pools of internet data, sift through it, and transform it into structured intelligence. Rather than doing manual searches and compilations, these agents can do all the heavy lifting: scanning across sources, condensing results, and delivering findings in an actionable format.
+
+This is particularly useful for analysts, researchers, or companies that must spot leads or follow trends in sectors like education, logistics, retail, or e-commerce. As the underlying frameworks are open-source, the agent can be customized for your particular domain so that the results are more accurate and pertinent.
+
+**2\. AI Avatars for Streaming**
+
+Another innovative application is AI avatars for live streaming and virtual social interaction. These avatars can converse with viewers in real time, answer naturally, and even match their lips to speech by providing an interactive, nearly realistic experience.
+
+The open-source benefit in this case is adaptability: programmers may continue to advance the avatar by introducing new languages, expressions, or expertise. As an example, tools such as Text-to-Video AI Builders enable users to create multilingual AI hosts from plain text and (if desired) their own voices. Such a tool makes professionally created video content available to everybody.
+
+**3\. AI Employees**
+
+The concept of "AI workers" may seem science fiction, but it is fast becoming a reality. These agents, usually driven by open-source models from such locations as Hugging Face, have the ability to automate routine tasks like responding to customer questions, scheduling, data processing, or even aiding in decision-making.
+
+Why they're attractive is flexibility. Companies can mold these AI workers into their current business processes without shelling out for pricey, off-the-shelf solutions. To boot, since the technology is open-source, it's subject to regular development from a worldwide network of programmers. The payoff? A budget-friendly, scalable means to enhance productivity without increasing redundant workloads.
+
+**4\. Multi-Agent Systems**
+
+And then there's the higher-level idea of multi-agent systems. Rather than a single agent acting alone, groups of AI agents cooperate and each with an expertise in some aspect of the problem. Open-source large language models (LLMs) enable these agents to interact and exchange information, producing smarter, more synchronized results.
+
+They are already being experimented with in fields such as logistics, finance, and education. Picture a collection of AI agents managing supply chains, modeling financial schemes, or aiding mass learning environments. The elegance of open-source is that it leaves such systems flexible and malleable, so that they can be fashioned to fit complicated, real-world situations
+
+## Open-Source vs Closed-Source LLMs:
+
+When exploring Large language models(LLMs), one of the key decisions people and developers face is whether to use an open-source or closed-source solution. Both approaches offer different advantages and trade-offs depending on goals, resources and use cases.
+
+![Open-Source vs Closed-Source LLMs](https://cdn.hashnode.com/res/hashnode/image/upload/v1758787501607/97f2d83b-1f61-424f-a51c-fb876cb2ce78.png align="center")
+
+### Open Source LLM:
+
+**Example**: Keploy, Hugging Face-hosted models, LLaMA
+
+**Advantages:**
+
+* **Transparency & Customisation**: Developers can onspect the code and fine tune models to meet specific needs.
+    
+* **Cost Effectiveness**: Many open source models are free to use, with optional enterprise support.
+    
+* **Community Driven Innovation**: Many developers contributed to it add plugins, integration to make it better.
+    
+
+**Limitations:**
+
+* **Higher Maintenance Needs:** Requires in-house expertise for deployment, scaling, and updates.
+    
+* **Hardware Costs:** Running large models locally often demands powerful (and costly) infrastructure.
+    
+* **Support Reliability:** Community support is strong, but not always as consistent as a dedicated vendor’s support team
+    
+
+### Closed Source LLMs:
+
+**Example**: OpenAI’s GPT-4, Claude, Google’s Gemini, Microsoft’s Copilot.
+
+**Advantage:**
+
+* **Ease of use**: They are ready to deploy APIs with minimal setup which make them ideal for business that want quick adoption.
+    
+* **Enterprise Grade Support**: They are backed by large companies that provide regular updates, security patches and SLAs.
+    
+* **Scalability:** They are optimized for large-scale deployments without the need for complex infrastructure management.
+    
+* **Cutting-Edge Performance:** Proprietary models often lead in benchmarks, especially in reasoning and accuracy
+    
+
+**Limitations:**
+
+* **Limited Customization:** Users typically can’t access the underlying model weights or training data.
+    
+* **Vendor Lock-In:** Heavy reliance on a single provider may limit flexibility and increase long-term costs.
+    
+* **Data Privacy Concerns:** Sensitive data sent to external APIs may raise compliance or security issues.
+    
+* **Pricing:** Usage-based costs can escalate quickly for high-volume applications
+    
+
 ## Best Open Source AI Agents To Explore
 
-1. ## Keploy
-    
-    ![Keploy AI Testing Agent](https://cdn.hashnode.com/res/hashnode/image/upload/v1739781189986/964519a2-b8e7-4e41-90f5-1d1dfd9bcc3c.png align="center")
+## 1\. Keploy
+
+1. ![Keploy AI Testing Agent](https://cdn.hashnode.com/res/hashnode/image/upload/v1739781189986/964519a2-b8e7-4e41-90f5-1d1dfd9bcc3c.png align="center")
     
     Keploy is an open-source, AI-powered test automation platform designed to generate test cases, mock dependencies, and automate end-to-end testing with minimal developer effort. It functions as an **AI agent** that captures API traffic, records interactions, and converts them into reusable test cases, making it easier to test applications without writing extensive test scripts manually.
     
@@ -130,8 +216,7 @@ For more details, documentation, and community support, visit Keploy’s officia
 
 [Keploy Website](https://leploy.io)
 
-2. ## Auto GPT
-    
+## 2\. Auto GPT
 
 Auto-GPT is an experimental open-source AI agent that autonomously completes tasks by chaining together multiple instances of OpenAI's GPT models. It is one of the most advanced AI agents, capable of handling complex goals with minimal human input.
 
@@ -184,8 +269,7 @@ AutoGPT is widely used across industries for automation and AI-driven decision-m
 * **Task Automation** – Automates repetitive workflows, reducing manual effort.
     
 
-3. ## LangChain:
-    
+## 3\. LangChain
 
 LangChain is an **open-source AI framework** that simplifies the development of applications using **Large Language Models (LLMs)** like GPT-4, Claude, and Mistral. It provides a structured way to integrate **memory, data retrieval, agents, and APIs** into AI-powered applications.
 
@@ -234,8 +318,7 @@ This makes LangChain a **powerful AI agent** for **building chatbots, AI copi
 * **Task Automation** – Automates workflows using intelligent AI-driven agents.
     
 
-4. ## OpenCopilot
-    
+## 4\. OpenCopilot
 
 Open Copilot is an **open-source AI coding assistant** designed to enhance developer productivity by **automating code suggestions, debugging, and test generation**. It works as an **AI-powered coding companion**, integrating seamlessly with **VS Code, JetBrains, and other IDEs** to help developers write better code faster.
 
@@ -286,8 +369,7 @@ With **AI-driven test automation**, it seamlessly works with **TestGPT, Keploy
 * **Open-Source AI Development** – Customizable and extendable for enterprise applications.
     
 
-5. ## BabyAGI
-    
+## 5\. BabyAGI
 
 BabyAGI is an **open-source AI agent** that can autonomously perform tasks by breaking them down into smaller steps. Inspired by the concept of **Artificial General Intelligence (AGI)**, BabyAGI uses **LLMs, vector databases, and task prioritization algorithms** to create an AI-driven workflow automation system.
 
@@ -338,8 +420,7 @@ This self-learning cycle allows BabyAGI to function as an **AI-powered assistan
 * **Personal AI Assistants** – Acts as a smart assistant for scheduling and planning.
     
 
-6. ## Khoj AI
-    
+## 6\. Khoj AI
 
 Khoj AI is an **open-source AI-powered knowledge retrieval assistant** that helps users **search, summarize, and interact with documents and files**. It acts as a **test pilot for personal AI search**, allowing developers and researchers to **query their local files and notes using AI**.
 
@@ -384,14 +465,13 @@ Use Cases of Khoj AI:
 * **Enterprise Knowledge Management** – Enhances team productivity by organizing internal knowledge.
     
 
-7. ## Hugging Face Transformers:
-    
-    Hugging Face Transformers is an **open-source library** that provides easy access to pre-trained **Large Language Models (LLMs)** like GPT, BERT, T5, and LLaMA. It simplifies **AI model deployment, fine-tuning, and inference** for developers working on **NLP, chatbots, and AI-powered assistants**.
-    
-    Hugging Face acts as a **test pilot** for AI research, allowing developers to **experiment with state-of-the-art AI models** without needing extensive computational resources.
-    
-    ![Hugging Face Trending AI Agents](https://cdn.hashnode.com/res/hashnode/image/upload/v1739598235396/578c049c-b89d-4223-b608-52d383645d41.png align="center")
-    
+## 7\. Hugging Face Transformers:
+
+Hugging Face Transformers is an **open-source library** that provides easy access to pre-trained **Large Language Models (LLMs)** like GPT, BERT, T5, and LLaMA. It simplifies **AI model deployment, fine-tuning, and inference** for developers working on **NLP, chatbots, and AI-powered assistants**.
+
+Hugging Face acts as a **test pilot** for AI research, allowing developers to **experiment with state-of-the-art AI models** without needing extensive computational resources.
+
+![Hugging Face Trending AI Agents](https://cdn.hashnode.com/res/hashnode/image/upload/v1739598235396/578c049c-b89d-4223-b608-52d383645d41.png align="center")
 
 ### How Does Hugging Face Transformers Work:
 
@@ -437,6 +517,36 @@ Developers can quickly deploy these models using APIs or self-hosted solutions,
 ### Hugging Face Transformers Github Repository:
 
 [Hugging Face Transformers Repository](https://github.com/huggingface/transformers)
+
+## How to Pick the Right Open-Source AI Agent?
+
+As many open source AI agents are available in the market, choosing the right one for your project or use can feel complex. The key is to focus on your goals, technical concepts, and long term vision. Here are some steps to help you to make the right choice:
+
+1. **Define your use case properly**
+    
+    This is where everything starts. You must first identify the problem you want the AI agent to solve. You should have your goals clear, which will narrow down the type of agent you need and eliminate unnecessary complexity.
+    
+2. **Evaluate the Model’s Capabilities**
+    
+    Not all open-source agents are built the same. Check for:
+    
+    * **Language support** (e.g., multilingual if you serve global audiences).
+        
+    * **Specialized features** (like search, reasoning, or workflow automation).
+        
+    * **Integrations** (whether it works with your existing tools like Slack, CRM, or cloud services).
+        
+    
+    A lightweight agent might be enough for simple automation, while research-heavy use cases may require a more advanced LLM-powered agent.
+    
+3. **Consider Infrastructure and Scalability**
+    
+    Open-source agents can be run locally (good for privacy and control) or hosted on cloud platforms (easier to scale but higher cost).
+    
+4. **Start Small and Experiment**
+    
+    Don’t start with the one solution right away. Configure your app with the different agents, test real world scenarios, and gather feedback from your team or customers.
+    
 
 ## Future Of Open Source AI Agents:
 
