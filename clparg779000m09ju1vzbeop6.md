@@ -1,14 +1,14 @@
 ---
 title: "How to Generate Test Cases with Automation Tools"
-seoTitle: "Automate Test Case Generation Efficiently"
-seoDescription: "Automate test case generation for efficient software testing, ensuring high-quality product delivery through key practices and tools"
+seoTitle: "How to Use Automated Test Generation for Smarter Test Cases?"
+seoDescription: "Learn how automated test generation helps you create test cases automatically with top tools. Follow step-by-step guide for smarter testing."
 datePublished: Tue Nov 21 2023 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clparg779000m09ju1vzbeop6
 slug: how-to-generate-test-cases-with-automation-tools
 canonical: https://keploy.io/blog/community/how-to-generate-test-cases-with-automation-tools
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731497812945/8dc2ff5d-cdc0-46f9-823a-103baf084823.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1731497821816/a8df8df5-8219-47a9-94e8-dc4b1e2b1aac.png
-tags: postman, tdd, automation, jest, automation-testing, keploy
+tags: tdd, automation, automated-testing, automation-testing, keploy, test-case-management-tools, test-case
 
 ---
 
