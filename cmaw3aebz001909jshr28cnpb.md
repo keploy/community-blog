@@ -6,7 +6,7 @@ datePublished: Tue May 20 2025 05:44:35 GMT+0000 (Coordinated Universal Time)
 cuid: cmaw3aebz001909jshr28cnpb
 slug: mcp-a2a-explained
 canonical: https://keploy.io/blog/community/mastering-mcp-to-a2a
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746961501152/ea2ef9fc-609f-4602-a87e-1f2094cf143d.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758787412432/70ab8e13-3d27-4f72-95a3-ecfd12f24903.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746961284236/96423b53-5150-49bc-aa60-e054db9239f9.png
 tags: claudeai, ai-agent, agentic-ai, mcp, mcp-server, mcp-client, a2a, a2a-protocol
 
@@ -112,6 +112,8 @@ Responsibilities:
 
 ## What is A2A?
 
+![A2A protocol](https://cdn.hashnode.com/res/hashnode/image/upload/v1758786979028/5ad7b4c0-989b-4df9-bd14-33e62d4f0f67.png align="center")
+
 A2A (Agent-to-Agent) is an open standard introduced by Google DeepMind for multi-agent communication in AI systems. It provides a lightweight, JSON-based protocol for agents to announce their “Agent Cards” (metadata describing their capabilities), subscribe to peer events, and invoke actions on one another without requiring custom glue code.
 
 Core Components
@@ -213,13 +215,12 @@ https://smithery.ai/server/@smithery-ai/google-maps
         
     * **Verify**: You should now see Google Maps listed under your MCP servers, with all its methods available for use.
         
-    
-    ![Claude code searching](https://cdn.hashnode.com/res/hashnode/image/upload/v1758716299762/2c934228-9764-443f-909c-1456012ae747.png align="center")
-    
-    After the prompt, you should see the server executing the mcp functions
-    
 
-![Claude Executing the MCP](https://cdn.hashnode.com/res/hashnode/image/upload/v1758715995593/5e4c9e4c-f52c-43af-9ec7-1e648cb807ab.png align="center")
+![Claude search](https://cdn.hashnode.com/res/hashnode/image/upload/v1758786481538/10234940-21e0-4564-a52a-9144a7ee1dad.png align="center")
+
+After the prompt, you should see the server executing the MCP functions
+
+![claude integration](https://cdn.hashnode.com/res/hashnode/image/upload/v1758786334435/d1cada51-bc0e-4546-a99d-879672ee73df.png align="center")
 
 When you run it, the output will appear in a standardized format containing all the required data.
 
