@@ -69,7 +69,7 @@ Even the sharpest QA engineers make mistakes during monotonous checks. Automatio
 
 ## Tools to keep in mind for Automation testing :
 
-| **Feature** | **Keploy** | **Katalon** | **Selenium** | **Appium** | **TestComplete** | **Cypress** | **Siege** |
+| **Feature** | [**Keploy**](https://keploy.io/) | **Katalon** | **Selenium** | **Appium** | **TestComplete** | **Cypress** | **Siege** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Application Under Test | Web/API | Web/API/Mobile/Desktop | Web | Mobile (Android/iOS) | Web/Mobile/Desktop | Web | Web Servers |
 | Supported Platform(s) | Windows/macOS/Linux | Windows/macOS/Linux | Windows/macOS/Linux/Solaris | Windows/macOS | Windows | Windows/macOS/Linux | Linux/macOS |
