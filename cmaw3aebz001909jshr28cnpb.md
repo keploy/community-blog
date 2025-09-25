@@ -6,7 +6,7 @@ datePublished: Tue May 20 2025 05:44:35 GMT+0000 (Coordinated Universal Time)
 cuid: cmaw3aebz001909jshr28cnpb
 slug: mcp-a2a-explained
 canonical: https://keploy.io/blog/community/mastering-mcp-to-a2a
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758787412432/70ab8e13-3d27-4f72-95a3-ecfd12f24903.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758789520238/644d23c9-a5e6-4a03-b601-e94ba29b1227.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746961284236/96423b53-5150-49bc-aa60-e054db9239f9.png
 tags: claudeai, ai-agent, agentic-ai, mcp, mcp-server, mcp-client, a2a, a2a-protocol
 
@@ -70,7 +70,7 @@ LLMs have been in the mainstream long enough that it’s time to agree on a clea
     Even if you filter by endpoint name, differences in authentication schemes, rate limits, and version tags can lead to runtime errors if the model isn’t aware of the specific requirements for each API.
     
 
-![Comparison](https://cdn.hashnode.com/res/hashnode/image/upload/v1758785837781/b6dae639-611f-4b2c-904d-3c4ee3cd7b1a.png align="center")
+![Before and After MCP](https://cdn.hashnode.com/res/hashnode/image/upload/v1758788394892/1c538289-cfbb-4d1a-8e42-8bd2890a9d1c.png align="center")
 
 ## What problems does MCP solve?
 
@@ -108,7 +108,7 @@ Responsibilities:
 * Providers keep their own rate limits, versioning, and data models; MCP handles the integration glue
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758785634711/4facb553-13e3-4d36-8be9-287a736ea0c1.png align="center")
+![MCP process](https://cdn.hashnode.com/res/hashnode/image/upload/v1758787938318/41309a4f-6b41-4e02-9d1a-97502d5a2fd6.png align="center")
 
 ## What is A2A?
 
