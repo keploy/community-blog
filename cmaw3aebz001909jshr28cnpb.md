@@ -6,7 +6,7 @@ datePublished: Tue May 20 2025 05:44:35 GMT+0000 (Coordinated Universal Time)
 cuid: cmaw3aebz001909jshr28cnpb
 slug: mcp-a2a-explained
 canonical: https://keploy.io/blog/community/mastering-mcp-to-a2a
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758789520238/644d23c9-a5e6-4a03-b601-e94ba29b1227.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758803952888/89cb38f6-8f96-4296-8d8d-78be8c08d4c9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746961284236/96423b53-5150-49bc-aa60-e054db9239f9.png
 tags: claudeai, ai-agent, agentic-ai, mcp, mcp-server, mcp-client, a2a, a2a-protocol
 
