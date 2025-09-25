@@ -50,192 +50,6 @@ Even the sharpest QA engineers make mistakes during monotonous checks. Automatio
 * Security vulnerability scans
     
 
-## **What are the key Benefits of Automation Testing Tools?**
-
-1. **Better Speed and Efficiency :**
-    
-    * Automation testing tools can execute tests much faster than manual testing. This greatly enhances the CI/CD pipeline's effectiveness.
-        
-    * For instance, automated test suites can reduce regression testing times from days to mere hours. This enables the testing team to deploy new features more frequently and reliably
-        
-2. **Better Accuracy :**
-    
-    * Automation test tools help in discarding human error which in turn results in a much better accuracy. This is crucial for API testing, acceptance testing, and other tests requiring precision.
-        
-    * It is particularly effective for regression tests. Here the goal is to ensure that new code changes do not introduce new bugs.
-        
-3. **More Test Coverage :**
-    
-    * Test automation frameworks enable the execution of a wider variety of tests. This includes intricate scenarios that may be too time-consuming or impractical to perform manually.
-        
-    * This expanded test coverage includes integration testing, performance tests, and exploratory testing.
-        
-4. **Reduced Costs :**
-    
-    * Automated tests can be reused across different projects and software versions. This in turn reduces the cost per test over time.
-        
-    * The expanded test coverage helps in detecting defects earlier in the development process, leading to improved software quality overall.
-        
-    * Automated tests can be reused across different projects and versions of software, reducing the cost per test over time. This is especially beneficial
-        
-5. **Better Resource Utilization**:
-    
-    * Automating repetitive and routine tests allows human testers to concentrate on more complex tasks that demand critical thinking and creativity.
-        
-    * This not only enhances job satisfaction but also contributes to the overall quality of the software being developed.
-        
-
-## Steps to perform Automation testing :
-
-### **Define Testing Objectives :**
-
-Identify which parts of your application will benefit from automation (e.g., repetitive tests, regression tests).  
-**Example**:
-
-1. * **Application**: An e-commerce website.
-        
-    * **Objectives**:
-        
-        * Automate regression tests for the login functionality, ensuring that every release does not break existing login features.
-            
-        * Automate tests for the checkout process to confirm that users can successfully complete purchases.
-            
-
-### **Choose the Right Automation Tool** :
-
-Select a tool based on your application’s technology stack, project requirements, and budget. Common tools include:  
-**Example**:
-
-**Scenario**: The application is a web-based e-commerce platform.
-
-**Tool Selection**: Choose Selenium WebDriver for browser automation because:
-
-* It supports multiple programming languages (Java, Python, C#, etc.).
-    
-* It works with different browsers (Chrome, Firefox, Safari).
-    
-* It's open-source, making it budget-friendly.
-    
-
-### **Design Test Cases :**
-
-1. Create detailed test cases that outline what needs to be tested, including input data and expected results.  
-    **Example**:
-    
-    * **Test Case for Login**:
-        
-        * **Test Case ID**: TC001
-            
-        * **Description**: Verify user can log in with valid credentials.
-            
-        * **Preconditions**: The user must have an existing account.
-            
-        * **Input Data**:
-            
-            * Username: [`user@example.com`](mailto:user@example.com)
-                
-            * Password: `securepassword`
-                
-        * **Expected Result**: User should be redirected to the dashboard with a welcome message.
-            
-
-### Set up the Automation Environment
-
-**Here is a sample HTML for you to execute locally to see the results**
-
-1. ```xml
-       <!DOCTYPE html>
-       <html lang="en">
-       <head>
-           <meta charset="UTF-8">
-           <title>Login Page</title>
-       </head>
-       <body>
-           <h2>Login</h2>
-           <form id="login-form">
-               <label for="email">Email:</label>
-               <input type="text" id="email" name="email"><br><br>
-               <label for="password">Password:</label>
-               <input type="password" id="password" name="password"><br><br>
-               <button type="submit" id="login-button">Login</button>
-           </form>
-           <p id="welcome-message" style="display:none;">Welcome!</p>
-           <script>
-               document.getElementById('login-form').onsubmit = function(event) {
-                   event.preventDefault();
-                   document.getElementById('welcome-message').style.display = 'block';
-               };
-           </script>
-       </body>
-       </html>
-    ```
-    
-2. **Develop Test Scripts :**
-    
-    ```python
-    from selenium import webdriver
-    from selenium.webdriver.common.by import By
-    import time
-    import os
-    
-    # Path to the HTML file (replace 'path/to' with the actual path to the file)
-    file_path = os.path.abspath("login_page.html")
-    url = f"file://{file_path}"
-    
-    # Set up WebDriver
-    driver = webdriver.Chrome()  # Or use `webdriver.Firefox()` if you have it set up
-    driver.get(url)
-    
-    try:
-        # Locate form fields and login button
-        email_field = driver.find_element(By.ID, "email")
-        password_field = driver.find_element(By.ID, "password")
-        login_button = driver.find_element(By.ID, "login-button")
-    
-        # Fill in the form
-        email_field.send_keys("user@example.com")
-        password_field.send_keys("securepassword")
-        login_button.click()
-    
-        # Wait briefly to let the page update
-        time.sleep(1)  # Short wait
-    
-        # Verify welcome message appears
-        welcome_message = driver.find_element(By.ID, "welcome-message")
-        assert welcome_message.is_displayed()
-    
-        print("Login successful!")
-    
-    except Exception as e:
-        print(f"An error occurred: {e}")
-    
-    finally:
-        driver.quit()
-    ```
-    
-3. **Execute Tests :**
-    
-    ```python
-    python sel.py
-    ```
-    
-    **Review and Analyze Results :**
-    
-    Check test execution results and logs to identify any issues or failures.  
-    **Example**:
-    
-    * **Log Analysis**: After executing the tests, review the output logs or reports generated by the automation tool.
-        
-    * **Example Result**:
-        
-        * **Test Case TC001**: Login Successful
-            
-    
-    ### **Maintain and Update Tests :**
-    
-    Regularly update your test scripts to reflect changes in the application.
-    
-
 ## How to choose the best Test Automation tool?
 
 1. How scalable is the tool?
@@ -255,16 +69,16 @@ Select a tool based on your application’s technology stack, project requiremen
 
 ## Tools to keep in mind for Automation testing :
 
-| Feature | [Keploy](http://keploy.io) | Katalon | Selersunt | Appium | TestComplete | Cypress |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Application Under Test** | Web/API | Web/API/Mobile/Desktop | Web | Mobile (Android/iOS) | Web/Mobile/Desktop | Web |
-| **Supported Platform(s)** | Windows/macOS/Linux | Windows/macOS/Linux | Windows/macOS/Linux/Solaris | Windows/macOS | Windows | Windows/macOS/Linux |
-| **Setup & Configuration** | Easy | Easy | Coding Required | Coding Required | Easy | Coding Required |
-| **Low-code & Scripting Mode** | Both | Both | Scripting Only | Scripting Only | Both | Scripting Only |
-| **Supported Language(s)** | Go, Java, Python, JavaScript | Java & Groovy | JavaScript, Ruby, PHP, Perl Java, C#, Python | PHP, Perl, Java, C#, Python | JavaScript, Ruby, VBScript, JScript, Delphi, C++, C# | JavaScript |
-| **Advanced Test Reporting** | Yes | Yes | No | No | Yes | No |
-| **Pricing** | Free | Free and Paid | Free | Free | Paid | Free and Paid |
-| **Reviews** | 4.7/5 | 4.4/5 | 4.5/5 | 4.5/5 | 4.3/5 | 4.4/5 |
+| **Feature** | **Keploy** | **Katalon** | **Selenium** | **Appium** | **TestComplete** | **Cypress** | **Siege** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Application Under Test | Web/API | Web/API/Mobile/Desktop | Web | Mobile (Android/iOS) | Web/Mobile/Desktop | Web | Web Servers |
+| Supported Platform(s) | Windows/macOS/Linux | Windows/macOS/Linux | Windows/macOS/Linux/Solaris | Windows/macOS | Windows | Windows/macOS/Linux | Linux/macOS |
+| Setup & Configuration | Easy | Easy | Coding Required | Coding Required | Easy | Coding Required | Easy |
+| Low-code & Scripting Mode | Both | Both | Scripting Only | Scripting Only | Both | Scripting Only | CLI Only |
+| Supported Language(s) | Go, Java, Python, JavaScript | Java & Groovy | JavaScript, Ruby, PHP, Perl, Java, C#, Python | Java, C#, Python, JavaScript | JavaScript, Ruby, VBScript, JScript, Delphi, C++, C# | JavaScript | CLI-based (no coding) |
+| Advanced Test Reporting | Yes | Yes | No | No | Yes | No | Limited |
+| Pricing | Free | Free and Paid | Free | Free | Paid | Free and Paid | Free |
+| Reviews | 4.7/5 | 4.4/5 | 4.5/5 | 4.5/5 | 4.3/5 | 4.4/5 | 4.2/5 |
 
 ### **1\. Keploy**
 
@@ -389,11 +203,11 @@ By leveraging the capabilities of top tools like Keploy, Selenium, Appium, TestC
 
 ## **FAQ**
 
-1. **What is test automation, and why is it important?**  
-    Test automation refers to the use of software tools to automate the execution of test cases. It is important because it significantly increases the speed, accuracy, and efficiency of the testing process, allowing teams to deliver high-quality software faster.
+1. **Which test automation tool is best for API testing?**  
+    Keploy is best suited for API testing as it auto-generates test cases by recording real API interactions. It’s ideal for regression testing and ensuring API stability.
     
-2. **How do I choose the right test automation tool?**  
-    When selecting a test automation tool, consider factors like the tool’s compatibility with your application’s technology stack, the types of tests it supports, ease of integration with existing systems, scalability, support and community, cost, and the skill set of the team who will use the tool.
+2. **Which test automation tool is best for mobile app testing?**  
+    Appium is the go-to tool for mobile app testing. It supports iOS and Android, works with real devices and emulators, and supports multiple languages like Java, Python, and JavaScript.
     
 3. **Can I use multiple test automation tools for my project?**  
     Yes, many projects benefit from using a combination of test automation tools to cover different types of testing needs. For example, you might use Selenium for web UI testing, Appium for mobile app testing, and Keploy for API testing.
