@@ -203,70 +203,13 @@ gRPC supports four types of method types calls:
 4. **Bidirectional Streaming**: In bidirectional streaming, both sides can send streams independently. This is where things get really interesting for real time applications.
     
 
-## **gRPC vs. REST**
-
-This is the question everyone asks, right? REST is not going anywhere, but gRPC has some great advantages.  
-gRPC is faster, efficient and it provides more better tooling. The type safety alone is worth considering and is great to compare. API evolution is more structured by using protocol buffers.
-
-As we know, REST has broader ecosystem support, everyone is using REST, especially for public APIs. It is easier to debug with the standard HTTP tools. Browser support is more straightforward here.
-
-Let me show you the difference in a real scenario by getting a user by ID:
-
-**REST Approach**
-
-```javascript
-// Client code
-const response = await fetch('/api/users/123', {
-  method: 'GET',
-  headers: {
-    'Content-Type': 'application/json',
-    'Authorization': 'Bearer ' + token
-  }
-});
-const user = await response.json();
-
-// You need to manually handle:
-// - HTTP status codes
-// - JSON parsing errors  
-// - Type checking (user.name could be undefined)
-// - Error response formats
-```
-
-**gRPC Approach**
-
-```javascript
-// Client code (with gRPC-Web)
-const request = new GetUserRequest();
-request.setId(123);
-
-client.getUser(request, {}, (err, response) => {
-  if (err) {
-    // Structured error handling
-    console.log('Error:', err.message);
-  } else {
-    // Type-safe response
-    console.log('User:', response.getName());
-  }
-});
-
-// You get:
-// - Automatic serialization/deserialization
-// - Type safety (response.getName() is guaranteed to exist)
-// - Structured error handling
-// - Better performance
-```
-
-The difference is night and day here. With REST, you're dealing with strings, manual parsing, and hoping the API contract hasn't changed. But with gRPC, everything is typed, validated, and the contract is enforced at compile time.
-
-So, my opinion on this comparison will be that you can use gRPC for the service-to-service communication, especially in microservice architectures and consider REST APIs for the public APIs or when you need maximum compatibility.
-
 ## **What is gRPC used for?**
 
 Look, the use cases for this are pretty diverse. That means microservices communication is the obvious one, but I have read articles in which gRPC is used for mobile app backends, IoT device communications, real-time features and even as a replacement for message queues in some places.
 
 Currently, big tech companies use this. Netflix uses it for their natural services. Dropbox also built its entire storage system on gRPC. Even traditional enterprises are adopting it for modernizing their architectures.
 
-## **Integration Testing With Keploy**
+## How to Effectively Test gRPC Services ??
 
 Now, here is something really exciting that I found recently. You know how testing gRPC can be a real pain, right? Well, there's this tool called Keploy that's making it pretty easy.
 
