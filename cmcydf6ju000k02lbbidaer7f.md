@@ -1,13 +1,13 @@
 ---
-title: "Understanding gRPC: A Complete Guide for Modern Developers"
-seoTitle: "Comprehensive gRPC Guide for Developers"
-seoDescription: "gRPC: a high-performance framework for microservices communication, offering speed, security, and developer-friendly features"
+title: "What is gRPC? A Complete Guide to Developers"
+seoTitle: "What is gRPC? A Complete Guide to Developers"
+seoDescription: "Explore gRPC with this developer’s guide: features, performance, streaming, and best practices for modern API development"
 datePublished: Fri Jul 11 2025 05:23:11 GMT+0000 (Coordinated Universal Time)
 cuid: cmcydf6ju000k02lbbidaer7f
 slug: what-is-grpc
 canonical: https://keploy.io/blog/community/what-is-grpc
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751452968185/33277c6d-cda9-4bc8-80c9-cbc3d024ff63.png
-tags: apis, rest-api, grpc
+tags: apis, rest-api, grpc, grpc-intro
 
 ---
 
