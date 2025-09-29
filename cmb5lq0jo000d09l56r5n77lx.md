@@ -18,11 +18,34 @@ In this blog, we explore Agile Testing within software development to improve un
 
 ## What is Agile Testing?
 
-**Agile Testing** is a software testing practice that aligns with the principles of Agile software development. Unlike traditional testing methodologies, where testing is a distinct phase that occurs after development, Agile Testing is continuous and integrated throughout the development lifecycle. This approach emphasizes collaboration among cross-functional teams, including developers, testers, and business stakeholders, to ensure that quality is built into the product from the outset.
+Agile Testing is a software testing practice where testing is integrated throughout the development lifecycle. Unlike traditional testing that occurs after development, Agile Testing focuses on continuous feedback, collaboration, and ensuring quality from the start.
 
 ![Agile Testing Steps](https://cdn.hashnode.com/res/hashnode/image/upload/v1747820086052/996839e6-dd65-4323-8909-846d9f35dae2.png align="center")
 
-In Agile Testing, the focus is on delivering working software frequently, with a preference for shorter feedback loops and adaptability to changing requirements. Testing activities are not confined to a specific phase but are performed continuously, enabling teams to detect and address defects early in the development process. This proactive approach contributes to higher software quality and customer satisfaction.
+## Key Features of Agile Testing
+
+* **Iterative Process**: Testing is conducted in every sprint, enabling quick feedback and iterative improvements.
+    
+* **Team Collaboration**: Developers, testers, and stakeholders work together closely to align goals and deliverables.
+    
+* **Focus on Customer Satisfaction**: Tests are designed to ensure features meet customer requirements and provide value.
+    
+* **Flexibility**: Agile testing can adjust to evolving requirements without causing major disruptions to the workflow
+    
+
+## Types of testing & techniques
+
+**Test-Driven Development (TDD)**: In TDD, the tests are written by the testers prior to code development. This ensures that the developers know precisely what they must build and that each line of code is according to requirements. It minimizes bugs early on and maintains the code clean.
+
+**Behavior-Driven Development (BDD)**: BDD emphasizes collaboration between business stakeholders, testers, and developers. Simple, natural language is used to document the expected software behavior in a way that is easily comprehensible and acceptable to all.
+
+**Acceptance Test-Driven Development (ATDD):** Just like BDD, ATDD begins with acceptance tests agreed upon by the customer and the team prior to development. The tests confirm that the end product will satisfy the business objectives as well as user expectations.
+
+**Exploratory Testing**: Rather than executing pre-defined test cases, testers play around with the application to find new bugs. This method is based on imagination, intuition, and experience, and is particularly effective for uncovering edge-case bugs.
+
+**Regression Testing**: Regression testing guarantees that new changes don't cause existing functionality to fail. Whenever code is modified or new features are added, regression tests verify that the system continues to work as intended.
+
+**Automated Testing**: Automated testing is a method that uses software to execute recurring or critical tests on its own. It saves time, enhances precision, and helps testers devote more time to harder or innovative testing work
 
 ## What are the Main Principles of Agile Testing?
 
@@ -73,7 +96,7 @@ Agile testers require a blend of technical and soft skills to be effective,
 
 ## How is Agile Testing Done?
 
-Agile Testing is performed iteratively, with testers involved from the beginning of the development process. Testing activities are integrated into daily workflows, ensuring continuous feedback and quality assurance. This includes writing tests before development (TDD), collaborating on user stories, and conducting various tests throughout the sprint.
+Agile Testing is performed iteratively, starting from the earliest stages of development. Testers collaborate with developers to define user stories, write and execute tests continuously, and provide rapid feedback, ensuring quality at every step. Automation and continuous integration further streamline testing workflows.
 
 ## Why is Agile Testing Important?
 
@@ -247,3 +270,7 @@ Absolutely. Frameworks like SAFe (Scaled Agile Framework) facilitate Agile pract
 ### **4\. I**s Agile Testing suitable for all types of projects?
 
 While Agile Testing offers numerous benefits, its suitability depends on the project's nature, team structure, and stakeholder involvement. It's most effective in environments that value flexibility and rapid feedback.
+
+### 5\. Can Agile Testing be fully automated?
+
+Not completely. While automation handles repetitive and regression testing, exploratory, usability, and some integration tests still require human insight.
