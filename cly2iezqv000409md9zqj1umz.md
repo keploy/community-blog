@@ -4,6 +4,7 @@ datePublished: Thu Jun 27 2024 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cly2iezqv000409md9zqj1umz
 slug: ssl-problem-unable-to-get-local-issuer-certificate
 canonical: https://keploy.io/blog/community/ssl-problem-unable-to-get-local-issuer-certificate
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759154202408/da76375a-72bf-4ef3-8f5a-a67b23c1e4d2.png
 
 ---
 
@@ -13,7 +14,9 @@ In this age of modern era, where privacy is one of the biggest concern SSL/TLS c
 
 A Certificate Authority (CA) is a trusted entity that issues SSL/TLS certificates. These certificates form a chain of trust, starting from the Root CA to Intermediate CAs, and finally to the Leaf certificate (the one installed on your server). This chain ensures that the certificate presented by a server is trusted by clients.
 
-## What causes "Unable to Get Local Issuer Certificate" ?
+![What is SSL/TLS Certificate Chain ?](https://cdn.hashnode.com/res/hashnode/image/upload/v1759155176801/71388fda-3b95-4b3a-a08d-1f3d98c49af3.png align="center")
+
+## Causes of 'Unable to Get Local Issuer Certificate’
 
 Usually, `unable to get local issuer certificate` error is caused by the misconfiguration of the SSL certificate on your machine. **Here are some common causes of the error:**
 
@@ -24,13 +27,35 @@ Usually, `unable to get local issuer certificate` error is caused by the misconf
 * **Outdated Certificate Store**: Operating systems and browsers maintain a certificate store containing trusted Root CAs. If these stores are outdated, the client's system may not recognize newer CAs, causing the error.
     
 
+![Causes of 'Unable to Get Local Issuer Certificate’](https://cdn.hashnode.com/res/hashnode/image/upload/v1759155257636/99c9cc67-bc39-45a2-89d4-a512dd3a8f2a.png align="center")
+
 ## How to resolve this Error ?
 
 For a quick workaround, you can disable SSL globally or locally but this isn't recommended since it creates a security issue. To resolve the error from root, you can try these steps: -
 
 * **Updating the Certificate Store**: Ensure your operating system's certificate store is up-to-date. On Linux, you can use package managers like `apt` or `yum` to update CA certificates. On Windows, updating the operating system generally updates the certificate store.
     
-* **Configuring the Server Correctly**: Add intermediate certificates to your server configuration. For Apache, include the intermediates in the `SSLCertificateChainFile` directive. For Nginx, concatenate the intermediate certificates with your server certificate in the `ssl_certificate` file.
+    ```bash
+    # Update CA certificates in Ubuntu/Debian
+    sudo apt-get update
+    sudo apt-get install --reinstall ca-certificates
+    sudo update-ca-certificates
+    ```
+    
+* **Configuring the Server Correctly**: Add intermediate certificates to your server configuration.In Apache (2.4.8+), the `SSLCertificateChainFile` directive is deprecated. Instead, append your intermediate certificates directly into your main `.crt` file. Example:
+    
+    ```apache
+    SSLCertificateFile /etc/ssl/certs/your_domain_with_intermediate.crt
+    SSLCertificateKeyFile /etc/ssl/private/your_domain.key
+    ```
+    
+* For Nginx, concatenate the intermediate certificates with your server certificate in the `ssl_certificate` file.
+    
+    ```nginx
+    ssl_certificate /etc/ssl/certs/your_domain.crt;
+    ssl_certificate_key /etc/ssl/private/your_domain.key;
+    ssl_trusted_certificate /etc/ssl/certs/intermediate.crt;
+    ```
     
 * **Handling Self-Signed Certificates**: If using self-signed certificates, manually add them to the client's trusted certificate store. On Linux, copy the certificate to `/usr/local/share/ca-certificates/` and run `update-ca-certificates`. On Windows, use the Certificate Manager (`certmgr.msc`).
     
@@ -38,6 +63,19 @@ For a quick workaround, you can disable SSL globally or locally but this isn't r
 ## How to prevent ‘unable to get local issuer certificate’ errors
 
 The main purpose of a SSL certificate is to confirm authentication so that the information passed between client and server is secure. To prevent the error, ensure that you have a valid SSL keep your certificate stores updated to avoid trust issues and regularly audit your SSL/TLS configurations, tools like SSL Labs' SSL Test can help identify issues and provide recommendations.
+
+### Quick Checks to Prevent Errors:
+
+* Test your site with SSL Labs SSL Test.
+    
+* Verify chain manually:
+    
+* ```nginx
+    openssl verify -CAfile intermediate.pem your_domain.crt
+    ```
+    
+* Set up auto-renewal for certificates with **Certbot** or other ACME clients
+    
 
 ## Conclusion
 
