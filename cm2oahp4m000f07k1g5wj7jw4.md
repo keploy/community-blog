@@ -6,7 +6,7 @@ datePublished: Fri Oct 25 2024 05:26:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm2oahp4m000f07k1g5wj7jw4
 slug: best-ides-for-python-in-2025
 canonical: https://keploy.io/blog/community/top-5-best-ides-to-use-for-python-in-2024
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739252023588/2233be35-4ac9-4b86-83db-b5e2440f7eac.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759141716713/f5c4f215-ea89-436c-b0cd-aecae18a1836.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1739252250829/215b3b00-fe8a-4f62-abc6-4ed1876b74e6.png
 tags: python, ides, developer, coding, integrated-development-environment, python-ides, ide-python
 
