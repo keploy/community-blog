@@ -127,6 +127,16 @@ Now that we understand end to end testing vs uat better, let's look at some key 
     * E2E testing aims to identify defects in system integration and E2E workflows. It provides information to developers about defects in system integration.
         
 
+### Quick Comparison:
+
+| **Criteria** | **UAT** | **E2E Testing** |
+| --- | --- | --- |
+| **Requirements** | Validates business needs from user’s view. | Validates system integration & workflows. |
+| **Who Tests** | End users / stakeholders. | Testers & developers. |
+| **What’s Tested** | User-facing functionality. | Entire system incl. hidden components. |
+| **Where** | Production-like environment. | Lower or staging environments. |
+| **Why** | Ensure usability & business fit, give sign-off. | Find integration/workflow defects for devs. |
+
 ## Conclusion
 
 In conclusion, both end to end testing vs uat are crucial steps in ensuring software quality. UAT focuses on making sure the software meets the needs of its users, while E2E testing looks at how all the different parts of the software work together.
