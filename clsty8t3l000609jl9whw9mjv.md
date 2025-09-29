@@ -12,13 +12,11 @@ tags: canary-testing
 
 ---
 
-## What's Canary Testing, Anyway?
+## What's Canary Testing?
 
-Imagine you're a miner with a canary in a cage. If the air is toxic, the canary reacts first, giving you a heads-up. Canary testing works similarly for your software. Instead of releasing the whole flock (users) into a potentially toxic or buggy environment, you release just one canary (a small subset of users) to test the waters.
+Canary testing is a deployment strategy where a new release is rolled out to a small subset of users before a full launch. Similar to miners using canaries to detect danger, this method helps identify bugs, performance issues, or risks early without affecting all users. Typically, about 5% of traffic is routed to the canary version, while the rest continues using the stable one. If the canary performs well, the rollout expands gradually; if not, it’s rolled back quickly.
 
 ![Canary Testing](https://cdn.hashnode.com/res/hashnode/image/upload/v1710236730914/ae59d872-5de9-491d-b482-c74c8b5c2fa1.png align="center")
-
-Once you have a new release ready, you can deploy it to one of the environments. Then, you can direct a small portion of your users (around 5% is recommended) to this canary release. These users will experience the new features, while the other group will not encounter any changes.
 
 ## Why Canary?
 
@@ -211,6 +209,79 @@ Monitoring and observability are crucial components in overseeing canary release
     
 
 When implementing canary releases, a combination of monitoring and observability tools ensures that teams have comprehensive insights into the impact of changes on application performance, allowing for effective testing and rapid identification of any issues that may arise during the release process.
+
+## **How to do Canary Testing?**
+
+Canary testing isn’t complicated once you break it down into steps. You can think of it as a careful rollout where you start small, watch closely, and then move forward if things look good. Here’s how you can do it:
+
+### 1\. **Plan the Rollout Strategy**
+
+Determine what percentage of traffic to direct to the canary release. A good starting point is **1–5% of users**, which exposes the least amount of risk but still offers valuable insights.
+
+### 2\. Set Up Your Infrastructure
+
+* **Containerized apps or microservices → Implement Kubernetes with Istio, Argo Rollouts, or Flagger to route traffic.**
+    
+* **Legacy applications → Implement load balancers (NGINX, HAProxy, AWS ALB, etc.) for weighted routing.**
+    
+* **Feature-flagged apps → Implement feature flags to switch new features on and off at runtime.**
+    
+
+### 3\. **Deploy the Canary Version**
+
+Deploy your new build into a isolated small environment or set of servers. Make sure your deployment pipeline will be able to facilitate partial rollouts.
+
+Example with Kubernetes & Istio traffic routing:
+
+```yaml
+http:
+- route:
+  - destination:
+      host: my-app
+      subset: stable
+    weight: 95
+  - destination:
+      host: my-app
+      subset: canary
+    weight: 5
+```
+
+Here, only 5% of traffic goes to the canary version.
+
+### 4\. **Monitor Closely**
+
+Most important step. Monitor both **technical metrics** and **business KPIs**:
+
+* Error rates (HTTP 500s, crash loops, failed requests)
+    
+* Latency & throughput
+    
+* CPU and memory usage
+    
+* User-facing KPIs (checkout success, signups, conversion rates)
+    
+
+Tools: **Prometheus + Grafana**, **Datadog**, **New Relic**, or **Cloud provider dashboards**.
+
+### 5\. Analyze and Decide
+
+* If everything looks good, slowly increase traffic like: 10% → 25% → 50% → 100%.
+    
+* If issues show up, roll back quickly to the stable release.
+    
+
+### 6\. **Gradual Rollout & Rollback Automation**
+
+Rollouts and rollbacks become error-prone with human intervention. With tools such as **Argo Rollouts**, **Spinnaker**, or **Flagger**, you can specify success conditions (such as error tolerances) that will automatically roll back if necessary.
+
+Example (pseudo-code):
+
+```go
+deployment.Rollout("new-feature", 20) // increase to 20%
+deployment.Rollback("new-feature")    // rollback if failure detected
+```
+
+![How to do Canary Testing](https://cdn.hashnode.com/res/hashnode/image/upload/v1759153930131/000419d7-28d2-46af-86b5-47e0052677ad.png align="center")
 
 ## Challenges and Solutions of Canary testing
 
