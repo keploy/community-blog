@@ -81,6 +81,8 @@ The main purpose of a SSL certificate is to confirm authentication so that the i
 
 The "Unable to Get Local Issuer Certificate" error often stems from missing intermediate certificates, server misconfigurations, or outdated certificate stores.
 
+While SSL/TLS errors may seem intimidating, most of them are straightforward to fix with correct configuration and regular updates. By keeping your certificate chains complete and auditing your setup with tools like SSL Labs, you can maintain secure, trusted communication for your users
+
 ## FAQ's
 
 ### What does the "Unable to Get Local Issuer Certificate" error mean?
