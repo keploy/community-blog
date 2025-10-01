@@ -7,7 +7,6 @@ cuid: clrrny314000g09kzfx9s3ufr
 slug: understanding-condition-coverage-in-software-testing
 canonical: https://keploy.io/blog/community/understanding-condition-coverage-in-software-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759315596491/308d3cc7-b50b-4afb-a4b7-6ebad0890543.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705904009422/b285687c-e736-4074-a0a5-94585a6804b6.png
 tags: software-testing, test-coverage, condition-coverage
 
 ---
