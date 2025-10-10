@@ -417,4 +417,4 @@ Keploy allows you to spend less time on integration testing by recording actual 
 Whenever possible, use real or dockerized services. If neither of those options is available or is too costly, then use mocks for external services.
 
 **5\. How do integration tests differ from E2E tests?**  
-Integration tests test the interactions of a component or a set of components, while end-to-end tests test a complete user workflow across the system.
+Integration tests test the interactions of a component or a set of components, while [end-to-end testing](https://keploy.io/blog/community/end-to-end-testing-guide) a complete user workflow across the system.
