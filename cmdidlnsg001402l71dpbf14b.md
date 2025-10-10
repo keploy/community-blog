@@ -403,8 +403,8 @@ This is important for fixation that all the different parts of your application 
 
 ## FAQs
 
-**1\. How frequently should I be running integration tests?  
-**In a perfect world, you would run them on every pull request as part of your CI pipeline, and then again as part of nightly full-suite regression testing.
+**1\. How frequently should I be running integration tests?**  
+In a perfect world, you would run them on every pull request as part of your CI pipeline, and then again as part of nightly full-suite regression testing.
 
 **2\. Can integration tests take the place of unit tests?**  
 No. Unit tests are faster and provide a more granular test case, while integration tests catch problems that occur only when components work together.
