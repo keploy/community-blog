@@ -1,11 +1,11 @@
 ---
 title: "What is Code Complexity & How to Measure It?"
-seoTitle: "A Comprehensive Guide To Code Complexity in Software Testing
-"
+seoTitle: "A Comprehensive Guide To Code Complexity in Software Testing"
 seoDescription: "Understand code complexity, its causes, types, and metrics. Learn how to measure, manage, and reduce it for high-quality, maintainable software."
 datePublished: Thu Oct 23 2025 08:34:43 GMT+0000 (Coordinated Universal Time)
 cuid: cmh36231l000302jigsfydkqv
 slug: what-is-code-complexity
+canonical: https://keploy.io/blog/community/what-is-code-complexity
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760644115453/6ce5d6d6-c29b-4fcf-a202-baca2562cf5f.png
 tags: software-architecture, code-analysis, software-testing, clean-code, test-coverage, code-quality, cognitive-complex, code-quality-metrics, cyclomatic-complex, code-complexity
 
