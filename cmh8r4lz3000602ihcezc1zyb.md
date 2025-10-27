@@ -5,6 +5,7 @@ seoDescription: "Learn the difference between paired and unpaired t-tests. Under
 datePublished: Mon Oct 27 2025 06:23:23 GMT+0000 (Coordinated Universal Time)
 cuid: cmh8r4lz3000602ihcezc1zyb
 slug: paired-vs-unpaired-t-test
+canonical: https://keploy.io/blog/community/paired-vs-unpaired-t-test
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760600184899/7bb3acff-867c-4bb0-af5d-10f1d93b5043.png
 tags: data-analysis, hypothesis-testing, paired-vs-unpaired-test, t-test-statistics, python-t-test, paired-t-test-example, unpaired-t-test-formula
 
