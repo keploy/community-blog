@@ -1,11 +1,11 @@
 ---
 title: "Modified Condition Decision Coverage (MC/DC) Explained"
-seoTitle: " Modified Condition Decision Coverage (MC/DC) Explained 
-"
+seoTitle: "Modified Condition Decision Coverage (MC/DC) Explained"
 seoDescription: "Master the principles of modified condition decision coverage to catch subtle bugs and deliver high-assurance, fail-safe software for safety-critical system"
 datePublished: Wed Nov 05 2025 04:45:07 GMT+0000 (Coordinated Universal Time)
 cuid: cmhlikwii000202jo6rrjc7pl
 slug: modified-condition-decision-coverage
+canonical: https://keploy.io/blog/community/modified-condition-decision-coverage
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761378013209/17129641-e3d3-4559-abc7-ba7e9450ff6a.png
 tags: software-testing, test-coverage, quality-assurance, test-automation, code-coverage, embedded-systems, modified-condition-decision-coverage, mcdc
 
