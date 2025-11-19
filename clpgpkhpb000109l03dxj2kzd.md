@@ -34,8 +34,6 @@ Now, let's talk about the real magic trick here – automation. Imagine having a
 
 **Time and Energy Saver:** Manually running E2E tests can be a bit of a grind. Automation takes the repetitive work off your plate, so you can spend more time coding and less time testing.
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRfD1MfPJJ2JW5XnZoP0xTymRcP7YVJoE2yVtgVolGzvqRVtuWLCNTNePHZsj63jqoN20&usqp=CAU align="center")
-
 1. **All-in Coverage:** Automated tests allow you to cover more ground without breaking a sweat. You can test different scenarios, edge cases, and user flows efficiently.
     
 2. **CI/CD Friend:** E2E testing tools play well with CI and CD, they seamlessly fit into your development pipeline, ensuring tests run whenever there's a code change.
