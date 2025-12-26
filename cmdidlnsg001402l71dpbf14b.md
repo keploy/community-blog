@@ -268,7 +268,7 @@ Good [test data management](https://keploy.io/blog/community/7-best-test-data-ma
 ### **Real-Life Case Studies**
 
 **E-commerce Platform Example**:  
-Integration tests ensure that different services in an e-commerce platform communicate properly. When a user adds an item to their cart and proceeds to checkout, integration tests ensure services like inventory management, payment gateways, and shipping services work seamlessly together.
+Integration tests ensure that different services in an [e-commerce platform](https://www.cs-cart.com/) communicate properly. When a user adds an item to their cart and proceeds to checkout, integration tests ensure services like inventory management, payment gateways, and shipping services work seamlessly together.
 
 **Healthcare Application Example**:  
 In a healthcare platform, integration tests ensure that patient registration data interacts correctly with the billing and appointment scheduling systems. Integration tests help ensure that when a patient registers, the system updates the appointment schedule and billing data in real-time.
