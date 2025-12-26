@@ -21,7 +21,7 @@ We'll talk about what these tools are, why they're important, how they fit into 
 
 Consider a DevOps automation tool as a diligent team member who works around the clock to ensure that everything runs smoothly in the background.
 
-A DevOps automation tool is essentially software that automates repetitive and time-consuming software delivery tasks. Whether you're automating tests, deploying updates, monitoring the health of your system, or building your code with each change, these tools ensure that everything functions smoothly and consistently.
+A DevOps automation tool is essentially software that automates repetitive and time-consuming software delivery tasks. Whether you're automating tests, deploying updates, [monitoring the health of your system](https://middleware.io/blog/what-is-infrastructure-monitoring/), or building your code with each change, these tools ensure that everything functions smoothly and consistently.
 
 They serve as a bridge between development and operations by transforming manual steps into reliable, efficient processes. From code integration to infrastructure setup, these tools help teams grow confidently while reducing human error and saving time. In essence, teams can use DevOps automation tools to work more efficiently and create better software more quickly.
 
