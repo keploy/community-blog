@@ -134,13 +134,13 @@ To Know more about Keploy Chrome Extension:[Check out here](https://keploy.io/do
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1767871012875/9327f5c7-6396-4f59-a8bb-1bc042a83a2f.jpeg align="center")
 
-## [**Katalo**](https://keploy.io/docs/running-keploy/api-testing-chrome-extension/)**n Studio** [**vs Selenium**](https://keploy.io/api-testing)
+## **Katalon Studio vs Selenium**
 
 ![katalon studio vs selenium](https://cdn.hashnode.com/res/hashnode/image/upload/v1755149203710/4450bd71-f7c2-42a6-ab7e-1d0233bc6ae5.png align="center")
 
-Lot of peoples frequently ask how Katalon Stu[dio compare](https://keploy.io/api-testing)s to Sel[enium and how](https://keploy.io/docs/running-keploy/api-testing-chrome-extension/) it is di[fferent. he](https://keploy.io/api-testing)re is my t[ake on it:](https://keploy.io/api-testing) they address slightly different need[s.](https://keploy.io/api-testing)
+Lot of peoples frequently ask how Katalon Studio compares to Selenium and how it is different. here is my take on it: they address slightly different needs.
 
-[Seleniu](https://keploy.io/api-testing)m provides maximum flexibility and control, but it requires more technical expertise and more time to setup. [Essentially, y](https://keploy.io/docs/running-keploy/api-testing-chrome-extension/)ou are building your testing framework from the ground up. In opposite, Katalon Studio sacrifices some flexibili[ty for the](https://keploy.io/api-testing) sake of convenience and quicker implementation.
+Selenium provides maximum flexibility and control, but it requires more technical expertise and more time to setup. Essentially, you are building your testing framework from the ground up. In opposite, Katalon Studio sacrifices some flexibility for the sake of convenience and quicker implementation.
 
 If you have experienced developers who want the complete control over their testing framework, So selenium might be the better option. However, if you want to implement automation swiftly with a mixed skill team, katalon Studio could be more practical.
 
