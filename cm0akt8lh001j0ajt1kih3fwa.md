@@ -1,524 +1,355 @@
 ---
-title: "Smoke testing : Ensuring basic functionality"
-seoTitle: "Smoke testing : Developer Guide for smoke testing"
-seoDescription: "Learn everything about smoke testing in software development  what it is, how it works, its advantages, disadvantages, types, examples, and how it differs"
+title: "Smoke Testing: What It Is, Types, Examples, and Best Practices"
+seoTitle: "Smoke Testing Explained with Examples"
+seoDescription: "Learn what smoke testing is, why it matters, when to use it, types of smoke tests, real-world examples, and best practices for CI/CD pipelines"
 datePublished: Mon Aug 26 2024 05:47:08 GMT+0000 (Coordinated Universal Time)
 cuid: cm0akt8lh001j0ajt1kih3fwa
 slug: developers-guide-to-smoke-testing-ensuring-basic-functionality
 canonical: https://keploy.io/blog/community/developers-guide-to-smoke-testing-ensuring-basic-functionality
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723443990663/67fc849e-ae10-4ca7-ad26-d6c2096f08c2.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723444089645/7aae8db8-07a0-41ec-bc2f-289c2c4a173d.png
-tags: code, developers, apis, developer, testing, coding, developer-tools, qa-testing, api-testing, test-automation, coding-tips, testing-tool, keploy, best-practices-for-developers, smoke-testing
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768567767490/d8db4d90-3f36-43bb-baf7-e99f44861ef6.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1768567778173/9184b09f-be93-4168-b04d-e7ddab079acb.png
+tags: developers, apis, developer, testing, coding, developer-tools, qa-testing, test-automation, testing-tool, keploy, best-practices-for-developers, smoke-testing
 
 ---
 
-**Imagine running a Python project without a requirements.txt file. Just as you rely on these checks to ensure everything runs fine, smoke tests are performed to confirm that your code is ready for the next phase.**
+Imagine running a Python project without a `requirements.txt` file. You might start execution, but the chances of runtime failure are extremely high.
 
-In this blog we will dive deeper into the world of smoke testing.
+In software development, smoke testing plays a similar role. Before investing time in detailed testing, teams use smoke tests to validate that the application is fundamentally stable and worth testing further.
 
-![Smoke testing meme](https://cdn.hashnode.com/res/hashnode/image/upload/v1723442418512/73403b60-5504-4ff5-9a8c-f8c9871be40e.png align="center")
+In this guide, we’ll explore what smoke testing is, why it’s essential, how it works, when to use it, who performs it, real-world examples, automation strategies, comparisons with other testing types, and best practices—all aligned with modern Agile and CI/CD workflows.
 
-## **What is Smoke Testing**
+## What Is Smoke Testing?
 
-**Smoke Testing**, often referred to as **"build verification testing"**, is a type of software testing that verifies whether the major functionalities of an application are working correctly after a new build. It's like performing a quick "sanity check" to ensure the product is stable enough for further, more detailed testing.
+Smoke testing is an early software test done to make sure that an application's essential or main functions operate correctly following the creation of the new version of the product.
 
-> 📌 Think of it as turning on a newly built car engine just to see if it starts — you're not taking it for a spin yet.
+The goal of smoke testing isn't to check all of the app but rather, to be sure that the new version of it didn't introduce any major defects.
 
-![Functional Testing](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNCXwLJ98m_6rKfl-gycSgYrcxqzfNLTJ_6quCcLGbqlef1_eVgsJ_KImxO5Jbxi44TAGXa1EZGEslZSgDASdFiwjwbXyvl3S_aVDAtX-x-3YH4lQVr9q1KuOE8fM2sKW6IqzKzOHK1vtLy5vCG-uNDgC6?key=d59HrjaIAdNmaLdo6SDmnQ align="left")
+Smoke testing originated as a terminology in the area of manufacturing electronic devices, where if at the first powering up of the item that produced smoke, it meant that the item had a serious manufacturing fault.
 
-Smoke tests assess whether the essential functionalities of an application or system are operating correctly. For instance:
+### With regard to testing software products, performing smoke testing can help answer the following questions:
 
-* Does the software launch without issues?
+* Does the application start?
     
-* Can the user successfully log in?
+* Can users access core features?
     
-* Are the primary features available and functional?
+* Are critical workflows reachable?
     
-
-### **Key Functions of Smoke Testing:**
-
-* **Verifying Build Stability:** Smoke tests confirm that the software build is stable and that there are no major issues that would prevent further testing.
-    
-* **Detecting Showstopper Bugs:** The primary goal is to identify critical issues early on, which could halt the progress of the project.
-    
-* **Saving Time and Resources:** By catching major defects early, smoke testing helps avoid wasting time on a flawed build.
+* Is the system stable enough for further testing?
     
 
-![Smoke testing process](https://cdn.hashnode.com/res/hashnode/image/upload/v1744955275322/b9876fd1-2807-46d8-8d9d-bc1a45327ac5.png align="center")
+### Examples of scenarios that usually include performing smoke testing are:
 
-## **Why Do We Need Smoke Testing?**
-
-Smoke testing is essential for several reasons, all of which contribute to a smoother, more efficient development process.
-
-#### **1\. Early Detection of Critical Issues**
-
-Smoke testing acts as the first filter to catch critical defects in the software and to address them before they cause more complex problems down the line.
-
-#### **2\. Increased Efficiency in Development**
-
-Smoke testing ensures that only stable builds proceed to more detailed testing phases as teams might waste valuable time and resources conducting in-depth testing on a build that has fundamental issues.
-
-#### **3\. Improved Quality Assurance**
-
-Smoke testing adds an additional layer of quality assurance by ensuring that the most basic and crucial functionalities work as intended to build confidence in the overall stability of the application.
-
-#### **4\. Faster Feedback Loop**
-
-By incorporating smoke testing into your development process, you create a faster feedback loop. Developers can quickly determine whether a build is viable or needs immediate attention, allowing for more agile and responsive development.
-
-#### 5\. Gatekeeper to Further Testing
-
-Smoke testing acts as a **filter or gatekeeper**. If the build fails smoke tests, it’s returned to the developers for fixes. If it passes, it proceeds to **comprehensive testing** like **unit tests**, **functional testing**, or **acceptance testing**.
-
-## Goal of Smoke Testing
-
-The purpose of performing smoke tests isn’t to validate every functionality, but to ensure that the application is stable enough for deeper testing. Here are the detailed goals:
-
-* **Early Identification of Critical Issues**  
-    By verifying **critical paths** (like logins, data fetches, and API calls) right after deployment, smoke testing allows teams to **catch major bugs** or configuration issues early, before wasting time on deeper **QA efforts**.
+* Application launch
     
-* **Validate Major Functionalities**  
-    Smoke tests confirm that **high-priority features** are functioning as expected. For example, in a mobile app, the smoke test might check whether the app launches, users can log in, and the main menu renders correctly, all **critical functionalities** for user access.
+* User authentication
     
-* **Minimize Wasted QA Time**  
-    Instead of proceeding with hundreds of **regression or exploratory test cases**, QA teams first run smoke tests. If these fail, the build is immediately rejected, saving hours (or days) of unnecessary testing on a broken build.
+* Dashboard or homepage loading
     
-* **Serve as a Quality Checkpoint**  
-    A passed smoke test essentially gives the green light that the build is stable and ready for **detailed testing**. It plays a crucial role in **release management**, acting as the first checkpoint in the **software quality assurance (QA) pipeline**.
+* Core API availability
+    
+* Database connectivity
     
 
-## When and Who Performs Smoke Testing?
+In conclusion, conducting smoke tests at the start of the testing process for newly built software programs, is a very fast and easy way to determine their overall quality.
 
-![When is smoke testing performed](https://cdn.hashnode.com/res/hashnode/image/upload/v1744955527553/fe18a4f8-356a-4f18-83de-51db24e92dc5.png align="center")
+## Why Do We Need Smoke Testing?
 
-Let’s break down the timeline and roles associated with **smoke testing**:
+Smoke Tests Are the First Test in the [Testing Lifecycle](https://keploy.io/blog/community/4-ways-to-accelerate-your-software-testing-life-cycle), Preventing Broken Builds from Advancing Any Further into the Testing Lifecycle.
+
+![Smoke Tests Are the First Test in the Testing Lifecycle, Preventing Broken Builds from Advancing Any Further into the Testing Lifecycle. ](https://cdn.hashnode.com/res/hashnode/image/upload/v1768568175389/eb93415b-5e0e-424d-ae1f-130d6917df64.png align="center")
+
+### 1\. Smoke Tests Identify Major Issues Early
+
+Smoke Tests Identify Major Issues Early in the Testing Lifecycle (e.g., application crashes, failed deployment, broken authentication, or misconfigured environments) Before Quality Assurance (QA) Begins Testing the Application in Greater Depth.
+
+### 2\. Smoke Tests Improve Development Efficiency
+
+Without Smoke Testing, Development Teams Risk Wasting Time Testing Builds that Are So Broken that They Will Likely Fail. Smoke Tests Provide a Filter That Prevents Development Teams from Testing Bad Builds.
+
+### 3\. Smoke Tests Improve Quality Assurance
+
+Smoke Tests Add a Quality Assurance Checkpoint to Ensure That the Basic Functionality of the Application Is Working Under Normal Conditions Before QA Begins to Perform In-Depth Testing.
+
+### 4\. Smoke Tests Provide a Rapid Feedback Cycle
+
+In an Agile and DevOps Environment, Providing Quick Feedback Is Critical. By Performing Smoke Tests on a Build Immediately, Development Teams Can Quickly Correct Any Defects They Find, Therefore Reducing the Time Needed for Each Testing Cycle.
+
+### 5\. Smoke Tests Create Stability for Continuous Delivery
+
+Continuous Delivery Requires Frequent Deployments, Therefore, Smoke Tests Are Critical to Create a Process to Prevent Bad or Broken Builds from Continuing Ahead in the Continuous Integration and Continuous Delivery (CI/CD) Process.
+
+## **Objectives** of Smoke Testing
+
+The primary goal of Smoke Testing is the validation of a build, not an exhaustive verification.
+
+### **Smoke** **Testing** **has** **key** **objectives**:
+
+* **Immediate Identification of Critical Issues**  
+    Verifies critical user paths (such as login, retrieve/archive flows, and key API calls) immediately after a new build is deployed to identify issues caused by recent code changes, configuration updates, or infrastructure problems.
+    
+* **Confirmation of High-Priority Features**  
+    Ensures that essential, business-critical functionalities are working as expected (for example, in eCommerce applications: browsing products, adding items to the cart, and proceeding to checkout).
+    
+* **Minimizing QA Waste**  
+    Prevents QA teams from spending time on lengthy or in-depth testing when the software is unstable by quickly invalidating broken or non-testable builds.
+    
+* **Acts as a Quality Gate**  
+    A successful smoke test signals that the build is stable and ready for detailed testing, such as regression testing, system testing, or acceptance testing.
+    
+
+## When and **by** **Whom Is** Smoke Testing **Done**?
 
 ### When Is Smoke Testing Performed?
 
-* **After Every New Build Deployment**  
-    As soon as a new build is pushed to a QA or staging environment, a smoke test is run to validate its basic stability.
+We usually perform smoke testing at some key times:
+
+* Immediately after a new build is deployed
     
-* **Before Regression or System Testing**  
-    It acts as a **gatekeeper** before more extensive test suites are executed.
+* Before regression or system testing begins
     
-* **During Continuous Integration Pipelines**  
-    In CI/CD environments, smoke tests are triggered **automatically** to ensure the build can safely move to the next pipeline stage.
+* Automatically during CI/CD pipeline execution
+    
+* After environment or configuration changes
     
 
 ### Who Performs Smoke Testing?
 
-* **QA Engineers**  
-    Responsible for executing **manual or automated smoke tests**, especially in structured testing teams.
+#### Quality Assurance (QA) Engineers
+
+QA personnel conduct manual or automated methods of performing smoke testing of a particular release or build prior to deeper testing ensuring its stability
+
+#### Developers
+
+Developers typically execute lightweight smoke test(s) on their local development environment(s) before submitting their release/build to QA for further testing.
+
+#### Automation Engineers
+
+Automation engineers create and run automated smoke tests for every CI/CD deployment by configuring it during deployment and pull request.
+
+## Real-World Scenario: Mobile Banking Application
+
+Imagine that there is a mobile banking app that processes financial information about consumers.
+
+In order for an app to go out for full testing, it must receive 'smoke testing' to confirm that all core activities associated with performing financial transactions are being executed properly. ‘
+
+![Imagine that there is a mobile banking app that processes financial information about consumers. ](https://cdn.hashnode.com/res/hashnode/image/upload/v1768568233027/4d7ec7fe-4ef3-4832-bd60-e6e2f7c32685.png align="center")
+
+### Steps in Conducting Smoke Test:
+
+#### Validating Core Functionalities
+
+* User authentication
     
-* **Developers**  
-    Often run basic **unit-level smoke tests** to check if their code breaks the application before passing it to QA.
+* Retrieve balance
     
-* **Automation Engineers**  
-    In CI/CD pipelines, **automation engineers** script smoke test suites that run with every build commit or PR merge.
+* Start transactions
     
 
-## Why You Need Smoke Tests
+#### Verifying Navigation
 
-If you're still unsure about implementing smoke tests in your software development workflow, here are key reasons why you **must**:
-
-* **Catch Major Issues Quickly**  
-    A broken login page, crashing app, or unreachable API should never make it to production. **Smoke testing** ensures that these **showstopper issues** are caught early.
+* Access to Account Summary page
     
-* **Maintain Stability in Rapid Development**  
-    In modern agile and DevOps workflows, multiple code changes are made daily. Smoke tests act as a **quick quality assurance checkpoint** before going deeper.
+* Access to Transaction History page
     
-* **Validate Critical Paths First**  
-    Core workflows like login, dashboard access, and data fetching are vital for users. Smoke testing ensures these are always functional, even when smaller bugs are present.
-    
-* **Support Agile and Continuous Delivery**  
-    Smoke tests provide **immediate feedback** on the build status and integrate well with **continuous deployment** and **automated testing tools**.
-    
-* **Improve Product Quality with Less Effort**  
-    Smoke testing is **low effort, high return** catching **critical bugs** early reduces the cost and time associated with fixing them later.
+* Access to Settings and Profile pages
     
 
-## **Real-World Scenario: The Launch of a New Mobile Banking App**
+#### Verifying Stability
 
-Imagine you're a developer working on a new mobile banking app. This app is designed to handle everything from simple balance checks to complex transactions like fund transfers and bill payments.
+* App crashes don't occur
+    
+* API is live
+    
+* Data passed through secure session
+    
 
-Before releasing a new build for extensive testing or for use by beta testers, you need to ensure that the core functions are operational. This is where smoke testing comes into play.
+If you're unable to pass any of the tests indicated above, the build will not be processed further; it will be rejected.
 
-### Steps to apply smoke testing
+## **The Different** Types of Smoke Testing
 
-1. **Core Functions Check:**
-    
-    * **User Login:** First, you check if users can log in securely. Without a functional login system, users cannot access the app, rendering all other features useless.
-        
-    * **Balance Check:** Next, verify that users can view their account balance. This is one of the most fundamental features of any banking app.
-        
-    * **Fund Transfer:** Ensure that the fund transfer functionality is working, as this is a critical transaction process that must not fail.
-        
-2. **Basic Navigation:**
-    
-    * **Menu Navigation:** Test if users can navigate through the app's menu to reach different sections like "Account Summary," "Transaction History," and "Settings."
-        
-    * **Notifications:** Check if the app sends essential notifications, such as low balance alerts or payment due reminders, to the user.
-        
-3. **Stability Verification:**
-    
-    * **No Crashes:** The app must not crash during these basic operations. A stable build is essential before moving on to more detailed testing.
-        
+### 1\. Build Verification Testing (BVT)
 
-![Module Flow](https://cdn.hashnode.com/res/hashnode/image/upload/v1723442820067/b80d2655-5894-4fe5-a71d-58ef22bf923e.png align="left")
+Build verification testing (BVT) enables the stable deployment of a freshly built product right after completion. In most cases, BVT is automated as part of the continuous integration CI pipeline.
 
-## **Types of Smoke Testing**
+### 2\. Sanity Smoke Testing
 
-### 1\. Build Verification Testing (BVT):
+Sanity testing concentrates on certain features following minor bug corrections or improvements, to assure that they do not affect existing functionality.
 
-* **Overview:**
-    
-    * Build Verification Testing, often considered synonymous with smoke testing, involves verifying the integrity of the build. It ensures that the critical functionalities of the software are operational after the build process.
-        
-* **When to Use:**
-    
-    * Perform BVT immediately after a new build is created to catch any major issues before they propagate further into the testing cycle.
-        
-* **Example:**
-    
-    * In a healthcare application, BVT would ensure that core functions like patient registration, appointment scheduling, and medical record access are all working before moving forward.
-        
+### 3\. Acceptance Smoke Testing
 
-### 2\. Sanity Smoke Testing:
+Acceptance testing evaluates whether a build satisfies the minimum acceptance criteria specified by stakeholders prior to user acceptance testing (UAT).
 
-* **Overview:**
-    
-    * Sanity smoke testing is a narrow, focused test performed after receiving a software build with minor changes or bug fixes. It checks whether the specific functionality that was recently added or fixed is working as expected.
-        
-* **When to Use:**
-    
-    * Use this type of smoke testing when you receive a build that includes minor changes or bug fixes, ensuring those updates haven't broken existing functionality.
-        
-* **Example:**
-    
-    * After fixing a bug in an e-learning platform’s quiz module, sanity smoke testing would check if the quiz functionality is now working correctly without affecting the rest of the system.
-        
+### 4\. Manual Smoke Testing
 
-### 3\. Acceptance Smoke Testing:
+The manual execution of smoke tests is often necessary in early development stages or when user interface (UI) validation requires human judgment.
 
-* **Overview:**
-    
-    * Acceptance smoke testing is performed to determine whether the software meets the acceptance criteria defined by stakeholders. It’s usually done before the software is handed over for user acceptance testing (UAT).
-        
-* **When to Use:**
-    
-    * Use this before transitioning to UAT to confirm that the software meets the basic requirements and is ready for more thorough testing by the end users.
-        
-* **Example:**
-    
-    * For a retail application, acceptance smoke testing would ensure that users can browse products, add items to the cart, and complete the checkout process without any issues.
-        
+### 5\. Automated Smoke Testing
 
-### 4\. Manual Smoke Testing:
-
-* **Overview:**
-    
-    * Manual smoke testing involves testers manually executing test cases to verify the basic functionalities of the software. This type is often used when automation isn’t feasible or when the software is in the early stages of development.
-        
-* **When to Use:**
-    
-    * Use manual smoke testing when you need to test user interfaces, new features, or complex workflows that require human observation.
-        
-* **Example:**
-    
-    * A banking application might undergo manual smoke testing to ensure that users can log in, view their account balances, and perform transactions correctly.
-        
-
-### 5\. Automated Smoke Testing:
-
-* **Overview:**
-    
-    * Automated smoke testing uses scripts and tools to automatically execute test cases, making it faster and more efficient than manual testing. It’s particularly useful for large projects with frequent builds.
-        
-* **When to Use:**
-    
-    * Use automated smoke testing in continuous integration/continuous deployment (CI/CD) pipelines to quickly validate each build.
-        
-* **Example:**
-    
-    * In a CI/CD environment, an automated smoke test could run after every code commit, checking if core functions like login, data retrieval, and API endpoints are working correctly.
-        
+Automated smoke tests speed up, repeat easily, and function well for continuous integration and continuous delivery (CI/CD) environments; hence they are typically the most utilized for large-scale projects.
 
 ## How Can the Smoke Testing Procedure Be Automated?
 
-**Automating smoke tests** enhances efficiency, consistency, and speed, especially in CI/CD pipelines. Here's how you can do it:
+Automating smoke tests improves speed, consistency, and reliability.
+
+### Step-by-Step Automation Approach:
 
 1. **Identify Critical Test Cases**  
-    Choose high-priority test cases that cover the most **critical functionalities** of the application (e.g., login, database connection, dashboard load).
+    Focus on login, APIs, dashboards, and essential workflows.
     
-2. **Use Automation Tools**  
-    Implement tools like **Selenium**, **Keploy,** **Cypress**, **Playwright**, or **JUnit/TestNG**. These tools support scripting and scheduling automated smoke tests.
+2. **Choose the Right Tools**  
+    UI tools for frontend validation, API tools for backend services, and framework-level tools for system checks.
     
 3. **Integrate with CI/CD Pipelines**  
-    Integrate your smoke test scripts into CI tools like **Jenkins**, **GitLab CI**, **CircleCI**, or **GitHub Actions** so tests run automatically on every code push or pull request.
+    Automatically trigger smoke tests after deployments.
     
-4. **Generate Reports Automatically**  
-    Use reporting tools like **Allure**, **ExtentReports**, or native test framework reports to get real-time feedback on **build health** and **test results**.
-    
-
-## Smoke Testing vs. Sanity Testing
-
-Smoke testing and sanity testing are both surface-level testing techniques used to validate builds but they serve **different purposes** at different stages of the testing process. Let’s explore each.
-
-### What is Sanity Testing?
-
-**Sanity testing** is a narrow and focused testing approach performed after minor bug fixes or changes to ensure that specific functionalities are working as expected without introducing new issues.
-
-#### Key Characteristics:
-
-* **Focus**: Validates a small section of functionality (e.g., checking if a fixed login issue now works).
-    
-* **Scope**: Narrow and deep.
-    
-* **Performed After**: Minor code changes or patches.
-    
-* **Speed**: Quick but targeted.
-    
-* **Who Performs It**: QA engineers or testers.
-    
-* **Test Basis**: Often undocumented or informal.
-    
-* **Objective**: To validate the correctness of newly added functionality or bug fixes without conducting a full regression cycle.
+4. **Analyze and Report Results**  
+    Use dashboards and reports to quickly assess build health.
     
 
-### Differences Between Sanity Testing and Smoke Testing
+## Smoke Testing vs Sanity Testing vs Regression Testing
 
-| **Criteria** | **Smoke Testing** | **Sanity Testing** |
-| --- | --- | --- |
-| **Purpose** | To verify the overall stability of a new build | To verify specific functionalities after bug fixes or changes |
-| **Performed When** | After receiving a new build | After a minor change or bug fix |
-| **Test Scope** | Broad and shallow | Narrow and deep |
-| **Test Cases** | Covers critical system functionality | Focuses on specific modules or features |
-| **Documentation** | Often uses predefined scripts | Often informal or ad-hoc |
-| **Automation** | Frequently automated as part of CI/CD | Typically manual and quick |
-| **Goal** | To accept or reject a build for further testing | To verify specific fixes or enhancements |
-| **Example** | Does the app launch, log in, and open the dashboard? | Was the bug in the payment page fixed without breaking anything else? |
+While smoke testing, sanity testing, and [regression testing](https://keploy.io/blog/community/regression-testing-an-introductory-guide) are often confused, each serves a distinct purpose at different stages of the software testing lifecycle.
 
-Both types of tests are **non-exhaustive** and aim to save time but they are applied in **different scenarios** during the software testing life cycle.
+At a high level:
 
-## Smoke Testing vs. Regression Testing
-
-While **smoke testing** checks if the application is stable enough for further testing, **regression testing** ensures that newly introduced changes haven't broken existing features.
-
-### Key Differences:
-
-| **Criteria** | **Smoke Testing** | **Regression Testing** |
-| --- | --- | --- |
-| **Goal** | Quickly assess build stability | Confirm existing functionality hasn’t broken due to new changes |
-| **Scope** | High-level, critical features only | Full or partial application coverage |
-| **Frequency** | Done on every new build | Done after code changes, bug fixes, or enhancements |
-| **Time Required** | Fast, usually completed in minutes | Time-consuming depending on the number of test cases |
-| **Automation** | Can be automated or manual | Highly recommended to automate due to its size |
-| **Execution Order** | Performed before other test types | Performed after passing smoke/sanity tests |
-| **Result** | Accept/reject the build | Ensure software remains reliable after changes |
-| **Example** | Can the user log in and view the dashboard? | Do all previous features still work after updating the login module? |
-
-### Summary:
-
-* Use **smoke testing** as an entry point to testing.
+* **Smoke testing** checks whether a new build is *stable enough to test*.
     
-* Use **sanity testing** after small fixes or updates.
+* **Sanity testing** verifies that *specific fixes or changes work correctly*.
     
-* Use **regression testing** to maintain long-term application reliability.
+* **Regression testing** ensures that *existing functionality has not broken* due to new changes.
     
 
-## Advantages of Smoke Testing
+### Key Differences Explained
 
-Smoke testing offers several advantages that enhance both development and QA efficiency:
+| Criteria | Smoke Testing | Sanity Testing | Regression Testing |
+| --- | --- | --- | --- |
+| **Purpose** | Verify overall build stability | Validate specific bug fixes or changes | Ensure existing features still work |
+| **Scope** | Broad and shallow | Narrow and deep | Wide and deep |
+| **Performed After** | A new build or deployment | Minor bug fixes or enhancements | Code changes, enhancements, or fixes |
+| **Test Coverage** | Core and critical functionalities | Specific affected modules | Entire application or major parts |
+| **Automation** | Common (especially in CI/CD) | Optional (often manual) | Highly recommended |
+| **Execution Time** | Very fast | Fast | Time-consuming |
+| **Outcome** | Accept or reject the build | Confirm fix correctness | Maintain application reliability |
 
-* **Early Detection of Critical Bugs**  
-    Smoke tests are designed to surface **showstopper bugs** quickly. This allows developers to respond and fix them before the code reaches users or deeper testing layers.
+### Execution Order in Practice
+
+In a typical testing workflow:
+
+1. **Smoke testing** runs first to validate build stability.
     
-* **Time and Resource Efficient**  
-    Since **smoke testing is shallow**, it can be completed in minutes (especially when automated). This means developers and testers get fast feedback without spending time running full **test suites**.
+2. **Sanity testing** runs next when specific fixes need validation.
     
-* **Improves Software Stability**  
-    Regular smoke testing ensures that the **core application behavior** remains stable across builds. This is critical in agile environments with **frequent code changes** and tight delivery deadlines.
+3. **Regression testing** follows to ensure new changes haven’t broken existing functionality.
     
-* **Supports Continuous Integration (CI)**  
-    Automated smoke tests can be integrated into CI tools like **Jenkins**, **GitHub Actions**, or **GitLab CI/CD**. This allows each build to be validated automatically before being promoted to further environments.
-    
-* **Avoids Testing Broken Builds**  
-    By validating **build health** at the very beginning, QA teams can **skip deeper test cases** when the core system is already failing, resulting in improved **efficiency**.
-    
-* **Improves Confidence in Releases**  
-    By consistently passing smoke tests, development teams gain more confidence in **code quality** and **deployment readiness**.
-    
+
+This layered approach helps teams save time, reduce risk, and maintain consistent software quality.
+
+## **Benefits** of **Using** Smoke Testing
+
+### Early Detection of Critical Defects
+
+Smoke Testing allows for the immediate identification of critical defects within a software application after a new build has been created. Critical defects that may impede future development include, but are not limited to, application crashes, errors in assembly, loss of access to APIs, and broken authentication procedures. Early discovery and resolution of these critical defects will prevent development teams from working with unstable builds much later in the development process, thus saving both time and effort.
+
+### Reduced QA Cycle Time
+
+The use of smoke testing enables QA teams to filter out early, unstable builds of software applications, eliminating the time wasted executing extensive test suites on fundamentally modified or broken builds. This will significantly shorten the overall duration of the QA Cycle for the software application, improving the speed with which the application can be delivered.
+
+### Improved CI/CD Reliability
+
+The use of automated smoke tests serves as an early quality gate within [CI/CD Pipelines](https://keploy.io/blog/community/how-cicd-is-changing-the-future-of-software-development), ensuring that only stable builds of the software application are pushed forward into later stages such as Regression and/or System Testing.
+
+### Faster Developer Feedback
+
+The ability to run smoke tests gives immediate feedback to developers, which will allow for faster response times and less context switching for developers during the development process.
+
+### Increased Confidence in Releases
+
+Developing smoke tests that consistently pass offer more confidence that the application being tested meets the minimum quality criteria prior to it eventually being deployed as a Release.
 
 ## Disadvantages of Smoke Testing
 
-While useful, smoke testing has limitations that make it unsuitable as a standalone QA strategy:
+### Limited Coverage
 
-* **Limited Scope**  
-    Smoke testing does not go in-depth. It covers only **major functionalities**, which means **edge cases**, **minor bugs**, or UI glitches may be missed entirely.
-    
-* **Potential to Miss Critical Bugs**  
-    Because it avoids detailed scenarios, **smoke tests** may overlook **small issues** that could become **major bugs** in specific user workflows.
-    
-* **Over-Reliance Can Be Risky**  
-    Treating smoke testing as a replacement for **unit testing**, **functional testing**, or **regression testing** is dangerous. It gives a **false sense of security** about the health of the software.
-    
-* **Not a Comprehensive Testing Solution**  
-    Smoke testing does not verify **business logic**, **UI consistency**, or **performance**. It must be part of a **multi-layered testing strategy**.
-    
+The smoke test's area of focus is only the software's key elements and does not assess most software errors that occur as a result of UI failures and edge cases or for complicated workflows.
 
-## **Best Practices for Effective Smoke Testing**
+### May Miss Edge Cases
 
-1. **Automate whenever possible :**
-    
-    * Automate your smoke tests to save time and increase accuracy, especially in CI/CD pipelines.
-        
-2. **Run Tests Early and Often:**
-    
-    * Perform smoke testing early in the development process and after every major code change to catch issues as soon as they arise.
-        
-3. **Keep Tests Simple:**
-    
-    * Focus on testing only the most critical functionalities. Smoke testing should be quick and not too detailed.
-        
-4. **Use the Right Tools:**
-    
-    * Choose tools that fit your project’s needs, such as Selenium for automated web application smoke tests or Jenkins for CI/CD pipelines.
-        
+A limited set of boundaries means that the smoke tests do not account for certain data, test conditions, users, and results that would not otherwise produce a successful outcome.
 
-**Involve the Entire Team:**
+### Not a Substitute for Deeper Testing
 
-* Make smoke testing a collaborative effort by involving developers, testers, and stakeholders in the process.
-    
+Smoke tests will never replace the need for a multitude of tests. Do not use only smoke tests to gauge whether your application is stable or not.
 
-## **Comparison of smoke testing with other testing types**
+### Requires Careful Test Selection
 
-| **Type of Testing** | **Purpose** | **Depth of Testing** | **Performed By** | **Automation Level** | **Frequency** | **Scope** | **Order of Execution** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **Unit Testing** | Individual units or components of the software in isolation. | Deep | Developers | High | Frequent (every build or code change) | Focused on individual components. | 1 |
-| **Integration Testing** | Interactions between integrated units or components. | Moderate | Developers/QA Engineers | Moderate | Moderate (after unit testing) | Focused on component interactions. | 2 |
-| **Smoke Testing** | To verify basic functionalities and ensure stability of the build. | Shallow | QA Engineers/Developers | Moderate to High | Frequent (every build) | Focused on basic, critical functionalities. | 3 |
-| **Sanity Testing** | To check specific functionalities after minor changes or bug fixes. | Shallow | QA Engineers/Developers | Moderate to High | As needed (after bug fixes) | Focused on specific functionalities. | 4 |
-| **Regression Testing** | To ensure that new code changes do not adversely affect existing functionality. | Deep | QA Engineers | High | Frequent (after integration or smoke testing) | Focused on full system functionality. | 5 |
-| **User Acceptance Testing (UAT)** | To validate the software against business requirements and ensure it meets user needs. | Moderate to Deep | End Users/QA Team | Low | Once (before release) | Focused on end-to-end business processes. | 6 |
+Choose smoke testing test cases with caution. If a smoke test case is poorly selected or too broadly targeted, the smoke test case may miss some of the most important failures or simply not result in accurate or reliable responses, causing the test's negative effects.
 
-## **Tools to Automate Smoke Testing: A Developer's Essential Guide**
+## Best Practices for **Performing** Effective Smoke **Tests**
 
-When it comes to streamlining your software development process, automating smoke tests is a game-changer. Not only does it save time, but it also ensures consistency and reliability in your testing efforts. In this section, we’ll explore some of the top tools you can use to automate smoke testing and enhance your CI/CD pipelines.
+### Automate Wherever Possible
 
-1. ### [**Keploy**](https://keploy.io/)
-    
+Automated smoke tests can be executed much faster than manual smoke tests and are also reusable in Continuous Integration (CI) and Continuous Delivery (CD) environments because automated smoke tests can be run as soon as a build is built and created. in order for Smoke Testers to execute them.
 
-**Keploy** is an open-source testing toolkit designed to automatically generate tests based on real-world application usage. It is particularly effective for smoke testing, providing a way to ensure that critical functionalities are operational in new builds by leveraging actual user interactions.
+### Keep Tests Simple and Focused
 
-**Key Features:**
+Smoke tests should always test business critical paths or ways to login, core (main) APIs and ways to complete necessary activities (workflows). Keep smoke test items simple and do not add any unnecessary complications to them.
 
-* **Automated Test Generation:**
-    
-    * Automatically generates test cases from observed network traffic, reducing the manual effort required to create smoke tests.
-        
-* **Test Replay and Validation:**
-    
-    * Captures and replays application behavior across different environments, ensuring that key functionalities perform as expected.
-        
-* **CI/CD Integration:**
-    
-    * Seamlessly integrates with CI/CD pipelines, enabling automated smoke tests after each build or deployment.
-        
-* **Real-World Observability:**
-    
-    * Generates tests based on real user interactions, ensuring that smoke tests are highly relevant and effective in catching potential issues.
-        
+### Run Smoke Tests on Every Build
 
-2. ### [**Selenium**](https://www.selenium.dev/)
-    
+Smoke tests should always be executed at the end of every successful build to verify that new code changes or configuration changes have not affected the way any of the smoke test workflows (business paths) function.
 
-**Selenium** is a widely-used open-source tool that allows developers to automate web applications across different browsers. It’s ideal for automating smoke tests for web applications, ensuring that critical functionalities like login forms, user navigation, and data submissions work flawlessly.
+### Prioritize Business-Critical Workflows
 
-* **Key Features**:
-    
-    * Supports multiple programming languages (Java, Python, C#, etc.).
-        
-    * Integrates with CI/CD tools like Jenkins.
-        
-    * Provides cross-browser testing capabilities.
-        
+Smoke tests should focus on workflows that are directly related to the company's viability, specifically workflows that will have either a direct positive or negative impact on the company's earnings.
 
-**Why Selenium for Smoke Testing?** Selenium’s flexibility and extensive community support make it a top choice for automating smoke tests, especially in environments where web applications are the focus.
+### Avoid Flaky or Unstable Tests
 
-3. ### [**Jenkins**](https://www.jenkins.io/)
-    
+Unstable or flaky automated smoke tests cause a lack of confidence in the results of all smoke tests. All automated tests should either depend on stable dependencies or controlled (e.g. known) test data.
 
-**Jenkins** is a continuous integration tool that automates the build process, including smoke testing.
+### Integrate Tightly with CI/CD Pipelines
 
-**Why Jenkins for Smoke Testing?** Jenkins is the backbone of many CI/CD pipelines, making it an excellent tool for integrating automated smoke tests into your development workflow.
+Automated smoke tests should automatically block all future deployments of a product if any automated smoke tests fail. Automated smoke tests are the main quality control gate for the software development process.
 
-* **Key Features**:
-    
-    * Easily integrates with various testing frameworks like JUnit and TestNG.
-        
-    * Extensive plugin support for customising your CI/CD pipeline.
-        
-    * Provides real-time feedback on test results.
-        
+## Tools to Automate Smoke Testing
 
-4. ### [**TestNG**](https://testng.org/)
-    
+### **Keploy**
 
-**TestNG** is a powerful testing framework inspired by JUnit but with more features, such as parallel testing and flexible test configurations.
+![Keploy](https://cdn.hashnode.com/res/hashnode/image/upload/v1768547395425/4f2fbadc-8659-4d3e-9b4f-0f32c0ce93ce.png align="center")
 
-**Why TestNG for Smoke Testing?** TestNG’s ability to organize and run tests efficiently makes it a strong candidate for automating smoke tests, especially when combined with Selenium.
+[Keploy](http://keploy.io) automatically generates smoke tests from real API traffic, ensuring tests reflect real production behaviour. It integrates smoothly with CI/CD pipelines and is particularly effective for API-first and microservice architectures.
 
-* **Key Features**:
-    
-    * Supports annotations for easier test management.
-        
-    * Provides detailed reporting and logging.
-        
-    * Can be integrated with Selenium for UI smoke tests.
-        
+### **Selenium**
 
-5. ### [**PyTest**](https://docs.pytest.org/en/stable/)
-    
+![Selenium](https://cdn.hashnode.com/res/hashnode/image/upload/v1768547446387/62944f06-6832-48a0-88b9-368cabf10fe6.png align="center")
 
-**PyTest** is a popular testing framework for Python applications, known for its simplicity and scalability.
+Selenium is widely used for browser-based smoke testing. It helps validate critical UI workflows like login, navigation, and form submission across multiple browsers.
 
-**Why PyTest for Smoke Testing?** For Python-based projects, PyTest is a natural choice for automating smoke tests due to its ease of use and robust feature set.
+### **Jenkins**
 
-* **Key Features**:
-    
-    * Easy setup with minimal boilerplate code.
-        
-    * Supports parallel test execution.
-        
-    * Integrates seamlessly with CI tools like Jenkins.
-        
+![Jenkins](https://cdn.hashnode.com/res/hashnode/image/upload/v1768547527703/0e0ae1d6-53ea-456c-b7f0-bea9c5d820b0.png align="center")
 
-## **Conclusion**
+Jenkins automates the execution of smoke tests after builds or deployments, preventing unstable builds from progressing further in the pipeline.
 
-**Smoke testing** is an essential part of modern **software quality assurance**. Whether you’re building a mobile app, an enterprise platform, or a microservice architecture, smoke tests offer a **cost-effective**, **fast**, and **reliable** way to ensure you’re not pushing broken builds forward. Smoke testing helps you identify and reinforce weak links early, leading to a more robust and reliable product. So, make smoke testing an integral part of your development process and watch as it helps pave the way for smoother, more successful projects.
+### **PyTest**
 
-## Frequently Asked Question
+![PyTest](https://cdn.hashnode.com/res/hashnode/image/upload/v1768547641783/35e96b29-ec5d-45b2-9017-11f36c62aae4.png align="center")
 
-### **What is smoke testing in software development?**
+PyTest is a lightweight and scalable framework commonly used to automate smoke tests in Python applications due to its simplicity and fast execution.
 
-Smoke testing is a preliminary testing phase that verifies whether the core functionalities of an application or system work properly. It acts as a sanity check to ensure that the build is stable enough for further testing.
+## Conclusion
 
-### **How does smoke testing differ from regression testing?**
+Smoke Testing is one of the most effective, low-effort types of testing which is essential in the programming process today. By conducting a smoke test, you validate the build stability of a program very early. This way, you prevent unstable builds from being released into production, thereby decreasing amount of wasted time in Quality Assurance (QA) testing, and also allowing for quicker feedback to developers. Once the smoke test is automated and used in conjunction with Continuous Integration/Continuous Delivery (CI/CD) pipelines, it will lead to improved reliability of builds and increased speed in the development cycle, and overall greater confidence in the release of builds from developers.
 
-Smoke testing focuses on verifying the basic, critical functionalities of a build, ensuring the system is stable enough for more detailed testing. Regression testing, on the other hand, checks that new code changes haven't negatively impacted existing functionality, covering a wider scope.
+## Frequently Asked Questions (FAQ)
 
-### **When should smoke testing be performed?**
+### What is smoke testing?
 
-Smoke testing should be performed immediately after a new build is created before more extensive testing begins. It ensures that major issues are identified early in the development process, allowing teams to address them before proceeding further.
+A Smoke Test is considered to be an initial evaluation of the core functionality of the software build prior to performing further testing on that build.
 
-### **Can smoke testing be automated?**
+### Is smoke testing automated?
 
-Yes, smoke testing can be automated using tools like Selenium, Keploy, Jenkins, and PyTest. Automating smoke tests can save time, increase consistency, and integrate seamlessly into CI/CD pipelines for continuous testing.
+The smoke testing process can be conducted as either a manual process or an automation process. However, it is strongly recommended to use automation, particularly in a CI/CD pipeline environment, to improve the speed of providing the developer with feedback and also the reliability of the feedback received.
 
-### **What are the key benefits of smoke testing?**
+### When should smoke testing be performed?
 
-The main benefits of smoke testing include early detection of critical issues, improved development efficiency, enhanced quality assurance, and a faster feedback loop, all of which contribute to a smoother development process.
-
-### **What types of smoke testing are there?**
-
-There are several types of smoke testing, including Build Verification Testing (BVT), Sanity Smoke Testing, Acceptance Smoke Testing, Manual Smoke Testing, and Automated Smoke Testing. Each type serves a specific purpose, depending on the development phase and the nature of the build.
+A smoke test should always be completed after each build/deployment has completed, to ensure the application can continue to be tested further while it is in a stable condition.
