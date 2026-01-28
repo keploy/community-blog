@@ -1,7 +1,7 @@
 ---
 title: "What is Code Complexity & How to Measure It?"
-seoTitle: "A Comprehensive Guide To Code Complexity in Software Testing"
-seoDescription: "Understand code complexity, its causes, types, and metrics. Learn how to measure, manage, and reduce it for high-quality, maintainable software."
+seoTitle: "Code Complexity in Software Testing: A Complete Guide"
+seoDescription: "Code complexity measures how difficult a software code is to understand, maintain, and test based on its structure, logic & dependencies."
 datePublished: Thu Oct 23 2025 08:34:43 GMT+0000 (Coordinated Universal Time)
 cuid: cmh36231l000302jigsfydkqv
 slug: what-is-code-complexity
