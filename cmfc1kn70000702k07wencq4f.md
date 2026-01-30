@@ -1,6 +1,6 @@
 ---
 title: "What is Random Testing in Software Testing?"
-seoTitle: "What is Random Testing? "
+seoTitle: "What is Random Testing?"
 seoDescription: "Understand random testing, its purpose, and how it helps uncover software bugs easily."
 datePublished: Tue Sep 09 2025 04:19:42 GMT+0000 (Coordinated Universal Time)
 cuid: cmfc1kn70000702k07wencq4f
@@ -17,7 +17,7 @@ But one test which people don’t care about is random testing, though it plays 
 
 ## What is Random Testing?
 
-Random testing is also known as Monkey testing. It is a software testing technique where the tester provides some random inputs to the system without following any specific [test cases](https://keploy.io/blog/community/test-case-generation-for-faster-api-testing). The primary goal is to identify unexpected failures or bugs that might not be detected through systematic testing methods.
+Random testing is [**also known as monkey testing**](https://keploy.io/blog/community/what-is-monkey-testing-in-software-testing). It is a software testing technique where the tester provides some random inputs to the system without following any specific [test cases](https://keploy.io/blog/community/test-case-generation-for-faster-api-testing). The primary goal is to identify unexpected failures or bugs that might not be detected through systematic testing methods.
 
 Unlike structured testing, random testing doesn’t require any prior knowledge of the software. You don’t need to worry about any prerequisites or the test cases.
 
