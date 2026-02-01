@@ -141,7 +141,7 @@ Using model-based testing (MBT) for testing APIs and microservices provides sign
 
 ## **What are Real Model-Based Testing Examples that Teams Can Try?**
 
-Here are examples of model based testing that a team could try:
+Here are examples of MBT that a team could try:
 
 ![Real Model-Based Testing Examples](https://cdn.hashnode.com/res/hashnode/image/upload/v1764500767734/f7dcc928-4117-48a4-aeef-a3a4d54c2995.png align="center")
 
