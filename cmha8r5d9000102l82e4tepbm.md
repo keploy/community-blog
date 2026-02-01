@@ -150,7 +150,7 @@ Creating an RTM template helps teams standardize traceability across projects. Y
 
 ![Template for RTM (Requirement Traceability Matrix)](https://cdn.hashnode.com/res/hashnode/image/upload/v1760527933805/d6becf3d-74d7-4849-9830-a11342f2d92e.png align="center")
 
-Such templates can be managed in Excel, Jira, or automated through modern testing tools for better scalability.
+Such templates can be managed in Excel, Jira, or automated through modern [**testing tools**](https://keploy.io/blog/community/top-10-futuristic-open-source-testing-tools) for better scalability.
 
 ## **Challenges of Using RTM  in Modern Development**
 
