@@ -37,7 +37,7 @@ This is the percentage of successful deployments that result in an issue being c
 
 MTTR indicates how fast teams can recover from an incident. It indicates the organization’s capability for incident response, as well as the efficiency of monitoring and building out rollback or remediation mechanisms when incidents occur. The lower the MTTR for an organization, the faster that organization can restore its services and, thus, the greater overall reliability and trust for users.
 
-Using the above four DORA metrics provides teams with a clear definition of DORA metrics and a common criterion for measuring success across modern engineering teams.
+Using the above four DORA metrics provides teams with a clear definition of the metrics and a common criterion for measuring success across modern engineering teams.
 
 ## **Why DORA Metrics Matter for Modern DevOps Pipelines?**
 
