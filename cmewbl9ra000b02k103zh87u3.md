@@ -16,7 +16,7 @@ This blog will give an overview of visual regression testing, and we would discu
 
 ## **What is Visual Regression Testing?**
 
-Visual [Regression Testing](https://keploy.io/blog/community/unit-testing-vs-regression-testing#what-is-regression-testing) (VRT) is a quality control mechanism that determines the difference in the graphical changes and anomalies in an interface. It compares the screenshots of the new version of the application to older official versions of the application to find changes.
+Visual [**Regression Testing**](https://keploy.io/blog/community/regression-testing-an-introductory-guide) (VRT) is a quality control mechanism that determines the difference in the graphical changes and anomalies in an interface. It compares the screenshots of the new version of the application to older official versions of the application to find changes.
 
 ![What is Visual Regression Testing?](https://cdn.hashnode.com/res/hashnode/image/upload/v1751738943823/dd622c53-3649-4188-b3d4-d66f15f68cef.png align="center")
 
