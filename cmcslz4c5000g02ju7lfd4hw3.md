@@ -304,7 +304,7 @@ By keeping existing features intact as new ones are introduced, regression testi
 
 **References:**
 
-1. [Using Keploy for Regression Testing](https://keploy.io/docs/concepts/reference/glossary/regression-testing/)
+1. [Keploy for Regression Testing](https://keploy.io/docs/concepts/reference/glossary/regression-testing/)
     
 2. [Regression Testing Tools: Ensuring Software Stability](https://keploy.blogspot.com/2025/03/regression-testing-tools-ensuring.html)
     
