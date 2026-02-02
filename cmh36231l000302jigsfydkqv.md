@@ -105,7 +105,11 @@ High complexity introduces multiple challenges for software development teams:
 
 **Difficult to achieve full test coverage:** Complex code paths, conditional statements, and deeply nested logic make it difficult to write all the test case scenarios and achieve comprehensive full coverage.
 
-These issues ultimately slow down the rate of development, increase cost, and reduce quality; however, it is possible to overcome these obstacles and challenges by doing regular refactoring, coding modularly, consistently testing code, and using automated code analysis tools to give feedback. Taking steps to manage complexity up front results in a more efficient development cycle, greater tool maintainability, and more reliable software releases.
+These issues ultimately slow down the rate of development, increase cost, and reduce quality; however, it is possible to overcome these obstacles and challenges by doing regular refactoring, coding modularly, consistently testing code, and using automated code analysis tools to give feedback.
+
+**When Should You Worry?**
+
+There is no universal “bad” code complexity number. Instead, teams should watch for rising trends, frequent regressions, slowing test cycles, and increased onboarding time - all strong indicators that code complexity is becoming a risk.
 
 ## **How to Reduce Code Complexity?**
 
@@ -149,9 +153,11 @@ In today's world of software development, code complexity is an inevitable chall
 
 ## FAQs
 
-### 1\. How Do I Determine the Time Complexity of My Code?
+### 1\. How Is Time Complexity Different from Code Complexity?
 
-Time complexity indicates the increase in code runtime as the input is scaled. You can determine it by examining loops, recursion, or nested operations, and then expressing it in Big O notation (e.g. O(n), O(n²), etc.). There are tools available that will analyze your code for complexity automatically (code-complexity-analyzers, etc.).
+Time complexity measures how a program’s execution time grows with input size, usually expressed using Big O notation. Code complexity focuses on how difficult the code is to read, understand, test, and maintain, based on factors like logic, structure, and dependencies.
+
+**Both matter:** time complexity affects performance, while code complexity impacts maintainability and testing.
 
 ### 2\. What Does Cognitive Complexity of Code Mean?
 
