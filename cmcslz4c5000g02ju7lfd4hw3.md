@@ -124,7 +124,31 @@ This is a clever mix of **test selection and prioritization**, allowing you to f
 
 ![Regression testing technique](https://cdn.hashnode.com/res/hashnode/image/upload/v1751263402369/2e454390-bf80-4071-916d-25805818c254.png align="center")
 
-### **How to Perform Regression Testing**
+## Automated vs Manual Regression Testing
+
+Regression tests can be run both manually and automatically. Each way has merits and demerits.
+
+**Manual Regression Testing:**
+
+* Testers run test cases by hand
+    
+* Useful for small projects, exploratory testing, or complex UI workflows
+    
+* Allows human judgment for scenarios that are difficult to automate
+    
+
+**Automated Regression Testing**:
+
+* Uses scripts and testing tools to run tests repeatedly and consistently
+    
+* Ideal for large applications, frequent updates, and CI/CD pipelines
+    
+* Saves time and ensures repeatable, accurate results
+    
+
+Combining both types of regression testing provides teams with a greater chance of finding bugs quicker than using either type of regression testing alone, while allowing for a better investigation of defects that require a manual test, and will provide a thorough, efficient, and reliable regression test.
+
+## **How to Perform Regression Testing?**
 
 1. **Know What Changed**  
     Start by checking out what was updated, whether it's a bug fix, a new feature, or any code change. Understand which parts of the app might be affected.
@@ -155,7 +179,7 @@ This is a clever mix of **test selection and prioritization**, allowing you to f
     As new changes come in, continue running regression tests to ensure everything old still works smoothly.
     
 
-### Regression Testing vs Retesting
+## Regression Testing vs Retesting
 
 While both regression testing and retesting aim to ensure software quality, they serve different purposes and are used in different contexts. Here's a quick comparison to help clarify the differences:
 
