@@ -88,7 +88,7 @@ When building a add function that adds two numbers, a TDD approach would involve
 
 ## What is BDD?
 
-BDD refers to **<mark>Behavior Driven Development</mark>**, which is an a[g](https://katalon.com/resources-center/blog/agile-testing-methodology)ile testing methodology that uses system behavior for development. Unlike TDD, BDD starts with analyzing the desired behavior that developers want to create. After that, they’ll express the desired behavior using the **Gherkin syntax**, which consists of ***Given - When - Then*** statements. These statements show developers how to develop the code that fulfills the behaviors described.
+BDD refers to **<mark>Behavior Driven Development</mark>**, which is an [**agile testing**](https://keploy.io/blog/community/what-is-agile-testing) methodology that uses system behavior for development. Unlike TDD, BDD starts with analyzing the desired behavior that developers want to create. After that, they’ll express the desired behavior using the **Gherkin syntax**, which consists of ***Given - When - Then*** statements. These statements show developers how to develop the code that fulfills the behaviors described.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720583796968/91ffff82-9b3a-45d9-8881-25d8cd021221.png align="center")
 
