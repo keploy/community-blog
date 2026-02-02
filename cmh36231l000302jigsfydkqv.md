@@ -45,19 +45,19 @@ By knowing these reasons early, the team will be able to put practices in place 
 
 ## Types of Code Complexity
 
-Code complexity may come in many forms, with each revealing additional complications for a software development team.
+Code complexity may come in many forms, with each highlighting a different challenge in how software is designed, written, and maintained. Understanding these types helps teams identify *where complexity exists* and *how it affects long-term maintainability*.
 
 ![Types of Code Complexity](https://cdn.hashnode.com/res/hashnode/image/upload/v1760646556623/3fb830da-256d-41c9-bc88-1d5443429193.png align="center")
 
-**Structural Complexity:** Concerned with how classes, methods, and modules connect in harmony with the existing system.
+**Structural Complexity:** Refers to how classes, methods, and modules are interconnected within a system. High structural complexity often results from tightly coupled components, making the code harder to modify or scale without introducing regressions.
 
-**Cognitive Complexity:** Metrics of the mental difficulty required of a developer to make sense of the code.
+**Cognitive Complexity:** Measures the mental effort required for a developer to understand the code. Deep nesting, unclear naming, and overly complex logic increase cognitive complexity, slowing down code reviews and onboarding.
 
-**Cyclomatic Complexity:** A metric of the independent paths that follow the program's control flow, as well as what is needed for [**test coverage**](https://keploy.io/blog/community/mastering-test-coverage-quality-over-quantity-in-software-testing).
+**Cyclomatic Complexity:** Quantifies the number of independent execution paths through a program’s control flow. Higher cyclomatic complexity increases testing effort, as more test cases are required to cover all possible paths.
 
-**Essential Complexity:** Complexity that is part of the problem space and not part of the code.
+**Essential Complexity:** Represents complexity that is inherent to the problem being solved rather than the implementation itself. While it cannot be eliminated entirely, good design choices can prevent essential complexity from spreading unnecessarily across the codebase.
 
-Once the type of complexity is identified, teams can focus on a plan of action to coordinate the removal of the complexity. Structural issues will likely require refactoring, while cognitive and cyclomatic issues will likely require more documentation or automated testing.
+Once the type of complexity is identified, teams can take targeted action. Structural complexity often calls for refactoring, while cognitive and cyclomatic complexity can be reduced through clearer logic, better documentation, and automated testing.
 
 ## How to Measure Code Complexity?
 
