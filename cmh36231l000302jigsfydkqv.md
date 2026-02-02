@@ -19,13 +19,13 @@ In this blog, we’ll explore the concept of code complexity, its causes, learn 
 
 Code complexity is a measure of how hard a piece of software is to read, maintain, and modify. It is too simplistic to say that complexity is simply the length of the code or the line count — a tool with only a few lines of code could be very complex if the logic is convoluted or the code is poorly structured.
 
-High code complexity increases the difficulty of debugging or testing and expanding features. The opposite holds true for lower complexity - Low- and moderate-complexity code generally corresponds to more clearly defined, modular, and maintainable code. The importance of knowing about code complexity comes when we apply it to [**software testing**](https://keploy.io/blog/community/benchmark-testing-in-software-the-key-to-optimizing-performance) as well, as more complex code often means more work must go into designing meaningful tests and maintaining quality.
+High complexity in code increases the difficulty of debugging or testing and expanding features. The opposite holds true for lower complexity - Low- and moderate-complexity code generally corresponds to more clearly defined, modular, and maintainable code. The importance of knowing about code complexity comes when we apply it to [**software testing**](https://keploy.io/blog/community/benchmark-testing-in-software-the-key-to-optimizing-performance) as well, as more complex code often means more work must go into designing meaningful tests and maintaining quality.
 
 In short, code complexity directly relates to whether you can build software efficiently, reduce bugs, and remain confident while scaling your features.
 
 ## What Causes Code Complexity?
 
-There are many reasons we see code complexity increase in software projects that are ongoing. Code complexity can build up slowly over time as a project matures.
+There are many reasons we see the complexity of code increase in ongoing software projects. Code complexity can build up slowly over time as a project matures.
 
 ![Causes of Code Complexity](https://cdn.hashnode.com/res/hashnode/image/upload/v1760646291345/31956af9-2848-42c5-82f7-731a508d5e45.png align="center")
 
@@ -41,7 +41,7 @@ Common reasons for complexity include:
 
 **Tight Deadlines and Fixes:** Patches or fixes made in a timely manner may fix issues now, but it can become even more complex in the long run.
 
-By knowing these reasons early, the team will be able to put practices in place that will lessen code complexity and avoid spiraling out of control and deteriorating code complexity.
+By knowing these reasons early, the team will be able to put practices in place that will lessen the complexity of code and avoid spiraling out of control and deteriorating code complexity.
 
 ## Types of Code Complexity
 
@@ -67,7 +67,7 @@ Generally, complexity can be gauged by teams in several ways, such as:
 
 **Static Code Analysis Tools:** Tools such as SonarQube and ESLint provide a risk of code complexity analysis, pointing out areas of the [**static code**](https://keploy.io/blog/community/code-quality-with-automated-tools) that might indicate complexity.
 
-**Automated Metrics:** Tools could calculate cyclomatic code complexity, cognitive complexity, Halstead metrics, and other metrics that are measured.
+**Automated Metrics:** Tools could calculate [cyclomatic code complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity), cognitive complexity, Halstead metrics, and other metrics that are measured.
 
 **Peer Review:** Other engineers can review each other’s code, providing qualitative measures on areas of code that may be confusing or error-prone.
 
@@ -97,7 +97,7 @@ High complexity introduces multiple challenges for software development teams:
 
 **Longer debugging cycles and harder maintenance:** More complex code is difficult to read and comprehend, which takes longer to find and fix bugs. You can spend a lot of time finding and fixing even a simple bug that requires checking a bunch of modules that are dependent on each other.
 
-**Greater risk of regression bugs:** Complex logic and dependencies mean that modifying code can break another part of the code and create a new bug if you modify one part of the code.
+**Greater risk of regression bugs:** Complex logic and dependencies mean that [**modifying code**](https://keploy.io/blog/community/what-is-code-refactoring) can break another part of the code and create a new bug if you modify one part of the code.
 
 **Reduced scalability from tightly coupled code:** Very complex code typically has tightly coupled code, which makes it hard to add to, or scale with new features to the system without adding additional bugs in existing functionality, or needing a lot of refactoring to separate code into new files.
 
