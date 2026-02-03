@@ -70,13 +70,13 @@ A more effective way to test software is by focusing on tests that provide the h
 ### **Automate These First (High ROI)**
 
 1. **Regression tests  
-    **[**Regression tests**](https://keploy.io/blog/community/regression-testing-an-introductory-guide) should be created for stability-based functional areas that are important to the business and should not fail from release to release. These tests yield immediate return since they identify unintentional side effects of work performed by the team across multiple systems using the same method.
+    **[Regression tests](https://keploy.io/blog/community/regression-testing-an-introductory-guide) should be created for stability-based functional areas that are important to the business and should not fail from release to release. These tests yield immediate return since they identify unintentional side effects of work performed by the team across multiple systems using the same method.
     
 2. **API tests  
-    **[**API tests**](https://keploy.io/blog/community/what-is-api-testing) are applied to ensure that all the standard artifacts used as part of an API's request and response in the system are working correctly. Automated API testing provides immediate and reliable feedback on the quality of APIs and often yields the highest return in newer models of architectures where services communicate constantly with each other.
+    **[API tests](https://keploy.io/blog/community/what-is-api-testing) are applied to ensure that all the standard artifacts used as part of an API's request and response in the system are working correctly. Automated API testing provides immediate and reliable feedback on the quality of APIs and often yields the highest return in newer models of architectures where services communicate constantly with each other.
     
 3. **Integration tests  
-    **[**Integration tests**](https://keploy.io/blog/community/integration-testing-a-comprehensive-guide) should be created for service to database, service to a message queue, and service to service interactions. Many of the actual production failures occurred at these boundaries where the actual configuration, data or behavior of dependencies differs from what was expected.
+    **[Integration tests](https://keploy.io/blog/community/integration-testing-a-comprehensive-guide) should be created for service to database, service to a message queue, and service to service interactions. Many of the actual production failures occurred at these boundaries where the actual configuration, data or behavior of dependencies differs from what was expected.
     
 4. **Smoke tests  
     **[**Run smoke test**](https://keploy.io/blog/community/developers-guide-to-smoke-testing-ensuring-basic-functionality) for a small number of quick validation tests to answer the question “Is this particular build okay to deploy?” The tests should execute in less than 5 minutes or thereabouts and should prevent broken builds from getting further into the build-and-deploy pipeline.
