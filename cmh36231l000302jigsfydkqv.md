@@ -31,15 +31,16 @@ There are many reasons we see the complexity of code increase in ongoing softwar
 
 Common reasons for complexity include:
 
-**Poor Design or Architecture:** With no thought or planning, code dependencies and code logic can become tangled.
-
-**Frequent Feature Additions:** Too many features added without modifying the existing code can create complicated logic.
-
-**Undocumented:** If the code was written with no review and has repeated redundant code or multiple or different codes that do the same thing, it may become more complex over time.
-
-**Under-documented:** Difficulties maintaining code happen if developers do not know why code was written a certain way.
-
-**Tight Deadlines and Fixes:** Patches or fixes made in a timely manner may fix issues now, but it can become even more complex in the long run.
+* **Poor Design or Architecture:** With no thought or planning, code dependencies and code logic can become tangled.
+    
+* **Frequent Feature Additions:** Too many features added without modifying the existing code can create complicated logic.
+    
+* **Undocumented:** If the code was written with no review and has repeated redundant code or multiple or different codes that do the same thing, it may become more complex over time.
+    
+* **Under-documented:** Difficulties maintaining code happen if developers do not know why code was written a certain way.
+    
+* **Tight Deadlines and Fixes:** Patches or fixes made in a timely manner may fix issues now, but it can become even more complex in the long run.
+    
 
 By knowing these reasons early, the team will be able to put practices in place that will lessen the complexity of code and avoid spiraling out of control and deteriorating code complexity.
 
@@ -49,13 +50,14 @@ Code complexity may come in many forms, with each highlighting a different chall
 
 ![Types of Code Complexity](https://cdn.hashnode.com/res/hashnode/image/upload/v1760646556623/3fb830da-256d-41c9-bc88-1d5443429193.png align="center")
 
-**Structural Complexity:** Refers to how classes, methods, and modules are interconnected within a system. High structural complexity often results from tightly coupled components, making the code harder to modify or scale without introducing regressions.
-
-**Cognitive Complexity:** Measures the mental effort required for a developer to understand the code. Deep nesting, unclear naming, and overly complex logic increase cognitive complexity, slowing down code reviews and onboarding.
-
-**Cyclomatic Complexity:** Quantifies the number of independent execution paths through a program’s control flow. Higher cyclomatic complexity increases testing effort, as more test cases are required to cover all possible paths.
-
-**Essential Complexity:** Represents complexity that is inherent to the problem being solved rather than the implementation itself. While it cannot be eliminated entirely, good design choices can prevent essential complexity from spreading unnecessarily across the codebase.
+* **Structural Complexity:** Refers to how classes, methods, and modules are interconnected within a system. High structural complexity often results from tightly coupled components, making the code harder to modify or scale without introducing regressions.
+    
+* **Cognitive Complexity:** Measures the mental effort required for a developer to understand the code. Deep nesting, unclear naming, and overly complex logic increase cognitive complexity, slowing down code reviews and onboarding.
+    
+* **Cyclomatic Complexity:** Quantifies the number of independent execution paths through a program’s control flow. Higher cyclomatic complexity increases testing effort, as more test cases are required to cover all possible paths.
+    
+* **Essential Complexity:** Represents complexity that is inherent to the problem being solved rather than the implementation itself. While it cannot be eliminated entirely, good design choices can prevent essential complexity from spreading unnecessarily across the codebase.
+    
 
 Once the type of complexity is identified, teams can take targeted action. Structural complexity often calls for refactoring, while cognitive and cyclomatic complexity can be reduced through clearer logic, better documentation, and automated testing.
 
@@ -65,13 +67,14 @@ Measuring code complexity helps teams identify parts of the codebase that are di
 
 Common ways to measure code complexity include:
 
-**Static Code Analysis Tools:** Tools like SonarQube and ESLint analyze source code without executing it and highlight areas with high code complexity, such as deeply nested logic, long methods, or tightly coupled components.
-
-**Automated Metrics:** Several quantitative metrics are used to measure code complexity in practice. [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) evaluates the number of independent execution paths, while cognitive complexity focuses on how difficult the code is to understand. Other metrics, such as Halstead complexity, assess operators and operands to estimate overall code effort.
-
-**Peer Review:** Manual code reviews provide a qualitative view of code complexity. Experienced engineers can often spot unclear logic, over-engineering, or design issues that automated tools may overlook.
-
-**Unit Test Coverage:** High code complexity often leads to lower testability. Tools like **Keploy**, which automatically generate test cases and detect regressions, help teams safely refactor complex code by ensuring that behavior remains consistent as complexity is reduced.
+* **Static Code Analysis Tools:** Tools like SonarQube and ESLint analyze source code without executing it and highlight areas with high code complexity, such as deeply nested logic, long methods, or tightly coupled components.
+    
+* **Automated Metrics:** Several quantitative metrics are used to measure code complexity in practice. [Cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) evaluates the number of independent execution paths, while cognitive complexity focuses on how difficult the code is to understand. Other metrics, such as Halstead complexity, assess operators and operands to estimate overall code effort.
+    
+* **Peer Review:** Manual code reviews provide a qualitative view of code complexity. Experienced engineers can often spot unclear logic, over-engineering, or design issues that automated tools may overlook.
+    
+* **Unit Test Coverage:** High code complexity often leads to lower testability. Tools like **Keploy**, which automatically generate test cases and detect regressions, help teams safely refactor complex code by ensuring that behavior remains consistent as complexity is reduced.
+    
 
 By continuously monitoring code complexity throughout the development lifecycle, teams can reduce long-term maintenance risks, improve code quality, and prevent defects from being introduced as the system evolves.
 
@@ -81,13 +84,14 @@ Many metrics to measure code complexity exist in software testing. When referrin
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1760647451258/b4616156-fadd-4437-a49d-d2b3b539a919.png align="center")
 
-**Cyclomatic Complexity:** The number of independent paths in a given code base.
-
-**Cognitive Complexity:** How much mental effort does it take to understand a given code base.
-
-**Halstead Metrics:** Measures the number of operators and operands in code to measure program difficulty.
-
-**Maintainability Index:** A Measure of how easy a developer can maintain a given code base.
+* **Cyclomatic Complexity:** The number of independent paths in a given code base.
+    
+* **Cognitive Complexity:** How much mental effort does it take to understand a given code base.
+    
+* **Halstead Metrics:** Measures the number of operators and operands in code to measure program difficulty.
+    
+* **Maintainability Index:** A Measure of how easy a developer can maintain a given code base.
+    
 
 Applying these metrics will help you and the QA team to make better data-informed decision-making for testing, refactoring, and QA. Additionally, it can assist with making determinations of high-risk areas of code that require immediate attention.
 
@@ -95,15 +99,16 @@ Applying these metrics will help you and the QA team to make better data-informe
 
 High complexity introduces multiple challenges for software development teams:
 
-**Longer debugging cycles and harder maintenance:** More complex code is difficult to read and comprehend, which takes longer to find and fix bugs. You can spend a lot of time finding and fixing even a simple bug that requires checking a bunch of modules that are dependent on each other.
-
-**Greater risk of regression bugs:** Complex logic and dependencies mean that [**modifying code**](https://keploy.io/blog/community/what-is-code-refactoring) can break another part of the code and create a new bug if you modify one part of the code.
-
-**Reduced scalability from tightly coupled code:** Very complex code typically has tightly coupled code, which makes it hard to add to, or scale with new features to the system without adding additional bugs in existing functionality, or needing a lot of refactoring to separate code into new files.
-
-**Greater cognitive load on developers:** More complex code takes more mental effort to comprehend, test, and modify, which results in either slower development cycles, more mistakes, or onboard additional programmers to a team and so on.
-
-**Difficult to achieve full test coverage:** Complex code paths, conditional statements, and deeply nested logic make it difficult to write all the test case scenarios and achieve comprehensive full coverage.
+* **Longer debugging cycles and harder maintenance:** More complex code is difficult to read and comprehend, which takes longer to find and fix bugs. You can spend a lot of time finding and fixing even a simple bug that requires checking a bunch of modules that are dependent on each other.
+    
+* **Greater risk of regression bugs:** Complex logic and dependencies mean that [**modifying code**](https://keploy.io/blog/community/what-is-code-refactoring) can break another part of the code and create a new bug if you modify one part of the code.
+    
+* **Reduced scalability from tightly coupled code:** Very complex code typically has tightly coupled code, which makes it hard to add to, or scale with new features to the system without adding additional bugs in existing functionality, or needing a lot of refactoring to separate code into new files.
+    
+* **Greater cognitive load on developers:** More complex code takes more mental effort to comprehend, test, and modify, which results in either slower development cycles, more mistakes, or onboard additional programmers to a team and so on.
+    
+* **Difficult to achieve full test coverage:** Complex code paths, conditional statements, and deeply nested logic make it difficult to write all the test case scenarios and achieve comprehensive full coverage.
+    
 
 These issues ultimately slow down the rate of development, increase cost, and reduce quality; however, it is possible to overcome these obstacles and challenges by doing regular refactoring, coding modularly, consistently testing code, and using automated code analysis tools to give feedback.
 
@@ -117,13 +122,14 @@ Reducing complexity improves maintainability, readability, and testability; amon
 
 ![Tips to Reducing Code Complexity](https://cdn.hashnode.com/res/hashnode/image/upload/v1760675664649/4d8b89e6-22d0-4964-9cd5-7e551f0b4a99.png align="center")
 
-**Refactor regularly:**  simplify nested logic, avoid duplication, and improve naming.
-
-**Design modularly:** break up existing large functions or classes into smaller, more self-contained modules.
-
-**Review code, and practice pair programming:** these processes will help to build shared understanding and surface potentially overly complex logic early on in the process.
-
-**Automate testing:** automate the maintainability of your test coverage with tools; otherwise, assessing coverage manually adds time and overhead to manual testing methods.
+* **Refactor regularly:**  simplify nested logic, avoid duplication, and improve naming.
+    
+* **Design modularly:** break up existing large functions or classes into smaller, more self-contained modules.
+    
+* **Review code, and practice pair programming:** these processes will help to build shared understanding and surface potentially overly complex logic early on in the process.
+    
+* **Automate testing:** automate the maintainability of your test coverage with tools; otherwise, assessing coverage manually adds time and overhead to manual testing methods.
+    
 
 The take-home here is that teams can and must systematically implement the less complex strategies for a simpler, more reliable, and more scalable codebase.
 
