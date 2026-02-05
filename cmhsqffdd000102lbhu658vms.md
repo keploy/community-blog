@@ -27,6 +27,16 @@ Some familiar testing metrics used in software testing include:
     
 * **Test automation metrics:** Metrics that measure whether [**automation**](https://keploy.io/blog/community/what-is-test-automation) is successful, stable, and the ROI.
     
+* **Defect Leakage / Escaped Defects** – bugs that reach production
+    
+* **Mean Time to Detect (MTTD)** – speed of identifying and fixing defects
+    
+* **Test Design Efficiency** – quality of test cases written vs executed
+    
+* **Cost per Defect / Cost per Test Case** – financial efficiency
+    
+* **Risk Coverage Metrics** – coverage of high-risk areas in the application
+    
 
 By using these measures, QA teams have project visibility and can make informed, data-driven decisions that can improve overall quality.
 
