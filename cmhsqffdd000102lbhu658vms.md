@@ -1,7 +1,7 @@
 ---
 title: "How to Use Software Testing Metrics to Drive Better QA Decisions?"
-seoTitle: "Mastering Software Testing Metrics for Effective QA Strategy"
-seoDescription: "Learn how to track, analyze, and act on software testing metrics to improve QA performance, reduce flakiness, and enhance release confidence."
+seoTitle: "Software Testing Metrics: Definition, Use Case & Types"
+seoDescription: "Learn how to use software testing metrics to boost quality, track progress, and make smarter decisions for faster, reliable releases."
 datePublished: Mon Nov 10 2025 05:59:12 GMT+0000 (Coordinated Universal Time)
 cuid: cmhsqffdd000102lbhu658vms
 slug: software-testing-metrics-for-qa
