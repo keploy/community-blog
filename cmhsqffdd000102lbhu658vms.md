@@ -21,13 +21,14 @@ Software testing metrics (often called software test metrics) consist of selecte
 
 Some familiar testing metrics used in software testing include:
 
-**Test case execution rate:** The number of executed test cases versus those planned,
-
-**Defect density:** The number of defects per 1,000 lines of code (or per feature),
-
-**Test coverage:** The code or requirements that are tested are expressed as a percentage.
-
-**Test automation metrics:** Metrics that measure whether automation is successful, stable, and the ROI.
+* **Test case execution rate:** The number of executed test cases versus those planned,
+    
+* **Defect density:** The number of defects per 1,000 lines of code (or per feature),
+    
+* **Test coverage:** The code or requirements that are tested are expressed as a percentage.
+    
+* **Test automation metrics:** Metrics that measure whether automation is successful, stable, and the ROI.
+    
 
 By using these measures, QA teams have project visibility and can make informed, data-driven decisions that can improve overall quality.
 
@@ -37,13 +38,14 @@ Currently, testing is continuous in Agile and DevOps, and so is the need for mea
 
 ![Importance of Software Testing Metrics](https://cdn.hashnode.com/res/hashnode/image/upload/v1761896223752/90ff496f-507a-4a1f-903c-cc1eb9532098.png align="center")
 
-**Improve Decision-Making:** The knowledge you derive from metrics can help you prioritize tests, plan releases, and allocate resources more effectively.
-
-**Identify Bottlenecks Early:** Metrics can point out inefficiencies in the testing cycle before they are considered in delivery timelines.
-
-**Improve Quality:** Quality metrics will provide insights into software testing and ensure performance, reliability, and functionality meet the user's expectations for a stable product.
-
-**Drive Accountability:** Teams can objectively measure productivity and identify areas for improvement.
+* **Improve Decision-Making:** The knowledge you derive from metrics can help you prioritize tests, plan releases, and allocate resources more effectively.
+    
+* **Identify Bottlenecks Early:** Metrics can point out inefficiencies in the testing cycle before they are considered in delivery timelines.
+    
+* **Improve Quality:** Quality metrics will provide insights into software testing and ensure performance, reliability, and functionality meet the user's expectations for a stable product.
+    
+* **Drive Accountability:** Teams can objectively measure productivity and identify areas for improvement.
+    
 
 Overall, metrics will elevate QA from a reactive stance to being proactive; therefore, every test run will become an opportunity to learn and identify opportunities for improvement.
 
@@ -92,17 +94,18 @@ When you frame your metrics to these questions, you start to change your metrics
 
 The metrics life cycle of a test usually involves the following steps:
 
-**Identify Objectives:** Specify what you want to achieve - improve [**test coverage**](https://keploy.io/blog/community/mastering-test-coverage-quality-over-quantity-in-software-testing), reduce flakiness, etc.
-
-**Select Metrics:** Select relevant quality assurance metrics in software testing that support your objectives.
-
-**Collect Data:** Use tools, logs, and automation scripts to pull together the data for your metrics.
-
-**Analyze Results:** Analyze the results and make sense of the numbers as best as you can.
-
-**Report Findings:** Share results that can be acted upon in an appropriate way with stakeholders.
-
-**Refine Metrics:** Build on what you are achieving over time by improving the process based on what you have learned and evolving your objectives.
+* **Identify Objectives:** Specify what you want to achieve - improve [**test coverage**](https://keploy.io/blog/community/mastering-test-coverage-quality-over-quantity-in-software-testing), reduce flakiness, etc.
+    
+* **Select Metrics:** Select relevant quality assurance metrics in software testing that support your objectives.
+    
+* **Collect Data:** Use tools, logs, and automation scripts to pull together the data for your metrics.
+    
+* **Analyze Results:** Analyze the results and make sense of the numbers as best as you can.
+    
+* **Report Findings:** Share results that can be acted upon in an appropriate way with stakeholders.
+    
+* **Refine Metrics:** Build on what you are achieving over time by improving the process based on what you have learned and evolving your objectives.
+    
 
 Having a well-executed metrics life cycle will mean testing will be transparent, measurable, and focused on improvement.
 
@@ -159,15 +162,18 @@ Automating the collection and analysis of metrics shifts the QA team's task from
 
 Let’s examine the manner in which various organizations utilize software testing metrics to improve their QA decision-making abilities.
 
-**Example 1: Fintech – Measuring Defect Metrics to Support Faster Software Releases**
+* **Example 1: Fintech – Measuring Defect Metrics to Support Faster Software Releases**
+    
 
 Fintech organizations will often utilize defect metrics, like defect density and severity distributions, to identify and remediate critical bugs with the highest priority. Focusing on addressing high-severity defects during UAT will ease regression cycles and allow for faster compliance approvals in regulated environments.
 
-**Example 2: E-commerce – Metrics to Support the Balance of Manual and Automated Testing**
+* **Example 2: E-commerce – Metrics to Support the Balance of Manual and Automated Testing**
+    
 
 E-commerce organizations will utilize testing execution and automation coverage metrics to reassure the stability of releases across multiple devices and browsers. Monitoring metrics like pass rate and automation success ratio allows QA teams to reduce production bugs during times of peak traffic.
 
-**Example 3: SaaS – Utilizing Automation Metrics to Support Test Coverage Measurement**
+* **Example 3: SaaS – Utilizing Automation Metrics to Support Test Coverage Measurement**
+    
 
 In SaaS environments, teams will typically analyze metrics such as test coverage and flakiness. This analysis allows teams to identify areas where tests may be missing or inconsistent in results. There are automation-first platforms like Keploy that can assist QA teams by generating recommendations around API behavior and support in tracking coverage effortlessly.
 
