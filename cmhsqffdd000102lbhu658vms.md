@@ -55,6 +55,10 @@ Currently, testing is continuous in Agile and DevOps, and so is the need for mea
 * **Drive Accountability:** Teams can objectively measure productivity and identify areas for improvement.
     
 
+**KPIs:** Pass/fail rates, automation ROI, test reliability scores
+
+**Best Practices:** Align metrics to project goals, avoid vanity metrics, focus on actionable insights
+
 Overall, metrics will elevate QA from a reactive stance to being proactive; therefore, every test run will become an opportunity to learn and identify opportunities for improvement.
 
 ## **Types of Software Testing Metrics**
