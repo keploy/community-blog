@@ -11,9 +11,9 @@ tags: microservices, software-development, devops, validation, api-testing, ci-c
 
 ---
 
-It’s easy to create APIs very quickly. However, creating APIs that are reliable when used in challenging distributed systems is much harder. Many development teams are moving quickly to ship features to the market, which has led to the verification vs validation distinction becoming the middle ground between a successful launch and an incident that could occur from a production system. In an [**API-first environment**](https://keploy.io/blog/community/api-first), where microservices are entangled with the many APIs they rely on, both verification and validation are responsible for the reliability, user confidence, and long-term health of an API.
+It’s easy to create APIs very quickly. However, creating APIs that are reliable when used in challenging distributed systems is much harder. Many development teams are moving quickly to ship features to the market, which has led to the verification vs validation distinction becoming the middle ground between a successful launch and an incident that could occur from a production system.
 
-This blog will provide a high-level overview of verification vs validation through specific and practical examples, checklists, and contemporary best practices, as they relate to the software development lifecycle of API-first software development.
+In an [**API-first environment**](https://keploy.io/blog/community/api-first), where microservices are entangled with the many APIs they rely on, both verification and validation are responsible for the reliability, user confidence, and long-term health of an API.
 
 ## **What Is Verification in Software Testing?**
 
