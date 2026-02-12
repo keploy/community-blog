@@ -100,7 +100,7 @@ Choosing the best regression approach should be based on the extent to which the
 | Unit | Refactoring small component | Fast | Medium | Very Low | Updated pricing function |
 | Automated | CI/CD pipelines | Very Fast | High | Medium (setup) | Nightly automated tests |
 
-## **How to Choose the Right Regression Testing Type — Decision Matrix**
+## **How to Choose the Right Regression Testing Type - Decision Matrix**
 
 Having a solid understanding of the different types of regression testing, teams still have difficulty deciding which to use for each release. That's where a decision matrix is useful; it helps make a sensible test selection and prevents over-testing (wasting time), under-testing (missing defects).
 
