@@ -53,7 +53,7 @@ Delta Testing provides many benefits as listed below:
     
 * Reduces the costs associated with testing and helps reduce infrastructure load.
     
-* Provides a targeted approach to testing by focusing on risk vs the entire application.
+* Provides a targeted [approach to testing](https://keploy.io/blog/community/software-testing-strategies) by focusing on risk vs the entire application.
     
 * Increases overall production stability and user satisfaction.
     
