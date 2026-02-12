@@ -21,7 +21,7 @@ Delta Testing is a [**method of testing**](https://keploy.io/blog/community/test
 
 * Quickly check for changes that cause impact to the application.
     
-* Minimize or reduce the amount of effort needed to perform a large-scale regression test.
+* Minimize or reduce the amount of effort needed to perform a large-scale [**regression test**](https://keploy.io/regression-testing).
     
 * Gain confidence in their released version prior to production.
     
