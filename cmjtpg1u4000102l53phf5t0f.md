@@ -1,5 +1,5 @@
 ---
-title: "Verification vs Validation for API-first Software Development"
+title: "Verification vs Validation in API-first Software Development"
 seoTitle: "Verification vs Validation for API-first Development"
 seoDescription: "Learn the real difference between verification vs validation for API-first software teams. Understand techniques, SDLC mapping, CI/CD fit, examples & more."
 datePublished: Wed Dec 31 2025 07:38:52 GMT+0000 (Coordinated Universal Time)
