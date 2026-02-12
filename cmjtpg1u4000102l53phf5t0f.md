@@ -41,6 +41,20 @@ Verification is the term used to describe how to ensure a software product has b
 * Validating API specifications
     
 
+**When to Use Verification?**  
+Verification is most effective when applied early and systematically to prevent defects and ensure your APIs are built correctly:
+
+* **During requirements and design reviews** – to catch errors before development begins.
+    
+* **Before development starts** – to confirm API contracts, schemas, and specifications are accurate.
+    
+* **When introducing new features or architectural changes** – to ensure all components adhere to system standards.
+    
+* **During unit or component testing** – to verify each API handler or service behaves as intended
+    
+
+**Tip:** Use verification whenever you want to **build APIs the right way from the start** and prevent issues before they propagate downstream.
+
 ## **What Is Validation in Software Testing?**
 
 Validation is the process of determining if you are building the correct product. It confirms that the software functions accurately for users in a realistic environment.
@@ -66,6 +80,20 @@ Validation is the process of determining if you are building the correct product
     
 * Production synthetic checks
     
+
+**When to Use Validation?**  
+Validation should be applied after implementation to ensure your APIs work as expected in real-world conditions:
+
+* **After integration or deployment** – to check that APIs behave correctly across services.
+    
+* **During end-to-end workflows** – to ensure multiple APIs interact as intended.
+    
+* **Before production releases** – to confirm business rules and user scenarios are implemented correctly.
+    
+* **During performance or load testing** – to assess reliability, scalability, and resilience under realistic conditions.
+    
+
+**Tip:** Use validation whenever you want to **ensure APIs deliver the right functionality and meet user expectations**.
 
 ## **Quick Comparison: Verification vs Validation at a Glance**
 
