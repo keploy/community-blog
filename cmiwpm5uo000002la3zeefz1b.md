@@ -37,7 +37,7 @@ Corrective regression testing occurs when there is no significant [**change to t
 
 ### **3\. Selective Regression Testing**
 
-Selective regression testing only involves running tests that are logically related to the code that changed.  This is a testing strategy that reduces testing overhead, since we know the scope of impact is limited logically, instead of testing the entire system.  Each of these tests should be selected based on dependency mapping or test execution history.
+Selective regression testing only involves running tests that are logically related to the code that changed.  This is a [**testing strategy**](https://keploy.io/blog/community/software-testing-strategies) that reduces testing overhead, since we know the scope of impact is limited logically, instead of testing the entire system.  Each of these tests should be selected based on dependency mapping or test execution history.
 
 **When to Use:** When a limited change is made that is known to affect only a narrow scope of the application.
 
