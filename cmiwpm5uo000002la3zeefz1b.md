@@ -1,7 +1,7 @@
 ---
-title: "Types of Regression Testing in Software Testing Explained"
-seoTitle: "Types of Regression Testing and When to Use Each"
-seoDescription: "Understand all types of regression testing, when to use each, and real examples. Learn best practices and how to pick the right regression testing approach."
+title: "8 Types of Regression Testing in Software Testing Explained"
+seoTitle: "8 Types of Regression Testing in Software Testing"
+seoDescription: "Learn about 8 types of regression testing, when to use each, and real examples. Understand the best practices & how to pick the right approach"
 datePublished: Mon Dec 08 2025 05:27:14 GMT+0000 (Coordinated Universal Time)
 cuid: cmiwpm5uo000002la3zeefz1b
 slug: types-of-regression-testing-in-software-testing
