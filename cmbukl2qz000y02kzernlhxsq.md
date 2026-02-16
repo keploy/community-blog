@@ -41,7 +41,7 @@ Structural characteristics should promote understanding of the system, allow for
 
 ### Operational Architecture Characteristics
 
-Operational characteristics focus on how the system behaves at runtime. Examples of operational characteristics include performance, scalability, availability, or reliability requirements. Operational characteristics affect user interaction and business outcomes.
+Operational characteristics focus on how the system behaves at runtime. Examples of operational characteristics include performance, scalability, availability, or reliability requirements. Operational characteristics affect user interaction and business outcomes. Following the [**fundamentals of software testing**](https://keploy.io/blog/community/software-testing-basics) ensures these characteristics are validated under real-world conditions, reducing runtime failures.
 
 The operational characteristics of architecture need to be addressed within the architectural design and do not get addressed or added in later. Considerations will include capacity, fault tolerance models and monitoring approaches to ensure that the systems health is supported.
 
