@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Open Source Automation Tools for Modern Software Testing"
-seoTitle: "Top 10 Open Source Automation Tools for Modern Software Testing"
-seoDescription: "Explore the best open source automation tools for modern software testing. Compare features, use cases, and benefits to choose the right one for your team."
+seoTitle: "Best Open Source Automation Tools in 2026"
+seoDescription: "Explore the best open source automation tools in 2026. Compare features, benefits, and use cases to choose the perfect tool for your software testing."
 datePublished: Wed Dec 24 2025 07:11:13 GMT+0000 (Coordinated Universal Time)
 cuid: cmjjodimg000g02l47c6bf9u1
 slug: top-10-open-source-automation-tools
